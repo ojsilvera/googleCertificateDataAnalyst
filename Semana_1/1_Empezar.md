@@ -8,6 +8,7 @@
     y tomar decisiones fundamentadas. El analisis de datos evoluciona con el timpo, la analitica como la conocemos puede darnos
     nueva informacion durante el ciclo vida  de los datos.
 
+
     los datos los encontramos por todas partes, las reseñas de productos que nos permiten tomar una decision de compra, monitoreo
     de nuestra variables fisicas, pulso, temperatura, etc, lo cual nos permite saber si nos encontramos ante un posible cuadro de
     enfermedad o no,
@@ -76,7 +77,7 @@
 
 ## Presentación del curso (Video)
 
-    Los datos son una recopilación de hechos o información y mediante al análisis lo usamos para obtener conclusiones y predicciones, que aporten en la toma de decisiones 
+    Los datos son una recopilación de hechos o información y mediante al análisis lo usamos para obtener conclusiones y predicciones, que aporten en la toma de decisiones
     de acuerdo al contexto en el que nos encontremos.
 
     El proceso general del análisis de datos está conformado por:
