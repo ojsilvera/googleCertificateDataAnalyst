@@ -119,3 +119,7 @@ datos:
       - Repetir el proceso para establecer las mejoras obtenidas y asi parametrizar el nivel de cumplimiento del plan de accion
       - Mejorar la tasa de retención de los nuevos empleados y las acciones tomadas por los líderes serian la mejores muestras
         de exito.
+
+El proceso anteriormente narrado fue implementado por un grupo de analistas conocido como analistas de personas o de contratacion.
+
+lectura recomendada: [https://online.hbs.edu/blog/post/business-analytics-examples]
