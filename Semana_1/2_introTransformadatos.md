@@ -96,13 +96,26 @@ datos:
     
     - La experiencia de un nuevo empleado con determinados procesos es un indicador clave de la satisfacción laboral general.
     - Quienes experimentaron un largo y complicado proceso de contratación tenían más probabilidades de abandonar la empresa.
-    - Los empleados que hayan experimentado un proceso de evaluación con comentarios eficientes y transparentes permanezcan en 
+    - Los empleados que hayan experimentado un proceso de evaluación con comentarios eficientes y transparentes permanezcan en
     la empresa.
     - Documentar el proceso era pieza clave para evitar la disminucion en la confianza sobre el proceso de la encuesta y pondira
     en tela de juicio su utilidad en el futuro.
 
     5. Fase 5 Share(Compartir):
-    
-    6. 
-    
 
+    - Para compratir los resultados se establecio el numero de colaboradores minimos que el gerente necesitaba para que se le
+    compartieran los resultados de la misma.
+    - Posterior a ellos se le presentaron los resultados a los gerentes elegibles de manera individual, asi tendrian un panorama
+    mas amplio de la situacion.
+    - Luego los gerentes elegibles deberian comunicar a sus equipos los resultados, explicandoles el contexto y los hallazgos
+    obtenidos en el contexto estipulado previamente.
+
+    6. Fase 6 Act(Actuar)
+
+    - Implementar los cambios y tomar medidas basadas en los hallazgos, requeriria del trabajo de los directivos de la empresa
+    por lo cual una reunion y socializacion de las posibles acciones seria lo recomendable en este punto.
+    - por lo tanto se recomendo desde el punto de vista de los analista.
+      - estandarizar el proceso de contratación y evaluación de todos los nuevos empleados y basarse en las prácticas má
+      - Repetir el proceso para establecer las mejoras obtenidas y asi parametrizar el nivel de cumplimiento del plan de accion
+      - Mejorar la tasa de retención de los nuevos empleados y las acciones tomadas por los líderes serian la mejores muestras
+        de exito.
