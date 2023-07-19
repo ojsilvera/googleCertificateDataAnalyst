@@ -123,3 +123,14 @@ datos:
 El proceso anteriormente narrado fue implementado por un grupo de analistas conocido como analistas de personas o de contratacion.
 
 lectura recomendada: [https://online.hbs.edu/blog/post/business-analytics-examples]
+
+## Cassie: Dimensiones de la analítica de datos
+
+Un analista de datos es un explorador, un detective y un artista, todo en uno. El análisis es la búsqueda de inspiración.
+
+la ciencia de datos, la disciplina de hacer útiles los datos, es un término general que abarca tres disciplinas: aprendizaje automático,
+estadísticas y análisis, estas están separadas por cuántas decisiones sabes que quieres tomar antes de empezar con ellas:
+
+    - Si quieres tomar unas cuantas decisiones importantes con incertidumbre, eso es estadística
+    - Si quieres automatizar, en otras palabras, tomar muchas, muchas, muchas decisiones con incertidumbre, eso es aprendizaje automático e IA.
+    - Quieres encontrar tus incógnitas desconocidas. Quieres entender tu mundo. Eso es análisis.
