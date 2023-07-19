@@ -134,3 +134,15 @@ estadísticas y análisis, estas están separadas por cuántas decisiones sabes 
     - Si quieres tomar unas cuantas decisiones importantes con incertidumbre, eso es estadística
     - Si quieres automatizar, en otras palabras, tomar muchas, muchas, muchas decisiones con incertidumbre, eso es aprendizaje automático e IA.
     - Quieres encontrar tus incógnitas desconocidas. Quieres entender tu mundo. Eso es análisis.
+
+Elige tu campo de especialidad de acuerdo a tu personalidad:
+
+    - Personalidad rigurosa, metodica y que protege a quienes dependen de sus hallazgos, sin duda, la estadistica es lo tuyo.
+    - Sí valoras el rendimiento y la efectividad, aprendizaje automatico o ML(Machine Learning) e ingenieria en IA(Atifical Inteligence) es lo tuyo.
+    - Quieres explorar montañas de datos y satisfacer tu curiosidad de si pueden o no aportar a satisfacer la necesida de solucion, el analisis
+    de datos es lo tuyo
+
+!Un cosejo amistoso o Quizas no!
+
+    **No te preocupes por las respuestas correctas. Ve lo rápido que puedes desenvolver este regalo y averigua si hay algo divertido.**
+    **Es como tu cumpleaños, desenvuelves un montón de cosas. Algunas de ellas te gustan. Otras no.**
