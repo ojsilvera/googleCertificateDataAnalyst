@@ -54,3 +54,8 @@ que abarca todo, desde el trabajo de gestión y el uso de los datos hasta las he
 datos usan todos los días.
 
 **Dato, Analisis de datos y los ecosistemas de datos, hacen parte de un marco mayor definido como Analisis de datos computacional.**
+
+## Cómo los datos informan mejores decisiones
+
+Una de las formas más poderosas de usar los datos es al momento de tomar decisiones basadas en ellos. Este proceso se define como
+el uso de datos para guiar la estrategia empresarial.
