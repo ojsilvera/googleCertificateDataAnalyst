@@ -1,3 +1,56 @@
 # Comprender el ecosistema de datos
 
 ## ¿Que es el ecosistema de datos?
+
+Los datos también viven dentro de su propio ecosistema. Los ecosistemas de datos se componen de varios
+elementos que interactúan entre sí para producir, gestionar, almacenar, organizar, analizar y compartir
+datos. Estos elementos incluyen hardware y herramientas de software y las personas que los usa.
+
+Los datos también se pueden encontrar en algo llamado nube. La nube es un lugar para mantener los datos
+en línea, en lugar de en el disco duro de una computadora. Así que en lugar de almacenar datos en algún lugar
+dentro de la red de tu organización, a los datos se accede a través de internet.
+
+La nube es solo un término que usamos para describir la ubicación virtual. La nube desempeña un papel
+importante en el ecosistema de datos y, como analista de datos, es tu trabajo aprovechar el poder de este
+ecosistema, buscar la información correcta, y proporcionar análisis al equipo, que los ayude a tomar decisiones
+inteligentes.
+
+Por ejemplo, podrías aprovechar la base de datos de tu tienda minorista, que es un ecosistema de nombres de
+clientes, direcciones, compras anteriores y opiniones de clientes. Como analista de datos, podrías usar esta
+información para predecir lo que estos clientes comprarán en el futuro, y asegurarte de que la tienda tenga los
+productos y existencias cuando se necesiten.
+
+Otro ejemplo, pensemos en el ecosistema de un departamento de recursos humanos. Este ecosistema incluiría
+información como publicaciones de sitios web de trabajo, estadísticas sobre el mercado laboral actual, tasas de
+empleo y datos en las redes sobre los posibles empleados. Un analista de datos podría usar esta información para
+ayudar a su equipo a contratar nuevos trabajadores y mejorar el compromiso de los empleados y las tasas de retención.
+
+Ejemplos aun mas grandes de ecosistemas de datos:
+
+Las empresas agrícolas regularmente usan ecosistemas de datos que incluyen información tal como los patrones geológicos
+en los movimientos climáticos. Los analistas de datos pueden usar estos datos para ayudar a los agricultores a predecir
+el rendimiento de los cultivos.
+
+analistas de datos incluso usan ecosistemas de datos para proteger los ecosistemas ambientales reales. En Scripps
+Institution of Oceanography, los arrecifes de coral de todas partes del mundo se supervisan digitalmente, por lo que
+puedes ver cómo cambian los organismos con el tiempo, realizar un seguimiento de su crecimiento y medir cualquier aumento
+o disminución en las colonias individuales.
+
+Posibilidades del uso de ecosistemas de datos hay en todos lados y sus posibilidades son infinitas.
+
+## Aclarando conceptos
+
+**Ciencia de datos:** La ciencia de datos se define como crear nuevas formas de modelar y entender lo desconocido mediante
+el uso de datos sin procesar.
+
+**Los científicos de datos** crean nuevas preguntas con los datos, mientras que **los analistas** encuentran respuestas a
+las preguntas existentes y crean información a partir de las fuentes de datos.
+
+**El análisis de datos** es la recopilación, transformación y organización de los datos para sacar conclusiones, hacer
+predicciones e impulsar una toma de decisiones informada.
+
+**El análisis computacional de datos** en los términos más sencillos, es la ciencia de los datos. Es un concepto muy amplio
+que abarca todo, desde el trabajo de gestión y el uso de los datos hasta las herramientas y los métodos que los trabajadores de
+datos usan todos los días.
+
+**Dato, Analisis de datos y los ecosistemas de datos, hacen parte de un marco mayor definido como Analisis de datos computacional.**
