@@ -89,3 +89,50 @@ El proceso del analista es similar al de los detectives, preguntan, preparan, pr
     - analaizar
     - compartir
     - actuar sugiriendo caminos de accion a quienes pueden tomar las decisiones dentro de la organizacion.
+
+El centro de la toma de decisiones basada en datos son los datos. Si ignoras los datos y prefieres tomar decisiones basadas en tu propia experiencia, tus decisiones pueden ser **sesgadas**.
+
+Comoo analista junior podemos abordar nuestro dia a dia o cada proyecto de la siguiente manera:
+
+Combinar datos con conocimiento empresarial, será una parte habitual de tu proceso como analista de datos junior, podemos iniciar cada proyecto con
+la siguiente pregunta **¿Cómo defino el éxito de este proyecto?**
+
+Además, intenta hacerte estas preguntas sobre un proyecto para encontrar el equilibrio perfecto:
+
+    - ¿Qué tipo de resultados se necesitan?
+
+    - ¿A quién se informará?
+
+    - ¿Estoy respondiendo la pregunta que se está haciendo?
+
+    - ¿Con qué rapidez hay que tomar una decisión?
+
+Orígenes del proceso de análisis de datos
+
+## ciclo de vida del análisis de datos
+
+Es el proceso de pasar de los datos a la decisión, el ciclo de vida del analisis de datos utilizado en el curso es el siguiente:
+
+    - Preguntar: Desafío empresarial/objetivo/pregunta
+
+    - Preparar: Generación, recopilación, almacenamiento y administración de datos
+
+    - Procesar: Limpieza de datos/integridad de datos
+
+    - Analizar: Exploración, visualización y análisis de datos
+
+    - Compartir: Comunicación e interpretación de los resultados
+
+    - Actuar:  Uso de tus conocimientos para resolver el problema
+
+## Variaciones del ciclo de analisis de datos
+
+- Ciclo de vida del análisis de datos de EMC
+  
+- Ciclo de vida iterativo de SAS
+  
+- Ciclo de vida del análisis computacional de datos basado en proyectos
+  
+- Ciclo de vida del análisis de big data
+
+## Conclusión
