@@ -127,12 +127,70 @@ Es el proceso de pasar de los datos a la decisión, el ciclo de vida del analisi
 
 ## Variaciones del ciclo de analisis de datos
 
-- Ciclo de vida del análisis de datos de EMC
+    - Ciclo de vida del análisis de datos de EMC Corporation ahora es Dell EMC. Este modelo, creado por David Dietrich, refleja la
+    naturaleza cíclica de los proyectos del mundo real.
+
+        - Descubrimiento
+
+        - Preprocesamiento de datos
+
+        - Planificación de modelos
+
+        - Construcción de modelos
+
+        - Comunicación de los resultados
+
+        - Puesta en funcionamiento
   
-- Ciclo de vida iterativo de SAS
+    - Ciclo de vida iterativo de SAS, El modelo SAS enfatiza la naturaleza cíclica de su modelo al visualizarlo como símbolo infinito.
+
+        - Preguntar
+
+        - Preparar
+
+        - Explorar
+
+        - Modelar
+
+        - Implementar
+
+        - Actuar
+
+        - Evaluar
   
-- Ciclo de vida del análisis computacional de datos basado en proyectos
+    - Ciclo de vida del análisis computacional de datos basado en proyectos, El ciclo de vida de este proyecto de análisis de datos fue
+    desarrollado por Vignesh Prajapat
+
+        - Identificación del problema
+
+        - Diseño de requisitos de datos
+
+        - Preprocesamiento de datos
+
+        - Realización de análisis de datos
+
+        - Visualización de datos
   
-- Ciclo de vida del análisis de big data
+    - Ciclo de vida del análisis de big data, Los autores Thomas Erl, Wajid Khattak y Paul Buhler
+
+        - Evaluación de casos de negocio
+
+        - Identificación de datos
+
+        - Adquisición y filtrado de datos
+
+        - Extracción de datos
+
+        - Validación y limpieza de datos
+
+        - Agregación y representación de datos
+
+        - Análisis de datos
+
+        - Visualización de datos
+
+        - Utilización de los resultados del análisis
 
 ## Conclusión
+
+El proceso de análisis de datos es como la arquitectura de la vida real: hay diferentes formas de hacer las cosas, pero las ideas fundamentales aparecen en cada modelo del proceso.
