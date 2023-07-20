@@ -59,3 +59,33 @@ datos usan todos los días.
 
 Una de las formas más poderosas de usar los datos es al momento de tomar decisiones basadas en ellos. Este proceso se define como
 el uso de datos para guiar la estrategia empresarial.
+
+**Data Driven Desicion making**  Este proceso se define como el uso de datos para guiar la estrategia empresarial.
+El primer paso de este proceso es descubrir la necesidad del negocio. Por lo general, suele ser un problema que hay que resolver.
+
+Ejemplos de ellos puede ser:
+
+    -  Una nueva empresa necesite establecer un mejor reconocimiento de marca para competir con otras empresas más grandes y conocidas.
+
+    -  Una organización quiera mejorar un producto y necesite averiguar cómo obtener las piezas de una forma más sostenible o
+    de un proveedor éticamente responsable.
+
+    -  O bien, podría tratarse de un negocio que intenta resolver el problema de empleados descontentos, bajos niveles de compromiso,
+    satisfacción y retención.
+
+En el caso del analisis guiado por datos, es posible obtener informacion sobre procesos que han funcionado en el pasado o por el contrario
+guiar a la organizacion por nuevos caminos en el futuro.
+
+El proceso de analisis incluye un actor llamado experto en la materia, estos son capaces de observar los datos obtenidos por medio del analisis
+y detectar incoherencias en los mismo, si es que existen, dar sentido a las zonas grises y validar la decidsiones que se tomen.
+
+El proceso del analista es similar al de los detectives, preguntan, preparan, procesan, alaizan, comparten y actuan con base a sus hallazgos.
+
+**Por lo tanto el siguiente seria el ciclo normal de un analista de datos:**
+
+    - preguntar
+    - preparar
+    - procesar
+    - analaizar
+    - compartir
+    - actuar sugiriendo caminos de accion a quienes pueden tomar las decisiones dentro de la organizacion.
