@@ -41,3 +41,14 @@ Los aspectos del del pensamiento analitico utilizados por los analistas de datos
     - Correlacion. -> Relacion que existe entre dos sucesos, lo cual no implica dependencia entre ellos, en temporada de lluvias se venden mas sombrillas, pero el si llueve o no no depende de que vendmos sombrillas.
 
     - Pensamiento con perspectiva global y orientada hacia los detalles.
+
+Al aplicar el analisis de datos vamos  anecistar pensar de maneras diversas ya que las preguntas no siempre se encuentran delante de nosotros, por lo
+tanto aqui algunas preguntas cotidianas en el contexto del analisis de datos:
+
+    - Cual es la causa raiz del problema? esta se basa en la mecanica de los 5 porques, preguntar porque 5 veces sobre un proble de maneras
+    diferentes puede llevarnos en la quinta a develar la causa raiz del problema, la cual eliminandola evitara que vulva a presentarse.
+
+    - Donde se encuentra el deficit en el proceso? El análisis de déficits permite examinar y evaluar el funcionamiento actual de un proceso
+    para llegar a donde se quiere estar en el futuro.
+
+    - ¿Qué no hemos tenido en cuenta antes? 
