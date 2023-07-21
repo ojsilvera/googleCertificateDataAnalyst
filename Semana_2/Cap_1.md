@@ -10,7 +10,7 @@ Entre las destrezas relacionadas con los analistas de datos tenemos:
         4. Experiencia tecnica
         5. diseño de datos
 
-1. Habilidades analiticas:
+Habilidades analiticas:
 
 Caracteristicas y qualidades asociadas en la resolucion de problemas utilizando hechos, esto se le conoce como **habilidades analiticas**,
 teniendo en cuenta, las siguientes 5 caracteristicas generales de las habilidades analiticas abordaremos su concepto general:
@@ -25,3 +25,19 @@ teniendo en cuenta, las siguientes 5 caracteristicas generales de las habilidade
     - Diseño de los datos -> Como organizamos informacion, en nuestro contextos serian las bases de datos.
     
     - Estrategia de datos -> Manejo de personas, proceso y herramientas utilizados en analisis de datos. La personas nos aseguramos que posean los conocimiento del manejo de datos y las seguridad d elos mismos, los procesos es el camino que seguimos para que el acceso a los datos y las conclusiones que obtenemos de los mismos sean claros y accesibles y las herramientas que sean elegidas de acuerdo al trabajo que debemos realizar.
+
+## cómo pensar analíticamente
+
+Pensamiento creativo, pensamiento critico, pensamiento abstracto, son formas de pensamiento que realizamos de manera natural, asi como tambien el **pensamiento analitico**: identificar y definir un problema luego resolverlo usando datos de manera organizada y paso por paso.
+
+Los aspectos del del pensamiento analitico utilizados por los analistas de datos son:
+
+    - Visualizacion. -> representacion grafica de la informacion ejemplo: graficos, mapas, etc.
+
+    - Estrategia. -> Pasos para conseguir un fin con el conjunto de datos que se tienen, garantizando su validez y utilidad en el proceso
+
+    - Orientacion hacia los problemas. -> identificar, decribir y resolver problemas, ese es la esencia del analista de datos, no pierdas de vista tu objetivo
+
+    - Correlacion. -> Relacion que existe entre dos sucesos, lo cual no implica dependencia entre ellos, en temporada de lluvias se venden mas sombrillas, pero el si llueve o no no depende de que vendmos sombrillas.
+
+    - Pensamiento con perspectiva global y orientada hacia los detalles.
