@@ -15,12 +15,24 @@ El ciclo de vida de los datos consiste en: planificar, capturar, gestionar, anal
     
     - Capturar: se recopilan datos de diversas fuentes y se incorporan en la organización. ejemplo de ellos son los
     servicios meteprologicos, bases de datos de una compañia. **Base de datos es  un conjunto de datos almacenado en si-
-    stema informatico**
+    stema informatico, deben ser garantizados la integridad, credibilidad y privacidad d elos datos**
 
-    - Gestionar:
+    - Gestionar: Aquí hablamos de cómo cuidamos nuestros datos, cómo y dónde los almacenamos, qué herramientas usamos
+    para protegerlos y mantenerlos seguros, y qué medidas adoptamos para asegurarnos de que se conserven correctamente.
+    Esta fase es importante para la limpieza de datos y esta estrechamente relacionada con ella.
 
-    - Analizar:
+    - Analizar: En esta fase, los datos se usan para resolver problemas, tomar decisiones importantes y respaldar los
+    objetivos empresariales.
 
-    - Archivar:
+    - Archivar: Archivar significa almacenar datos en un lugar donde todavía están disponibles, pero es poco probable
+    que se vuelvan a usar.
 
-    - Destruir:
+    - Destruir: Esto es importante para proteger la información privada de una empresa, así como los datos privados so-
+    bre sus clientes, por lo tanto los datos mas antiguos son destruidos y asi garantizamos que no sean utilizados en
+    ningun proceso de nuevo alterando con ellos el ciclo de vida de nuevos datos.
+
+## Casos de uso del ciclo de vida de los datos
+
+- Servicio de Pesca y Vida Silvestre de los EE.UU.
+- Servicio Geológico de los Estados Unidos (USGS)
+- Instituciones financieras
