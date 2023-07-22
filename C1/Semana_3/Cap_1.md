@@ -33,6 +33,65 @@ El ciclo de vida de los datos consiste en: planificar, capturar, gestionar, anal
 
 ## Casos de uso del ciclo de vida de los datos
 
+Etapas del ciclo de vida de los datos en una frase:
+
+    - Planificar: Decide qué tipo de datos se necesitan, cómo se gestionarán y quién será responsable de ellos.
+
+    - Capturar: Recopila o reúne datos de varias fuentes distintas.
+
+    - Gestionar: Cuida y brinda mantenimiento a los datos. Esto incluye determinar cómo y dónde se almacenan y las he-
+    rramientas utilizadas para hacerlo. Por lo tanto se debe controlar cómo se manejan los datos para que sean precisos
+    y estén seguros y disponibles para satisfacer las necesidades de su organización.
+
+    - Analizar: Utiliza los datos para resolver problemas, tomar decisiones y respaldar los objetivos empresariales.
+
+    - Archivar: Mantén almacenados los datos relevantes para referencias futuras y a largo plazo.
+
+    - Destruir: Elimina los datos almacenados y todas las copias compartidas.
+
+Teniendo en cuenta los anterior aqui un ejemplo de como las instuciones desarrollan el ciclo de vida de los datos:
+
 - Servicio de Pesca y Vida Silvestre de los EE.UU.
+
+        El Servicio de Pesca y Vida Silvestre de los Estados Unidos  utiliza el siguiente ciclo de vida de los datos:
+
+        Planificar / Adquirir / Mantener / Acceder / Evaluar / Archivar
+
+        Para obtener más información, consultela página del
+
+        [https://www.fws.gov/data/life-cycle]
+
 - Servicio Geológico de los Estados Unidos (USGS)
+
+        El USGS utiliza el siguiente ciclo de vida de los datos:
+
+        Planificar / Adquirir / Procesar / Analizar / Preservar / Publicar/Compartir
+
+        También se realizan varias actividades transversales o generales durante cada etapa de su ciclo de vida:
+
+        Describir (metadatos y documentación) / Gestionar la calidad / Realizar copias de seguridad y asegurar
+
+        Para obtener más información, consulte la página:
+
+        [https://www.usgs.gov/products/data-and-tools/data-management/data-lifecycle]
+
 - Instituciones financieras
+
+        Las instituciones financieras pueden adoptar un enfoque ligeramente diferente del ciclo de vida de los datos:
+
+        Capturar / Calificar / Transformar / Utilizar / Informar / Archivar / Depurar
+
+        podemos consultar mas sobre este ciclo en:
+
+        [https://sfmagazine.com/post-entry/july-2018-the-data-life-cycle/]
+
+- Escuela de Negocios de Harvard (HBS)
+
+        Un ciclo de vida final de datos informado en una investigación realizada por la Universidad de Harvard consta 
+        de ocho etapas:
+
+        Generación / Recolección / Procesamiento / Almacenamiento / Gestión / Análisis / Visualización / Interpretación
+
+        Mas informacion en:
+
+        [https://online.hbs.edu/blog/post/data-life-cycle]
