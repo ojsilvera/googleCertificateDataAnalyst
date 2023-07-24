@@ -56,3 +56,8 @@ estas son: preguntar, preparar, procesar, analizar, compartir y actuar.
    Exploraremos diferentes tipos de elementos visuales y algunas herramientas geniales de visualización de datos. Tam-
    bién vas a practicar tus habilidades de presentador al crear presentaciones convincentes y aprender cómo estar bien
    preparado para responder preguntas.
+
+6. **Actuar**:
+
+   En esta fale los interesados toman toda la información que tú, el analista de datos, has proporcionado y la pone a
+   trabajar para resolver el problema inicial del negocio y actuar según lo que tú aprendiste durante este programa.
