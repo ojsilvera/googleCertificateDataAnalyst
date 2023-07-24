@@ -25,10 +25,20 @@ estas son: preguntar, preparar, procesar, analizar, compartir y actuar.
     Comunicarse con los interesados es clave para mantener el nivel de compromiso y la concentración en todo momento du-
     rante el proyecto. Establecer estrategias de comunicación sólidas es muy importante; en este aspecto los 5 porques
     son una herramienta util para mantenerte enfocado en los objetivos del proyecto.
+
 2. **Preparacion**:
 
    En esta fase se recolectan y almacenan los datos que se van a utilizar en el proceso de analisis, existen gran va-
    riedad y tipos de datos, aprender como seleccionarlos y tratarlos es de suma importancia para resulver el objetivo
    primordial de los interesados en el problema particuilar, estos deben ser objetivos e imparciales.
 
-3. **Analizar**:
+3. **Procesar**:
+
+   En esta fase se encuentran y eliminan cualquiere error e inconsistencia en el set de datos preparados en el paso an-
+   terior para que no interfieran con los resultados finales, esto icluye, limpieza de los datos, transformaciones de
+   formato, combinacion de conjuntos de datos para obtener informacion mas completa y eliminar valores atipicos que pu-
+   dieran generar sesgos de informacion. En sintesis el objetivo de esta fase es que los datos sean correctos, corrigien-
+   do tambien errores tipograficos, incoherencias, datos inexactos o faltantes, aplicando estrategias para la limpieza
+   de los datos invloucrando a los interesados(steckholders) en el proceso.
+
+4. **Analizar**:
