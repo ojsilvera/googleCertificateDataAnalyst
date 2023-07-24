@@ -42,3 +42,10 @@ estas son: preguntar, preparar, procesar, analizar, compartir y actuar.
    de los datos invloucrando a los interesados(steckholders) en el proceso.
 
 4. **Analizar**:
+
+   Analizar los datos recopilados implica el uso de herramientas para transformar y organizar esa información a fin de
+   poder extraer conclusiones útiles, hacer predicciones e impulsar una toma de decisiones fundamentada. Hay muchas he-
+   rramientas potentes que los analistas de datos usan en su trabajo, y en este curso aprenderás sobre dos de ellas:
+   las hojas de cálculo y el lenguaje de consulta estructurado, o SQL, que se suele pronunciar “sícuel”, como en inglés.
+
+5. **Compartir**:
