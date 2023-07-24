@@ -49,3 +49,10 @@ estas son: preguntar, preparar, procesar, analizar, compartir y actuar.
    las hojas de cálculo y el lenguaje de consulta estructurado, o SQL, que se suele pronunciar “sícuel”, como en inglés.
 
 5. **Compartir**:
+
+   la visualización es el mejor amigo del analista de datos. Así que este curso destacará por qué la visualización es
+   esencial para conseguir que otras personas comprendan qué te dicen tus datos. Con las imágenes adecuadas, los hechos
+   y las cifras se convierten en algo mucho más fácil de analizar, y los conceptos complejos son más fáciles de entender.
+   Exploraremos diferentes tipos de elementos visuales y algunas herramientas geniales de visualización de datos. Tam-
+   bién vas a practicar tus habilidades de presentador al crear presentaciones convincentes y aprender cómo estar bien
+   preparado para responder preguntas.
