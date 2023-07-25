@@ -69,3 +69,7 @@ porque les proporciona una manera fácil de crear imágenes basadas en los resul
 
 **Looker**, puedes darles a los interesados una imagen completa de tu trabajo, con los datos de visualización y los da-
 tos reales relacionados con ella.
+
+Hojas de calculo vs Bases de datos
+
+![Alt text](image.png)
