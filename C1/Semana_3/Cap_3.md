@@ -33,10 +33,10 @@ una hoja de cálculo.
 Es un idioma de programación informático que te permite encontrar y manipular datos en una base de datos. Aprenderás so-
 bre algo llamado lenguaje de consulta estructurado, mayormente conocido como SQL.
 
-El**SQL**es un lenguaje que permite que los analistas de datos se comuniquen con una base de datos. Una base de datos es
-una colección de datos almacenados en un sistema informático, siendo este el lenguaje de consulta estructurado más utili-
-zado por dos razones: es fácil de entender y funciona muy bien con todo tipo de bases de datos. Con el SQL, los analis-
-tas de datos pueden acceder a los datos que necesitan al realizar una consulta.
+El**SQL**es un lenguaje que permite que los analistas de datos se comuniquen con una base de datos. Una **base de datos**
+**es una colección de datos almacenados en un sistema informático**, siendo este el lenguaje de consulta estructurado
+más utilizado por dos razones: es fácil de entender y funciona muy bien con todo tipo de bases de datos. Con el SQL,
+los analistas de datos pueden acceder a los datos que necesitan al realizar una consulta.
 
 Funciones de los lenguajes de consulta:
 
