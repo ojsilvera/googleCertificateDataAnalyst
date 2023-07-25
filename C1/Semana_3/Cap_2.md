@@ -61,3 +61,6 @@ estas son: preguntar, preparar, procesar, analizar, compartir y actuar.
 
    En esta fale los interesados toman toda la información que tú, el analista de datos, has proporcionado y la pone a
    trabajar para resolver el problema inicial del negocio y actuar según lo que tú aprendiste durante este programa.
+
+Respuesta en el foro:
+[https://www.coursera.org/learn/aspectos-basicos-datos-datos-en-todas-partes/discussions/all/threads/9nIFhv6AEe2FhQrsxHqSBQ/replies/Dd5oNSp6Ee6qcgp0u5G9Fw]
