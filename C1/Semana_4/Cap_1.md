@@ -34,3 +34,6 @@ Recursos de aprendizaje:
 
 Hojas de calculo Ms Excel
 [https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb]
+
+Partcipacion en el foro 2:
+[https://www.coursera.org/learn/aspectos-basicos-datos-datos-en-todas-partes/discussions/all/threads/z89bbf8hEe25SQ6UWPAg1Q/replies/eZ2A9ivJEe6qcgp0u5G9Fw]
