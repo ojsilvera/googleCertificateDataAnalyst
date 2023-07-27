@@ -81,3 +81,24 @@ nombre_del_cliente [customer_data]) (el nombre del conjunto de datos siempre va 
 del nombre de la tabla)3. Pero solo se devuelven los datos DONDE (WHERE) el nombre (first_name) es Tony”
 
 Pero solo se devuelven los datos DONDE (WHERE) el nombre (first_name) es Tony
+
+Ejemplo de**Multiples filtros where**
+
+![Alt text](image-3.png)
+
+![Alt text](image-4.png)
+
+La consulta anterior usa tres comandos para localizar clientes con un ID de cliente válido (mayor que 0) cuyo nombre es
+Tony, y su apellido es Magnolia.
+
+ELEGIR (SELECT) las columnas denominadas id_del_cliente (customer_id), nombre (first_name) y apellido (last_name)
+
+DESDE (FROM) una tabla denominada nombre_del_cliente (customer_data) (en un conjunto de datos denominado
+nombre_del_cliente [customer_data]) (el nombre del conjunto de datos siempre va seguido de un punto y, a continuación,
+del nombre de la tabla).
+
+Pero solo devuelve los datos DONDE (WHERE) el ID_del_cliente (customer_id) es mayor que 0, el nombre (first_name) es
+Tony y el apellido (last_name) es Magnolia.
+
+Ten en cuenta que una de las condiciones es una condición lógica que comprueba si el ID_del_cliente (customer_id) es
+mayor que cero.
