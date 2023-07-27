@@ -102,3 +102,45 @@ Tony y el apellido (last_name) es Magnolia.
 
 Ten en cuenta que una de las condiciones es una condición lógica que comprueba si el ID_del_cliente (customer_id) es
 mayor que cero.
+
+## Con SQL podemos
+
+Con lenguaje estructurado de consultas podemos estructurar las consultas, usar condiciones WHERE, elegir todas las colu-
+mnas en una tabla, agregar comentarios y usar alias.
+
+### Uso de mayúsculas, sangría y punto y coma
+
+![Alt text](image-5.png)
+
+Para el lenguajes el usos de mayusculas y minusculas asi como las sangrias es indistinto, pero mantener una estructura
+como la mostrada en la imagen anterior permite que el codigo sea mas legible, ya que no escribimos codigo para nosotros
+sino para aquellos que deben ajustarlo al pasar el tiempo.
+
+El punto y coma (;) se utiliza como un delimitador en SQL para separar sentencias individuales. En SQL, una sentencia e
+ una instrucción que le indica a la base de datos qué operación debe realizar.
+
+### Condiciones WHERE
+
+la cláusula WHERE restringe la consulta para que la base de datos devuelva solo los datos con una coincidencia de valor
+exacta, o los datos que coincidan con una determinada condición que deseas satisfacer.
+
+La cláusula LIKE es muy poderosa porque te permite decirle a la base de datos que busque un patrón determinado.
+
+    WHERE field1 LIKE 'Ch%'
+
+El signo de porcentaje (%) se usa como comodín para que coincida con uno o más caracteres. Ten en cuenta que en algunas
+bases de datos se usa un asterisco (*) como comodín en lugar de un signo de porcentaje (%).
+
+### ELEGIR (SELECT) todas las columnas
+
+En el ejemplo, si reemplazaras SELECT field1 por SELECT '*', elegirías todas las columnas de la tabla en lugar de la
+columna field1 sola. Desde el punto de vista de la sintaxis, es una instrucción SQL correcta, pero debes usar el aste-
+risco (*) con moderación y precaución. Según cuántas columnas tenga una tabla, es posible que elijas una enorme cantidad
+de datos. Si eliges demasiados datos, es posible que la consulta se ejecute muy lentamente.
+
+### Comentarios
+
+Agregar comentarios junto a tu SQL para ayudarte a recordar qué representa el nombre. Los comentarios son textos coloca-
+dos entre ciertos caracteres, (/*) y (*/), o después de dos guiones (--), como se muestra a continuación.
+
+![Alt text](image-6.png)
