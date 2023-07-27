@@ -144,3 +144,81 @@ Agregar comentarios junto a tu SQL para ayudarte a recordar qué representa el n
 dos entre ciertos caracteres, (/*) y (*/), o después de dos guiones (--), como se muestra a continuación.
 
 ![Alt text](image-6.png)
+
+### Alias(AS)
+
+uedes asignar un nuevo nombre o alias a los nombres de columna o tabla para que sea más fácil trabajar con ellos (y evi-
+tar la necesidad de agregar comentarios). Esto se hace con una cláusula SQL AS.
+
+![Alt text](image-7.png)
+
+En el ejemplo anterior se asigna el alias last_name a field1 y el alias customers a table.Estos alias son válidos solo
+para la duración de la consulta. Un alias no cambia el nombre real de una columna o tabla de la base de datos.
+
+### Ejemplo de aplicacion
+
+#### El requerimiento
+
+Gerencia requiere establecer el rango salarial de los empleados del area de TI y de esa manera establecer un reajuste
+salarial a quienes lo requieran, estos empleados son aquellos que tiene el codigo de dependecia SFI y deben ser exclui-
+dos los pasantes ya que estos tiene un regimen salarial distinto, estos son los que tienen codigo de dependencia INT.
+El rango salarial no debe ser inferior a 30K y todos con menos de eso debe ser reajusados.
+
+#### Desarrollo de la solucion
+
+- Datos requerido por empleado, nombre, apellido, cod de dependencia, salario, ID empleado
+- Traducido al nombre de las tablas d ela base de datos: extraer todas las columnas: empID, firstName, lastName, jobCode
+y salary
+- empleados  que tiene el codigo de dependecia SFI
+
+        SELECT
+            empID,
+            firstName,
+            lastName,
+            jobCode,
+            salary
+
+        FROM
+            Employee
+
+        WHERE
+            jobcode = 'SFI'
+
+- Excluir a los pasantes, poseen el codigo INT
+
+        SELECT
+            empID,
+            firstName,
+            lastName,
+            jobCode,
+            salary
+
+        FROM
+            Employee
+
+        WHERE
+            jobcode = 'SFI'
+            AND
+            jobcode <> 'INT'
+
+- Filtar los salarios y solo mostrar aquellos por debajo de 30000 para reajuste
+
+        SELECT
+            empID,
+            firstName,
+            lastName,
+            jobCode,
+            salary
+
+        FROM
+            Employee
+
+        WHERE
+            jobcode = 'SFI'
+            AND
+            jobcode <> 'INT'
+            AND
+            salary < 30000
+
+Este ultimo sera el que le muestre a gerencia quienes ganan menos de 30K, con codigo SFI y que no son pasantes, por lo
+cual deben ser reajustados sus salarios
