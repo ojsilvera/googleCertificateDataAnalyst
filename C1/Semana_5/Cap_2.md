@@ -7,7 +7,7 @@ Preguntas que responder
 Problemas que resolver resolver
 
 Un problema es un asunnto o tema para investigar.
-Una pregunta esta diseñada para descubror informacion
+Una pregunta esta diseñada para descubrir informacion.
 Un problema es un obstaculo o complicacion que es necesario resolver.
 
 Una tarea empresarial es la pregunta que responde o el problema que resuelve el analisis de datos para la organizacion.
