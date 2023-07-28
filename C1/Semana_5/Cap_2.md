@@ -18,8 +18,8 @@ consecuencias, buenas, malas o una combinación de ambas.
 
 en sintesis:
 
-        Las tomas de decisiones badas en datos son aquellas que utilizan los datos para guiar la toma de decisiones en
-        la organizacion.
+    Las tomas de decisiones badas en datos son aquellas que utilizan los datos para guiar la toma de decisiones en
+    la organizacion.
 
 El análisis de datos brinda la información necesaria para encontrar la mejor solución posible, Ese es el poder de los
 datos.
@@ -36,3 +36,11 @@ intenta responder.
 las diferentes funciones que desempeñan los analistas de datos en los entornos empresariales y las pruebas que incluyen
 esas funciones. Pero los analistas de datos tienen otra responsabilidad importante, asegurarse de que sus análisis sean
 equitativos.
+
+Equidad significa asegurarse de que tu análisis no introduzca ni refuerce sesgos. En otras palabras, como analista de
+datos, deseas ayudar a crear sistemas que sean equitativos e inclusivos para todos.
+
+Como analista de datos, es tu responsabilidad garantizar que tu análisis sea equitativo y que los hechos se encuentren
+en el complicado contexto social que podría generar sesgos en tus conclusiones. Es importante pensar en la equidad desde
+el momento en que empiezas a recopilar datos para una prueba empresarial hasta el momento en que presentas tus conclu-
+siones a las partes interesadas.
