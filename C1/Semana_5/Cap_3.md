@@ -24,7 +24,7 @@ tes.
 Otros puestos de especialistas específicos de la industria que puedes encontrar en la búsqueda de empleo de analista de
 datos incluyen los siguientes:
 
-    - Analista de marketing: analiza las condiciones del mercado para evaluar las ventas potenciales de productos y 
+    - Analista de marketing: analiza las condiciones del mercado para evaluar las ventas potenciales de productos y
       servicios.
     - Analista de recursos humanos y nóminas: analiza los datos de nómina en busca de ineficiencias y errores
     - Analista financiero: analiza el estado financiero mediante la recopilación, el monitoreo y la revisión de datos
@@ -32,5 +32,3 @@ datos incluyen los siguientes:
       empresas a determinar el nivel de riesgo que implica tomar una decisión empresarial concreta
     - Analista sanitario: analiza los datos médicos para mejorar el aspecto empresarial de los hospitales y las instala-
       ciones médicas.
-
-
