@@ -27,6 +27,8 @@ para realizar preguntas efectivas y que aporten al objetivo de los interesados, 
 metodologia SMART, en estalas preguntas son específicas, medibles, orientadas a la acción, relevantes y con plazos deter-
 minados.
 
+- Preguntas simples vs preguntas generales:
+
 Las preguntas específicas son simples y significativas, y se centran en un solo tema o en algunas ideas estrechamente
 relacionadas. Esto nos ayuda a recopilar información relevante para la investigación.
 
@@ -35,5 +37,26 @@ Si una pregunta es demasiado general, trata de acotarla enfocándote en un solo 
     **pregunta demasiado general:** en lugar de hacer una pregunta cerrada, como ¿los niños realizan suficientes activi-
     dades físicasen estos días?
     
-    **Pregunta SMART** ¿qué porcentaje de niños hacen lo recomendado, 60 minutos de actividad física, al menos cinco
+    **Pregunta SMART**¿qué porcentaje de niños hacen lo recomendado, 60 minutos de actividad física, al menos cinco
     días a la semana? Esa pregunta es mucho más específica y puede brindarte información más útil.
+
+- Preguntas medibles:
+
+Las preguntas medibles se pueden cuantificar y evaluar. Ejemplo de esto seria:
+
+     **pregunta no medible:**¿por qué un video se volvió viral?
+     
+     **Pregunta SMART** ¿cuántas veces se compartió el video en las redes la primera semana que se publicó?
+
+la pregunta anterior es medible porque nos permite contar cuántas veces se compartió y llegar a un número concreto.
+
+- Orientadas a la accion:
+
+Las preguntas orientadas a la acción fomentan el cambio. La resolución de problemas consiste en ver el estado actual y
+averiguar cómo transformarlo en el estado futuro ideal.
+
+     **pregunta no orientada a la accion:**¿cómo podemos conseguir que los clientes reciclen el embalaje de nuestro pro-
+     ducto?
+     
+     **Pregunta SMART** ¿cuántas veces se compartió el video en las redes la primera semana que se publicó?
+     
