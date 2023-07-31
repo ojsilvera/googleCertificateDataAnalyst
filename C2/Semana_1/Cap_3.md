@@ -15,10 +15,10 @@ buscar patrones.
 
 ![Alt text](image.png)
 
-- hacer predicciones:  Este tipo de problema implica el usar datos para tomar una decisión informada sobre cómo pueden
+-**hacer predicciones:**Este tipo de problema implica el usar datos para tomar una decisión informada sobre cómo pueden
 ser las cosas en el futuro.
 
-- **categorizar cosas:**Esto significa asignar información a diferentes grupos según sus características comunes.
+-**categorizar cosas:**Esto significa asignar información a diferentes grupos según sus características comunes.
   
 -**detectar algo inusual:**En este tipo de problema, los analistas de datos identifican datos que son diferente de lo
   normal.
