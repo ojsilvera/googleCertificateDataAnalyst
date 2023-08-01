@@ -54,3 +54,20 @@ Desventajas de los paneles:
     - En ocasiones, los paneles también pueden abrumar a las personas con información.
 
     - Si no sueles buscar datos en un panel, es posible que te pierdas en él.
+
+### Tablas dinamicas
+
+Una tabla dinámica es una herramienta de resumen de datos utilizada en el procesamiento de datos. Las tablas dinámicas
+se usan para resumir, ordenar, reorganizar, agrupar, contabilizar, totalizar o promediar los datos almacenados en una
+base de datos. Permite que los usuarios transformen las columnas en filas y las filas en columnas.
+
+crear tabla dinamica en google sheet:
+
+    1. Seleccionaremos el menú Datos y haremos clic en el botón Tabla dinámica.
+
+    2. Eso te permite extraer los datos de esta tabla. Podemos simplemente presionar Crear, lo cual generará una nueva
+    hoja de cálculo.
+
+    3. nos muestra los campos de la tabla dinámica que podemos elegir. Haremos clic en seleccionar, vendedor e ingresos.
+
+## Datos versus métricas
