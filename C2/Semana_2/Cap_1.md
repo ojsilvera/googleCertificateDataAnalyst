@@ -33,8 +33,26 @@ interpretacion de ello, Los datos son sencillos, son hechos recopilados en un co
 
 En el momento en el que consumimos, entendemos y aplicamos información, los datos son más útiles.
 
- Los datos son una herramienta poderosa para la toma de decisiones, y puedes ayudar a brindar a las empresas la infor-
- mación que necesitan para resolver problemas y tomar nuevas decisiones, por lo tanto debemos aprender sobre los tipos
- de datos que manejaremos y como debemos manejarlos.
+Los datos son una herramienta poderosa para la toma de decisiones, y puedes ayudar a brindar a las empresas la infor-
+mación que necesitan para resolver problemas y tomar nuevas decisiones, por lo tanto debemos aprender sobre los tipos
+de datos que manejaremos y como debemos manejarlos.
+
+ **el objetivo de todos los analistas de datos** es usar datos para sacar conclusiones exactas y hacer buenas recomenda-
+ cio nes. Todo eso empieza con tener datos completos, correctos y relevantes.
 
 ### Cuales son las diferencias entre las decisiones basadas en datos y las decisiones inspiradas en datos?
+
+### Datos cualitativos y cuantitativos
+
+- **Datos cuantitativos:** Los datos cuantitativos son las medidas específicas y objetivas de hechos numéricos. A menudo,
+  eso puede ser cuál es el problema, cuántas veces se repite y qué frecuencia tiene. En otras palabras, cosas que puedes
+  medir, como cuántos viajeros toman el tren para ir a trabajar cada semana. Como analista financiera, trabajo con muchos
+  datos cuantitativos. Amo la certeza y la precisión de los números.
+
+- **Datos cualitativos:** Los datos cualitativos describen medidas subjetivas o explicativas de cualidades y caracterís-
+  ticas, o cosas que no se pueden medir con datos numéricos, como el color de tu cabello. Los datos cualitativos son ge-
+  niales ya que nos ayudan a responder las preguntas de "por qué".
+
+Con los datos cuantitativos, podemos ver los números representados en cuadros o gráficos. Los datos cualitativos pueden
+brindarnos un entendimiento de más alto nivel de por qué los números son como son. Esto es muy importante, porque nos
+ayuda a agregarle contexto a un problema.
