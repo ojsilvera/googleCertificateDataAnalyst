@@ -14,7 +14,7 @@ vez conducen a conocimientos valiosos.ejemplo de estes tipo seria: Digamos que l
 - ¿te gustó crecer en Malasia? Él puede responder: "Sí", Pero, no has aprendido mucho sobre sus experiencias allí.
 - ¿quedó satisfecho con la prueba gratis del software?
 
-guntas sugestivas: Esa pregunta realmente no te da la oportunidad de compartir tu propia opinión, en especial si no es-
+Preguntas sugestivas: Esa pregunta realmente no te da la oportunidad de compartir tu propia opinión, en especial si no es-
 tás de acuerdo.
 
 - Digamos que estás almorzando con un amigo y te dice: "Estos son los mejores sándwiches del mundo, ¿no es
