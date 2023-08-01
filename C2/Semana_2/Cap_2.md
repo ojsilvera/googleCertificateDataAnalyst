@@ -55,6 +55,46 @@ Desventajas de los paneles:
 
     - Si no sueles buscar datos en un panel, es posible que te pierdas en él.
 
+#### Creación de un panel
+
+Aquí hay un proceso que puedes seguir para crear un panel:
+
+1. Identificar a los interesados que necesitan ver los datos y cómo los usarán
+
+    Para empezar con esto, debes hacer preguntas efectivas. Consulta esta hoja de trabajo para la recopilación de requi-
+    sitos [https://s3.amazonaws.com/looker-elearning-resources/Requirements+Gathering+Worksheet.pdf] para explorar una
+    amplia gama de buenas preguntas que puedes hacer para identificar a los interesados relevantes y sus necesidades de
+    datos. Este es un gran recurso para guiarte a través de este proceso una y otra vez.
+
+2. Diseñar el panel (lo que se debe mostrar)
+
+    Sigue estos consejos para que el diseño de tu panel sea claro, fácil de seguir y simple:
+
+        - Usa un encabezado claro para etiquetar la información
+
+        - Agrega descripciones de texto cortas a cada visualización
+
+        - Muestra la información más importante en la parte superior
+
+3. Crea prototipos si lo deseas
+
+    Esto es opcional, pero a muchos analistas de datos les gusta esbozar sus paneles antes de crearlos.
+
+4. Selecciona las visualizaciones que utilizarás en el panel
+
+    Aquí tienes muchas opciones y todo depende de la historia de datos que cuentes. Si necesitas mostrar un cambio de
+    valores a lo largo del tiempo, los gráficos de líneas o gráficos de barras podrían ser la mejor opción. Si tu obje-
+    tivo es mostrar cómo cada parte contribuye a la cantidad total que se informa, un gráfico circular o de torta proba-
+    blemente sea la mejor opción.
+
+    ![Alt text](image.png)
+
+5. Crea filtros según sea necesario
+
+    Los filtros muestran ciertos datos mientras ocultan el resto de los datos de un panel. Esto puede ser de gran ayuda
+    para identificar patrones mientras se mantienen intactos los datos originales. Es común que los analistas de datos
+    usen y compartan el mismo panel, pero administren su parte con un filtro.
+
 ### Tablas dinamicas
 
 Una tabla dinámica es una herramienta de resumen de datos utilizada en el procesamiento de datos. Las tablas dinámicas
@@ -89,6 +129,13 @@ Ejemplos de metricas:
    Al comparar estas dos métricas, beneficio y costo de la inversión, la empresa puede analizar los datos que tiene para
    ver qué tan bien funciona su inversión. Esto puede ayudarles a decidir cómo invertir en el futuro y qué inversiones
    priorizar.
+
+Las diferentes industrias usan todo tipo de métricas diferentes, pero hay una cosa que todas tienen en común:
+
+        **todas intentan alcanzar un objetivo específico midiendo datos.**
+
+Este objetivo métrico es un conjunto de objetivos medibles establecido por una empresa y evaluado mediante métricas.
+Y así como existen muchas métricas posibles, también existen muchos objetivos posibles.
 
 ### Los datos
 
