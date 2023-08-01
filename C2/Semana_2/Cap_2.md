@@ -71,3 +71,26 @@ crear tabla dinamica en google sheet:
     3. nos muestra los campos de la tabla dinámica que podemos elegir. Haremos clic en seleccionar, vendedor e ingresos.
 
 ## Datos versus métricas
+
+### Las metricas
+
+Una métrica es un tipo único y cuantificable de datos que pueden utilizarse para la medición, cuando los datos son orga-
+nizados en métricas individuales representan un único tipo de datos.
+
+Las métricas también se pueden combinar en fórmulas en las que puedes conectar tus datos numéricos, tambien suelen im-
+plicar matemáticas simples.
+
+Ejemplos de metricas:
+
+- el ROI(Rotorno sobre inversion):
+
+   es esencialmente una fórmula diseñada usando métricas que permiten que una empresa sepa qué tan bien funciona una in-
+   versión. El ROI se compone de dos métricas: el beneficio neto durante un período de tiempo y el costo de la inversión.
+   Al comparar estas dos métricas, beneficio y costo de la inversión, la empresa puede analizar los datos que tiene para
+   ver qué tan bien funciona su inversión. Esto puede ayudarles a decidir cómo invertir en el futuro y qué inversiones
+   priorizar.
+
+### Los datos
+
+Cabe recordar que los datos empiezan como una colección de hechos sin procesar, y contienen muchos detalles sin procesar
+sobre el problema que exploramos.
