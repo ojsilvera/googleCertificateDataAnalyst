@@ -36,3 +36,23 @@ cada fase del ciclo de vida de los datos: planificar, capturar, administrar, ana
     - Destruye tu hoja de cálculo cuando estés seguro de que nunca la volverás a necesitar; si tienes mejores copias de
       seguridad, o por motivos legales o de seguridad. Ten en cuenta que muchas empresas deben seguir ciertas reglas o
       tomar medidas para asegurarse de que los datos se destruyan correctamente.
+
+## google sheet
+
+- una vez creada una hoja en blanco para cambiar el titulo de la hoja click en la parte superior izquierda
+- en la primera fila colocar el nombre de los encabezados de las columnas conocidos como atributos, En una tabla, un
+  atributo es una característica o calidad de los datos usados para etiquetar una columna. Básicamente, es etiquetar el
+  tipo de datos en cada columna.
+- si es necesario puedes insertar una columna desde el menu insertar o insert, colum lef o right
+- si es necesario cambiar de lugar una columna o fila haz click en el numero o la letra y arrastra hasta donde deba ir.
+- compartir la hoja en la parte superior derecha en el boton share o compartir, desplegara un submenu con el nivel de
+  seguridad para los colaboradores asi:
+
+      - Puede editar: los colaboradores pueden agregar y editar contenido o comentarios. Elige este nivel de acceso si
+        quieres que puedan realizar cambios en tu hoja de cálculo.
+
+      - Puede comentar: los colaboradores pueden agregar comentarios, pero no pueden editar contenido. Elige este nivel
+        si solo deseas recibir sus comentarios.
+
+      - Puede ver: los colaboradores pueden ver el archivo, pero no pueden editar ni agregar comentarios. Elige este
+        nivel si deseas compartir una hoja de cálculo como recurso opcional y no necesitas comentarios.
