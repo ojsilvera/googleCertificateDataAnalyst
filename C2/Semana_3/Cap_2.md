@@ -6,7 +6,7 @@
 hacer los cálculos en si mismos. Las fórmulas se basan en operadores que son símbolos que nombran el tipo de operación o
 cálculo a realizar.
 
- Cuando creas una fórmula usando una expresión en una hoja de cálculo, empieza la fórmula con un signo igual.
+Cuando creas una fórmula usando una expresión en una hoja de cálculo, empieza la fórmula con un signo igual.
 
 Estos son los operadores que usarás para completar las fórmulas:
 
@@ -77,14 +77,42 @@ referencia relativa, A10, resalta $A$10 en la barra de fórmulas y, luego, presi
 Para agrupar valores en una fórmula, usas el paréntesis. Esto permite que tu hoja de cálculo sepa qué valores calcular
 juntos y el orden de las operaciones a realizar.
 
+En sisntesis:
+
+        Las referencias relativas (celdas a las que se hace referencia sin un signo de dólar, como
+        A2) cambiarán cuando copies y pegues la función en una celda diferente. Con las referencias
+        relativas, la ubicación de la celda que contiene la función determina las celdas usadas por
+        la función.
+
+        Las referencias absolutas (celdas a las que se hace referencia por completo con un signo de
+        dólar, como $A$2) no cambiarán cuando copies y pegues la función en otra celda. Con las re-
+        ferencias absolutas, siempre se hace referencia a las mismas celdas.
+
+        Las referencias mixtas (celdas a las que se hace referencia parcialmente con un signo de dó-
+        lar, como $A2 o A$2) cambiarán cuando copies y pegues la función en otra celda. Con las re-
+        ferencias mixtas, la ubicación de la celda que contiene la función determina las celdas usa-
+        das por la función; pero solo puede ser relativa la fila o la columna (no ambas).
+
+En las hojas de cálculo, puedes presionar la tecla F4 para alternar entre las referencias relativas, absolutas y mixtas
+en una función. Haz clic en la celda que contiene la función, resalta las celdas a las que se hace referencia en la
+barra de fórmulas y, luego, presiona F4 para alternar y elegir referencias relativas, absolutas o mixtas.
+
 ### Intervalo de datos
 
 Al hacer clic en tu fórmula, los intervalos de colores te permiten ver qué celdas se están usando en tu hoja de cálculo.
 Hay diferentes colores para cada intervalo individual en tu fórmula.
 
+Los intervalos de datos de colores evitan que te pierdas en funciones complejas.
+
 En muchas aplicaciones de hojas de cálculo, puedes presionar la tecla F2 (o Enter) para resaltar el intervalo de datos
 de la hoja de cálculo al que se hace referencia en una fórmula. Haz clic en la celda con la fórmula y, luego, presiona
 la tecla F2 (o Enter) para resaltar los datos de la hoja de cálculo.
+
+### Intervalos de datos evaluados para una condición
+
+CONTAR.SI es un ejemplo de una función que devuelve un valor basado en una condición para la que se evalúa el intervalo
+de datos. La función cuenta el número de celdas que cumplen los criterios. Por ejemplo, en una hoja de cálculo de gastos,
+usa CONTAR.SI para contar el número de celdas que contienen un reembolso por “pasaje aéreo”.
 
 ## Errores y correcciones de hojas de cálculo
 
