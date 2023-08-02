@@ -88,6 +88,27 @@ la tecla F2 (o Enter) para resaltar los datos de la hoja de cálculo.
 
 ## Errores y correcciones de hojas de cálculo
 
+### DIV
+
 Para evitar este errores, podemos hacer que esta hoja de cálculo ingrese automáticamente no aplicable siempre que una
 celda en la columna A contenga un cero, lo cual causaría el error. Para ello, usaremos la función SI.ERROR. Si encuentra
 un error DIV causado por una celda que contiene cero, se insertará la frase "No aplicable".
+
+        =IFERROR(OPERACION,"MENSAJE DE SALIDA")
+
+### Error
+
+ERROR. En Google Sheets, ERROR nos dice que la fórmula no se puede interpretar tal como se ingresa. Esto también se co-
+noce como un error de análisis, normalmente es una falla en la sintaxys o la forma incorrecta de escribir los valores de
+una formula o funcion, se soluciona completando bien el formato, por ejemplo:
+
+        =SUM(A2:A12 B2:B12) -> esta funcion arrojara error, ya que le falta una coma, que es un delimitador y separa los
+        dos rangos.
+
+        =SUM(A2:A12, B2:B12) -> esta seria la manera correcta de escribirlo
+
+### N/A
+
+El error N/A te indica que la hoja de cálculo no puede encontrar los datos de tu fórmula. Generalmente, esto significa
+que los datos no existen. Este error ocurre con mayor frecuencia cuando se utilizan funciones como BUSCARV, que busca un
+determinado valor en una columna para devolver la información correspondiente.
