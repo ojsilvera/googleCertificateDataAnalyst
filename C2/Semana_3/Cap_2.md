@@ -112,3 +112,62 @@ una formula o funcion, se soluciona completando bien el formato, por ejemplo:
 El error N/A te indica que la hoja de cálculo no puede encontrar los datos de tu fórmula. Generalmente, esto significa
 que los datos no existen. Este error ocurre con mayor frecuencia cuando se utilizan funciones como BUSCARV, que busca un
 determinado valor en una columna para devolver la información correspondiente.
+
+### Errore NOMBRE
+
+Un error tipográfico puede causar el error NOMBRE. Un error NOMBRE puede ocurrir cuando el nombre de una fórmula no se
+reconoce o no se entiende.
+
+### Error "#NUM!"
+
+El error NUM nos dice que el cálculo de una fórmula no se puede realizar según lo especificado por los datos. Los datos
+no tienen sentido para ese cálculo o no cumplen el requerimiento de entrada de la funcio o formula, por ejemplo para cal-
+cular la fecha de terminacion de un proyecto, teniendo la fecha inicial y final, simepre la fecha final debe ser poste-
+rior a la inicial, sino formulas como DATEDIF(FECHA_FIN, FECHA_INICIAL, "FORMATO DE SALID M o D o Y") daran error #NUM!
+
+### Error "#VALUE"
+
+El error VALOR puede indicar un problema con una fórmula o con las celdas a las que se hace referencia. A menudo, no
+está claro cuál es el problema inmediatamente, por lo que este error puede requerir un poco más de esfuerzo para solu-
+cionarlo, tipos de datos errorenoes, por ejemplo escribir letra en una celda referenciada que requiere un datos numerico
+o de fecha.
+
+### Error #REF
+
+El **error REF**, que a menudo aparece cuando las celdas a las que se hace referencia en una fórmula se han eliminado,
+lo que hace que la fórmula no pueda realizar el cálculo. una forma de lidiar con este error seria utilizar funciones en
+lugar de referencias directas a celdas o rangos, por ejemplo:
+
+        En vez de: =B2+B3+B4
+        utilizamos: =SUM(B2:B4) asi al eliminar B3 la funcion calculara el valor correcto.
+
+### Tabla Resumen de los errores en google sheet
+
+![Alt text](image-2.png)
+
+### Consejo experto: detección de errores en hojas de cálculo con formato condicional
+
+Se puede usar el formato condicional para resaltar celdas con colores diferentes en función de su contenido. Esta cara-
+cterística puede ser extremadamente útil cuando quieres buscar todos los errores en una hoja de cálculo grande. Por
+ejemplo, con el formato condicional, puedes resaltar en amarillo todas las celdas que contienen un error y, luego, tra-
+bajar en corregirlas.
+
+#### Formato condicional en Microsoft Excel
+
+Si deseas configurar el formato condicional en Microsoft Excel para resaltar todas las celdas que contienen errores en
+una hoja de cálculo, sigue estos pasos:
+
+![Alt text](image-3.png)
+
+Para quitar el formato condicional, haz clic en Inicio y elige Formato condicional; luego, haz clic en Administrar re-
+glas. Busca la regla de formato en la lista, haz clic en Eliminar regla y, a continuación, haz clic en Aceptar.
+
+#### Formato condicional en Google sheet
+
+Si deseas configurar el formato condicional en Google Sheets para resaltar todas las celdas que contienen errores en una
+hoja de cálculo, sigue estos pasos:
+
+![Alt text](image-4.png)
+
+Para eliminar el formato condicional, haz clic en Formato y elige Formato condicional; luego, haz clic en el ícono Pape-
+lera de la regla de formato.
