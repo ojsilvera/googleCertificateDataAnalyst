@@ -97,3 +97,27 @@ Una pareja ha contratado a una organizadora de bodas.
 Como conclusion podemos decir que un Un alcance del trabajo puede ser una herramienta sencilla pero potente. Con un
 alcance del trabajo sólido, podriamos abordar cualquier confusión, contradicción o pregunta sobre los datos desde el
 principio y asegurarte de que estos contratiempos sorpresivos no se interpongan en tu camino.
+
+### La objetividad
+
+Los datos no residen en un vacío, necesitan un contexto. El contexto es la condición en la que algo existe o sucede.
+Las acciones pueden ser apropiadas en algunos contextos, pero inapropiadas en otros. En el mundo de los datos, los núme-
+ros no significan mucho sin contexto.
+
+Podemos aprovechar los datos de formas cada vez más sofisticadas y generar información más poderosa a partir de ellos.
+Usamos datos en muchos niveles diferentes. A veces nuestros datos son descriptivos y responden preguntas, Los datos se
+vuelven más valiosos a medida que generamos conocimientos de diagnóstico y predictivos.
+
+No existe un conjunto universal de interpretaciones contextuales. Cada uno aborda los datos a su manera. Incluso si el
+proceso de recopilación de datos es correcto, el análisis puede malinterpretarse. Las conclusiones pueden verse influen-
+ciadas por tus propios prejuicios conscientes y subconscientes, que se basan en normas culturales, sociales y
+de mercado.
+
+Si el análisis no es objetivo, las conclusiones pueden ser engañosas. Para comprender realmente de qué se tratan los
+datos, debes pensar en quién, qué, dónde, cuándo, cómo y por qué. Es bueno hacerse preguntas como: ¿Quién recopiló los
+datos? ¿Y de qué se tratan? ¿Qué representan los datos en el mundo y cómo se relacionan con otros datos? ¿Cuándo se re-
+copilaron los datos? Los datos fueron recopilados hace un tiempo.
+
+Lo mejor que puedes hacer por la equidad y precisión de tus datos es asegurarte de empezar con una representación pre-
+cisa de la población y recopilar los datos de la manera más apropiada y objetiva. Luego, tendrás los hechos y podrás
+transmitirlos a tu equipo.
