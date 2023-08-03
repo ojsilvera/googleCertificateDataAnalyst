@@ -16,6 +16,12 @@ disponible, revelar las brechas y oportunidades e identificar las opciones. En o
 súper preparado. Es tener una lista clara de dónde se espera que entregues, un cronograma para las principales tareas y
 actividades, y puntos de control para que el equipo sepa que estás progresando.
 
+### Elementos claves del pensamiento estructurado
+
+    - Organizar la información disponible
+    - Reconocer el problema o la situación actuales
+    - Revelar los déficits y las oportunidades para identificar las opciones
+
 ### ventajas y desventajas de no usarlo
 
 - desventajas de no usarlo
@@ -38,9 +44,9 @@ Con una base sólida establecida, estarás listo para enfrentar cualquier obstá
 
 *las variables faltantes pueden conducir a conclusiones inexactas*.
 
-Una  forma de practicar el pensamiento estructurado y evitar errores es utilizando un **alcance del trabajo**.
+Una forma de practicar el pensamiento estructurado y evitar errores es utilizando un **alcance del trabajo**.
 
-Un alcance del trabajo o SOW es un esquema acordado del trabajo que vas a realizar en un proyecto, Esto incluye:
+*El alcance del trabajo es un esquema acordado del trabajo que vas a realizar en un proyecto.* Esto incluye:
 
     - Detalles del trabajo
     - Cronogramas
@@ -121,3 +127,55 @@ copilaron los datos? Los datos fueron recopilados hace un tiempo.
 Lo mejor que puedes hacer por la equidad y precisión de tus datos es asegurarte de empezar con una representación pre-
 cisa de la población y recopilar los datos de la manera más apropiada y objetiva. Luego, tendrás los hechos y podrás
 transmitirlos a tu equipo.
+
+## La importancia del contexto
+
+El contexto es la condición en la que algo existe o sucede. El contexto es importante en el análisis de datos porque te
+ayuda a examinar enormes cantidades de datos desorganizados, y a convertirlos en algo significativo. La realidad es que
+los datos tienen poco valor si no tienen relación con el contexto.
+
+Comprender el contexto detrás de los datos puede ayudarnos a hacerlos más significativos en cada etapa del proceso de
+análisis de datos. Por ejemplo, es posible que puedas hacer algunas conjeturas sobre lo que ves en la siguiente tabla,
+pero no estarás lo suficientemente seguro sin más contexto.
+
+![Alt text](image-10.png)
+
+Por otro lado, si la primera columna se etiquetó para representar los años en que se realizó una encuesta y, en la
+segunda columna, se mostró el número de personas que respondieron a esa encuesta, la tabla comenzaría a tener mucho más
+sentido. Lleva esto al siguiente paso y te darás cuenta de que la encuesta se realiza cada 5 años. Este contexto adi-
+cional te ayudará a entender por qué hay brechas de cinco años en la tabla.
+
+![Alt text](image-11.png)
+
+El contexto puede convertir los datos sin procesar en información significativa. Es muy importante que los analistas de
+datos contextualicen sus datos. Esto significa dar la perspectiva de los datos al definirlos. Para lograr esto, debes
+identificar:
+
+    Quién: La persona u organización que creó, recopiló y/o financió la recopilación de datos.
+
+    Qué: Las circunstancias en las cuales los datos podrían tener un impacto en cualquier parte del mundo.
+
+    Dónde: El origen de los datos.
+
+    Cuándo: El momento en que se crearon o recopilaron los datos.
+
+    ¿Por qué? La motivación detrás de la creación o recopilación.
+
+    Cómo: El método que se usó para crearlos o recopilarlos.
+
+La comprensión e inclusión del contexto es importante durante cada paso de tu proceso de análisis, por lo que es impor-
+tante que te familiarices con él desde el inicio de tu carrera.
+
+Cuando recopiles los datos, querrás hacer preguntas sobre el contexto para asegurarte de que entiendes el negocio y el
+proceso empresarial.
+
+Durante la organización, el contexto es importante para tus convenciones de nomenclatura, cómo eliges mostrar las rela-
+ciones entre las variables y lo que eliges conservar u omitir.
+
+Cuando presentes, es importante que incluyas información contextual para que tus interesados entiendan tu análisis.
+
+### Estrategias para garantizar que tus datos sean precisos y justos
+
+    Recopilar los datos de forma objetiva
+    Asegurarse de empezar con una representación precisa de la población de la muestra
+    Pensar en el «quién, qué, dónde, cuándo, cómo y por qué» de tus datos
