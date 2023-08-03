@@ -36,12 +36,64 @@ El punto de partida para el pensamiento estructurado es el dominio del problema,
 de análisis, puedes establecer tu base y plantear todos tus requisitos e hipótesis antes de empezar a investigar.
 Con una base sólida establecida, estarás listo para enfrentar cualquier obstáculo que surja.
 
-las variables faltantes pueden conducir a conclusiones inexactas.
+*las variables faltantes pueden conducir a conclusiones inexactas*.
 
 Una  forma de practicar el pensamiento estructurado y evitar errores es utilizando un **alcance del trabajo**.
 
-Un alcance del trabajo o SOW es un esquema acordado del trabajo que vas a realizar en un proyecto. Esto incluye cosas
-como detalles del trabajo, cronogramas e informes que el cliente puede necesitar. Ahora, como analista de datos, tu
-alcance del trabajo será un poco más técnico e incluirá los ítems básicos que acabamos de mencionar, pero también se
-enfocará en cosas como la preparación de datos, la validación, el análisis de conjuntos de datos cuantitativos y
-cualitativos, los resultados iniciales, y tal vez incluso algunas imágenes para que realmente se entienda el punto.
+Un alcance del trabajo o SOW es un esquema acordado del trabajo que vas a realizar en un proyecto, Esto incluye:
+
+    - Detalles del trabajo
+    - Cronogramas
+    - Informes que el cliente puede necesitar.
+
+Ahora, como analista de datos, tu alcance del trabajo será un poco más técnico e incluirá los ítems básicos que acabamos
+de mencionar, pero también:
+
+    - La preparación de datos.
+    - La validación.
+    - El análisis de conjuntos de datos cuantitativos y cualitativos.
+    - Los resultados iniciales.
+    - Imágenes para que realmente se entienda el punto.
+
+### Porque necesitas el Sow
+
+![Alt text](image-8.png)
+
+### Actividades Generales del SOW
+
+![Alt text](image-7.png)
+
+### Formato del alcance del trabajo
+
+[Formato del SOW](Scope-Of-Work%20Template.docx)
+
+### Dentro y fuera del alcance
+
+![Alt text](image-9.png)
+
+### Ejemplo de alcance de trabajo
+
+Una pareja ha contratado a una organizadora de bodas.
+
+- primero Nos enfocamos en una sola tarea: las invitaciones de boda,
+
+- Esto genera un posible alcance del trabajo: entregables, cronograma, hitos e informes.
+
+        Analizando uno de estos: entregables.
+
+        La planificadora de bodas y la pareja deberán decidir sobre la invitación:
+
+            - Entregar una lista de personas a invitar
+            - recopilar sus direcciones
+            - imprimir las invitaciones
+            - dirigir los sobres
+            - colocarles estampillas
+            - enviarlos por correo.
+
+- Verificamos las líneas de tiempo. Notarás que las fechas y los hitos nos mantienen en el camino correcto.
+
+- Generamos los informes, que le dan a nuestra pareja un poco de tranquilidad diciéndoles cuándo se completó cada paso.
+
+Como conclusion podemos decir que un Un alcance del trabajo puede ser una herramienta sencilla pero potente. Con un
+alcance del trabajo sólido, podriamos abordar cualquier confusión, contradicción o pregunta sobre los datos desde el
+principio y asegurarte de que estos contratiempos sorpresivos no se interpongan en tu camino.
