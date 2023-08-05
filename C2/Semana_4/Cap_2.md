@@ -59,3 +59,45 @@ del proyecto.
 correos electrónicos.
 
 - Adaptación a estilos de comunicación en diferentes contextos y la importancia de la disposición para aprender.
+
+## ¡Conoce a tu audiencia! Al comunicar tus análisis y recomendaciones como analista de datos, es fundamental tener en cuenta a tu audiencia
+
+Asegúrate de responder estas cuatro preguntas importantes relacionadas con tu audiencia:
+
+    ¿Quién es tu audiencia?
+
+    ¿Qué saben ya?
+
+    ¿Qué necesitan saber?
+
+    ¿Cómo puedes comunicar mejor lo que necesitan saber?
+
+## Ejemplo de correo electrónico sobre la actualización del plazo
+
+Después de responder las preguntas de la audiencia, tienes la base clave que necesitas para escribir un correo electrónico
+a Kiri. Aquí te mostramos un ejemplo de cómo estas preguntas pueden ayudar a organizar el flujo del mensaje del correo
+electrónico:
+
+Hola, Kiri: *(¿quién es tu audiencia?)*
+
+Gracias por tu correo electrónico sobre el estado del proyecto de análisis de las aplicaciones. Entiendo que te preocupa
+cómo la incorporación de estos nuevos datos afectará los plazos, y me encantaría proporcionar la mayor cantidad de
+información que pueda sobre el estado del proyecto. (¿Qué saben ya? )
+
+Podemos incluir los nuevos datos que has sugerido; sin embargo, necesitaremos tiempo para recopilarlos e incorporarlos a
+nuestro análisis. En consecuencia, incluir los nuevos datos tomará dos semanas más, lo que modifica el plazo de nuestro
+proyecto de análisis. *(¿Qué necesitan saber?)*
+
+Pienso enviar un informe completo el lunes. Este informe incluirá el plazo final y compartirá los últimos hallazgos,
+incluida la información nueva que hayamos descubierto.
+
+Entiendo que estás a la espera de nuestro informe, y quiero asegurarme de que podamos obtener la información que necesitas.
+Si deseas reunirte antes del próximo informe, dime qué horario sería más conveniente para ti.
+*(¿Cómo puedes comunicar mejor lo que necesitan saber?)*
+
+Gracias.
+
+(Tu nombre)
+
+Después de recibir tu correo electrónico, Kiri tendrá una visión más clara de los cambios en el proyecto de análisis y
+podrá hacer ajustes para trabajar con el nuevo plazo.
