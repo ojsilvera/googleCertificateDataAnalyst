@@ -134,3 +134,67 @@ funciones:
 ![Alt text](image.png)
 
 ## Concéntrate en lo que importa
+
+- Encontrar equilibrio entre interesados y miembros del equipo es crucial.
+
+- Mantenerse enfocado en el objetivo es importante, especialmente en situaciones con distintas opiniones y necesidades.
+
+- Hacer preguntas simples al inicio de cada tarea ayuda a mantener la concentración y equilibrar necesidades.
+
+- Tres enfoques clave para mantenerse enfocado: identificar interesados principales y secundarios, determinar quién ges-
+  tiona los datos y saber dónde pedir ayuda.
+
+- Ejemplo de proyecto de rotación de empleados con múltiples interesados y roles.
+
+- Identificar interesados: vicepresidente de RR. HH., gerente de proyectos, miembros del equipo y otros analistas.
+
+- Quién gestiona los datos: colaboración con otros analistas para aprovechar datos existentes.
+
+- Dónde pedir ayuda: gerentes de proyectos como recursos para superar obstáculos.
+
+- Tres preguntas al inicio del proyecto: identificar interesados, entender quién maneja datos y conocer fuentes de ayuda.
+
+- Mantener enfoque en objetivo final del proyecto.
+
+- Importancia de trabajar eficazmente en equipo y mantener enfoque en necesidades de interesados.
+
+Claro, puedo ampliar ese punto utilizando el formato de lista numerada. Aquí tienes:
+
+## Ejemplo de proyecto de rotación de empleados con múltiples interesados y roles
+
+- El proyecto se enfoca en la rotación de empleados, una tarea que involucra a varios actores clave.
+
+- Diversos interesados: El vicepresidente de RR. HH. busca utilizar los resultados para decisiones políticas. El gerente
+de proyectos requiere actualizaciones. Otros analistas de datos dependen de este análisis.
+
+- Identificación de interesados principales y secundarios: Una tarea inicial es definir quiénes son estos actores y sus
+objetivos específicos.
+
+- Equilibrio de necesidades: La tarea implica manejar las demandas y expectativas de diferentes interesados, desde altos
+directivos hasta analistas.
+- Desafío del analista de datos: Equilibrar las múltiples perspectivas y opiniones, y mantenerse enfocado en el objetivo
+final.
+
+- Colaboración interdisciplinaria: Trabajar con otros analistas de datos que manejan diferentes conjuntos de datos en el
+mismo proyecto.
+
+- Importancia de la comunicación: Contacto con otros analistas para aprovechar su trabajo y enriquecer el análisis.
+
+- Ejemplo específico: Un analista se enfoca en los datos de contratación, proporcionando información crucial para el
+análisis completo.
+
+- Maximización de la eficiencia: Al colaborar y comprender quién gestiona qué datos, se evita la duplicación de esfuerzos.
+
+- Evitar la distracción: A pesar de la complejidad, mantener el enfoque en el objetivo y no perderse en detalles secundarios.
+
+- Utilización de recursos internos: El conocimiento de quién gestiona los datos permite optimizar el uso del tiempo y las
+habilidades del equipo.
+
+- Resolución de obstáculos: Reconocer a quién acudir en caso de problemas, como el gerente de proyectos, para superar
+desafíos.
+
+- Importancia del enfoque en el objetivo: El ejemplo subraya la necesidad de mantener la mirada en el premio final del
+proyecto.
+
+- Lecciones aprendidas: El caso de estudio resalta cómo las tres preguntas clave pueden ayudar a abordar las necesidades
+de los interesados y lograr los objetivos del proyecto.
