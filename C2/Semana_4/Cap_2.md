@@ -216,3 +216,66 @@ Gracias.
 
 11. **Claridad y sinceridad:**
     - Claro y honesto en la comunicación para lograr éxito.
+
+## Limitaciones de los datos
+
+*El caso de los datos incompletos (¡o inexistentes!)*:
+
+Si tienes datos incompletos o inexistentes, es posible que, durante un análisis, te des cuenta de que no tienes suficientes
+datos para llegar a una conclusión. ¡O incluso podrías estar resolviendo un problema completamente diferente! Por ejemplo,
+supongamos que estás buscando empleados que obtuvieron un certificado en particular, pero descubres que los registros
+de certificación en tu empresa tienen solo dos años de antigüedad. Aún puedes usar los datos, pero deberás aclarar los
+límites de tu análisis. Es posible que puedas encontrar una fuente alternativa de datos si te comunicas con la empresa
+que llevó a cabo la capacitación. Pero, para estar seguro, debes ser sincero sobre el conjunto de datos incompleto
+hasta que esos datos estén disponibles.
+
+*No omitas los datos desalineados*:
+
+Si estás recopilando datos de otros equipos y utilizando hojas de cálculo existentes, es bueno tener en cuenta que las
+personas usan diferentes reglas comerciales. Por lo tanto, un equipo podría definir y medir las cosas de una manera
+completamente diferente a la de otro. Por ejemplo, si una métrica es la cantidad total de aprendices en un programa de
+certificación, podrías tener un equipo para que cuente a cada persona que se registró para la capacitación y otro equipo
+para que cuente solo a las personas que completaron el programa. En casos como estos, establecer cómo medir las cosas
+desde el principio estandariza los datos en todos los ámbitos para una mayor confiabilidad y precisión. Esto garantizará
+que las comparaciones entre los equipos sean significativas y perspicaces.
+
+*Gestiona los datos sucios*:
+
+Los datos sucios hacen referencia a datos que contienen errores. Estos pueden conducir a la pérdida de productividad, a
+gastos innecesarios y a una toma de decisiones imprudente. Un buen intento de limpieza de datos puede ayudarte a evitar
+esto. Como recordatorio rápido, la limpieza de datos es el proceso de corregir o eliminar datos incorrectos, dañados,
+formateados incorrectamente, duplicados o incompletos dentro de un conjunto de datos. Si encuentras y corriges los erro-
+res, mientras realizas un seguimiento de los cambios que hiciste, puedes evitar un desastre con los datos. Aprenderás a
+limpiar los datos más adelante en la capacitación.
+
+*Cuenta una historia clara*:
+
+Avinash Kaushik, un evangelista de marketing digital para Google, tiene muchos consejos excelentes para los analistas
+de datos en su blog: Occam's Razor, a continuación, presentamos algunas de las prácticas recomendadas que sugiere para
+una buena narración de datos:
+
+- Compara los mismos tipos de datos: al graficarlos para su visualización, los datos pueden confundirse. Asegúrate de
+comparar los mismos tipos de datos y verifica que los segmentos de tu gráfico muestren definitivamente diferentes métricas.
+
+- Visualiza con cuidado: una caída del 0,01 % en una puntuación puede parecer terrible si te acercas lo suficiente. Para
+asegurarte de que tu audiencia vea la historia completa con claridad, se recomienda establecer tu eje Y en 0.
+
+- Deja de lado los gráficos innecesarios: si una tabla puede mostrar tu historia de un vistazo, elige la tabla en lugar
+de un gráfico circular o de otro tipo. Tu atareada audiencia apreciará la claridad.
+
+- Realiza pruebas para determinar la importancia estadística: en ocasiones, dos conjuntos de datos se verán diferentes,
+pero necesitarás una forma de probar si la diferencia es real e importante. Así que recuerda realizar pruebas estadísticas
+para ver cuánto puedes confiar en esa diferencia.
+
+- Presta atención al tamaño de la muestra: recopila muchos datos. Si el tamaño de una muestra es pequeño, algunas res-
+puestas inusuales pueden sesgar los resultados. Si descubres que tienes muy pocos datos, ten cuidado de usarlos para ela-
+borar juicios. Busca oportunidades para recopilar más datos, luego grafica esas tendencias durante períodos más largos.
+
+*Sé el juez*:
+
+En cualquier organización, una gran parte del papel de un analista de datos consiste en hacer juicios sólidos. Cuando
+conoces las limitaciones de los datos, puedes discernir y ayudar a las personas a tomar mejores decisiones respaldadas
+por los datos. Los datos son una herramienta extremadamente poderosa para la toma de decisiones, pero si están incompletos,
+desalineados o no se han limpiado, entonces pueden ser engañosos. Toma las medidas necesarias para asegurarte de que tus
+datos estén completos y sean coherentes. Limpia los datos antes de comenzar el análisis para ahorrarte a ti mismo y posiblemente
+a otros una gran cantidad de tiempo y esfuerzo.
