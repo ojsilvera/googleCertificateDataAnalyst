@@ -67,6 +67,8 @@ reduce a una buena planificación y comunicación de las expectativas.
 
 *Antes de la reunión:*
 
+- Verifica que los elementos tecnologicos funcionen correctamente
+
 - Identifica tu objetivo. Establece el propósito, las metas y los resultados deseados de la reunión, incluidas las
   preguntas o solicitudes que deban abordarse.
 
@@ -112,7 +114,7 @@ de la reunión, puedes seguir estos pasos para evitar distracciones:
 
     - Determina y resume los próximos pasos para el grupo
 
-    -Solicita feedback y aclara las dudas expuestas por quienes asisten a la reunion
+    - Solicita feedback y aclara las dudas expuestas por quienes asisten a la reunion
 
 *Después de la reunión:*
 
@@ -129,21 +131,21 @@ pasos que se acordaron en la reunión. Incluso puedes ir un paso más allá y pe
 
 Un conflicto puede surgir por diversas razones:
 
-- Tal vez los interesados malinterpretaron los posibles resultados de tu proyecto,
+    - Tal vez los interesados malinterpretaron los posibles resultados de tu proyecto,
 
-- tal vez tú y el miembro de tu equipo tienen estilos de trabajo muy diferentes.
+    - tal vez tú y el miembro de tu equipo tienen estilos de trabajo muy diferentes.
 
-- tal vez se acerca una fecha límite importante y las personas están nerviosas.
+    - tal vez se acerca una fecha límite importante y las personas están nerviosas.
 
-- Las expectativas incompatibles.
+    - Las expectativas incompatibles.
 
-- la falta de comunicación.
+    - la falta de comunicación.
 
-- Tal vez no fuiste claro sobre quién se suponía que debía limpiar un conjunto de datos y nadie lo limpió, lo que provocó
-  que un proyecto se retrasara.
+    - Tal vez no fuiste claro sobre quién se suponía que debía limpiar un conjunto de datos y nadie lo limpió, lo que provocó
+      que un proyecto se retrasara.
 
-- tal vez un compañero de equipo envió un correo electrónico con toda la información incluida, pero no mencionó que era
-  tu trabajo.
+    - tal vez un compañero de equipo envió un correo electrónico con toda la información incluida, pero no mencionó que era
+      tu trabajo.
 
 las anteriores razones son algunas de las razones más comunes por las que se producen conflictos.
 
