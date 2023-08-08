@@ -28,6 +28,23 @@ archivos para poder mantener su trabajo organizado.
 solicitantes de empleo de todo tipo. En esta parte del curso, explorarás cómo gestionar tu presencia en línea. También
 descubrirás los beneficios de la creación de redes con otros profesionales del análisis computacional de datos.
 
-Completar el Desafío del curso: Al final de este curso, podrás poner en práctica todo lo que has aprendido con el Desafío
+*Completar el Desafío del curso*: Al final de este curso, podrás poner en práctica todo lo que has aprendido con el Desafío
 del curso. El Desafío del curso te hará preguntas sobre los conceptos clave y luego te dará la oportunidad de ponerlos
 en práctica a través de dos escenarios.
+
+Lo que aprenderás:
+
+    - Cómo se generan los datos
+    - Características de diferentes tipos, campos y valores de datos
+    - Estructuras de las bases de datos
+    - La función de los metadatos en el análisis computacional de datos
+    - Funciones del Lenguaje de consulta estructurado (SQL)
+
+Conjuntos de habilidades que desarrollarás:
+
+    - Garantizar el uso de prácticas éticas en el análisis de datos
+    - Abordar los problemas de sesgo y credibilidad
+    - Acceso a bases de datos e importación de datos
+    - Escribir consultas sencillas
+    - Organización y protección de los datos
+    - Conectarse con la comunidad de datos (opcional)
