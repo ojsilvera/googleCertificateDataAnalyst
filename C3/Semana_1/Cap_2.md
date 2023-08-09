@@ -5,7 +5,7 @@
 Son cuantitaivos porque se pueden contar, medir o expresarse fácilmente con números, Este dato cuenta con una
 cierta cantidad, monto o rango.
 
-Los datos cuantitativos los subdividimos en *datos discretos, continuos, datos nominales y ordinales*:
+Los datos cuantitativos los subdividimos en *datos discretos y continuoss*:
 
     Los datos discretos: Estos son datos que se cuentan y tienen una cantidad de valores limitada.
 
@@ -67,7 +67,7 @@ Los modelos de datos contribuyen a mantener la coherencia de los datos y brindan
 Esto hace que sea más fácil para los analistas y otros interesados encontrar sentido a sus datos y utilizarlos con pro-
 pósitos empresariales.
 
-### utilidad de los datos estructurados
+### Utilidad de los datos estructurados
 
 los datos estructurados son útiles para las bases de datos. Esto facilita la tarea de los analistas de ingresar, consultar
 y analizar los datos dondequiera que lo necesiten.
@@ -87,3 +87,16 @@ estructurados.
 ### diferencia entre datos estructurados y no estructurados
 
 ![Alt text](image-6.png)
+
+### Caracteristicas de los datos estructurados vs los no estructurados
+
+![Alt text](image-7.png)
+
+## El problema de la equidad
+
+La falta de estructura hace que los datos no estructurados sean difíciles de buscar, gestionar y analizar. Pero los re-
+cientes avances en inteligencia artificial y algoritmos de aprendizaje automático están empezando a cambiar esta situa-
+ción. Ahora, el nuevo reto al que se enfrentan los científicos de datos es asegurarse de que estas herramientas sean
+inclusivas e imparciales. De lo contrario, ciertos elementos de un conjunto de datos estarán más ponderados y/o represen-
+tados que otros. Un conjunto de datos no equitativo no representa con exactitud a la población, causando resultados ses-
+gados, bajos niveles de precisión y análisis poco fiables.
