@@ -48,3 +48,33 @@ Conjuntos de habilidades que desarrollarás:
     - Escribir consultas sencillas
     - Organización y protección de los datos
     - Conectarse con la comunidad de datos (opcional)
+
+## Recopilar datos
+
+Hablaremos sobre las formas en que los datos pueden generarse y cómo las industrias recopilan datos por su propia cuenta.
+Cada pieza de información es un dato. Todos los datos se generan usualmente como resultado de nuestra actividad en el mundo,
+Con las redes sociales y los dispositivos móviles millones y millones de personas están agregando enormes cantidades de
+datos todos y cada uno de los días.
+
+Se pueden generar datos al recolectar información. Esta generación de datos y su recolección traen aparejadas algunas
+cosas más en que pensar. Necesita ser realizado teniendo en cuenta la ética, de modo de mantener los derechos y la priva-
+cidad de las personas.
+
+Ejemplo del mundo real:
+
+*La Oficina del Censo de los Estados Unidos* utiliza formularios para recolectar datos acerca de la población del país.
+Estos datos son utilizados por distintas razones, como financiar escuelas, hospitales y cuarteles de bomberos. La Ofici-
+na también recolecta información sobre otras cosas como las empresas estadounidenses, y crean sus propios datos en el pro-
+ceso. Lo mejor acerca de esto es que otros pueden utilizar los datos para sus propias necesidades, incluyendo el análisis.
+
+*La encuesta anual de empresas* se utiliza para conocer las necesidades de las empresas y cómo brindarles los recursos
+necesarios para ayudarlas a tener éxito.
+
+*Los científicos* también generan datos. Utilizan muchas observaciones en su trabajo. Por ejemplo, pueden recolectar datos
+al estudiar el comportamiento animal u observando bacterias bajo el microscopio.
+
+Mi informacion recolectada de una empresa a la cual aplicare para un puesto de analista, al presentarme a la entrevista
+la empresa reparte encuestas y formularios, al inicio y al final, esto con fines de muizas mejorar el proceso o medir la
+acertividad del proceso a la hora de contrartar es un camino de doble via.
+
+## Determinar qué datos recoger
