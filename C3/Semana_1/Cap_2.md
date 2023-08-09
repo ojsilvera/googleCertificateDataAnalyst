@@ -12,14 +12,26 @@ Los datos cuantitativos los subdividimos en *datos discretos, continuos, datos n
     Los datos continuos: pueden medirse utilizando un cronómetro y su valor se puede mostrar como un decimal con varias
     posiciones.
 
+### Diferencia entre datos discretos y continuos
+
+![Alt text](image-3.png)
+
     Los datos nominales: son un tipo de datos cualitativos que se categorizan sin ningún orden establecido. En otras
     palabras, estos datos no tienen una secuencia.
     
     Los datos ordinales: son un conjunto de datos cualitativos con un orden o escala preestablecidos.
 
+### Diferencia entre datos nominales y ordinales
+
+![Alt text](image-5.png)
+
 ## Los datos cualitativos
 
 Son colocados normalmente en listados como un nombre, una categoría o una descripción.
+
+### Diferencia entre datos cualitativos y cuantitativos
+
+![Alt text](image-4.png)
 
 ## Los datos internos
 
@@ -31,6 +43,10 @@ internos.la principal cracteristica de los datos internos es que por lo general 
 
 son datos alojados y generados fuera de una organización, son especialmente valiosos cuando tus análisis dependen de to-
 das las fuentes disponibles posibles.
+
+Diferencias entre datos internos y externos:
+
+![Alt text](image-2.png)
 
     Todos los anteriores son del tipo estrcuturado.
 
@@ -47,3 +63,7 @@ datos, los datos son fácilmente rastreables y están más preparados para el an
 
 Estos datos no están organizados de una forma fácilmente identificable. Los archivos de audio y video son ejemplos de datos no estructurados porque no hay un modo claro para identificar y organizar el contenido. Los datos no estructurados pueden
 contar con una estructura interna, pero los datos no se ubican prolijamente en filas y columnas como los datos estructurados.
+
+### diferencia entre datos estructurados y no estructurados
+
+![Alt text](image-6.png)
