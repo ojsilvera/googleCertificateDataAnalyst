@@ -16,6 +16,10 @@ Los datos cuantitativos los subdividimos en *datos discretos, continuos, datos n
 
 ![Alt text](image-3.png)
 
+## Los datos cualitativos
+
+Son colocados normalmente listados como un nombre, una categoría o una descripción.
+
     Los datos nominales: son un tipo de datos cualitativos que se categorizan sin ningún orden establecido. En otras
     palabras, estos datos no tienen una secuencia.
     
@@ -24,10 +28,6 @@ Los datos cuantitativos los subdividimos en *datos discretos, continuos, datos n
 ### Diferencia entre datos nominales y ordinales
 
 ![Alt text](image-5.png)
-
-## Los datos cualitativos
-
-Son colocados normalmente en listados como un nombre, una categoría o una descripción.
 
 ### Diferencia entre datos cualitativos y cuantitativos
 
