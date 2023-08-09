@@ -59,10 +59,30 @@ Este tipo se basa en el pensamiento estructurado que brinda un framework para re
 logica y ordenada, de la misma manera Puedes pensar en los datos estructurados del mismo modo. Con un framework para los
 datos, los datos son fácilmente rastreables y están más preparados para el análisis.
 
+Los datos estructurados trabajan muy bien dentro de un modelo de datos, que es un modelo utilizado para organizar los
+elementos de datos y la forma en que se relacionan entre ellos.
+
+*los elementos de datos* Son piezas de información, tales como nombres de personas, números de cuentas y direcciones.
+Los modelos de datos contribuyen a mantener la coherencia de los datos y brindan un mapa de cómo se organizan esos datos.
+Esto hace que sea más fácil para los analistas y otros interesados encontrar sentido a sus datos y utilizarlos con pro-
+pósitos empresariales.
+
+### utilidad de los datos estructurados
+
+los datos estructurados son útiles para las bases de datos. Esto facilita la tarea de los analistas de ingresar, consultar
+y analizar los datos dondequiera que lo necesiten.
+
+Contribuye a la visualización de los datos en forma más sencilla, ya que los datos estructurados pueden aplicarse
+directamente a las tablas, los gráficos, mapas térmicos, paneles y la mayoría de las representaciones visuales de los datos.
+
+Las hojas de cálculo y las bases de datos que almacenan los conjuntos de datos son fuentes frecuentes de datos estructurados
+
 ## Los datos no estructurados
 
-Estos datos no están organizados de una forma fácilmente identificable. Los archivos de audio y video son ejemplos de datos no estructurados porque no hay un modo claro para identificar y organizar el contenido. Los datos no estructurados pueden
-contar con una estructura interna, pero los datos no se ubican prolijamente en filas y columnas como los datos estructurados.
+Estos datos no están organizados de una forma fácilmente identificable. Los archivos de audio y video son ejemplos de
+datos no estructurados porque no hay un modo claro para identificar y organizar el contenido. Los datos no estructurados
+pueden contar con una estructura interna, pero los datos no se ubican prolijamente en filas y columnas como los datos
+estructurados.
 
 ### diferencia entre datos estructurados y no estructurados
 
