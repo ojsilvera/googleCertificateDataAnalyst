@@ -133,3 +133,7 @@ tos preexistentes, sino seran datos en tiempo real, pero es un proceso mas lento
 Si estás recopilando tus propios datos, decide cuánto tiempo necesitarás para recopilarlos, especialmente si estás haciendo
 un seguimiento de las tendencias durante un largo periodo de tiempo. Si necesitas una respuesta inmediata, puede que no
 tengas tiempo para recoger datos nuevos. En este caso, tendrás que utilizar los datos históricos que ya existen.
+
+Utiliza el siguiente diagrama de flujo si la recogida de datos depende en gran medida del tiempo que tengas:
+
+![Alt text](image.png)
