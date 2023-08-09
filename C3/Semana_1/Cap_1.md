@@ -109,6 +109,10 @@ por un proveedor que no ha recogido los datos por sí mismo. Los datos de tercer
 Cuando recopiles los datos, también querrás asegurarte de elegir el *tipo correcto de datos*, pueden ser fechas, numericos
 texto, boleanos, etc.
 
+*Ejemplo visual de los tipos de fuentes de datos:*
+
+![Alt text](image-8.png)
+
 *Diferencias entre datos primarios y secundarios:*
 
 ![Alt text](image-1.png)
