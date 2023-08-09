@@ -17,6 +17,17 @@ Los datos cuantitativos los subdividimos en *datos discretos, continuos, datos n
 
 *Los datos cualitativos* son colocados normalmente en listados como un nombre, una categoría o una descripción.
 
-*Los datos internos*. que son los datos que viven dentro de los propios sistemas de una empresa. Sí una organizacion ha
+*Los datos internos:*. que son los datos que viven dentro de los propios sistemas de una empresa. Sí una organizacion ha
 compilado todos los datos en la hoja de cálculo utilizando su propio método de recolección, entonces serían sus datos
-internos.la principal cracteristica de los datos internos es que por lo general son más confiables y fáciles de recolectar
+internos.la principal cracteristica de los datos internos es que por lo general son más confiables y fáciles de recolectar.
+
+*Los datos externos:* son datos alojados y generados fuera de una organización, son especialmente valiosos cuando tus aná-
+lisis dependen de todas las fuentes disponibles posibles.
+
+Todos los anteriores son del tipo estrcuturado.
+
+*Los datos estructurados* son datos que se organizan en un formato determinado, como filas y columnas. Las hojas de cál-
+culo y las bases de datos relacionales son dos ejemplos de software que pueden almacenar datos de modo estructurado.
+Este tipo se basa en el pensamiento estructurado que brinda un framework para resolver problemas o preguntas de manera
+logica y ordenada, de la misma manera Puedes pensar en los datos estructurados del mismo modo. Con un framework para los
+datos, los datos son fácilmente rastreables y están más preparados para el análisis.
