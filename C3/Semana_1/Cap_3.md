@@ -87,3 +87,25 @@ Los objetivos de la transformación de datos pueden ser:
     - Verificar que  los datos sean compatibles y estén juntos.
 
 ## transformación de datos: organización de datos (largo a ancho)
+
+Para facilitar la creación de gráficos, también puede ser necesario transformar los datos en formato largo en datos en
+formato ancho. Considera el siguiente ejemplo de transformación de los precios de las acciones (recogidos como datos en
+formato largo) a datos en formato ancho.
+
+Los datos en formato largo son datos en los que cada fila contiene un único punto de datos para un elemento concreto.
+En el ejemplo de datos en formato largo que aparece a continuación, se han recogido los precios individuales de las
+acciones (puntos de datos) de Apple (AAPL), Amazon (AMZN) y Google (GOOGL) (elementos concretos) en las fechas indicadas.
+
+![Alt text](image-12.png)
+
+Los datos en formato ancho son datos en los que cada fila contiene múltiples puntos de datos para los elementos particu-
+lares identificados en las columnas.
+
+![Alt text](image-13.png)
+
+Con los datos transformados en datos en formato ancho, puedes crear un gráfico en el que se compara la evolución de las
+acciones de cada empresa en el mismo periodo de tiempo.
+
+La siguiente tabla resume cuándo se prefiere cada formato:
+
+![Alt text](image-14.png)
