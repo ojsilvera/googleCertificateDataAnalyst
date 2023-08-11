@@ -21,3 +21,9 @@ El sesgo también puede ocurrir si el grupo de una muestra carece de inclusivida
 
 las personas con discapacidades tienden a ser subidentificadas, subrepresentadas o excluidas en la investigación de
 salud general.
+
+La forma en que obtienes los datos también puede sesgar un conjunto de datos. Por ejemplo, si les das a las personas poco
+tiempo para responder preguntas, sus respuestas serán apresuradas. Cuando estamos apurados, cometemos más errores, lo
+cual puede afectar la calidad de nuestros datos y crear resultados sesgados.
+
+## Datos sesgados e imparciales
