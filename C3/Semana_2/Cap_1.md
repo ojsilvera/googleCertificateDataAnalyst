@@ -27,3 +27,7 @@ tiempo para responder preguntas, sus respuestas serán apresuradas. Cuando estam
 cual puede afectar la calidad de nuestros datos y crear resultados sesgados.
 
 ## Datos sesgados e imparciales
+
+Somos influenciados por los sesgos cuando nuestras preferencias se basan en nuestras propias nociones preconcebidas o
+incluso subconscientes. Cuando los datos son sesgados, pueden orientar sistemáticamente los resultados en una determinada
+dirección que los torna poco confiables.
