@@ -31,3 +31,27 @@ cual puede afectar la calidad de nuestros datos y crear resultados sesgados.
 Somos influenciados por los sesgos cuando nuestras preferencias se basan en nuestras propias nociones preconcebidas o
 incluso subconscientes. Cuando los datos son sesgados, pueden orientar sistemáticamente los resultados en una determinada
 dirección que los torna poco confiables.
+
+Algunos tipos de sesgos que podemos encontrar son:
+
+    Sesgo de muestreo, sesgo del observador, sesgo de interpretación y sesgo de confirmación,
+
+## El sesgo del muestreo
+
+Ocurre cuando una muestra no es representativa de la población en su conjunto. Puedes evitar esto
+si te aseguras de elegir la muestra de forma aleatoria, para que todas las partes de la población tengan las mismas
+posibilidades de ser incluidas. Si no usas el muestreo aleatorio durante la recopilación de datos, terminas favoreciendo
+un resultado.
+
+Los muestreos sin sesgos generan una muestra que es representativa de la población que se mide.
+
+Otra forma de detectar si estás trabajando con datos no influenciados por sesgos es dar vida a los resultados mediante
+visualizaciones.
+
+Necesitas todas las perspectivas de la historia para evitar el sesgo del muestreo.
+
+## Sesgo del observador
+
+## Sesgo de interpretación
+
+## Sesgo de confirmación,
