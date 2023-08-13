@@ -32,3 +32,28 @@ Cuando elijas una fuente de datos, piensa tres cosas:
 
 Si obtienes datos originales de una organización confiable, y esos datos son integrales, actuales y citados, al cumplir
 con estas cararcteristicas puedes estar tranquilo tienes datos que son confiables.
+
+## Vídeo: Vídeo¿Qué son los datos incorrectos?
+
+No se puede confiar en los datos incorrectos porque son imprecisos, incompletos o sesgados. Podrían ser datos con se-
+lección de muestra sesgada porque no refleja la población total. O podrían ser visualizaciones de datos y gráficos que
+son simplemente engañosos.
+
+No es Original. Si no puedes ubicar la fuente de datos original y solo confías en información de segundas fuentes o de
+terceros, esto indica que necesitarás tomar recaudos extra para interpretar tus datos.
+
+No son integrales, las fuentes de datos incorrectos carecen de la información necesaria para responder una pregunta o
+encontrar una solución. Y aún peor, pueden contener también errores humanos.
+
+Las fuentes de datos incorrectos están desactualizadas y son irrelevantes. Muchas fuentes respetadas actualizan sus datos
+habitualmente y esto nos da la seguridad de que es la información disponible más actualizada.
+
+Si tu fuente no ha sido citada o verificada, es peligrosa.
+
+En resumen, los datos correctos deben ser datos originales, integrales, actuales y citados provenientes de una organización
+confiable. ¡Deben “ROCCCear”! De lo contrato, son datos incorrectos.
+
+## Fuentes para obtener datos correctos
+
+hay que limitarse a los conjuntos de datos públicos, documentos académicos, datos financieros y de organismos guberna-
+mentales, verificados.
