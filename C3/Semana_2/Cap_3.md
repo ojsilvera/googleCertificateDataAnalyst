@@ -56,4 +56,6 @@ esas actividades y deben darte la oportunidad de optar por no participar.
 
 ### Privacidad
 
+La privacidad es personal. Cada uno puede definir a la privacidad a su manera, y todos tenemos derecho a ella.
+
 ## Apertura
