@@ -52,6 +52,21 @@ Necesitas todas las perspectivas de la historia para evitar el sesgo del muestre
 
 ## Sesgo del observador
 
+tambien cnocido como *sesgo del investigador o sesgo de investigación*, es la tendencia de distintas personas a obser-
+var las cosas de forma diferente. Los científicos usan mucho las observaciones en su trabajo, como cuando observan una
+bacteria en el microscopio para recabar datos. Aunque dos científicos que miren en el mismo microscopio podrían ver cosas
+diferentes, eso es sesgo del observador.
+
 ## Sesgo de interpretación
 
-## Sesgo de confirmación,
+La tendencia a interpretar siempre las situaciones ambiguas de manera positiva o negativa. El sesgo de interpretación
+puede hacer que dos personas vean o escuchen lo mismo de manera diferente, y lo interpreten de distintas maneras, porque
+provienen de entornos diferentes, con experiencias distintas.
+
+## Sesgo de confirmación
+
+El sesgo de confirmación es la tendencia a buscar o interpretar la información de una manera que confirma las creencias
+preexistentes.
+
+los diferentes sesgos, sesgo del muestreo, sesgo del observador, sesgo de interpretación y sesgo de confirmación son todos
+únicos, pero tienen algo en común. Cada uno de ellos afecta la forma en que recopilamos y damos sentido a los datos.
