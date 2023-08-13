@@ -38,10 +38,9 @@ Algunos tipos de sesgos que podemos encontrar son:
 
 ## El sesgo del muestreo
 
-Ocurre cuando una muestra no es representativa de la población en su conjunto. Puedes evitar esto
-si te aseguras de elegir la muestra de forma aleatoria, para que todas las partes de la población tengan las mismas
-posibilidades de ser incluidas. Si no usas el muestreo aleatorio durante la recopilación de datos, terminas favoreciendo
-un resultado.
+Ocurre cuando una muestra no es representativa de la población en su conjunto. Puedes evitar esto si te aseguras de
+elegir la muestra de forma aleatoria, para que todas las partes de la población tengan las mismas posibilidades de ser
+incluidas. Si no usas el muestreo aleatorio durante la recopilación de datos, terminas favoreciendo un resultado.
 
 Los muestreos sin sesgos generan una muestra que es representativa de la población que se mide.
 
