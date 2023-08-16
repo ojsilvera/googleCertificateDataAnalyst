@@ -56,6 +56,17 @@ esas actividades y deben darte la oportunidad de optar por no participar.
 
 ### Privacidad
 
-La privacidad es personal. Cada uno puede definir a la privacidad a su manera, y todos tenemos derecho a ella.
+La privacidad es personal. Cada uno puede definir a la privacidad a su manera, y todos tenemos derecho a ella. Cuando
+hablamos de datos, privacidad significa preservar la información y la actividad del sujeto de datos, cada vez que se
+realiza una transacción con los datos. Esto a veces se llama privacidad de la información o protección de datos. Todo
+gira en torno al acceso, uso y recopilación de datos. También incluye el derecho legal de una persona sobre sus datos.
+
+para el individuo la pricacidad en el sujeto de datos significar:
+
+      - Encontrase libre de accesos no autorizados a nuestros datos privados.
+      - Encontrase exentos del uso inapropiado de nuestros datos.
+      - tener el derecho a inspeccionar, actualizar o corregir nuestros datos.
+      - la posibilidad de otorgar el consentimiento para que usen nuestros datos.
+      - tener el derecho legal para acceder a nuestros datos.
 
 ## Apertura
