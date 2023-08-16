@@ -103,6 +103,10 @@ Los datos médicos y financieros son dos de los tipos de datos más sensibles. E
 de anonimización de datos, ya que hablamos de informacion sencible, los datos en estas dos industrias suelen someterse a
 *desidentificación*, que es un proceso utilizado para eliminar toda la información de identificación personal de los datos.
 
+Información de identificación personal (PII) son datos que pueden identificar razonablemente a una persona y dar a
+conocer información sobre ella. Es importante mantener estos datos seguros. PII puede incluir la dirección de una persona,
+información de tarjetas de crédito, número de seguro social, registros médicos y mucho más.
+
 La anonimización de datos se utiliza en casi todas las industrias, aqui una lista de datos que comunmente son anonimi-
 zados:
 
@@ -119,21 +123,25 @@ zados:
 ## Apertura
 
 Cuando nos referimos a los datos, apertura significa el libre acceso, uso e intercambio de los datos. tambien podemos
-llamar a esto como *datos abiertos*, atmebien  debemos ser transparentes, respetar la privacidad, y asegurarnos de tener
-el consentimiento para los datos que son propiedad de otros.
+llamar a esto como *datos abiertos*, tambien  debemos ser transparentes, respetar la privacidad, y asegurarnos de tener
+el consentimiento para el uso de los datos que son propiedad de otros.
 
-Cuando nos referimos a los datos abiertos significa que podemos acceder, usar y compartir esos datos si cumplen estos
+### Los datos abiertos
+
+En el análisis computacional de datos, los datos abiertos forman parte de la ética de datos, que significa usar los
+datos de manera ética. Apertura se refiere al libre acceso, uso e intercambio de los datos, por lo tanto cuando nos
+nos referimos a los datos abiertos significa que podemos acceder, usar y compartir esos datos si cumplen estos
 altos estándares, dichos estándares comprenden:
 
-- La disponibilidad y al acceso, esto quiere decir que Los datos abierto deben estar disponibles en su totalidad, mediante
-la descarga en Internet, en un formato cómodo y modificable, de preferencia.
+    - La disponibilidad y acceso, esto quiere decir que Los datos abierto deben estar disponibles en su totalidad, mediante
+    la descarga en Internet, en un formato cómodo y modificable, de preferencia.
 
-- La reutilización y la redistribución. deben suministrarse conforme a términos que permitan la reutilización y la redis-
-tribución, incluso la posibilidad de utilizarlos con otros conjuntos de datos.
+    - La reutilización y la redistribución. deben suministrarse conforme a términos que permitan la reutilización y la redis-
+    tribución, incluso la posibilidad de utilizarlos con otros conjuntos de datos.
 
-- la participación universal. Todos deben poder usar, reutilizar y redistribuir los datos. No debería haber ninguna dis-
-criminación por áreas, personas o grupos. Nadie puede establecer restricciones en los datos,ejemplo de seria hacer que solo
-estén disponibles en una industria en particular.
+    - la participación universal. Todos deben poder usar, reutilizar y redistribuir los datos. No debería haber ninguna dis-
+    criminación por áreas, personas o grupos. Nadie puede establecer restricciones en los datos,ejemplo de seria hacer que solo
+    estén disponibles en una industria en particular.
 
 Entre los  beneficios más importantes que ofrecen los datos abiertos es la posibilidad de usar bases de datos creíbles
 de manera más generalizada. Lo más importante es que todos esos datos correctos se pueden aprovechar, compartir y com-
@@ -142,3 +150,26 @@ binar con otros datos.
 Pero no estan excentos de desafíos, siendo uno de los principales la necesidad de una gran cantidad de recursos para
 hacer el cambio tecnológico hacia los datos abiertos. La interoperabilidad es clave para el éxito de los datos abiertos.
 *La interoperabilidad* es la capacidad de los sistemas y los servicios de datos para conectar y compartir datos.
+
+## Uso correcto de los datos
+
+Para evaluar tu conjunto de datos a fin de garantizar que lo estás observando a través de varias lentes éticas, las siguientes
+son algunas pautas que puedes seguir para obtener la garantia que se necesita:
+
+    - La autorreflexión y la comprensión de lo que estás haciendo y el impacto que causa. El mejor modo de cuestionar
+      eso consiste en preguntar quiénes somos. Lo que hacemos no es para nosotros, el objetivo principal es que ayudará
+      a mejorar este producto o que contribuirá con información a la toma de decisiones.
+      
+    - Pensar en aquellos que están representados en este conjunto de datos y aquellos que no están representados en este
+      conjunto de datos.
+
+    - En sintesis cuestionar la integridad, la calidad, la representación dentro de ese conjunto de datos.
+    
+    - No perder de vista los  daños y riesgos asociados con el trabajo que estás haciendo.
+
+    - Entender el proceso de consentimiento.
+
+Todo lo que importa es la utilización responsable del conjunto de datos. Como analista de datos, estás parado en la
+intersección entre la gente que tratará de beneficiarse de la tecnología en desarrollo y esos en tu organización que
+están tratando de tomar decisiones mejor informadas respecto de si avanzarán o no con la produccionización de la tecno-
+logía.
