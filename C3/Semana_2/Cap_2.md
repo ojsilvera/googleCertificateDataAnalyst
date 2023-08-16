@@ -12,7 +12,7 @@ Para considerar uns fuente de datos como correcta podemos aplicar las siguientes
 estos datos puedes confiar en que obtendrás información precisa, completa y objetiva que ha sido verificada, probada y
 es apta para usar.
 
-“O” de “Original”. Es muy probable que descubras datos a través de una segunda fuente o una fuente de terceros. Para
+“O” de “Original” (original). Es muy probable que descubras datos a través de una segunda fuente o una fuente de terceros. Para
 corroborar que estás manejando datos correctos, asegúrate de validarlos con la fuente original
 
 “C” de “Comprehensive” (integral). Las mejores fuentes de datos contienen toda la información crítica que se necesita
