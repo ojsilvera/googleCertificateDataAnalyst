@@ -69,4 +69,53 @@ para el individuo la pricacidad en el sujeto de datos significar:
       - la posibilidad de otorgar el consentimiento para que usen nuestros datos.
       - tener el derecho legal para acceder a nuestros datos.
 
+Para una compañia significa:
+
+      - Implementar medidas de privacidad para proteger los datos de las personas.
+
+La importancia de la privacidad de los datos ha sido reconocida por los gobiernos de todo el mundo, y han comenzado a
+crear legislación para la protección de datos que ayude a proteger a las personas y a sus datos.
+
+Poder confiar tus datos a las empresas es importante. Es lo que hace que las personas quieran usar los productos de una
+empresa, compartir su información y demás. La confianza es realmente una gran responsabilidad que no puede tomarse a la
+ligera. El último aspecto relacionado con la ética de datos es uno que se discute constantemente. La idea de la apertura,
+el libre acceso, uso e intercambio de los datos.
+
+### Anonimización de datos
+
+Información de identificación personal, o PII, es la información que se puede usar por sí misma o con otros datos para
+rastrear la identidad de una persona.
+
+*La anonimización de datos* es el proceso de proteger los datos privados o confidenciales de las personas eliminando esa
+clase de información.
+
+La anonimización de datos incluye-dejar en blanco, ejecutar el algoritmo hash o enmascarar la información personal,
+mediante el uso de códigos de longitud fija para representar columnas de datos u ocultar datos con valores alterados.
+
+Los nalistas de datos en Las organizaciones tienen la responsabilidad de proteger los datos y la información personal que
+pudieran contener los datos. Como analista de datos, se podría esperar que comprendieras qué datos deben anonimizarse. aunque
+se espere lo anterior no serás responsable de la anonimización propiamente dicha. por el contraio si trabajas con una copia
+de los datos con fines de prueba o desarrollo, se te podría exigir que anonimices los datos antes de trabajar con ellos.
+
+#### Que datos deben anonimizarce
+
+Los datos médicos y financieros son dos de los tipos de datos más sensibles. Estas industrias dependen mucho de las técnicas
+de anonimización de datos, ya que hablamos de informacion sencible, los datos en estas dos industrias suelen someterse a
+*desidentificación*, que es un proceso utilizado para eliminar toda la información de identificación personal de los datos.
+
+La anonimización de datos se utiliza en casi todas las industrias, aqui una lista de datos que comunmente son anonimi-
+zados:
+
+    - Números telefónicos.
+    - Nombres.
+    - Patentes de vehículos y licencias de conducir.
+    - Números de seguro social.
+    - Direcciones IP.
+    - Registros médicos.
+    - Direcciones de correo electrónico.
+    - Fotografías.
+    - Números de cuentas.
+
+### El uso ético de los datos
+
 ## Apertura
