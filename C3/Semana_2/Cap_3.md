@@ -37,9 +37,9 @@ resultado es justo y objetivo, y plantear posibles inquietudes.
 Es un derecho de la persona conocer los detalles explícitos sobre cómo y por qué se usarán sus datos antes de aceptar
 proporcionarlos. Deben conocer las respuestas a preguntas como:
 
-¿Por qué se recopilan los datos?
-¿Cómo se usarán?
-¿Durante cuánto tiempo se almacenarán?
+    ¿Por qué se recopilan los datos?
+    ¿Cómo se usarán?
+    ¿Durante cuánto tiempo se almacenarán?
 
 La mejor forma de otorgar el consentimiento probablemente sea una conversación entre la persona que proporciona los
 datos y la persona que los solicita. Pero con tanta actividad que sucede en línea estos días, el consentimiento solo se
@@ -116,6 +116,29 @@ zados:
     - Fotografías.
     - Números de cuentas.
 
-### El uso ético de los datos
-
 ## Apertura
+
+Cuando nos referimos a los datos, apertura significa el libre acceso, uso e intercambio de los datos. tambien podemos
+llamar a esto como *datos abiertos*, atmebien  debemos ser transparentes, respetar la privacidad, y asegurarnos de tener
+el consentimiento para los datos que son propiedad de otros.
+
+Cuando nos referimos a los datos abiertos significa que podemos acceder, usar y compartir esos datos si cumplen estos
+altos estándares, dichos estándares comprenden:
+
+- La disponibilidad y al acceso, esto quiere decir que Los datos abierto deben estar disponibles en su totalidad, mediante
+la descarga en Internet, en un formato cómodo y modificable, de preferencia.
+
+- La reutilización y la redistribución. deben suministrarse conforme a términos que permitan la reutilización y la redis-
+tribución, incluso la posibilidad de utilizarlos con otros conjuntos de datos.
+
+- la participación universal. Todos deben poder usar, reutilizar y redistribuir los datos. No debería haber ninguna dis-
+criminación por áreas, personas o grupos. Nadie puede establecer restricciones en los datos,ejemplo de seria hacer que solo
+estén disponibles en una industria en particular.
+
+Entre los  beneficios más importantes que ofrecen los datos abiertos es la posibilidad de usar bases de datos creíbles
+de manera más generalizada. Lo más importante es que todos esos datos correctos se pueden aprovechar, compartir y com-
+binar con otros datos.
+
+Pero no estan excentos de desafíos, siendo uno de los principales la necesidad de una gran cantidad de recursos para
+hacer el cambio tecnológico hacia los datos abiertos. La interoperabilidad es clave para el éxito de los datos abiertos.
+*La interoperabilidad* es la capacidad de los sistemas y los servicios de datos para conectar y compartir datos.
