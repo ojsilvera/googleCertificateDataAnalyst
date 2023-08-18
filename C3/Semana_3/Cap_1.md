@@ -20,3 +20,5 @@ Es posible tomar datos de una base de datos u otra fuente y agregarlos a una hoj
 datos directamente o utilizando SQL para generar la solicitud, esto es importante en la fase de preparacion del proceso
 de analisis de datos, permite identificar cuales datos son utiles, correctos y que posibiliten la solucion de un problema
 o dar respuesta a una pregunta en la organizacion.
+
+## Características de las bases de datos
