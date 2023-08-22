@@ -127,4 +127,17 @@ fotografía como un correo electrónico, en general cualquier archivo digital co
 Es comprencible entender que los metadatos son datos sobre datos. En el análisis computacional de datos, los metadatos
 ayudan al analista de datos a interpretar el contenido de los datos de una base de datos.
 
-hay tres tipos comunes de metadatos con los que te vas a cruzar: descriptivos, estructurales y administrativos.
+hay tres tipos comunes de metadatos: descriptivos, estructurales y administrativos.
+
+### Los metadatos descriptivos
+
+Son metadatos que describen una pieza de datos y pueden utilizarse para identificarla más adelante.
+
+### Los metadatos estructurales
+
+Son los metadatos que indican cómo se organiza un dato y si forma parte de una o más
+recopilaciones de datos.  los metadatos estructurales también hacen un seguimiento de la relación entre dos cosas.
+
+### Los metadatos administrativos
+
+Son metadatos que indican la fuente técnica de un recurso digital.
