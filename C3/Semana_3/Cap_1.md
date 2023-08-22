@@ -1,5 +1,24 @@
 # Trabajar con bases de datos
 
+## Recomendaciones antes de iniciar un analisis
+
+Antes de comenzar un análisis, es importante examinar tus datos para determinar si contienen la información específica
+que necesitas para responder las preguntas de tus interesados.
+
+En cualquier conjunto de datos puede darse el caso de que:
+
+    - Los datos no estén allí (tienes datos sobre sándwiches, pero necesitas datos sobre pizza).
+
+    - Los datos no sean suficientes (tienes datos sobre pizza desde el 1 hasta el 7 de junio, pero necesitas
+      datos de todo el mes de junio).
+
+    - Los datos sean incorrectos (los datos sobre pizza cotizan una porción a $250, lo que te hace dudar de la validez
+      del conjunto de datos).
+
+Examinar el conjunto de datos te ayudará a identificar las preguntas que puedes responder y qué datos aún te faltan.
+Podrás reponer esos datos de una fuente externa o, al menos, recomendarles a tus interesados que utilicen otra fuente de
+datos.
+
 ## Todo sobre las bases de datos
 
 Una base de datos es un conjunto de datos almacenados en un sistema informático, pero el almacenamiento es solo el
@@ -98,3 +117,14 @@ sulta estructurado (SQL) es un tipo de lenguaje de consulta que permite a los an
 de datos. De este modo, un analista de datos usará SQL para crear una consulta con el fin de ver los datos específicos que
 quiere visualizar en un conjunto más grande. En una base de datos relacional, los analistas de datos pueden escribir
 consultas para obtener información de las tablas relacionadas.
+
+## Los metadatos
+
+Los metadatos son información que se utiliza para describir los datos que algo contiene, tamaño, fecha de creacion, fecha
+de modificacion, tipo de archivo, velocidad de transmision, informacion de geolocalizacion, etc, esto se aplican tanto a
+fotografía como un correo electrónico, en general cualquier archivo digital contiene informacion en sus metadatos.
+
+Es comprencible entender que los metadatos son datos sobre datos. En el análisis computacional de datos, los metadatos
+ayudan al analista de datos a interpretar el contenido de los datos de una base de datos.
+
+hay tres tipos comunes de metadatos con los que te vas a cruzar: descriptivos, estructurales y administrativos.
