@@ -58,7 +58,7 @@ Recuerda estos consejos para mantener tu organización cuando trabajas con archi
 ### Archivado de archivos antiguos
 
 Es útil mover proyectos antiguos a una ubicación aparte para crear un archivo y reducir el desorden, lo que podria
-aplicarse a esta seccion seria crear, dos directorios, trabajo periodo actua y peridos anteriores, lo cual podria ser
+aplicarse a esta seccion seria crear, dos directorios, trabajo periodo actual y periodos anteriores, lo cual podria ser
 el año en curtos y los años anteriores eun una ubicacion diferente, por lo cual podras acceder mas facil tanto a los
 años anteriores aunque se encuentren archivados y el año en curso que es el de trabajo actual.
 
