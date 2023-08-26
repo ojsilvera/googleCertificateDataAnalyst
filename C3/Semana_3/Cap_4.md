@@ -47,3 +47,20 @@ la palabra 'US'.
 
 La segunda situación es cuando tu cadena tiene comillas dentro. Imagina que tienes una columna de comidas favoritas en una
 tabla denominada FavoriteFoods y otra columna que corresponde a cada amigo. Organizar y proteger tus datos
+
+![Alt text](image-1.png)
+
+Puedes ver que la comida favorita de Rachel contiene un apóstrofo. Si usaras comillas simples en una cláusula WHERE para
+encontrar al amigo que tiene esta comida favorita, el resultado sería:
+
+![Alt text](image-2.png)
+
+Esto no funcionará. Si ejecutas esta consulta, obtendrás un error. Esto sucede porque SQL reconoce una cadena de texto
+como algo que comienza con una comilla 'y termina con otra comilla '. Así, en la consulta errónea de arriba, SQL piensa
+que la comida favorita (Favorite_food) que estás buscando es 'Shepherd'. Solo 'Shepherd' porque el apóstrofo de Shepherd’s
+finaliza la cadena.
+
+En términos generales, este debería ser el único momento en el que deberías utilizar comillas dobles en lugar de comillas
+simples. Entonces, tu consulta debería verse así:
+
+![Alt text](image-3.png)
