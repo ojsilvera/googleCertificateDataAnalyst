@@ -29,6 +29,8 @@ Convenciones para la nomenclatura de archivos:
       del proyecto y cualquier otra cosa que te ayude a identificar (y a usar) rápidamente el archivo para el propósito
       adecuado.
 
+    - usa nombres breves y agradables para tus archivos.
+
     - Incluye la fecha y el número de versión en los nombres de los archivos; los formatos comunes son AAAAMMDD para las
       fechas y v## para las versiones (o revisiones).
 
