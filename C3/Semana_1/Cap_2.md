@@ -21,7 +21,9 @@ Los datos cuantitativos los subdividimos en *datos discretos y continuoss*:
 Son colocados normalmente listados como un nombre, una categoría o una descripción.
 
     Los datos nominales: son un tipo de datos cualitativos que se categorizan sin ningún orden establecido. En otras
-    palabras, estos datos no tienen una secuencia.
+    palabras, estos datos no tienen una secuencia, tambien s se utilizan para etiquetar variables sin ningún valor cuan-
+    titativo. Los ejemplos comunes incluyen hombre/mujer (aunque algo anticuado), color de cabello, nacionalidades,
+    nombres de personas, etc.
     
     Los datos ordinales: son un conjunto de datos cualitativos con un orden o escala preestablecidos.
 
