@@ -57,3 +57,14 @@ público, Google BigQuery).
 [https://www.kaggle.com/datasets/bigquery/google-analytics-sample]
 
 Otros: [https://www.kaggle.com/datasets]
+
+## Cómo determinar el mejor tamaño de la muestra
+
+Existen calculadoras disponibles en línea que pueden ayudarte a calcular el tamaño de la muestra. Debes ingresar el nivel
+de confianza, el tamaño de la población y el margen de error.
+
+*El nivel de confianza* es la probabilidad de que tu muestra refleje de manera precisa la mayor parte de la población. Se
+considera como si se tratase de la confianza en cualquier otra cosa. Es la intensidad que sientes y te permite saber si
+puedes confiar en algo o en alguien. Tener el 99% de confianza es lo ideal. Pero la mayoría de las industrias esperan como
+mínimo tener un 90 o 95% de nivel de confianza. Las industrias como la farmacéutica generalmente quieren un nivel de con-
+fianza que sea lo más alto posible cuando utilizan un tamaño de muestra.
