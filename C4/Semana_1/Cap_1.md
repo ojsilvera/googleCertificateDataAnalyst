@@ -42,3 +42,15 @@ Entre las buenas practicas para garantizar la integridad de los datos por parte 
 ![Alt text](image.png)
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
+
+Si los datos no se limpiaron adecuadamente, no podrás usarlos. Deberás esperar hasta que se realice una limpieza exhaustiva.
+
+## Equilibrio entre los objetivos y la integridad de datos
+
+Es importante comprobar que los datos que uses estén alineados con el objetivo comercial, Esto agrega otra capa al man-
+tenimiento de la integridad de tus datos porque los datos que estás usando podrían tener limitaciones con las que deberías
+lidiar. El proceso de hacer coincidir los datos con los objetivos comerciales puede ser bastante directo.
+
+- no hay suficientes datos para completar un análisis preciso.
+- datos duplicados
+- limpieza adecuada de los datos
