@@ -32,3 +32,28 @@ Consideraciones a tener para obtener resultados estadisticamente significativos:
 nota: Los efectos mensurables serían  Es aquello que se puede medir. Es decir, que se define como aquello que es posible
 calcular, medir o determinar mediante una unidad. Comparar una cantidad con su unidad correspondiente para saber cuantas
 veces la unidad esta contenida en la primera.
+
+## Conjuntos de datos de practica
+
+Conjutos de datos que pueden ser utiles para practicar los procesos vistos hasta ahora:
+
+CSV: Analiza este conjunto de datos Clientes de tarjetas de crédito , que tiene información de 10,000 clientes con su
+respectiva edad, salario, estado civil, tarjeta de crédito y categoría, etc. (CC0: Dominio público, Sakshi Goyal).
+
+[https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers]
+
+JSON: Analiza este conjunto de datos de JSON sobre Vídeos de YouTube que son tendencia (CC0: Dominio público, Mitchell J).
+
+[https://www.kaggle.com/datasets/datasnaek/youtube-new]
+
+SQLite: Analiza este conjunto de datos de SQLite con datos de hace 24 años sobre Incendios forestales en los Estados
+Unidos (CC0: Dominio público, Rachael Tatman).
+
+[https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires]
+
+BigQuery: Analiza este conjunto de datos de Google Analytics 360 de la Tienda de Merchandising de Google (CC0 Dominio
+público, Google BigQuery).
+
+[https://www.kaggle.com/datasets/bigquery/google-analytics-sample]
+
+Otros: [https://www.kaggle.com/datasets]
