@@ -16,6 +16,8 @@ puedan estar comprometidos cada vez que se replican, transfieren o manipulan de 
 en distintos lugares, existe la posibilidad de que tus datos no estén sincronizados. Esos datos carecen de integridad porque
 distintas personas pueden no utilizar los mismos datos para sus conclusiones, lo cual puede causar inconsistencias.
 
+Dos versiones de un mismo conjunto de datos pueden provocar resultados inconsistentes.
+
 *La transferencia de datos*, que es el proceso de copiar datos desde un dispositivo de almacenamiento a la memoria o de
 una computadora a otra. Si tu transferencia de datos se interrumpe, podrías terminar con un conjunto de datos incompletos,
 lo cual podría no ser útil para tus necesidades.
@@ -33,3 +35,10 @@ datos.
 Entre las buenas practicas para garantizar la integridad de los datos por parte de los analistas de datos, estan:
 
 - Comprobar dos veces que tus datos están completos y son válidos antes de analizarlos.
+- Establecer un  formato único.
+
+## Referencias: Restricciones de datos y ejemplos
+
+![Alt text](image.png)
+![Alt text](image-1.png)
+![Alt text](image-2.png)
