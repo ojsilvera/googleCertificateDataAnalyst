@@ -68,3 +68,14 @@ considera como si se tratase de la confianza en cualquier otra cosa. Es la inten
 puedes confiar en algo o en alguien. Tener el 99% de confianza es lo ideal. Pero la mayoría de las industrias esperan como
 mínimo tener un 90 o 95% de nivel de confianza. Las industrias como la farmacéutica generalmente quieren un nivel de con-
 fianza que sea lo más alto posible cuando utilizan un tamaño de muestra.
+
+*El margen de error* de tu estudio. Indica si los resultados del tamaño de tu muestra se aproximan o no a lo que serían tus
+resultados si usaras toda la población que está representada en el tamaño de tu muestra.
+
+*Formula del calculo de la muestra de poblacion y su correccion*:
+
+![Alt text](tamano-muestral_Figura1.jpg)
+
+calculadora:
+
+        [https://www.surveymonkey.com/mp/sample-size-calculator/]
