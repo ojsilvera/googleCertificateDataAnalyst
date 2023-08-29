@@ -54,3 +54,18 @@ lidiar. El proceso de hacer coincidir los datos con los objetivos comerciales pu
 - no hay suficientes datos para completar un análisis preciso.
 - datos duplicados
 - limpieza adecuada de los datos
+
+## Objetivos y datos alineados
+
+Cuando los datos están alineados con los objetivos de negocios, es posible  obtener información muy valiosa y tomar de-
+cisiones precisas. Una buena alineación significa que los datos son relevantes y pueden ayudarte a resolver un problema
+corporativo o a decidir qué acción tomar para lograr un objetivo comercial específico.
+
+    - Limpieza de datos + alineación al objetivo de negocio = conclusiones precisas
+
+Nota:
+
+- VLOOKUP -> es la función de una hoja de cálculo que busca cierto valor en una columna y arroja la información rela-
+  cionada.
+
+- DATEDIF -> Esta función calcula el número de días entre dos fechas.
