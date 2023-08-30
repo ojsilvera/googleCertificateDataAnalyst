@@ -17,7 +17,7 @@ de combinar dos o más conjuntos de datos en un único conjunto de datos. Esto p
 combinan dos conjuntos de datos totalmente distintos, está casi garantizado que la información estará mal alineada y no
 será uniforme.
 
-Al fusionar conjuntos de datos,formular algunas preguntas clave ayuda a  evitar caer en la redundancia y confirmar que los
+Al fusionar conjuntos de datos, formular algunas preguntas clave ayuda a evitar caer en la redundancia y confirmar que los
 conjuntos de datos son compatibles. En el análisis computacional de datos, la compatibilidad describe si dos o más conjuntos
 de datos pueden trabajar juntos o no. alguna preguntas podrian ser:
 
