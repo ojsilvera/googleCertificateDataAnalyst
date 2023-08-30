@@ -36,8 +36,6 @@ muchas herramientas eficientes que el analista de datos utiliza todo el tiempo, 
 
   Dividir el texto en columnas también es útil para corregir instancias en que los números se guardaron como texto.
 
-  *CONCATENATE* es una función que une múltiples cadenas de texto para formar una sola.
-
 ## Optimización del proceso de limpieza de datos
 
 *las funciones*: una función es un conjunto de instrucciones que realizan un cálculo específico usando los datos de una
@@ -48,7 +46,7 @@ hoja de cálculo,e stas pueden optimizar los esfuerzos para garantizar la integr
 *COUNTIF* es la función que devuelve un número de celdas que coinciden con un valor específico. Básicamente, cuenta el
 número de veces que aparece un valor en un rango de celdas.
 
-Sintaxys: =COUNTIF(RANGO_DE_BUSQUEDA;"OPERCION_DE_COMPARACION_Y_VALOR_HA_SER_CONTADO")
+Sintaxys: =COUNTIF(RANGO_DE_BUSQUEDA;"OPERACION_DE_COMPARACION_Y_VALOR_HA_SER_CONTADO")
 
 EJEMPLO: =COUNTIF(I2:I72;"<100"), contar el nuemero de ocurrencias para numeros inferiores a 100, en el rango I2:I72
 
@@ -62,4 +60,31 @@ Usar LEFT o RIGHT para obtener el conjunto específico de caracteres o números 
 
 *RIGHT* es la función que te brinda un cierto número de caracteres a la derecha de una cadena de texto.
 
+Sintaxis =RIGHT(RABGO,#_CARACTERES).
+
 *LEFT* es la función que te brinda un cierto número de caracteres a la izquierda de una cadena de texto.
+
+Sintaxis =LEFT(RABGO,#_CARACTERES).
+
+*MID* es la función que te brinda un segmento desde la mitad de una cadena de texto.
+
+Sintaxis =MID(cadena, carácter_inicio, número_caracteres)
+
+*CONCATENATE* es una función que une múltiples cadenas de texto para formar una sola.
+
+Sintaxis =CONCATENAR(cadena1, [cadena2, …])
+
+*TRIM* es una función que quita los espacios de más al principio, al final o repetidos en los datos.
+
+Sintaxis =ESPACIOS(RANGO)
+
+## Automatización del flujo de trabajo
+
+La automatización de los flujos de trabajo y puede ayudar a trabajar más rápido y de manera más eficiente. Básicamente, la
+automatización del flujo de trabajo es el proceso de automatizar las partes de tu trabajo.
+
+### ¿Qué se puede automatizar?
+
+![Alt text](image-12.png)
+
+## Diferentes perspectivas de los datos
