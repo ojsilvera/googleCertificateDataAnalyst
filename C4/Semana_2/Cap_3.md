@@ -19,10 +19,22 @@ muchas herramientas eficientes que el analista de datos utiliza todo el tiempo, 
 - Formato de fechas: genera un formato uniforme entre las fechas que comforman el set, permitiendonos estblacer analisis
   mas uniformes e inteligibles.
 
-- Ajuste de cadenas y subcadenas de texto: En análisis computacional de datos, una cadena de texto es un grupo de carac-
-  teres dentro de una celda, más frecuentemente compuesto por letras. Una característica importante de una cadena de
-  texto es su longitud, que es el número de caracteres en ella.
+- Ajuste de cadenas y subcadenas de texto a traves de División de texto en columnas:: En análisis computacional de datos,
+  una cadena de texto es un grupo de carac teres dentro de una celda, más frecuentemente compuesto por letras. Una carac-
+  terística importante de una cadena de   texto es su longitud, que es el número de caracteres en ella.
   
   Una subcadena es un subconjunto más pequeño de una cadena de texto.
 
-- División de texto en columnas.
+  *SPLIT:* es una herramienta que divide una cadena de texto en un carácter especificado y ubica cada fragmento en una
+  celda nueva y separada. SPLIT es útil cuando tienes más de un dato en una celda y quieres separarlos. Puede ser el nombre
+  y apellido de una persona juntos en la lista o puede ser una celda que contiene la ciudad, el estado, el país y el
+  código postal de una determinada persona, pero que, en realidad, quieres que cada uno de esos datos esté en una columna
+  independiente.
+
+  delimitador: caracter que separa los datos dentro de una cadena de texto, pueden ser, espacio en blanco, comas, millas
+  simples, tabulaciones, guion bajo, guiones al medio, entre otros
+
+  Dividir el texto en columnas también es útil para corregir instancias en que los números se guardaron como texto.
+
+  *CONCATENATE* es una función que une múltiples cadenas de texto para formar una sola.
+  
