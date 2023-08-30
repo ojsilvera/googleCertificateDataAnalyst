@@ -51,7 +51,7 @@ obtener los mismos resultados usando un tamaño de muestra en lugar de intentar 
 Cuando utilizas únicamente una muestra pequeña de una población, puede llevar a la incertidumbre. No puedes estar el 100%
 seguro de que tus estadísticas son una representación precisa y completa de la población. Esto lleva a un sesgo del muestreo.
 
-*El sesgo del muestreo* ocurre cuando una muestra no es representativa de la población en su conjunto. Esto significa que
+*El sesgo del muestreo* ocurre cuando una muestra no es representativa de toda la población en su conjunto. Esto significa que
 algunos miembros de la población están siendo sobre o subrepresentados.
 
 Lo anterior puede ser mitigado al Utilizar un*muestreo aleatorio*puede ayudar a resolver algunos de esos problemas rela-
