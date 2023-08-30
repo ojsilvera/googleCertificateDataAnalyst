@@ -1,5 +1,27 @@
 # Limpiar los datos es imprescindible
 
+## Principios de integridad de datos
+
+![Alt text](image-6.png)
+
+![Alt text](image-7.png)
+
+### validez
+
+![Alt text](image-11.png)
+
+### Exactitud
+
+![Alt text](image-10.png)
+
+### Exhaustividad
+
+![Alt text](image-9.png)
+
+### Coherencia
+
+![Alt text](image-8.png)
+
 ## Los datos sucios
 
 Los datos sucios son datos incompletos, incorrectos o irrelevantes para el problema que tratas de resolver. Cuando trabajas
