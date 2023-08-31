@@ -155,3 +155,56 @@ daría una ayuda visual que colabora con la identificación rápida si algo apar
 
 De modo que seleccionemos la columna con nuestros precios. Luego, iremos a Insertar y elegiremos Gráfico. Elige un gráfico
 de columnas como tipo de gráfico. Por lo tanto, es algo bueno que detectemos estos errores mientras limpiamos los datos.
+
+## Otras tecnicas de limpieza
+
+En la fusion de direntes set de datos antes de cualquier cosa debemos definir el formato de salida que queremos para los
+datos una vez que lleguen a destino.
+
+*El mapeo de datos* es el proceso de hacer coincidir campos entre una base de datos y otra. Esto es muy importante para
+el éxito en la migración de datos, la integración de los datos y muchas otras actividades de administración de datos. Di-
+ferentes sistemas almacenan datos de diferentes formas.
+
+El mapeo de datos nos ayuda a notar ese tipo de diferencias de modo que sepamos que cuando los datos se trasladen y comb-
+inen serán compatibles( la compatibilidad describe el nivel en que dos o más conjuntos de datos pueden trabajar juntos).
+
+El primer paso para el mapeo de datos consiste en identificar qué datos deben moverse. Esto incluye las tablas y los campos
+dentro de ellas. Dependiendo del esquema(*un esquema es una manera de describir cómo se organiza algo*) y el número de cla-
+ves primarias y externas(*Una clave primaria hace referencia a una columna en la que cada valor es único y una clave externa*
+*es un campo dentro de una tabla que es la clave primaria en otra tabla*) en la fuente de datos, el mapeo de datos puede
+tornarse simple o muy complejo.
+
+### El mapeo de datos puede ser manual o automatico
+
+En el *mapeo manual de datos*, Primero, necesitamos *determinar el contenido de cada sección* para garantizar que los datos
+terminen en el lugar correcto. Este paso garantiza que cada dato se ubique en el lugar más apropiado en la fuente de datos
+fusionada.
+
+Los datos pueden no ser uniformes entre las dos sets, por lo tanto debemos *transformar los datos a un formato uniforme*.
+
+Una vez los datos son compatibles a nivel de formato entre si, debemos *transferir los datos a su destino*. Hay muchas ma-
+neras distintas de mover datos de un lugar a otro, incluyendo consultas, asistentes de importación y hasta el simple arras-
+trar y soltar.
+
+Una vez transferido los datos, resta una fase de validacion de transferencia, que es verificar que los datos cumplan en
+funcion y forma con lo requerido, para ello podemos utilizr herramientas de limpieza tales como:
+
+- validacion de datos
+- formato condicional
+- COUNTIF
+- Ordanimientos
+- Filtrados
+
+podemos utilizar preguntas para la validacion de los datos. por ejemplo:
+
+- ¿Se fusionaron todos los datos?
+- ¿Migraron correctamente los datos de cada campo o un campo elejido al azar?
+- ¿Los formatos de los datos de la hoja de cálculo fusionada son uniformes?
+
+Una vez validados los datos, podemos avanzar con la fase de analitica.
+
+*En el mapeo automatizado* utilizamos herramientas para el mapeo de datos analizarán campo por campo para mover datos de un
+lugar a otro y, luego, limpiarán, harán coincidir, inspeccionarán y validarán los datos automáticamente. También crean
+convenciones de nomenclatura uniformes para garantizar la compatibilidad cuando los datos se transfieren de una fuente a
+la otra. Al seleccionar un programa de software para mapear tus datos, querrás asegurarte de que soporte el tipo de archivo
+con el que estás trabajando, por ejemplo, Excel, SQL, Tableau y otros.
