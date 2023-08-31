@@ -146,3 +146,12 @@ El signo de dólar($) garantiza que la parte correspondiente de la referencia qu
 solo la fila o ambas al mismo tiempo.
 
 ### Realizar trazados para encontrar valores atípicos
+
+Cuando trazas datos, los colocas en un gráfico, tabla u otro formato visual que te ayude a encontrar rápidamente cómo se
+ve. Trazado es muy útil cuando estamos tratando de identificar datos sesgados y valores atípicos.
+
+Por ejemplo, si queremos asegurarnos de que el precio de cada producto es correcto, podríamos crear un gráfico. Esto nos
+daría una ayuda visual que colabora con la identificación rápida si algo aparece como un error.
+
+De modo que seleccionemos la columna con nuestros precios. Luego, iremos a Insertar y elegiremos Gráfico. Elige un gráfico
+de columnas como tipo de gráfico. Por lo tanto, es algo bueno que detectemos estos errores mientras limpiamos los datos.
