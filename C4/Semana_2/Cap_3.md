@@ -208,3 +208,10 @@ lugar a otro y, luego, limpiarán, harán coincidir, inspeccionarán y validará
 convenciones de nomenclatura uniformes para garantizar la compatibilidad cuando los datos se transfieren de una fuente a
 la otra. Al seleccionar un programa de software para mapear tus datos, querrás asegurarte de que soporte el tipo de archivo
 con el que estás trabajando, por ejemplo, Excel, SQL, Tableau y otros.
+
+## En resumen
+
+El mapeo de datos es muy importante porque hasta un solo error en la fusión de datos puede repercutir en toda la organización
+causando que el mismo error aparezca una y otra vez. Esto conduce a malos resultados. Por otro lado, el mapeo de los datos
+puede salvarte el día al brindarte una hoja de ruta clara que puedes seguir para asegurarte de que tus datos lleguen seguros
+a su destino.
