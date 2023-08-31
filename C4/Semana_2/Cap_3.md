@@ -88,3 +88,61 @@ automatización del flujo de trabajo es el proceso de automatizar las partes de 
 ![Alt text](image-12.png)
 
 ## Diferentes perspectivas de los datos
+
+Wayne Dyer dijo una vez: "Si cambias la forma en que miras las cosas las cosas que miras cambian". En el análisis compu-
+tacional de datos. No hay dos proyectos exactamente iguales. De modo que solo tiene sentido que proyectos diferentes requieran que
+nos enfoquemos de forma diferente respecto de informaciones diferentes.
+
+Algunos métodos incluyen:
+
+### Ordenar y filtrar
+
+Ordenar y filtrar datos ayuda a los analistas de datos a personalizar y organizar la información del modo que necesitan
+para un proyecto en particular. Pero esas herramientas también son muy útiles para limpiar datos.
+
+*Ordenar* implica organizar datos en un orden significativo para que sea más fácil comprenderlos, analizarlos y visualizarlos.
+
+Para la limpieza de datos, puedes utilizar la ordenación para:
+
+- Colocar elementos en orden alfabético o numérico, de modo que puedas encontrar fácilmente un dato.
+
+- Acercar entradas duplicadas para que puedas identificarlas más rápidamente.
+
+*Los filtros*, por otro lado, son muy útiles para limpiar datos cuando quieres encontrar un dato particular. filtrar sig-
+nifica mostrar datos que solo cumplen con un criterio específico mientras escondes el resto. Esto permite que veas solamente
+la información que necesitas.
+
+Al limpiar los datos, puedes utilizar un filtro para:
+
+- Solo encontrar valores por encima de un cierto número o solo valores pares o impares.
+
+- Ayudar a encontrar lo que necesitas rápidamente y separar la información buscada de todo el resto. De ese
+  modo, puedes ser más eficiente al limpiar los datos.
+
+### Tablas dinámicas
+
+Una tabla dinámica es una herramienta de resumen de datos que se usa en el procesamiento de datos.
+Las tablas dinámicas ordenan, reorganizan, agrupan, cuentan, totalizan o promedian datos guardados en una base de datos.
+En la limpieza de datos, las tablas dinámicas se utilizan para brindar una visión rápida y sin desorden de tus datos.
+También puedes elegir mirar partes específicas del conjunto de datos que necesitas para obtener una visión en forma de
+tabla dinámica.
+
+### Función VLOOKUP
+
+VLOOKUP quiere decir búsqueda vertical. Su función consiste en buscar un cierto valor en una columna para obtener
+la información correspondiente. Cuando un analista de datos busca información para un proyecto, es raro que todos los
+datos que necesita estén en el mismo lugar. En general, debes buscar en múltiples hojas o incluso en diferentes base de datos.
+
+La sintaxis de VLOOKUP es =BUSCARV(valor_búsqueda, rango_busqueda, índice_columna_devolucion, "nivel_coincidencia")
+
+ejemplo: =BUSCARV(A2,'Sheet 2'!A2:B31,2,"FALSE")
+
+A2 -> valor buscado
+'Sheet 2'!A2:B31 ->  rango de busqueda en otra hoja
+2 -> columna de respuesta una vez se encuentre el valor de busqueda, esto esta en el rango de busqueda.
+"FALSE" -> nivel de coincidencia
+
+El signo de dólar($) garantiza que la parte correspondiente de la referencia quede igual. Puedes bloquear solo la columna,
+solo la fila o ambas al mismo tiempo.
+
+### Realizar trazados para encontrar valores atípicos
