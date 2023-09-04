@@ -32,3 +32,5 @@ Crear una tabla
 Vaciar una tabla
 
     DROP TABLE IF EXIST
+
+## Limpieza de cadenas de variables con SQL
