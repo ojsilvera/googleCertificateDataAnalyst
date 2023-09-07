@@ -66,3 +66,17 @@ WHERE
 
 en la consulta anterior nos devolvera solo aquellos paises id mayor a 2 digitos y asi identificamos anomalias en los codigos
 por ejemplo.
+
+Subcadena
+
+Para obtener un numero de letras determinados de una dato, utilizamos SUBSTR() o substring, nos devolvera el numero de caracteres
+que le indiquemos que sean iguales en nuestro conjunto de datos, ejemplo, si tenemos un codigo que corresponde a Estados Unidos
+Escrito como US pero tambien como USA y no podemos actualizar la tabla para corregirlo, hacemos uso de SUBSTR() de la siguiente
+manera, SUBSTR(columna_donde_buscar, caracter, caracter) = 'caracteres_que_busco':
+
+SELECT
+    customer_id
+FROM
+    customer_data.customer_address
+WERE
+    SUBSTR(country, 1, 2) = 'US' --nos devolvera solo los id de cliente cuyo pais es US o USA
