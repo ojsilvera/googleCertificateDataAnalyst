@@ -34,3 +34,35 @@ Vaciar una tabla
     DROP TABLE IF EXIST
 
 ## Limpieza de cadenas de variables con SQL
+
+Para limpiar IDs duplicados utilizamos DISTINCT en nuestra instrucción SELECT.
+
+SELECT
+    customer_ID
+FROM
+    customer_data.customer_address
+
+La consulta anterior nos listara todos los id de clientes, aunque se encuentren duplicados para evitar esto utilizamos
+
+SELECT
+    DISTINCT customer_ID
+FROM
+    customer_data.customer_address
+
+las cadenas de texto estan conformados por letras, numeros o ambos
+
+Para trabajar con cadenas de texto en SQL utilizamos:
+
+LENGTH(LEN): trabaja con el largo que debe tener una cadena de texto para considerarse como valida, pro ejemplo para validar
+codigos que deberian tener un largo fijo podriamos hacerlo d ela siguiente manera, que nos muestre solo aquellos codigos
+que tengan mas de 2 digitos.
+
+SELECT
+    country
+FROM
+    customer_data.customer.address
+WHERE
+    LENGTH(country) > 2
+
+en la consulta anterior nos devolvera solo aquellos paises id mayor a 2 digitos y asi identificamos anomalias en los codigos
+por ejemplo.
