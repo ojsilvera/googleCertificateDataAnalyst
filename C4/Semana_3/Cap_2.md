@@ -165,6 +165,28 @@ WHERE
 Esto retornara todas las rosas, con el campos new id_color, permitiendo distinguir entre rosas blancas o amarillas y permitirnos
 tener un punto de partida para el analisis de cual prefieren mas los clientes
 
+### COALESCE
+
+Muestra valores que no son nulos en el conjunto. al tener un campo no obligatorio es probable que este campo sea nulo en
+el conjunto la mayor parte del tiempo, por ejemplo teniendo un campo primer_nombre, segundo_nombre, apellido, identificacion
+y grado, siendo segundo_nombre un campo opcional, en una tabla de estudiantes, tendriamos algunos campos nulos ya que en
+algunos casos se puede tener un solo nombre y el que se encuentre cuenta como el primer nombre, por lo tanto tendriamos
+
+SELECT
+    CONCAT(primer_nombre, segundo_nombre) AS nombre,
+    apellido,
+    identificacion,
+    grupo
+
+FROM
+    institucion_la_nube.estudientes
+
+WHERE
+    grado = '11'
+
+esta consulta arriojara un listado de estudiantes de grado 11 y colocara el primer nombre o segundo nombre de acuerdo a lo que
+encuentre, apellido, identificacion y el grupo al que pertenece el estudiante
+
 ## informacion para transformacion de cadenas
 
 ### LENGTH(LEN)
@@ -200,25 +222,3 @@ FROM
 WHERE
 
     country LIKE 'C%'
-
-### COALESCE
-
-Muestra valores que no son nulos en el conjunto. al tener un campo no obligatorio es probable que este campo sea nulo en
-el conjunto la mayor parte del tiempo, por ejemplo teniendo un campo primer_nombre, segundo_nombre, apellido, identificacion
-y grado, siendo segundo_nombre un campo opcional, en una tabla de estudiantes, tendriamos algunos campos nulos ya que en
-algunos casos se puede tener un solo nombre y el que se encuentre cuenta como el primer nombre, por lo tanto tendriamos
-
-SELECT
-    CONCAT(primer_nombre, segundo_nombre) AS nombre,
-    apellido,
-    identificacion,
-    grupo
-
-FROM
-    institucion_la_nube.estudientes
-
-WHERE
-    grado = '11'
-
-esta consulta arriojara un listado de estudiantes de grado 11 y colocara el primer nombre o segundo nombre de acuerdo a lo que
-encuentre, apellido, identificacion y el grupo al que pertenece el estudiante
