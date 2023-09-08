@@ -93,6 +93,78 @@ FROM
 WHERE
     TRIM(states) = 'OH' --TRIM(la_columna_que_buscamos_limpiar) = 'el criterio de filtrado'
 
+### CAST
+
+Convierte un tipo de dato en otro, lo cual se concoce como conversion de tipos.
+
+SELECT
+    CAST(purchase_price AS FLOAT64) AS float_price --convierte el formato tipo string de la columna purchase_price a float
+FROM
+    cars.cars_info
+
+ORDER BY
+    float_price ASC --ordenar la nueva colummna de manera ascendente
+
+Convertir DATETIME a DATE-> en el ejemplo obtenemos las ventas realizadas por una tienda entre 1 y 31 de diciembre
+
+SELECT
+    purchase_date,
+    customer_name,
+    purchase_price
+FROM
+    forniture_flowers.purchase_flowers
+
+WHERE
+    purchase_date BETWEEN '2023-12-01' AND '2023-12-31' --retorna valores de compra entre las fechas iundicadas, pero
+                                                        --en formato datetime y lo requerimos en date
+
+Ajustando formato
+
+SELECT
+    CAST(purchase_date AS date) AS purchase_date,
+    customer_name,
+    purchase_price
+FROM
+    forniture_flowers.purchase_flowers
+
+WHERE
+    purchase_date BETWEEN '2023-12-01' AND '2023-12-31' --retorna valores de compra entre las fechas iundicadas, pero
+                                                        --en formato datetime y lo requerimos en date
+
+### CONCAT
+
+Suma cadenas de texto para crear nuevas cadenas de texto que es posible usar como llaves unicas, por ejemplo cuando hay
+que establecer una diferencia entre dos productos, tendriamos en la tienda de flores la necesidad de encontrar si los clientes
+prefieren rosas rojas o rosas blancas, pero los datos reflejan el codigo de las rosas de manera general y los colores en otro
+campo, por lo cual podriamos concatenar el codigo de la rosa y su color y obtener una llave unica que nos permita distinguir
+cuan de los dos colores es el preferido de los clientes:
+
+SELECT
+    flower_id,
+    flower_color,
+    customer_name,
+    flower_price,
+    flower_name
+    purchase_date
+
+FROM
+    forniture_flowers.purchase_flowers
+
+La consulta anterior arrojara los datos generales de compra, a continuacion concatenamos el id y el color, distinguiendo
+cada grupo de manera mas sencilla
+
+SELECT
+    CONCAT(flower_id, flower_color) AS new_id_color,
+
+FROM
+    forniture_flowers.purchase_flowers
+
+WHERE
+    flower_name = 'Rose'
+
+Esto retornara todas las rosas, con el campos new id_color, permitiendo distinguir entre rosas blancas o amarillas y permitirnos
+tener un punto de partida para el analisis de cual prefieren mas los clientes
+
 ## informacion para transformacion de cadenas
 
 ### LENGTH(LEN)
@@ -128,3 +200,25 @@ FROM
 WHERE
 
     country LIKE 'C%'
+
+### COALESCE
+
+Muestra valores que no son nulos en el conjunto. al tener un campo no obligatorio es probable que este campo sea nulo en
+el conjunto la mayor parte del tiempo, por ejemplo teniendo un campo primer_nombre, segundo_nombre, apellido, identificacion
+y grado, siendo segundo_nombre un campo opcional, en una tabla de estudiantes, tendriamos algunos campos nulos ya que en
+algunos casos se puede tener un solo nombre y el que se encuentre cuenta como el primer nombre, por lo tanto tendriamos
+
+SELECT
+    CONCAT(primer_nombre, segundo_nombre) AS nombre,
+    apellido,
+    identificacion,
+    grupo
+
+FROM
+    institucion_la_nube.estudientes
+
+WHERE
+    grado = '11'
+
+esta consulta arriojara un listado de estudiantes de grado 11 y colocara el primer nombre o segundo nombre de acuerdo a lo que
+encuentre, apellido, identificacion y el grupo al que pertenece el estudiante
