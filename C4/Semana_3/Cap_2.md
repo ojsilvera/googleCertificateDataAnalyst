@@ -35,6 +35,8 @@ Vaciar una tabla
 
 ## Limpieza de cadenas de variables con SQL
 
+### DISTINCT
+
 Para limpiar IDs duplicados utilizamos DISTINCT en nuestra instrucción SELECT.
 
 SELECT
@@ -53,7 +55,9 @@ las cadenas de texto estan conformados por letras, numeros o ambos
 
 Para trabajar con cadenas de texto en SQL utilizamos:
 
-LENGTH(LEN): trabaja con el largo que debe tener una cadena de texto para considerarse como valida, pro ejemplo para validar
+### LENGTH(LEN)
+
+trabaja con el largo que debe tener una cadena de texto para considerarse como valida, pro ejemplo para validar
 codigos que deberian tener un largo fijo podriamos hacerlo d ela siguiente manera, que nos muestre solo aquellos codigos
 que tengan mas de 2 digitos.
 
@@ -67,7 +71,7 @@ WHERE
 en la consulta anterior nos devolvera solo aquellos paises id mayor a 2 digitos y asi identificamos anomalias en los codigos
 por ejemplo.
 
-Subcadena
+### Subcadena(SUBSTR())
 
 Para obtener un numero de letras determinados de una dato, utilizamos SUBSTR() o substring, nos devolvera el numero de caracteres
 que le indiquemos que sean iguales en nuestro conjunto de datos, ejemplo, si tenemos un codigo que corresponde a Estados Unidos
