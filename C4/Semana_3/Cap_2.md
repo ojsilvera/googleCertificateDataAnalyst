@@ -55,6 +55,46 @@ las cadenas de texto estan conformados por letras, numeros o ambos
 
 Para trabajar con cadenas de texto en SQL utilizamos:
 
+### Subcadena(SUBSTR())
+
+Para obtener un numero de letras determinados de una dato, utilizamos SUBSTR() o substring, nos devolvera el numero de caracteres
+que le indiquemos que sean iguales en nuestro conjunto de datos, ejemplo, si tenemos un codigo que corresponde a Estados Unidos
+Escrito como US pero tambien como USA y no podemos actualizar la tabla para corregirlo, hacemos uso de SUBSTR() de la siguiente
+manera, SUBSTR(columna_donde_buscar, caracter, caracter) = 'caracteres_que_busco':
+
+SELECT
+    customer_id
+FROM
+    customer_data.customer_address
+WERE
+    SUBSTR(country, 1, 2) = 'US' --nos devolvera solo los id de cliente cuyo pais es US o USA
+
+SELECT
+    customer_id,
+    SUBSTR(country,1,3) as abr_country -> devuelve las 3 primeras letras de cada pais
+FROM
+    customer_data.customer_address
+OREDER BY
+    abr_country ASC -> ORDEN ASCENDENTE
+
+### TRIM
+
+Elimina espacios en blanco dentro de una cadena de texto, los espacios cuentan como un caracter, por lo tanto si usamos
+la sentencia length, obtendremos aquellos que no cumplan con un criterio de largo preestablecido y asi sabremos cuales
+tendrian espacios en blanco que no deberian estar, adicionalmente si llegaramos a tener registros duplicados, usariamos
+la sentencia distinct.
+
+SELECT
+    DISTINCT(customer_id) --mostrara cada redistro una sola vez
+
+FROM
+    customer_data.customer_address
+
+WHERE
+    TRIM(states) = 'OH' --TRIM(la_columna_que_buscamos_limpiar) = 'el criterio de filtrado'
+
+## informacion para transformacion de cadenas
+
 ### LENGTH(LEN)
 
 trabaja con el largo que debe tener una cadena de texto para considerarse como valida, pro ejemplo para validar
@@ -71,16 +111,20 @@ WHERE
 en la consulta anterior nos devolvera solo aquellos paises id mayor a 2 digitos y asi identificamos anomalias en los codigos
 por ejemplo.
 
-### Subcadena(SUBSTR())
+### LIKE
 
-Para obtener un numero de letras determinados de una dato, utilizamos SUBSTR() o substring, nos devolvera el numero de caracteres
-que le indiquemos que sean iguales en nuestro conjunto de datos, ejemplo, si tenemos un codigo que corresponde a Estados Unidos
-Escrito como US pero tambien como USA y no podemos actualizar la tabla para corregirlo, hacemos uso de SUBSTR() de la siguiente
-manera, SUBSTR(columna_donde_buscar, caracter, caracter) = 'caracteres_que_busco':
+Permite obtener coincidencias de auerdo a un patron determinado
+
+columna LIKE 'Patron' -> el Patron puede ser parcial utilizando el caracter comodin %
+
+por ejemplo para obtener todos los clientes cuyos paises inicien por la letra c, tendriamos la siguiente consulta:
 
 SELECT
-    customer_id
+    customer_id, customer_name, country
+
 FROM
-    customer_data.customer_address
-WERE
-    SUBSTR(country, 1, 2) = 'US' --nos devolvera solo los id de cliente cuyo pais es US o USA
+    customer_data
+
+WHERE
+
+    country LIKE 'C%'
