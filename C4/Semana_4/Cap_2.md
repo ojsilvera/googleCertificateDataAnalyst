@@ -103,3 +103,48 @@ En general, un registro de cambios registra este tipo de información:
 
 - La consulta volvió a lo que era antes de que el analista realizara el cambio. Y todas las personas de la empresa también
   ven esta consulta original revertida.
+
+## Por qué la documentación es importante
+
+La documentación es el proceso de realizar un seguimiento de los cambios, adiciones, las las eliminaciones y los errores
+involucrados en un esfuerzo de limpieza datos. Los registros de cambios son un buen ejemplo de eso. Como está ordenado
+cronológicamente, proporciona una razón en tiempo real para cada modificación. La documentación supondrá un gran ahorro de
+tiempo para ti, como futuro analista de datos. Es básicamente una hoja de referencia que puedes consultar si estás trabajando
+con un conjunto de datos similar o si necesitas abordar errores similares. Mientras tu equipo puede ver los registros de
+cambios directamente, los interesados no pueden y tienen que confiar en tu informe para saber qué hiciste.
+
+La documentacion del proceso nos permite ser 100 por ciento transparentes sobre la limpieza de datos.
+
+## Comentarios y limpieza
+
+La verificación, la documentación y la creación de informes son pasos valiosos en el proceso de limpieza de datos. Tienes
+pruebas para mostrar a los interesados que tus datos son precisos y confiables. Y el esfuerzo que realizaste estuvo bien
+ejecutado y documentado. El siguiente paso es obtener comentarios sobre la evidencia y utilizarlos correctamente.
+
+Los comentarios que obtenemos cuando presentamos informes sobre los datos que limpiamos pueden transformar los procesos
+de recopilación de datos y, en última instancia, el desarrollo del negocio.
+
+Uno de los mayores desafíos de trabajar con datos es lidiar con los errores. Algunos de los errores más comunes son errores
+humanos, como errores de escritura o errores ortográficos, procesos defectuosos como un diseño o un formulario de encuesta
+defectuosos, y problemas de sistema donde los sistemas más viejos integran los datos incorrectamente. Cualquiera sea la
+razón, la limpieza de datos puede arrojar luz sobre la naturaleza y la gravedad de los procesos que generan errores.
+
+Con la documentación uniforme y con la creación de informes, podemos descubrir patrones de errores en la recopilación de
+datos y en los procedimientos de entrada, y utilizar los comentarios que obtengamos para asegurarnos de no repetir errores
+comunes. Quizás necesitemos reprogramar la forma en la que recopilamos datos o cambiar preguntas específicas en el formu-
+lario de la encuesta.
+
+En casos más extremos, los comentarios que recibamos incluso pueden hacernos regresar al tablero de dibujo para repensar
+expectativas y posiblemente actualizar los procedimientos de control de calidad. Por ejemplo, a veces es útil programar
+una reunión con un ingeniero de datos o con el propietario de los datos para asegurarnos de que agregamos los datos correc-
+tamente y no necesitan una limpieza constante.
+
+Una vez que hemos identificado y corregido los errores, los interesados tienen datos en los que pueden confiar para tomar
+decisiones. Al reducir errores e ineficiencias en la recopilación de datos, la empresa podría descubrir grandes crecimientos
+de sus beneficios.
+
+## Funciones avanzadas para una limpieza de datos rápida
+
+Algunas funciones avanzadas que pueden ayudar a acelerar el proceso de limpieza de datos en las hojas de cálculo.
+
+![Alt text](image-2.png)
