@@ -13,7 +13,7 @@ estándar para la comunicación de bases de datos relacionales, y todavía lo es
 
 ## Usar SQL como analista de datos júnior
 
-sintaxis de ejemplo d euna consulta saql, donde se solicita un listado de los usuarios que se unieron a la firma, desde una
+sintaxis de ejemplo de una consulta sql, donde se solicita un listado de los usuarios que se unieron a la firma, desde una
 fecha en especifico hasta la fecha
 
 ![Alt text](image.png)

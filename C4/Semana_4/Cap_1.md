@@ -71,8 +71,8 @@ Recordando los pasos de verificacion tenemos:
   COUNTA en las hojas de calculo cuenta el nuemero total de valores que se encuentran en un rango, mientras que COUNT, cuenta
   el numero de valores de tipo numerico en un rango.
 
-  En SQL una forma de abordar los errores de escritura es a traves de la sentencia CASE stament, la cual analiza una o mas
-  condiciones  y retorna un valor en cuanto se cumplan una de las condiciones
+  En SQL una forma de abordar los errores de escritura es a traves de la sentencia CASE, la cual analiza una o mas
+  condiciones y retorna un valor en cuanto se cumplan una de las condiciones
 
   Su sintaxys seria, en caso de conocer el termino que se encuentra mal escrito:
 
