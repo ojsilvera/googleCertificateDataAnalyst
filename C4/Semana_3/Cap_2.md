@@ -75,7 +75,7 @@ SELECT
 FROM
     customer_data.customer_address
 OREDER BY
-    abr_country ASC -> ORDEN ASCENDENTE
+    abr_country ASC --> ORDEN ASCENDENTE
 
 ### TRIM
 
