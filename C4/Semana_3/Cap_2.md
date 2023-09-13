@@ -222,3 +222,18 @@ FROM
 WHERE
 
     country LIKE 'C%'
+
+### Count y Filtro multiple
+
+Se nos solicita que determinemos el numero de cuentas para un pais determinado en este caso alemania, cuyo monto total
+es mayor a 5 dolares.
+
+La clausula count nos permite determinar el numero de registor que retorna la base de datos, sgun el filtro aplicado
+en este caso limitado por le pais y el monto total.
+
+SELECT
+    count(*) AS Total_bills
+FROM
+    invoices
+WHERE
+    BillingCountry = "Germany" AND Total > 5
