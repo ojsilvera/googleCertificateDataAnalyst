@@ -237,3 +237,45 @@ FROM
     invoices
 WHERE
     BillingCountry = "Germany" AND Total > 5
+
+## uso de la setencia if en sql para la creacion de subconjunto de datos
+
+SELECT
+    stn,
+    date,
+
+    -- Usa la función IF para reemplazar los valores 9999.9, que la descripción del conjunto de datos
+    -- explica que es el valor predeterminado cuando falta la temperatura, por NULLs en su lugar.
+    
+    IF(temp=9999.9, NULL, temp) AS temperature,
+    
+    -- Usa la función IF para reemplazar los valores 999.9, que la descripción del conjunto de datos
+    -- explica que es el valor predeterminado cuando falta la temperatura, por NULLs en su lugar.
+
+    IF(wdsp="999.9", NULL, CAST(wdsp AS Float64)) AS wind_speed,
+    
+    -- Usa la función IF para reemplazar los valores 99.99, que la descripción del conjunto de datos
+    -- explica que es el valor predeterminado cuando falta la temperatura, por NULLs en su lugar.
+    
+    IF(prcp=99.99, 0, prcp) AS precipitation
+
+FROM `bigquery-public-data.noaa_gsod.gsod2020`
+WHERE
+    stn="725030" -- La Guardia OR stn="744860" -- JFK
+ORDER BY
+    date DESC,
+    stn ASC
+
+- del subconjunto anterior almacenar la salida en una tabla y obtener ¿Cuál fue la temperatura promedio en las estaciones
+- de JFK y La Guardia entre el 1º de enero de 2020 y el 30 de junio de 2020?
+
+SELECT
+    AVG(temperature)
+FROM
+    `weather_data.nyc_data`
+WHERE
+    date BETWEEN '2020-01-01' AND '2020-06-30'
+
+son importante spor que nos permiten una vez creadas los subconjuntos a traves de consultas filtradas y ordenadas y almacenar
+su salida como tablas, no tener que ocupar recursos tanto de procesamiento como tiempo para realizar la misma operacion
+una y otra vez si el subconjunto no ha cambiado
