@@ -17,7 +17,7 @@ uno involucra el uso del menú; el otro implica escribir la función de ordenar.
 ### ordenación con el menú
 
 En la ordenación con el menú, seleccionamos toda la columna que se desea ordenar, vamos a la pestaña datos, tienes dos
-opciones: ordenar una hoja o un rango de datos. Sí el contenidosseleccionado tiene relacion con las demas celdas, ose,
+opciones: ordenar una hoja o un rango de datos. Sí el contenidos seleccionado tiene relacion con las demas celdas, ose,
 que la seleccion y las celdas contiguas horizontalmente permanezcan juntas, debemos ordenar por hoja, esto mantendra
 los datos juntos por fila. sin importar cómo los ordenes. Según el orden que desees que tengan las fechas, puedes ordenar
 de la A a la Z, lo cual también clasificará las fechas en forma numérica. O puedes ordenar de la Z a la A, que ordenará
