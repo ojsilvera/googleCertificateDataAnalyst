@@ -52,3 +52,44 @@ el menu de rechazar entrada de datos para nuestra lista o nuestros checks, esto 
 una alerta para esta violacion de seguridad.
 
 ## Formato condicional
+
+El formato condicional permite agregar distintas marcas visuales a tus hojas de cálculo para poder entender tus tablas con
+un solo vistazo, y también ayuda a que los interesados entiendan la información de la hoja de cálculo.
+
+Para el uso del formato condicional, primero seleccionamos el rango sobre el cual queremos aplicar marcas de color distintivas
+que nos permitan interpretar a simple vista la estructura y objetivo de los datos, nos dirijimos al meno formato, luego
+a formato condicional, en la casilla de rango especificamos el rango donde aplicaremos el nuevo formato, posteriormente elejimos
+la regal que desencadenara el cambio de formato, puede ser un texto, para lo cual elejimos, coincidir con el texto de manera exacta y debajo
+digitamos el texto que esperamos terner en la celda para que se ejecute el cambio de formato, luego especificamos el cambio de formato
+como, cambiando el color, tipo de letra, etc.
+
+Si es necesario aplicar otra regla al mismo rango, creamos una nueva regla y especificamos cual sera el detonante del cambio
+y el cambio que generar tanto en color como tipo de letra entre otros.
+
+## Transformar datos en SQL
+
+### Posibles conversiones con CAST
+
+![Alt text](image.png)
+
+### Cifra a cadena de texto
+
+![Alt text](image-1.png)
+
+### cadena de texto a cifra
+
+![Alt text](image-2.png)
+
+### fecha a cadena de texto
+
+![Alt text](image-3.png)
+
+### Fecha a horario y fecha
+
+![Alt text](image-4.png)
+
+### SafeCast
+
+Devolvera un valor nulo ern vez de un error.
+
+![Alt text](image-5.png)
