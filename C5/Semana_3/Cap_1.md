@@ -24,7 +24,7 @@ VALUE es una función que convierte una cadena de texto que representa un númer
 
 Antes de usar vlookup, verifica:
 
-El formato de tus datos es el correcto? =TIPO(TYPE)(celda) devuelve un codigo de acuerdo al tipo de dato
+El formato de tus datos es el correcto? = TIPO(TYPE)(celda) devuelve un codigo de acuerdo al tipo de dato
 
 ![Alt text](image.png)
 
@@ -47,5 +47,6 @@ Sintaxis:
     Una solucion muy comun es que generalmente Los analistas de datos resuelven el problema copiando y pegando una columna
     a la izquierda de los datos que quieren analizar. De esa manera, el valor de búsqueda está en la columna más a la izquierda
     y los datos que quieren están a la derecha.
+
 - bloquear la referencia del rango e busqueda para que no cambie y desborde el rango conforme avanzamos la formula celdas
   mas a la parte inferior del dataset.
