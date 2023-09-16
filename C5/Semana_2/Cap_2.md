@@ -28,9 +28,30 @@ ORDER BY
 
 ## Cadenas de texto en hojas de cálculo
 
-Las funciones LEN, LEFT, RIGHT y FIND.
+Las funciones LEN, LEFT, RIGHT, FIND Y EXTRACT
 
 LEN ->  entre la longitud de una cadena de texto, = LEN(celda).
-LEFT->  Toma un numero de caracteres entre una posicion inicial y final, = LEFT(celda, inicio, fin).
-RIGHT-> Toma un numero de caracteres entre una posicion inicial y final, = RIGHT(celda, inicio, fin).
-FIND->  Encuentra un caracter dentro de una ubicacion, = FIND(""caracter, ubicacion).
+LEFT->  Toma un numero de caracteres desde el extremo izquierdo, = LEFT(celda, #caracteres), salida texto.
+RIGHT-> Toma un numero de caracteres desde el extremo derecho, = RIGHT(celda, #caracteres), salida texto.
+FIND->  Encuentra un caracter dentro de una ubicacion, = FIND(""caracter, ubicacion), salida es un etro.
+EXTRACT-> Extrae una cadena de texto desde un punto inicial y un numero de caracteres determinado, contando desde el
+        inicio de la cadena,  = EXTRACT(cadena, inicio, #nemrodecaracteres)
+
+![Alt text](image-9.png)
+
+## manipulando cadenas de texto SQL
+
+Una cadena de texto es un conjunto de caracteres que ayuda a declarar los textos en lenguajes de programación, como SQL.
+Las funciones de SQL para cadena de texto se usan para obtener distintos tipos de información sobre caracteres o, en este
+caso, manipularlos. Una de las funciones más usadas es CONCAT. Repasa la tabla a continuación para aprender más sobre la
+función CONCAT y sus variantes.
+
+SELECT CONCAT(campo1, campo2,...., campoN)
+
+![Alt text](image-6.png)
+
+![Alt text](image-7.png)
+
+## consultas en SQL
+
+![Alt text](image-8.png)
