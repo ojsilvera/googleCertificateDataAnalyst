@@ -27,3 +27,10 @@ ORDER BY
     num_trips DESC
 
 ## Cadenas de texto en hojas de cálculo
+
+Las funciones LEN, LEFT, RIGHT y FIND.
+
+LEN ->  entre la longitud de una cadena de texto, = LEN(celda).
+LEFT->  Toma un numero de caracteres entre una posicion inicial y final, = LEFT(celda, inicio, fin).
+RIGHT-> Toma un numero de caracteres entre una posicion inicial y final, = RIGHT(celda, inicio, fin).
+FIND->  Encuentra un caracter dentro de una ubicacion, = FIND(""caracter, ubicacion).
