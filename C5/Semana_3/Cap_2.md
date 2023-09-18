@@ -27,7 +27,6 @@ Ejemplo de sintaxis entre dos tablas, clientes y ordenes:
 
 ![Alt text](image-3.png)
 
-
 *LEFT(izquierda) JOIN* es una función que devuelve todos los registros de la tabla izquierda y solo los registros coincidentes de la
 tabla derecha. Así puedes darte cuenta de qué tabla es izquierda o derecha. En inglés y en SQL leemos de izquierda a de-
 recha. La tabla mencionada primero es izquierda y la tabla mencionada segundo es derecha. También puedes pensar en izquierda
@@ -81,3 +80,30 @@ Se pueden renombrar tablas
 Spuede renombrar columnas
 
 ![Alt text](image-2.png)
+
+## count y count distinct
+
+*COUNT* puede usarse para contar el número total de valores numéricos dentro de un rango específico en las hojas de cál-
+culo. COUNT en SQL hace lo mismo. COUNT es una consulta que devuelve el número de filas en un rango especificado
+
+SELECT
+
+    COUNT(*)
+
+FROM
+    table_a *JOIN* table_b *ON*  keyPrimary_A *=* keySecundary_B
+
+*COUNT DISTINCT* es una consulta que solo devuelve los valores distintos en ese rango. Básicamente, esto significa que
+COUNT DISTINCT no cuenta valores repetidos.
+
+SELECT
+
+    COUNT(*)
+
+FROM
+    table_a *JOIN* table_b *ON*  keyPrimary_A *=* keySecundary_B
+
+COUNT y COUNT DISTINCT lo usaremos para responder preguntas sobre cantidad. Como, ¿cuántos clientes hicieron esto? O,
+¿cuántas transacciones hubo este mes? O, ¿cuántas fechas hay en este conjunto de datos?, Por ejemplo, quizás los necesites
+cuando estés limpiando datos para verificar cuántas filas quedan en tu conjunto de datos. O podrías usar COUNT y COUNT DISTINCT
+durante el análisis en sí para responder una pregunta de cantidad.
