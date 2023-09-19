@@ -18,16 +18,41 @@ extraer a una nueva tabla donde esos detalles deben colocarse.
 Para sumar en sql tendiamos que, seleccionar las dos columnas que deseamos sumas, luego sumarlas y presentarlas como una
 nueva columna la sintaxis seria la siguiente:
 
-SELECT
+        SELECT
 
-    columnaA,
-    columnaB,
-    columnaA + columnaB AS columnaC
+            columnaA,
+            columnaB,
+            columnaA + columnaB AS columnaC
 
-FROM
+        FROM
 
-    tabla
+            tabla
 
 Vista simbolica de la consulta anterior:
 
 ![Alt text](image-1.png)
+
+Es posible utilizar los parentecis para controlar el oreden de multiples operaciones:
+
+        SELECT
+
+            columnaA,
+            columnaB,
+            columnaC,
+            (columnaA + columnaB) * columnaC AS columnaD
+
+        FROM
+
+            tabla
+
+Vista simbolica de la consulta anterior:
+
+![Alt text](image-2.png)
+
+El operador de módulo está representado por el símbolo de porcentaje. Este es un operador que da como resultado el resto
+cuando se divide un número por otro. En una hoja de cálculo, puedes realizar el mismo cálculo con la función MOD.
+
+Funciones como MOD(%), SUM, AVG, son llamadas funciones de agragado, las cuales realizan una operacion con uno o mas valores
+y dan como resultado un valor unico.
+
+## Cómo insertar cálculos simples en SQL
