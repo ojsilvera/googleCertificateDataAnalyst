@@ -52,3 +52,20 @@ Tabla de resumen simple, es una tabla que se utiliza para resumir información e
 - AVERAGEIF promediará los valores en una matriz basada en criterios determinados.
 
         = AVERAGEIF(Rango_Buscar, "Criterio_condicion", Ramgo_calcular_promedio)
+
+- MAXIFS -> calcula el maximo de un rango de acuerdo a un criterio/condicion determinado
+
+        = MAXIFS(Rango_calcular, rango_bucar, "Criterio")
+
+        = MAXIFS(Rango_calcular, rango_bucar1, "Criterio1", rango_bucar2, "Criterio2",.., rango_bucarN, "CriterioN" )
+
+## Funciones compuestas
+
+*SUMPRODUCT* es una función que multiplica las matrices y muestra el resultado de la suma de esos productos.
+
+        = SUMPROPRODUCT(RangoColumna1, ArngoColumna2, ...,  ArngoColumnaN)
+
+Esta funcion primero multiplica el item en la primera posicion de ambas columbas, luego el segun y asi hasta la ultima
+posicion, posterior a eso sumara todos los resultados, dando una gran suma al final de la operacion.
+
+*El margen de beneficio* es un porcentaje que indica cuántos centavos de beneficio se generaron por cada dólar de venta.
