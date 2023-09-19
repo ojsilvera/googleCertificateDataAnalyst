@@ -1,0 +1,1 @@
+# realizar calculos ocn datos
