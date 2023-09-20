@@ -67,3 +67,35 @@ consultar jemplos desarrollados
 *SELECT INTO* es un buen ejemplo de cómo hacer una tabla temporal. Esta instrucción copia datos de una tabla en una tabla
 nueva, pero no agrega la tabla nueva a la base de datos. Es útil si quieres hacer una copia de una tabla con una condición
 específica, como una consulta con una cláusula WHERE.
+
+Es una buena práctica cuando quieres conservar la base de datos despejada y no necesitas que otras personas usen la tabla.
+
+    SELECT
+        campos
+    INTO
+        nuevaTabla
+    FROM
+        tablaOrigen
+    WHERE
+        filtro
+
+La instrucción CREATE TABLE agrega la tabla a la base de datos. Si todo el mundo necesita acceso a la tabla, tu consulta
+comenzará con CREATE TABLE, seguida por la misma consulta SELECT-FROM-WHERE que en la instrucción SELECT INTO.
+
+CREATE TABLE
+    nombreTabla
+AS
+    (
+        SELECT
+            campo
+        FROM
+            tablaOrigen
+        WHERE
+            filtro
+    )
+
+Las formas en que construimos tablas temporales:
+
+    with
+    selct into
+    create table
