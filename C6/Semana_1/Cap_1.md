@@ -123,3 +123,13 @@ tres elementos:
 
 Pero recuerda: Cuanto más enfatices diferentes cosas, menos peso tiene ese énfasis. Cuanto más enfatices una sola cosa,
 más peso tiene.
+
+## Principios de diseño
+
+Una vez que comprendes los atributos preatencionales de la visualización de datos, puedes seguir con los principios de
+diseño para crear elementos visuales eficaces. Estos principios de diseño son importantes para tu trabajo como analista
+de datos porque te ayudan a asegurarte de que estás creando visualizaciones que comunican tus datos de manera eficaz a tu
+audiencia. Teniendo en cuenta estas reglas, puedes planear y evaluar tus visualizaciones de datos para decidir si trabajan
+a tu favor y a favor de tus objetivos. Y, de no ser así, ¡puedes ajustarlas!
+
+![Alt text](image.png)
