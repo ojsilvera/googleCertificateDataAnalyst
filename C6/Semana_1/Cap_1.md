@@ -24,3 +24,14 @@ primero necesitas estructurar y organizar tus ideas. Piensa en tus objetivos y e
 de ordenar los datos. Luego, piensa en los patrones que observaste en los datos, las cosas que te sorprendieron y, por
 supuesto, en cómo todo esto junto se incorpora a tu análisis. Identificar los elementos clave de tus hallazgos ayuda a
 sentar las bases de cómo deberías organizar tu presentación.
+
+Los elementos clave de toda visualizacion serian: la información o los datos, la historia, el objetivo y el formato visua,
+estos cuatro elementos son necesarios para una visualización exitosa.
+
+    Los datos usados en las visualizaciones, son importante porque es uno de los principales cimientos de tu visualización.
+
+    La historia o concepto agrega significado a los datos y los hace interesantes.
+
+    El objetivo o función hace que los datos sean útiles y utilizables.
+
+    El formato visual genera tanto belleza como estructura.
