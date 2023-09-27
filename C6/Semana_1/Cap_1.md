@@ -16,4 +16,11 @@ cinco segundos posteriores, tu público debería comprender la conclusión que e
 completamente familiarizados con la investigación que hiciste. Quizás no estén de acuerdo con tu conclusión, y eso está
 bien.
 
-Para crear una visualización que sea comprensible, efectiva y, lo que es más importante, convincente debemos:
+Para crear una visualización que sea comprensible, efectiva y, lo que es más importante, convincente debemos tener en
+cuenta que:
+
+Las visualizaciones de datos son una herramienta útil para incluir mucha información en un espacio pequeño. Para hacerlo,
+primero necesitas estructurar y organizar tus ideas. Piensa en tus objetivos y en las conclusiones a las que llegaste después
+de ordenar los datos. Luego, piensa en los patrones que observaste en los datos, las cosas que te sorprendieron y, por
+supuesto, en cómo todo esto junto se incorpora a tu análisis. Identificar los elementos clave de tus hallazgos ayuda a
+sentar las bases de cómo deberías organizar tu presentación.
