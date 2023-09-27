@@ -133,3 +133,18 @@ audiencia. Teniendo en cuenta estas reglas, puedes planear y evaluar tus visuali
 a tu favor y a favor de tus objetivos. Y, de no ser así, ¡puedes ajustarlas!
 
 ![Alt text](image.png)
+
+## Evitar gráficos confusos o engañosos
+
+Cuando analizas qué tipo de visualización crear y cómo diseñarla, querrás asegurarte de no crear gráficos confusos o
+engañosos.
+
+Como aprendiste, el análisis de datos les permite a las personas sacar conclusiones y obtener conocimientos que pueden
+usar para tomar decisiones. Por eso es importante que las visualizaciones que crees comuniquen tus datos de manera exacta
+y veraz.
+
+Estos son algunos errores comunes que debes evitar para que tus visualizaciones no sean engañosas accidentalmente:
+
+![Alt text](image-1.png)
+
+## Conectar imágenes con datos
