@@ -389,3 +389,44 @@ manera de contar tu historia
 ¿Es necesario mostrar relaciones entre los datos?
 
     Diagrama de dispersión o mapa de calor
+
+### Comienza con tu historia
+
+Comienza evaluando el tipo de datos que tienes y responde a una serie de preguntas para determinar la mejor fuente visual:
+
+*¿Tus datos tienen solo una variable numérica?*
+
+Si tienes datos que tienen una sola variable numérica continua, un histograma o diagrama de densidad son las mejores maneras
+de trazar tus datos de categoría. Según tu tipo de datos, hasta un gráfico de barras puede ser incluso adecuado en este caso.
+
+![Alt text](image-10.png)
+
+*¿Hay múltiples conjuntos de datos?*
+
+En casos con más de un conjunto de datos, considera un gráfico de líneas o circular para una representación precisa de tus
+datos. Un gráfico de líneas conecta múltiples conjuntos de datos en una sola línea continua que muestra cómo los números
+cambiaron a lo largo del tiempo. Un gráfico circular es bueno para dividir un entero en múltiples categorías o partes.
+
+![Alt text](image-11.png)
+
+![Alt text](image-12.png)
+
+¿Mides los cambios a lo largo del tiempo? Un gráfico de líneas generalmente es adecuado para trazar las tendencias a lo
+largo del tiempo. Sin embargo, cuando los cambios son más grandes, un gráfico de barras es una mejor opción.
+
+![Alt text](image-13.png)
+
+*¿Es necesario mostrar relaciones entre los datos?*
+
+Cuando tienes dos variables para un conjunto de datos, es importante señalar cómo uno afecta al otro. Lo mejor es usar
+un diagrama de dispersión para variables que se emparejan bien. Sin embargo, si hay demasiados puntos de datos, la relación
+entre variables puede quedar escondida, por lo que un mapa de calor puede ser una mejor representación en ese caso.
+
+![Alt text](image-14.png)
+
+### Recursos
+
+De los datos a la visualización: [https://www.data-to-viz.com/]
+Cómo seleccionar el mejor gráfico:[https://www.youtube.com/watch?v=C07k0euBpr8], [https://www.youtube.com/watch?v=qGaIB-bRn-A]
+
+![Alt text](screencapture-coursera-org-learn-compartir-datos-a-traves-del-arte-de-la-visualizacion-quiz-L1Tds-autorreflexion-eleccion-de-tu-visualizacion-attempt-2023-09-29-14_26_05.png)
