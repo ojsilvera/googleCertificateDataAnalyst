@@ -363,3 +363,29 @@ para dos variables de un conjunto de datos, si bien se pueden mostrar variables 
 Un gráfico de distribución muestra la distribución de diversos resultados en un conjunto de datos.
 
 ![Alt text](image-3.png)
+
+## Los datos crecen en árboles de decisiones
+
+Un árbol de decisiones es una herramienta de toma de decisiones que te permite, como analista de datos, tomar decisiones
+basadas en preguntas clave que puedes hacerte. Cada pregunta en el árbol de decisiones sobre visualización te ayudará a
+tomar una decisión respecto de características cruciales de tu visualización. A continuación, se incluye un ejemplo de
+un árbol de decisiones básico para guiarte a tomar una decisión basada en datos sobre qué visualización es la mejor
+manera de contar tu historia
+
+![Alt text](image-9.png)
+
+¿Tus datos tienen solo una variable numérica?
+
+    Histograma o diagrama de densidad
+
+¿Existen múltiples conjuntos de datos?
+
+    Gráfico de líneas o circular
+
+¿Mides cambios en el tiempo?
+
+    Gráfico de barras
+
+¿Es necesario mostrar relaciones entre los datos?
+
+    Diagrama de dispersión o mapa de calor
