@@ -291,3 +291,75 @@ Una correlación no es una causalidad: [https://towardsdatascience.com/correlati
 
 Correlación y causalidad:
 [https://www.khanacademy.org/test-prep/praxis-math/praxis-math-lessons/gtp--praxis-math--lessons--statistics-and-probability/a/gtp--praxis-math--article--correlation-and-causation--lesson]
+
+## Visualizaciones dinámicas
+
+Las visualizaciones estáticas no cambian con el tiempo salvo que se editen. Pueden ser útiles cuando quieres controlar tus
+datos y tu historia de datos. Cualquier visualización impresa en papel es automáticamente estática. Los cuadros y gráficos
+creados en hojas de cálculo también suelen ser estáticos.
+
+Las visualizaciones dinámicas son interactivas y cambian a lo largo del tiempo. La naturaleza interactiva de estos gráficos
+significa que los usuarios tienen algo de control sobre lo que ven. Esto puede ser útil si los interesados quieren ajustar
+lo que pueden ver.
+
+Tableau es una plataforma de inteligencia empresarial y análisis computacional que ayuda a las personas a ver, comprender
+y tomar decisiones con datos. Las visualizaciones en Tableau son automáticamente interactivas.
+
+Tener una visualización interactiva puede ser útil tanto para ti como para el público con el que la compartes. Pero es
+bueno recordar que cuanto más poder le des al usuario, menos control tienes sobre la historia que quieres contar con tus
+datos.
+
+Es algo para tener en cuenta mientras aprendes cómo crear tus propias visualizaciones. Lo recomendable es encontrar el
+equilibrio correcto entre la interactividad y el control. Otra cosa para tener en cuenta es que la elección de usar una
+visualización estática o dinámica generalmente dependerá de los datos que estés visualizando, el público ante el cual estás
+presentando, y cómo estás realizando tu presentación.
+
+## El maravilloso mundo de las visualizaciones
+
+La presentación visual de tus datos es una manera eficaz de comunicar información completa e involucrar a tus interesados.
+
+Una pregunta que podrías hacerte es: “¿Cuál es la mejor manera de contar la historia que hay en mis datos?”, a continuacion
+algunos ejemplos que es posible utilizar.
+
+### Gráfico de líneas
+
+*Un gráfico de líneas se usa para rastrear cambios en períodos cortos y largos.* Cuando existen cambios más pequeños, es mejor
+usar gráficos de líneas que gráficos de barras. Los gráficos de líneas también pueden usarse para comparar cambios a lo
+largo del mismo período para más de un grupo.
+
+![Alt text](image-8.png)
+
+### Gráfico de columnas
+
+Los gráficos de columnas usan el tamaño para contrastar y comparar dos o más valores, usando altura o longitudes para
+representar los valores específicos.
+
+![Alt text](image-7.png)
+
+### Mapa de calor
+
+De manera similar a los gráficos de barras, los mapas de calor también usan color para comparar categorías en un conjunto
+de datos. Se usan principalmente para mostrar relaciones entre dos variables y usan un sistema de códigos de color para
+representar diferentes valores.
+
+![Alt text](image-6.png)
+
+### Gráfico circular
+
+Un gráfico circular, también conocido como gráfico de torta o sectores, se divide en segmentos que representan proporciones
+que corresponden a la cantidad que representan, especialmente al hablar de las partes de un todo.
+
+![Alt text](image-5.png)
+
+### Diagrama de dispersión
+
+Losdiagramas de dispersiónmuestran relaciones entre diferentes variables. Los diagramas de dispersión generalmente se usan
+para dos variables de un conjunto de datos, si bien se pueden mostrar variables adicionales.
+
+![Alt text](image-4.png)
+
+### Gráfico de distribución
+
+Un gráfico de distribución muestra la distribución de diversos resultados en un conjunto de datos.
+
+![Alt text](image-3.png)
