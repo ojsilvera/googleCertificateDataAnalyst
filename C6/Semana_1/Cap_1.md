@@ -236,4 +236,58 @@ como se denomina la barra, contiene un determinado número de valores que caen d
 
 Los gráficos de barras con barras horizontales muestran eficazmente datos que están clasificados, con barras ordenadas en
 orden ascendente o descendente. Un gráfico de barras siempre debería estar clasificado por valor, salvo que exista un orden
-natural en los datos, como edad o tiempo,
+natural en los datos, como edad o tiempo.
+
+Los cuadros de correlación pueden mostrar relaciones entre datos, pero debería usarse con cautela porque podrían llevar
+a los espectadores a pensar que los datos muestran causalidad. La causalidad, o relación causa-efecto, se produce cando
+una acción lleva directamente a un resultado.
+
+La correlación y la causalidad a menudo se confunden porque a los seres humanos les gusta encontrar patrones aun cuando
+no existen.
+
+Si dos variables parecen estar asociadas de alguna manera, podríamos asumir que una depende de la otra. Eso implica
+causalidad, incluso si las variables son completamente independientes. Si ponemos esos datos en una visualización, sería
+engañoso. Pero los cuadros de correlación que sí muestran causalidad pueden ser efectivos.
+
+## Correlación y causalidad
+
+En esta lectura, examinarás la correlación y la causalidad en mayor detalle. Repasemos las definiciones de estos términos:
+
+*La correlación* en estadística es la medición del grado en el que dos variables se mueven una en relación con la otra.
+
+Un ejemplo de correlación es la idea de que “A medida que sube la temperatura, también suben las ventas de helado”. Es
+importante recordar que la correlación no significa que un episodio provoca el otro. Pero sí indica que tienen un patrón
+o una relación entre sí.
+
+Si una variable sube y la otra variable también lo hace, es una correlación positiva.
+Si una variable sube y la otra variable baja, es una correlación negativa o inversa.
+Si una variable sube y la otra variable se mantiene igual, no hay una correlación.
+
+*La causalidad* hace referencia a la idea de que un episodio lleva a un resultado específico. Por ejemplo, cuando hay un
+relámpago, escuchamos el trueno (onda sonora) provocado porque el aire se calienta y enfría por el relámpago. El relámpago
+provoca el trueno.
+
+![Alt text](image-2.png)
+
+### ¿Por qué es importante diferenciar entre la correlación y la causalidad?
+
+Conocer la diferencia entre la correlación y la causalidad es importante cuando sacas conclusiones a partir de tus datos,
+dado que podría haber muchas cosas en juego, Cuando sacas conclusiones a partir del análisis de datos, necesitas asegurarte
+de no asumir una relación de causalidad entre elementos de tus datos cuando solo existe una correlación.
+
+### Conclusiones clave
+
+En tu análisis de datos, recuerda:
+
+   1. Analizar de manera crítica cualquier correlación que encuentres
+
+   2. Examinar el contexto de los datos para determinar si tiene sentido una causalidad (y puede estar respaldada por todos los datos)
+
+   3. Comprender las limitaciones de las herramientas que usas para el análisis
+
+## Recursos Adicionales
+
+Una correlación no es una causalidad: [https://towardsdatascience.com/correlation-is-not-causation-ae05d03c1f53]
+
+Correlación y causalidad:
+[https://www.khanacademy.org/test-prep/praxis-math/praxis-math-lessons/gtp--praxis-math--lessons--statistics-and-probability/a/gtp--praxis-math--article--correlation-and-causation--lesson]
