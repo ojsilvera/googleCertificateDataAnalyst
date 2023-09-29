@@ -174,3 +174,66 @@ respecto a las demas variables, etc.
 
 *Los mapas* ayudan a organizar datos geográficamente. Lo que es genial de los mapas es que pueden contener mucha información
 relacionada con la ubicación y son fáciles de interpretar para tu público.
+
+Una de las maneras en que las visualizaciones pueden manipularse es con las escalas y las proporciones.
+
+## La belleza de la visualización
+
+¿por qué deberían preocuparse por la visualización de datos los analistas de datos? La audiencia no siempre tendrá la ca-
+pacidad de interpretar o comprender la información compleja que les transmites, por lo que tu trabajo es informarles tu
+análisis de una manera que sea significativo, interesante y fácil de comprender.
+
+Parte de la razón por la que la visualización de datos es tan efectiva es que a los ojos de las personas les atraen los
+colores, las formas y los patrones, lo que hace que esos elementos visuales sean perfectos para contar una historia que
+vaya más allá de solo números.
+
+A continuación, aparece una lista de recursos que pueden inspirar tus próximas decisiones basadas en datos, así como
+también enseñarte a hacer que tus datos sean más accesibles para tu audiencia.
+
+### El catálogo de visualización de datos [https://datavizcatalogue.com/#google_vignette]
+
+Este catálogo muestra un rango de diferentes diagramas, cuadros y gráficos para ayudarte a encontrar la mejor opción para
+tu proyecto.
+
+### Las 25 mejores visualizaciones de datos [https://visme.co/blog/best-data-visualizations/]
+
+En esta colección de imágenes, explora los mejores ejemplos de datos que se convierten en una visualización espectacular.
+
+### 10 blogs de visualización de datos [https://www.tableau.com/learn/articles/best-data-visualization-blogs]
+
+Cada enlace te llevará a un blog que es una fuente de información sobre infinidad de cosas, desde la narración de datos
+hasta los datos gráficos.
+
+### La información es bella [https://informationisbeautiful.net/wdvp/gallery-2019/]
+
+Fundada por David McCandless, esta galería está dedicada a ayudarte a tomar decisiones visuales más claras e informadas
+que se basen en hechos y datos.
+
+### Galería de estudio de datos[https://datastudio.google.com/gallery?category=visualization]
+
+La información es vital, pero la información presentada de manera digerible es aún más útil. Explora esta galería interactiva
+y encuentra ejemplos de diferentes tipos de datos comunicados de manera visual.
+
+## Una receta para una visualización poderosa
+
+Una de las principales consideraciones al crear una visualización de datos es dónde quieres que se enfoque tu público.
+
+Mostrar demasiado puede distraer y dejar confundido a tu público. En algunos casos, limitar los datos puede ser algo bueno,
+pero, mostrar poco puede hacer que tu visualización sea poco clara y menos significativa.
+
+Como regla general, siempre y cuando no sea engañoso, debes representar visualmente solo los datos que tu público necesita
+para comprender tus hallazgos.
+
+Puedes mostrar con visualizaciones:
+
+El cambio a lo largo del tiempo es una de las principales. Si tu análisis involucra cómo cambiaron los datos durante un
+período determinado, que podría ser de días, semanas, meses o años, puedes armar tu visualización para que muestre solo
+el período relevante a tu objetivo.
+
+Necesitas mostrar cómo se distribuyen tus datos, uas un histograma el cual se parece a un gráfico de barras, pero es un
+gráfico que muestra con cuánta frecuencia los valores de datos caen dentro de determinados rangos. Cada intervalo o rectángulo,
+como se denomina la barra, contiene un determinado número de valores que caen dentro de una pequeña parte del rango.
+
+Los gráficos de barras con barras horizontales muestran eficazmente datos que están clasificados, con barras ordenadas en
+orden ascendente o descendente. Un gráfico de barras siempre debería estar clasificado por valor, salvo que exista un orden
+natural en los datos, como edad o tiempo,
