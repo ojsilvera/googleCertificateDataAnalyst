@@ -148,3 +148,29 @@ Estos son algunos errores comunes que debes evitar para que tus visualizaciones 
 ![Alt text](image-1.png)
 
 ## Conectar imágenes con datos
+
+las visualizaciones de datos son tan importantes tanto para los analistas como para los interesados. La comunicación visual
+de datos es importante para quienes usan los datos como ayuda para tomar decisiones.
+
+*Los gráficos de barras* usan contraste de tamaño para comparar dos o más valores.
+
+La línea horizontal de los gráficos de barras generalmente se coloca abajo, se denomina eje X, y en los gráficos de barras
+con barras verticales, el eje X se  usa para representar categorías, períodos de tiempo u otras variables.
+
+La línea vertical de un gráfico de barras generalmente ubicado a la izquierda se llama eje Y. El eje Y generalmente tiene
+una escala de valores para las variables.
+
+Los gráficos de barras son una manera excelente de aclarar tendencias.
+
+Este tipo de visualización hace que sea muy fácil identificar patrones.
+
+*Los gráfico de líneas* son un tipo de visualización que puede ayudar a tu público a comprender movimientos o cambios en
+tus datos. Generalmente se usan para hacer un seguimiento de los cambios a lo largo de un período, pero también pueden
+combinarse con otros factores.
+
+El gráfico circular. Los gráficos circulares muestran qué porcentaje del todo representa cada parte de algo. Mirando
+rápidamente, es posible determinar que variable sobresaleen mayor porporcion en el grafico, cual es su distribucion con
+respecto a las demas variables, etc.
+
+*Los mapas* ayudan a organizar datos geográficamente. Lo que es genial de los mapas es que pueden contener mucha información
+relacionada con la ubicación y son fáciles de interpretar para tu público.
