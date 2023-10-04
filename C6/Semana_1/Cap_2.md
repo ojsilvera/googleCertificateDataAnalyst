@@ -53,3 +53,22 @@ luz se refleja.
     Variar el valor del color puede ser una manera muy eficaz de llamar la atención del público a zonas específicas.
 
 ### El espacio
+
+El espacio es la superficie en medio, alrededor y dentro de los objetos. Siempre debería haber espacio en las visualizaciones
+de datos, pero no excesivo ni escaso. el espacio entre las barras de un gráfico de barras debería ser menor al ancho de
+las propias barras. Esto hará que el espectador preste atención a la barra y los datos que representa en vez de al espacio
+vacío.
+
+### movimiento
+
+El movimiento se usa para crear una sensación de flujo o acción en una visualización.
+
+La interactividad permite muestra un mayor volumen de datos y que revelemos múltiples historias de la misma visualización
+de datos. esto es algo que debería usarse con moderación. Hay una delgada línea entre atraer la atención y distraer al público.
+
+Una imagen estática te permite controlar todos los elementos de la historia que quieres contar. Cuando empiezas a incorporar
+movimiento e interactividad, la historia es controlada por quien controla la interactividad, ya seas tú o posiblemente
+tu público si le cediste el control.
+
+Cuando juntas muchos de estos elementos de arte en una visualización como esta sobre el nivel del mar, puede ser hermoso
+y provocador. Prueba que hay lugar para la expresión de creatividad en el análisis de datos.
