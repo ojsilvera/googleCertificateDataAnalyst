@@ -219,3 +219,40 @@ visuales con una ejecución elegante incluyen una profunda atención a los detal
 formas, colores, valor, espacio y movimiento.
 
 ## Los datos son bellos
+
+![Alt text](image-21.png)
+
+Cuatro elementos de las visualizaciones exitosas:
+
+El diagrama de Venn realizado por David McCandless identifica cuatro elementos de las visualizaciones exitosas:
+
+Información (datos): La información o los datos que intentas transmitir son un componente clave de tu visualización de
+datos. Sin información ni datos, no puedes comunicar tus hallazgos con éxito.
+
+Historia (concepto): La historia te permite compartir tus datos de maneras significativas e interesantes. Sin una historia,
+tu visualización es informativa, pero no realmente inspiradora.
+
+Objetivo (función): El objetivo de tu visualización de datos hace que los datos sean útiles y utilizables. Esto es lo que
+intentas lograr con tu visualización. Sin un objetivo, tu visualización puede ser informativa de todos modos, pero no puede
+generar conclusiones viables.
+
+Formato visual (metáfora): El elemento del formato visual es lo que le da estructura a tu visualización de datos y la hace
+bella. Sin formato visual, tus datos aún no se visualizan.
+
+### Ejemplo 1
+
+![Alt text](image-22.png)
+
+![Alt text](image-23.png)
+
+### Ejemplo 2
+
+![Alt text](image-24.png)
+
+![Alt text](image-25.png)
+
+### Ejemplo 3
+
+![Alt text](image-26.png)
+
+![Alt text](image-27.png)
