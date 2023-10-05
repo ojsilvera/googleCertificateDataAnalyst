@@ -189,7 +189,33 @@ visuales están inconexos o no están bien organizados, serán confusas y abruma
 
 ## Impacto de la visualización de datos
 
-mostrar una comparación de los diferentes grupos etarios de visitantes a un sitio web, un gráfico de líneas con una línea
+Mostrar una comparación de los diferentes grupos etarios de visitantes a un sitio web, un gráfico de líneas con una línea
 para cada grupo etario, más una para los usuarios totales funcionaría bien. Digamos que quieres resaltar las diferencias
-entre los grupos etarios para compararlos directamente, para eso podrías usar un gráfico de barras positivo-negativo como
-este.
+entre los grupos etarios para compararlos directamente, para eso podrías usar un gráfico de barras positivo-negativo.
+
+Para comparar datos en el tiempo utilizamos los gráficos de líneas podían ser eficaces, tambien los gráficos de barras y
+los gráficos de barras apiladas, junto con los gráficos de áreas, también pueden ser buenas maneras de visualizar cómo
+los datos cambian a lo largo del tiempo.
+
+La composición de datos y se logra combinando las partes individuales de una visualización y mostrándolas juntas como un
+todo. Las barras apiladas, los anillos, las áreas apiladas, los gráficos circulares y los diagramas de árbol pueden hacer
+todo esto.
+
+Para mostrar relaciones en tus datos, quizás te convenga usar diagramas de dispersión y gráficos de burbujas, gráficos de
+columnas/líneas y mapas de calor.
+
+Todo empieza en el cerebro: Al procesar información, nuestro cerebro intenta encontrar patrones y confía en el contexto
+visual.
+
+La periodista visual Dona Wong propone que las representaciones visuales exitosas, tienen tres elementos esenciales:
+
+*El primero un significado claro*: Las buenas visualizaciones comunican con claridad su conclusión prevista.
+
+*El segundo es un uso sofisticado del contraste*, que ayuda a separar los datos más importantes del resto usando el con-
+texto visual que nuestro cerebro busca naturalmente.
+
+*El tercer elemento esencial para las representaciones visuales eficaces es una ejecución elegante*. Las representaciones
+visuales con una ejecución elegante incluyen una profunda atención a los detalles, usando elementos visuales como líneas,
+formas, colores, valor, espacio y movimiento.
+
+## Los datos son bellos
