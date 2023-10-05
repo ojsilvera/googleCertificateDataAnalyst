@@ -267,11 +267,11 @@ las cinco fases que puedes usar al crear visualizaciones de datos: empatizar, de
 estas fases no tienen que seguir un orden fijo, sino que puedes pensar en ellas como una descripción general de acciones
 que pueden ayudarte a producir un diseño centrado en el usuario en tus visualizaciones.
 
-Empatizar piensas en las emociones y necesidades del público objetivo de tu visualización de datos, ya sea sus interesados,
+*Empatizar* piensas en las emociones y necesidades del público objetivo de tu visualización de datos, ya sea sus interesados,
 miembros del equipo o el público general. En este punto, deberías evitar áreas en las que las personas podrían enfrentar
 obstáculos al interactuar con tus visualizaciones.
 
-Definir te ayuda a encontrar las necesidades de tu público, sus problemas y tus conclusiones. Esto va de la mano con la
+*Definir* te ayuda a encontrar las necesidades de tu público, sus problemas y tus conclusiones. Esto va de la mano con la
 fase de empatizar, ya que usarás lo que aprendiste en esa fase para ayudarte a explicar con lujo de detalles exactamente
 qué necesita tu público de tu visualización. Podrías usar esta fase para pensar en qué datos mostrar en tu visualización.
 Quizás esta visualización de datos también se presente a pacientes que forman parte del estudio de tu empresa. Si bien
@@ -280,9 +280,107 @@ posicionar los datos para hacer que sean más digeribles. O si presentas ante di
 sualizaciones para satisfacer las necesidades de cada grupo pidiéndole su opinión a miembros del grupo o colegas que tra-
 bajaron antes con ese grupo.
 
-Idear, empiezas a generar tus ideas de visualización de datos. Usarás todos tus resultados de las fases de empatizar y
+*Idear,* empiezas a generar tus ideas de visualización de datos. Usarás todos tus resultados de las fases de empatizar y
 definir para hacer una lluvia de ideas sobre potenciales soluciones de visualización de datos. Esto podría involucrar la
 creación de borradores de tu visualización con diferentes combinaciones de color o quizás experimentar con diferentes
 formas. Crear la mayor cantidad de ejemplos posibles te ayudará a refinar tus ideas. La clave en este punto es siempre
 recordar a tu público cuando generas ideas y estrategias. Es recomendable que pienses en cómo puedes posicionar tus vi-
 sualizaciones para satisfacer las necesidades y expectativas de tu público.
+
+*crear prototipos y probar*. Aquí empezarás a juntar tus gráficos, paneles u otras visualizaciones. Si mantuviste en mente
+a tu público durante todas las fases hasta este momento, tu visualización de datos será informativa y accesible. Quizás
+quieras crear muchas visualizaciones para elegir la que mejor cumpla con tu objetivo. Podrías probar tus visualizaciones
+mostrándoselas a miembros del equipo antes de presentárselas a interesados. Si creaste más de una para los mismos datos
+o para diferentes públicos como los profesionales médicos y los pacientes de nuestro ejemplo anterior, puedes compartirles
+todas tus opciones. Como siempre, escucha cualquier comentario que recibas. Tus propias críticas y las de terceros son
+claves para el proceso de Design Thinking. Te ayudan a mantenerte enfocado en el público al integrar nuevas ideas en tu
+producto final.
+
+## La metodología Design Thinking para la mejora de la visualización
+
+La metodologíaDesign Thinkingpara la visualización de datos involucra cinco fases:
+
+*Empatizar:* Pensar en las emociones y necesidades del público objetivo para la visualización de datos
+
+*Definir:* Determinar con exactitud qué necesita tu público de los datos
+
+*Idear:* Generar ideas para la visualización de datos
+
+*Crear un prototipo:* Armar visualizaciones para realizar pruebas y recibir comentarios
+
+*Probar:* Mostrar prototipos de visualizaciones a personas antes de que las vean los interesados
+
+### Ejemplo de aplicacion
+
+*Un panel de banca online*.
+
+Definicion del problema:
+
+Supón que eres un analista en un banco que acaba de lanzar un nuevo panel en su aplicación de banca en línea. Esta sección
+describe cómo podrías explorar este panel como haría un nuevo usuario, analizar las necesidades del usuario y pensar en
+ideas para mejorar la visualización de datos en el panel.
+
+El panel en la aplicación bancaria tiene los siguientes elementos de visualización de datos:
+
+- Los gastos mensuales se muestran como un gráfico de anillos que reflejan diferentes categorías como servicios públicos,
+  vivienda, transporte, educación y víveres.
+
+- Cuando los clientes fijan un presupuesto para una categoría, el gráfico de anillos muestra porciones llenas y vacías en
+  la misma vista.
+
+- Los clientes también pueden fijar un límite general de gastos y el panel asignará automáticamente las cifras presupuestadas
+  (zonas vacías del gráfico de anillos) a cada categoría según tendencias pasadas de gastos.
+
+![Alt text](image-28.png)
+
+*Empatizar.*
+
+Primero, empatiza poniéndote en los zapatos de un cliente que tiene una cuenta corriente en el banco.
+
+    ¿Los colores y las etiquetas tienen sentido en la visualización?
+
+    ¿Cuán fácil es fijar o modificar un presupuesto?
+
+    Cuando haces clic en una categoría de gastos en el gráfico de anillos, ¿se muestran las transacciones en la categoría?
+
+    ¿Cuál es el principal propósito de la visualización de datos? Si respondiste que era ayudar a los clientes a no salirse
+    del presupuesto, ¡tenías razón! Ahorrar dinero fue una de las principales necesidades de los clientes para el panel.
+
+*Definir.*
+
+Ahora imagina que estás ayudando a los diseñadores del panel a definir otras cosas que los clientes podrían querer lograr
+además de ahorrar dinero.
+
+    ¿Qué otras visualizaciones de datos se podrían necesitar?
+
+    Rastrear los ingresos (además de los gastos)
+
+    Rastrear otros gastos que no se ajusten perfectamente a las categorías fijadas (esto a veces se llama gastos discre-
+    cionales)
+
+    Pagar las deudas
+
+*Crear un prototipo.*
+
+Los desarrolladores pueden hacer un prototipo de la próxima versión del panel con nuevas y mejoradas actualizaciones de datos.
+
+*Probar.*
+
+Los desarrolladores pueden cerrar el ciclo haciendo que tú (y otros) prueben el prototipo antes de que se envíe a los
+interesados para que lo revisen y aprueben.
+
+Conclusiones clave
+
+El ejemplo de la metodología Design Thinking demostró cuán importante es:
+
+    Comprender las necesidades de los usuarios
+
+    Generar nuevas ideas para la visualización de datos
+
+    Realizar mejoras incrementales a las visualizaciones de datos a lo largo del tiempo
+
+Referencias:
+
+[https://dataconomy.com/2019/05/three-critical-aspects-of-design-thinking-for-big-data-solutions/]
+
+[https://www.enginess.io/insights/data-and-design-thinking]
