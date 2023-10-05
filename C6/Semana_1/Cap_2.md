@@ -256,3 +256,5 @@ bella. Sin formato visual, tus datos aún no se visualizan.
 ![Alt text](image-26.png)
 
 ![Alt text](image-27.png)
+
+## La metodología Design Thinking y las visualizaciones
