@@ -72,3 +72,117 @@ tu público si le cediste el control.
 
 Cuando juntas muchos de estos elementos de arte en una visualización como esta sobre el nivel del mar, puede ser hermoso
 y provocador. Prueba que hay lugar para la expresión de creatividad en el análisis de datos.
+
+## Principios de diseño
+
+En esta lectura, aprenderás más acerca del uso de elementos de arte y principios de diseño para crear visualizaciones eficaces.
+Hasta el momento, aprendimos que comunicar datos de manera visual es una forma de arte. Ahora es momento de explorar los
+nueve principios de diseño para crear visualizaciones de datos hermosas y eficaces que pueden ser informativas y atraer
+a todos los públicos.
+
+Después de que veamos los diversos principios de diseño, tómate un tiempo para examinar los ejemplos visuales para asegurarte
+de tener una comprensión integral de cómo el principio se lleva a la práctica. ¡Comencemos!
+
+Nueve principios básicos de diseño
+
+Existen nueve principios de diseño básicos que los analistas de datos deberían considerar al armar sus visualizaciones.
+
+![Alt text](image-15.png)
+
+### Equilibrio
+
+El diseño de las visualizaciones de datos está equilibrado cuando los elementos visuales clave, como el color y la forma,
+se distribuyen de manera pareja. Esto no significa que necesites una simetría completa, pero tu visualización no debería
+tener un lado que distraiga del otro. Si tu visualización de datos está equilibrada, esto podría significar que las líneas
+usadas para crear los gráficos tienen una longitud similar en ambos lados, o que el espacio entre los objetos es igual.
+
+![Alt text](image-16.png)
+
+Por ejemplo, este gráfico de columnas  (que también se muestra debajo) está equilibrado; aunque las columnas tengan alturas
+diferentes y el gráfico no sea simétrico. Los colores, el ancho y el espaciamiento de las columnas hacen que esta visua-
+lización de datos se mantenga equilibrada. Los colores brindan un contraste suficiente entre sí para que uno pueda prestar
+atención al nivel de motivación y el nivel de energía mostrado.
+
+### Énfasis
+
+Tu visualización de datos debería tener un punto focal para que tu público sepa dónde concentrarse. En otras palabras,
+tus visualizaciones deberían poner el énfasis en los datos más importantes para que los usuarios los reconozcan primero.
+El uso de colores y valores es una manera eficaz de hacer que esto suceda. Al usar colores contrastantes, puedes asegurarte
+de que los elementos gráficos –y los datos que se muestran en estos elementos– se destaquen.
+
+![Alt text](image-17.png)
+
+Por ejemplo, verás una visualización de datos en un mapa de calor debajo del artículo The Pudding’s “Where Slang Comes From".
+Este mapa de calor usa intensidad de color y valores para enfatizar los estados en lo que el interés de búsqueda es el más
+alto. Puedes identificar visualmente el incremento en la búsqueda en el tiempo desde un interés bajo hasta un interés alto.
+De esta manera, puedes captar rápidamente la idea clave que se presenta sin conocer los valores de datos específicos.
+
+### Movimiento
+
+El movimiento puede hacer referencia al recorrido que hace el ojo del espectador cuando mira una visualización de datos o
+el movimiento literal creado por animaciones. El movimiento en las visualizaciones de datos debería imitar la manera en
+la que las personas normalmente leen. Puedes usar líneas y colores para hacer que la atención del espectador recorra la
+página.
+
+![Alt text](image-18.png)
+
+Por ejemplo, observa cómo la línea promedio en este gráfico combinado (que también se muestra debajo) lleva tu atención
+de izquierda a derecha. Aunque este ejemplo no se mueve, igualmente usa el principio de movimiento para guiar la compren-
+sión de los datos por parte de los espectadores.
+
+### Patrón
+
+Puedes usar formas y colores similares para crear patrones en tu visualización de datos. Esto puede ser útil de muchas y
+diversas maneras. Por ejemplo, puedes usar patrones para destacar similitudes entre diferentes conjuntos de datos, o romper
+un patrón con una forma, color o línea únicos para generar mayor énfasis.
+
+![Alt text](image-19.png)
+
+En el ejemplo que aparece debajo, las categorías con diferente color de este gráfico de columnas apiladas  (que también
+se muestra debajo) son un patrón uniforme que hace que sea más fácil comparar las ventas de libros por género en cada
+columna. Observa en el gráfico que la categoría de Fantasía y ciencia ficción (azul rey) se incrementa con el tiempo aun
+cuando la categoría general (verde) se mantiene casi igual.
+
+### Repetición
+
+La repetición de tipos, formas o colores de los gráficos suma eficacia a tu visualización. Piensa en el gráfico de ventas
+de libros del ejemplo anterior: La repetición de los colores ayuda al público a comprender que existen conjuntos de datos
+distintos. Quizás notes esta repetición en todos los ejemplos que repasamos hasta ahora. Tómate el tiempo de repasar cada
+uno de los ejemplos anteriores y observa los elementos que se repiten para crear una historia visual significativa.
+
+### Proporción
+
+La proporción es otra manera en que puedes demostrar la importancia de determinados datos. El uso de diversos colores y
+tamaños ayuda a demostrar que estás destacando un elemento visual específico por encima de los demás. Si realizas un gráfico
+en un panel más grande que los demás, estás dirigiendo la atención hacia ese gráfico. Es importante asegurarse de que cada
+gráfico refleje y visualice con precisión la relación entre los valores en su interior.
+
+![Alt text](image-20.png)
+
+En este panel  (que también se muestra debajo), los tamaños y colores de las porciones del gráfico circular en comparación
+con los datos en la tabla ayudan a que el número de rosquillas comidas por cada persona sea el punto focal.
+
+Estos primeros seis principios de diseño son consideraciones clave que puedes tener en cuenta mientras creas tu visualización
+de datos.
+
+Los siguientes tres principios son verificaciones útiles una vez que completas tu visualización de datos. Si
+aplicaste a consciencia los seis principios iniciales, probablemente ya reconocerás estos próximos tres principios dentro
+de tus visualizaciones.
+
+### Ritmo
+
+Esto hace referencia a crear una sensación de movimiento o flujo en tu visualización. El ritmo está estrechamente unido
+al principio de movimiento. Si tu diseño terminado no crea exitosamente un flujo, quizás tengas que reacomodar algunos
+de los elementos para mejorar el ritmo.
+
+### Variedad
+
+Tus visualizaciones deberían tener algo de variedad en tipos, líneas, formas, colores y valores de gráficos que usas. La
+variedad mantiene el interés de tu público. Sin embargo, es bueno encontrar un equilibrio, ya que demasiada variedad puede
+confundir a las personas. La variedad que incluyas debería hacer que tus paneles y otras visualizaciones parezcan interesantes
+y estén unificadas.
+
+### Unidad
+
+El último principio es la unidad. Esto significa que tu visualización de datos final debería ser cohesiva. Si los elementos
+visuales están inconexos o no están bien organizados, serán confusas y abrumadoras.
