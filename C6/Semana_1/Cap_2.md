@@ -258,3 +258,31 @@ bella. Sin formato visual, tus datos aún no se visualizan.
 ![Alt text](image-27.png)
 
 ## La metodología Design Thinking y las visualizaciones
+
+La metodología*Design Thinking*es un proceso que se usa para resolver problemas complejos de una manera centrada en el
+usuario, esto es una descripción general de acciones que pueden ayudarte a producir un diseño centrado en el usuario en
+tus visualizaciones.
+
+las cinco fases que puedes usar al crear visualizaciones de datos: empatizar, definir, idear, crear prototipos y probar,
+estas fases no tienen que seguir un orden fijo, sino que puedes pensar en ellas como una descripción general de acciones
+que pueden ayudarte a producir un diseño centrado en el usuario en tus visualizaciones.
+
+Empatizar piensas en las emociones y necesidades del público objetivo de tu visualización de datos, ya sea sus interesados,
+miembros del equipo o el público general. En este punto, deberías evitar áreas en las que las personas podrían enfrentar
+obstáculos al interactuar con tus visualizaciones.
+
+Definir te ayuda a encontrar las necesidades de tu público, sus problemas y tus conclusiones. Esto va de la mano con la
+fase de empatizar, ya que usarás lo que aprendiste en esa fase para ayudarte a explicar con lujo de detalles exactamente
+qué necesita tu público de tu visualización. Podrías usar esta fase para pensar en qué datos mostrar en tu visualización.
+Quizás esta visualización de datos también se presente a pacientes que forman parte del estudio de tu empresa. Si bien
+necesitarás cumplir con tus objetivos, quizás haya datos que pongan incómodas a estas personas. Puedes pensar maneras de
+posicionar los datos para hacer que sean más digeribles. O si presentas ante diferentes públicos, puedes ajustar tus vi-
+sualizaciones para satisfacer las necesidades de cada grupo pidiéndole su opinión a miembros del grupo o colegas que tra-
+bajaron antes con ese grupo.
+
+Idear, empiezas a generar tus ideas de visualización de datos. Usarás todos tus resultados de las fases de empatizar y
+definir para hacer una lluvia de ideas sobre potenciales soluciones de visualización de datos. Esto podría involucrar la
+creación de borradores de tu visualización con diferentes combinaciones de color o quizás experimentar con diferentes
+formas. Crear la mayor cantidad de ejemplos posibles te ayudará a refinar tus ideas. La clave en este punto es siempre
+recordar a tu público cuando generas ideas y estrategias. Es recomendable que pienses en cómo puedes posicionar tus vi-
+sualizaciones para satisfacer las necesidades y expectativas de tu público.
