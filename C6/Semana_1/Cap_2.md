@@ -186,3 +186,10 @@ y estén unificadas.
 
 El último principio es la unidad. Esto significa que tu visualización de datos final debería ser cohesiva. Si los elementos
 visuales están inconexos o no están bien organizados, serán confusas y abrumadoras.
+
+## Impacto de la visualización de datos
+
+mostrar una comparación de los diferentes grupos etarios de visitantes a un sitio web, un gráfico de líneas con una línea
+para cada grupo etario, más una para los usuarios totales funcionaría bien. Digamos que quieres resaltar las diferencias
+entre los grupos etarios para compararlos directamente, para eso podrías usar un gráfico de barras positivo-negativo como
+este.
