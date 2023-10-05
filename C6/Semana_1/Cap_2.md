@@ -73,7 +73,7 @@ tu público si le cediste el control.
 Cuando juntas muchos de estos elementos de arte en una visualización como esta sobre el nivel del mar, puede ser hermoso
 y provocador. Prueba que hay lugar para la expresión de creatividad en el análisis de datos.
 
-## Principios de diseño
+## Principios de diseño Caracteristicas
 
 En esta lectura, aprenderás más acerca del uso de elementos de arte y principios de diseño para crear visualizaciones eficaces.
 Hasta el momento, aprendimos que comunicar datos de manera visual es una forma de arte. Ahora es momento de explorar los
