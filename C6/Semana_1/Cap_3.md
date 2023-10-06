@@ -28,3 +28,5 @@ suales como colores o formas para representar diferentes valores de datos. Las e
 leyendas ya que, Una leyenda o llave identifica el significado de diversos elementos en una visualización de datos y puede
 usarse como alternativa a etiquetar los datos directamente, mientras que la etiqueta mantiene la atención de tu público
 fija en tu gráfico y le ayuda a identificar datos on rapidez.
+
+## Consejos profesionales para destacar información clave
