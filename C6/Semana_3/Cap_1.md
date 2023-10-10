@@ -57,9 +57,12 @@ en la persona que está escuchando. Los analistas de datos hacen esto aseguránd
 Para obtener la respuesta que estás buscando, debes comprender el punto de vista de tu público. Eso significa pensar en
 cómo tu proyecto de datos podría afectarlo. Es de ayuda que te hagas unas preguntas:
 
- ¿Qué papel juega este público?
- ¿Cuál es su interés en este proyecto?
- ¿Qué esperan obtener de las conclusiones de datos que presento?
+    ¿Qué papel juega este público?
+    ¿Cuál es su interés en este proyecto?
+    ¿Qué esperan obtener de las conclusiones de datos que presento?
 
 Una vez que hayas considerado las respuestas a esas preguntas, es hora de elegir tu mensaje principal. Cada parte de tu
-historia fluye desde este punto clave, por lo que debe ser claro y directo
+historia fluye desde este punto clave, por lo que debe ser claro y directo.  Una gran parte de ser analista de datos es
+saber cómo eliminar los datos menos importantes. Una manera de hacer esto es con algo que se denomina "poner de relieve".
+Poner de relieve significa explorar los datos para identificar rápidamente las conclusiones más importantes.
+
