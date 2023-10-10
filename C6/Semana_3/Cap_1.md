@@ -60,4 +60,6 @@ cómo tu proyecto de datos podría afectarlo. Es de ayuda que te hagas unas preg
  ¿Qué papel juega este público?
  ¿Cuál es su interés en este proyecto?
  ¿Qué esperan obtener de las conclusiones de datos que presento?
- 
+
+Una vez que hayas considerado las respuestas a esas preguntas, es hora de elegir tu mensaje principal. Cada parte de tu
+historia fluye desde este punto clave, por lo que debe ser claro y directo
