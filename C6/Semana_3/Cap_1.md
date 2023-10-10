@@ -48,3 +48,16 @@ desbloquear las historias a partir de bloques grandes de texto donde no podría 
 palabras se pueden utilizar de muchas maneras. En las redes sociales, pueden mostrarte qué temas aparecen en las publicaciones
 con mayor frecuencia, o puedes utilizarlas en blogs para destacar las ideas que más interesan a los lectores. Esta nube de
 palabras se creó utilizando texto del programa de este curso.
+
+## Hablarle a tu público
+
+el primero de los tres pasos de la narrativa de datos nos enseña que para que una historia sea exitosa, debes enfocarte
+en la persona que está escuchando. Los analistas de datos hacen esto asegurándose de que están cautivando a su público.
+
+Para obtener la respuesta que estás buscando, debes comprender el punto de vista de tu público. Eso significa pensar en
+cómo tu proyecto de datos podría afectarlo. Es de ayuda que te hagas unas preguntas:
+
+ ¿Qué papel juega este público?
+ ¿Cuál es su interés en este proyecto?
+ ¿Qué esperan obtener de las conclusiones de datos que presento?
+ 
