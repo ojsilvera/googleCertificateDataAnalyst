@@ -1,4 +1,4 @@
-# Fundamentos de paneles en tableau.
+# Fundamentos de paneles en tableau
 
 elementos de mosaico son paneles fijos que acompañan el eje central de explicaion de los datos a los interesados
 los elementos flotaten se superponen a los demas elementos y permiten enfatizar ciertos aspectos que son cambiantes en
@@ -23,7 +23,7 @@ Identificar si los datos son activos o estáticos depende de ciertos factores:
 
         ¿Es necesario actualizar regularmente estos datos o análisis para que sigan siendo valiosos?
 
-Los datos estáticos implican proporcionar capturas de pantalla o instantáneas en las presentaciones o construir paneles
+Los datos *estáticos* implican proporcionar capturas de pantalla o instantáneas en las presentaciones o construir paneles
 utilizando instantáneas de datos. Los datos estáticos tienen pros y contras.
 
     PROS
@@ -38,3 +38,29 @@ utilizando instantáneas de datos. Los datos estáticos tienen pros y contras.
         en un estado estático
 
         Las instantáneas no pueden seguir el ritmo de los cambios en los datos
+
+Los datos *activos* significan que se pueden crear paneles, informes y vistas conectadas a los datos actualizados
+automáticamente.
+
+    PROS
+
+        Se pueden crear paneles más dinámicos y escalables
+
+        Proporcionan los datos más actualizados a las personas que los necesitan en el momento en que los necesitan
+
+        Permiten obtener vistas actualizadas de los datos con la capacidad de construir una “única fuente de verdad” es-
+        calable para diversos casos de uso
+
+        Permiten tomar medidas inmediatas sobre los datos que cambian con frecuencia
+
+        Alivian el tiempo y los recursos dedicados a los procesos de cada análisis
+
+    CONTRAS
+
+        Pueden requerir recursos de ingeniería para mantener las canalizaciones activas y escalables, lo que puede estar
+        fuera del alcance de la asignación de recursos de datos de algunas empresas
+
+        Sin la capacidad de interpretar los datos, se puede perder el control de la narrativa, lo que puede provocar un
+        caos de datos (es decir, que los equipos lleguen a conclusiones contradictorias basadas en los mismos datos)
+
+        Pueden causar potencialmente una falta de confianza si los datos no se manejan adecuadamente
