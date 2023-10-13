@@ -64,3 +64,8 @@ automáticamente.
         caos de datos (es decir, que los equipos lleguen a conclusiones contradictorias basadas en los mismos datos)
 
         Pueden causar potencialmente una falta de confianza si los datos no se manejan adecuadamente
+
+## Filtros
+
+las siguientes tareas se pueden utilizar filtros en Tableau, limitar la información, personalizarla o resaltar un punto
+de datos.
