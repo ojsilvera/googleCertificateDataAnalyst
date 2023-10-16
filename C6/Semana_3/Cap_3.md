@@ -59,3 +59,9 @@ específicas de una región en particular.
 los elementos visuales, Estos elementos ayudan a que el público comprenda rápidamente el contenido de cada diapositiva,
 Pueden ayudarte a exponer un punto de vista de una manera que las palabras no podrían hacerlo por sí mismas. Los buenos
 elementos visuales no dan lugar a ningún tipo de interpretación porque el significado se comprende al instante.
+
+Elige solo los puntos de datos que respaldan tus propósitos, en especial, tu mensaje clave. Me gustaría preguntarme:
+
+        "¿Qué es lo más importante que deseo que mi público aprenda de mi análisis?"
+
+Eso me ayuda a decidir con qué elementos visuales probablemente me haré entender más.
