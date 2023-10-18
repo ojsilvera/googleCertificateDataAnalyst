@@ -128,3 +128,14 @@ Aquí hay un ejemplo de una agenda de 30 minutos de duración:
     Pasos materializables (3 minutos)
 
     Preguntas (5 minutos)
+
+*Segunda diapositiva, Propósito:*
+
+No todos conocen tu proyecto ni saben por qué es importante. No pasaron las últimas dos semanas pensando en el análisis
+de los datos ni en los resultados del proyecto como tú. Esta diapositiva resume el propósito de tu proyecto y por qué le
+incumbe a tu audiencia.
+
+Aquí tienes un ejemplo de una declaración de propósito:
+
+    El fortalecimiento del centro de servicio es una iniciativa importante para ahorrar dinero. El objetivo de este
+    proyecto es definir qué repercusión tendría fortalecer el centro de servicio en los tiempos de respuesta a los clientes.
