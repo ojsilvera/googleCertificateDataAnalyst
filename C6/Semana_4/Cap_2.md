@@ -197,3 +197,18 @@ obtener opiniones para seguir mejorando. Quizá puedas pedirle a tu gerente o a 
 piensa sobre la forma en que contaste la historia o sobre la presentación en general. Las opiniones de otros siempre nos
 ayudan a mejorar. Cuando tengas que escribir una nueva historia para tus datos (o una secuela para la que ya contaste),
 estarás listo para impresionar aún más a la audiencia.
+
+## Presenta como un profesional
+
+Primero, intenta tener en cuenta que tu público no siempre entenderá los pasos que seguiste para llegar a la conclusión.
+El trabajo tiene sentido para ti porque tú lo realizaste; a eso se le llama la maldición del conocimiento. Básicamente,
+significa que el hecho de que tú sepas algo puede dificultar que pienses que tu público no lo sabe. Es importante recordar
+que tu público no tiene el mismo contexto que tú, así que debes centrarte en la información que necesita para llegar a
+la misma conclusión a la que tú llegaste.
+
+herramientas útiles que puedes agregar a tus presentaciones
+
+- Responder preguntas básicas sobre el origen de los datos y qué abarcan: ¿Cómo se recolectaron? ¿Se centran en un momento
+  o lugar específico? También puedes incluir tu hipótesis orientativa y los objetivos que impulsaron tu análisis.
+
+- Es útil que incluyas cualquier suposición o método que hayas utilizado para llegar a tus conclusiones.
