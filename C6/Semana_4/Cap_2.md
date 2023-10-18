@@ -37,3 +37,25 @@ Algunos consejos y trucos que podrás utilizar en tus propias presentaciones:
   les. Para otras, significa escribir un guion y repetirlo mentalmente. Otras descubren que verse a sí mismas dando la
   presentación les ayuda. Trata de encontrar un método que te sirva. Lo más importante que hay que recordar es que cuanto
   más preparado estés, mejor será tu desempeño cuando las luces se enciendan y sea tu turno de presentar.
+
+### Consejos generales para preparar y afrontar una presentacion
+
+*Consejo 1: Conoce cuál es tu mejor forma de organizarte:*
+
+Al igual que con cualquier buena historia, las historias que cuenten tus datos deben tener un buen argumento (tema y or-
+ganización), un buen diálogo (puntos para conversar) y un final increíble o una gran revelación (resultados y conclusio-
+nes). Una forma de organizarte puede incluir, primero, un resumen de lo que analizaste y, después, las tendencias que
+obtuviste como resultado y posibles áreas para seguir explorando.
+
+- ¿Quién es mi audiencia?
+  
+  Si tu audiencia está conformada, por ejemplo, por ejecutivos, miembros de la junta directiva u otros tipos de gerentes
+  de primera línea, entonces la narración debería ser de alto nivel. Tu presentación debería ser breve y deberías dedicar
+  la mayor parte del tiempo a los resultados y las recomendaciones.
+
+  Si tu audiencia de destino son los interesados y gerentes, entonces es posible que haya un poco más de tiempo para con-
+  tarles cómo llevaste a cabo tu análisis y quizá hasta hagan preguntas más relacionadas con los datos. Ten preparados
+  puntos para conversar sobre los aspectos de tu análisis que te guiaron a tus resultados y conclusiones finales.
+
+  Si tu audiencia de destino incluye a otros analistas y colaboradores individuales, entonces tienes toda la libertad del
+  mundo (y, probablemente, todo el tiempo del mundo) para ahondar más en los datos, procesos y resultados.
