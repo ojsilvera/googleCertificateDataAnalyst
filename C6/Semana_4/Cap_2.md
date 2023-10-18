@@ -212,3 +212,33 @@ herramientas útiles que puedes agregar a tus presentaciones
   o lugar específico? También puedes incluir tu hipótesis orientativa y los objetivos que impulsaron tu análisis.
 
 - Es útil que incluyas cualquier suposición o método que hayas utilizado para llegar a tus conclusiones.
+
+- Explica tu conclusión y cómo llegaste a ella. Tu público ya tiene demasiada información también. Quizás los asistentes
+  estén pensando en sus propios proyectos laborales o en lo que quieren almorzar. No quieren ser irrespetuosos y no quiere
+  decir que no están interesados, solo son personas ocupadas con mucho que hacer.
+
+- Trata de que tu presentación se mantenga centrada y vaya al grano para evitar que se distraigan. Evita narrar historias
+  que lleven a tu público hacia otra línea de pensamiento, y trata de no dar demasiados detalles sobre cosas que no le
+  interesan a tu público. Quizás hayas encontrado una nueva base de datos SQL muy interesante, pero a menos que tu presen-
+  tación sea sobre bases de datos deberías dejar esa información de lado.
+
+- El público también podría distraerse fácilmente con la información de tu presentación. Por ejemplo, si incluyes muchas
+  cosas en un gráfico, el público necesitará más tiempo para analizarlo. Evita incluir información en tus presentaciones
+  que piensas que no será productiva para debatir con tu público; comparte la cantidad adecuada de contenido para que tu
+  público siga concentrado y esté listo para actuar.
+
+- Presta atención a cómo hablas. Tus oraciones deben ser cortas. No uses palabras largas si puedes usar palabras cortas.
+
+- Haz pausas intencionales para darle tiempo a tu público para pensar en lo que acabas de decir.
+
+- Trata de que el tono de tus oraciones sea uniforme para que no confundan tus frases con preguntas.
+
+- Trata de ser consciente de cualquier hábito nervioso que tengas. Quizás hablas más rápido, mueves los dedos de los pies
+  o te tocas el cabello cuando estás nervioso. Es completamente normal, y todos lo hacemos, pero esos hábitos pueden
+  distraer a tu público.
+
+- Trata de quedarte quieto y de moverte con un propósito. Mantén una buena postura y haz contacto visual con las personas
+  que integran tu público.
+
+- Acepta y pide retroalimentación de las personas en quienes confías. La retroalimentación es un regalo y una oportunidad
+  para crecer.
