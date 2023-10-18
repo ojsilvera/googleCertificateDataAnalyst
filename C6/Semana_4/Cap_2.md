@@ -139,3 +139,61 @@ Aquí tienes un ejemplo de una declaración de propósito:
 
     El fortalecimiento del centro de servicio es una iniciativa importante para ahorrar dinero. El objetivo de este
     proyecto es definir qué repercusión tendría fortalecer el centro de servicio en los tiempos de respuesta a los clientes.
+
+*Tercera diapositiva, Datos/ análisis:*
+
+Primero que nada, ten en cuenta que es posible contar la historia de tus datos en una sola diapositiva si resumes la
+información clave sobre los datos y el análisis. Quizá quieras incluir un apéndice con algunas diapositivas de respaldo
+que contengan datos o información al final de la presentación.
+
+Pero si eliges contar tu historia con más de una diapositiva, ten en cuenta lo siguiente:
+
+    Por lo general, las diapositivas siguen un orden lógico (principio, cuerpo y final) para contar la historia en su totalidad.
+
+    Cada diapositiva debería presentar la que sigue con un orden lógico. Las indicaciones visuales en las diapositivas o
+    las verbales de tus puntos para conversar deberían explicarle a la audiencia que estás por pasar a la diapositiva
+    que sigue.
+
+    Recuerda no usar demasiado texto en las diapositivas. Si tienes dudas, repasa el segundo consejo, que trata sobre cómo
+    preparar los puntos para conversar y limitar la cantidad de texto en las diapositivas.
+
+    La información de alto nivel que la audiencia lee en las diapositivas no debería ser la misma que tú incluyes en tus
+    puntos para conversar. Debería haber un buen balance entre las dos cosas para que la historia sea buena. No está bueno
+    leer las diapositivas o decir las palabras que ves allí.
+
+¿Quieres agregar más elementos visuales en las diapositivas? Prueba con animaciones. Por ejemplo, podrías hacer lo siguiente:
+
+    Hacer aparecer cada punto de la lista gradualmente a medida que lo explicas en la diapositiva.
+
+    Mostrar solo el elemento visual importante para lo que estás diciendo (hacer desaparecer gradualmente los elementos
+    visuales que no son importantes).
+
+    Usar flechas o globos para apuntar a cierta zona de un elemento visual que estás usando.
+
+*Cuarta diapositiva, Recomendaciones:*
+
+Si contaste bien tu historia en las diapositivas anteriores, tu audiencia ya se imagina lo que dirás en las recomenda-
+ciones. En esta parte, puede que recibas muchas preguntas sobre cómo tus datos respaldan tus recomendaciones. Prepárate
+para explicar de distintas formas cómo tus datos respaldan tu conclusión o recomendaciones. Si usas distintas palabras
+para decir lo mismo, también ayudas a algún miembro de la audiencia que no esté entendiendo esa explicación en particular.
+
+*Quinta diapositiva, Llamada a la acción:*
+
+A veces, puedes incluir la llamada a la acción en la diapositiva de recomendaciones. Pero, si quieres incluir distintas
+acciones o actividades recomendadas, es mejor que uses una diapositiva para eso.
+
+Volvamos al ejemplo de la declaración de propósito: El fortalecimiento del centro de servicio es una iniciativa importante
+para ahorrar dinero. El objetivo de este proyecto es definir qué repercusión tendría fortalecer el centro de servicio en
+los tiempos de respuesta a los clientes.
+
+Supongamos que, gracias al análisis de datos, descubriste que fortalecer el centro de servicio afecta los tiempos de res-
+puesta a los clientes. Una posible llamada a la acción podría ser examinar si es necesario modificar los procesos para
+que los tiempos de respuesta a los clientes vuelvan a ser los mismos que antes del fortalecimiento.
+
+*Cierre, Pide opiniones:*
+
+Después de dar la presentación ante la audiencia, reflexiona sobre cómo contaste la historia de tus datos y cómo puedes
+obtener opiniones para seguir mejorando. Quizá puedas pedirle a tu gerente o a otro analista de datos que te diga lo que
+piensa sobre la forma en que contaste la historia o sobre la presentación en general. Las opiniones de otros siempre nos
+ayudan a mejorar. Cuando tengas que escribir una nueva historia para tus datos (o una secuela para la que ya contaste),
+estarás listo para impresionar aún más a la audiencia.
