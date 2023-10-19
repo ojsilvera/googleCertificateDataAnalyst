@@ -87,3 +87,26 @@ Los interesados pueden formular objeciones durante o luego de tu presentación. 
    Objeciones a los resultados mismos, muchas veces serán preguntas como "¿estos resultados también se encuentran en pe-
    ríodos anteriores o controlaste las diferencias en tus datos?" El público quiere asegurarse de que tus resultados
    finales tienen en cuenta cualquier inconsistencia posible y de que son precisos y útiles.
+
+En caso de que uno de los interesados está preocupado respecto de un problema que tú no detectaste, puedes reconocer la
+objeción y prometer que vas a dar los pasos necesarios para investigar más a fondo.
+
+### sugerencias de como responder a las objeciones
+
+Ahora que conoces algunos tipos de objeciones posibles que tu público podría formular:
+
+Primero, puede ser útil comunicar cualquier suposición sobre los datos, tu análisis o tus resultados que podría ayudar a
+responder sus preguntas. Por ejemplo, ¿tu equipo limpió y formateó los datos antes del análisis? Dile al público que puedes
+despejar cualquier duda que podrían tener.
+
+Segundo, explica por qué tu análisis podría ser diferente a lo esperado. Recorre con tu público las variables que cambiaron
+los resultados para ayudarles a comprender cómo llegaste allí.
+
+tercero, algunas objeciones tienen su mérito, en especial si muestran algo en lo que no habías pensado antes. Si eso es
+cierto, puedes reconocer que esas objeciones son válidas y dar los pasos necesarios para investigar más a fondo.
+
+Estas objeciones representa un feedback, por lo tanto es recomendable hacer un seguimiento más detallado luego.
+
+    En sintecis, Una buena forma de prepararte para posibles objeciones es incluir un apéndice para brindar información
+    extra respecto del proceso analítico. También puedes explicar las fuentes de los datos al comienzo de tu presentación
+    y brindar recursos para que los interesados exploren más los datos.
