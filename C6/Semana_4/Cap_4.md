@@ -19,3 +19,5 @@ algunas recomedacion iniciales son:
 - tener una diapositiva con la seccion apedice, es util, hay colocamos toda la informacion extra que esta relacionada con
   la presentacion, ampliamos conceptos y podemos profundizar en los temas mas complejos, esta es una seccion tambien para
   colocar informacion complementaria no relevante y que no se trato durante la presentacion.
+
+- Cuando respondes, trata de hacer participar a todo el público.
