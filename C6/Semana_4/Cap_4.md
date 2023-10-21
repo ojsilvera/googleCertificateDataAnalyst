@@ -21,3 +21,11 @@ algunas recomedacion iniciales son:
   colocar informacion complementaria no relevante y que no se trato durante la presentacion.
 
 - Cuando respondes, trata de hacer participar a todo el público.
+
+- Mantén tus respuestas cortas y específicas. Comienza con una respuesta de una línea que les dé la respuesta básica a
+  los interesados. Luego, si tienen más preguntas, puedes brindarles más detalles. Esto puede ser difícil para un analista
+  de datos. Tienes toda la información previa y quieres compartir tu arduo trabajo, pero no quieres perder a tu público
+  con una respuesta larga y posiblemente confusa. Mantente enfocado en la pregunta misma. Por eso es tan importante escu-
+  char toda la pregunta. Para mantener el foco en esa pregunta específica. Responde la pregunta de la manera más directa
+  posible y utiliza la menor cantidad de palabras que puedas. A partir de allí, puedes expandir tu respuesta o agregarle
+  los colores, los contextos y los detalles que sean necesarios.
