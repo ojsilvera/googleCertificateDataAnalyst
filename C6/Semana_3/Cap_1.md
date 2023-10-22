@@ -65,4 +65,3 @@ Una vez que hayas considerado las respuestas a esas preguntas, es hora de elegir
 historia fluye desde este punto clave, por lo que debe ser claro y directo.  Una gran parte de ser analista de datos es
 saber cómo eliminar los datos menos importantes. Una manera de hacer esto es con algo que se denomina "poner de relieve".
 Poner de relieve significa explorar los datos para identificar rápidamente las conclusiones más importantes.
-
