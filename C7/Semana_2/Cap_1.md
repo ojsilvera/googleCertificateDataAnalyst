@@ -184,6 +184,27 @@ Vamos a ejecutar la función:
 La sangría de los símbolos $ refleja la estructura anidada de esta lista. Bien, aquí hay tres niveles (de modo que hay
 una lista dentro de otra lista).
 
+*Poner nombre a las listas:*
+
+A las listas, como a los vectores, se les puede colocar un nombre. Puedes nombrar los elementos de una lista cuando la
+creas con la función list():
+
+    list('nombre' - valor1, 'nombre' - valor2, 'nombre' - valor3)
+
+    list('Chicago' = 1, 'New York' = 2, 'Los Angeles' = 3)
+
+    $Chicago
+
+    [1] 1
+
+    $`New York`
+
+    [1] 2
+
+    $`Los Angeles`
+
+    [1] 3
+
 Marcos de datos
 
 Matrices
