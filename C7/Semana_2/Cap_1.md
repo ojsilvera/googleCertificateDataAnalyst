@@ -52,6 +52,71 @@ También puedes crear un vector que contenga caracteres o valores lógicos.
 
     v_4 <- c(TRUE, FALSE, TRUE)
 
+*Determinar las propiedades de los vectores.*
+
+Cada vector que creas tendrá dos propiedades clave: tipo y longitud.
+
+Puedes determinar con qué tipo de vector estás trabajando mediante el uso de la función *typeof()*. Coloca el código para
+el vector dentro del paréntesis de la función. Cuando ejecutes la función, R te dirá de qué tipo es. Por ejemplo:
+
+    typeof(c(“a” , “b”))
+    [1] "character"
+
+Observa que el resultado de la función typeof en este ejemplo es la palabra “character”. Del mismo modo, si utilizas la
+función typeof en un vector con valores enteros, el resultado va a incluir “integer”:
+
+    typeof(c(1L , 3L))
+    [1] "integer"
+
+Puedes determinar la longitud de un vector existente, es decir, el número de elementos que contiene, utilizando la función
+*length()*. En este ejemplo, podemos utilizar un operador de asignación para asignar al vector la variable x. Luego,
+aplicamos la función length() a la variable. Cuando ejecutamos la función, R nos indica que la longitud es 3.
+
+    x <- c(33.5, 57.75, 120.05)
+    length(x)
+    [1] 3
+
+También puedes verificar si un vector es de un tipo específico mediante la función is:
+
+    is.logical() is.double(), is.integer(), is.character()
+
+En este ejemplo, R resulta TRUE porque el vector contiene valores enteros.
+
+    x <- c(2L, 5L, 11L)
+    is.integer(x)
+    [1] TRUE
+
+En este ejemplo, R arroja un valor de FALSE porque el vector no contiene caracteres, sino valores lógicos.
+
+    y <- c(TRUE, TRUE, FALSE)
+    is.character(y)
+    [1] FALSE
+
+*Nombrar vectores.*
+
+Se puede poner nombre a todos los tipos de vectores. Los nombres son útiles para escribir códigos legibles y describir
+objetos en R.
+
+Puedes nombrar los elementos de un vector con la función *names()*. A modo de ejemplo, asignemos la variable x a un nuevo
+vector con tres elementos.
+
+    x <- c(1, 3, 5)
+
+Puedes utilizar la función names() para asignar un nombre diferente a cada elemento del vector.
+
+    names(x) <- c("a", "b", "c")
+
+Ahora bien, cuando ejecutes el código, R mostrará que el primer elemento del vector se llama a, el segundo b, y el tercero c.
+
+    x
+
+    a b c
+
+    1 3 5
+
+Recuerda que un vector atómico solo puede contener elementos del mismo tipo. Si deseas almacenar elementos de diferentes
+tipos en la misma estructura de datos, puedes utilizar una lista.
+
 Marcos de datos
 
 Matrices
