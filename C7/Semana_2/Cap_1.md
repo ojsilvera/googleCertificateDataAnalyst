@@ -300,12 +300,143 @@ Estas funciones también toman números que no están entre comillas y los convi
 
     [1] "2021-01-20"
 
+*Crear componentes de fecha-hora:*
+
+La función ymd() y sus variantes crean fechas. Para crear una fecha-hora desde una fecha, agrega un guion bajo y una o
+más de las letras h, m y s (horas, minutos y segundos) al nombre de la función:
+
+    ymd_hms("2021-01-20 20:11:59")
+
+    [1] "2021-01-20 20:11:59 UTC"
+
+    mdy_hm("01/20/2021 08:01")
+
+    [1] "2021-01-20 08:01:00 UTC"
+
+*Optativo: Cambiar entre objetos existentes de fecha-hora:*
+
+Cambiar entre una fecha-hora y una fecha.
+
+Puedes utilizar la función as_date() para convertir una fecha-hora en una fecha. Por ejemplo, escribe la fecha-hora actual
+en el paréntesis de la función now().
+
+    as_date(now())
+
+    [1] "2021-01-20"
+
 *Desde una fecha individual:*
 
 *Desde un objeto de fecha/hora existente:*
 
-Marcos de datos
+## Marcos de datos
 
-Matrices
+Un marco de datos es un conjunto de columnas que contienen datos, que es similar a una hoja de cálculo o una tabla SQL.
+Cada columna tiene un nombre en la parte superior que representa una variable e incluye una observación por fila. Los
+marcos de datos ayudan a resumir los datos y ponerlos en un formato fácil de leer y usar.
+
+Por ejemplo, el marco de datos más abajo muestra un conjunto de datos "diamonds", que es uno de los conjuntos de datos
+precargados en R. Cada columna contiene una sola variable que se relaciona con los diamantes: quilate, corte, color, cla-
+ridad, profundidad, etc. Cada fila representa una sola observación.
+
+![Alt text](image-2.png)
+
+*Tener en cuenta cuando trabajas con marcos de datos:*
+
+    Primero, se debe poner un nombre a las columnas.
+
+    Segundo, los marcos de datos incluyen muchos tipos diferentes de datos, por ejemplo, números, valores lógicos o caracteres.
+
+    Finalmente, los elementos en la misma columna deben ser de un mismo tipo.
+
+crear un marco de datos en R, puedes utilizar la *función date.frame()*. La función data.frame() considera a los vectores
+como entradas. En el paréntesis, escribe el nombre de la columna, seguido de un signo igual y, luego, el vector que deseas
+escribir para esa columna.
+
+En este ejemplo, la columna x es un vector con elementos 1, 2 y 3 y la columna y es un vector con elementos 1.5, 5.5, 7.5.
+
+data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5))
+
+Si ejecutas la función, R muestra el marco de datos en filas y columnas ordenadas.
+
+       x y
+
+    1  1 1.5
+
+    2  2 5.5
+
+    3  3 7.5
+
+En la mayoría de los casos, no necesitarás crear un marco de datos manualmente ya que, en general, importarás los datos
+desde otra fuente, por ejemplo, un archivo .csv, una base de datos relacional o un programa de software.
+
+*Archivos:*
+
+Veamos cómo crear, copiar y eliminar archivos en R. Para más información sobre cómo trabajar con archivos en R. La docu-
+mentación en R es una herramienta que te facilitará encontrar y navegar por la documentación de casi todos los paquetes
+de R en CRAN. Es una guía útil de referencia para funciones en código R. Veamos algunas otras de las funciones más útiles
+para trabajar con archivos.
+
+Utiliza *la función dir.create()* para crear una nueva carpeta o directorio, o para guardar tus archivos. Escribe el nombre
+de la carpeta en el paréntesis de la función.
+
+    dir.create ("destination_folder")
+
+Utiliza *la función file.create()* para crear un archivo en blanco. Escribe el nombre y tipo de archivo entre paréntesis
+en la función. En general, tus tipos de archivos serán .txt, .docx o .csv.
+
+    file.create (“new_text_file.txt”)
+
+    file.create (“new_word_file.docx”)
+
+    file.create (“new_csv_file.csv”)
+
+Si el archivo se crea exitosamente cuando ejecutas la función en R, el valor obtenido será TRUE (si no, R arrojará como
+resultado FALSE).
+
+    file.create (“new_csv_file.csv”)
+
+    [1] TRUE
+
+Se puede copiar un archivo mediante *la función file.copy()*. Entre paréntesis, agrega el nombre del archivo a copiar.
+Luego, escribe una coma y agrega el nombre de la carpeta de destino a la que quieres copiar el archivo.
+
+    file.copy (“new_text_file.txt” , “destination_folder”)
+
+Si te fijas en el panel de Archivos en RStudio, aparece una copia del archivo en la carpeta correspondiente:
+
+![Alt text](image-3.png)
+
+Referencias [http://statseducation.com/Introduction-to-R/modules/getting%20data/data-wrangling/]
+
+## Matrices
+
+Una matriz es un conjunto bidimensional de elementos de datos. Esto significa que tiene filas y columnas. Por el contrario,
+un vector es una secuencia unidimensional de elementos de datos. Pero como los vectores, las matrices pueden solo contener
+un único tipo de datos. Por ejemplo, no puedes tener tanto valores lógicos como numéricos en una matriz.
+
+Para crear una matriz en R, puedes utilizar la función matrix(). La función matrix() tiene dos argumentos principales que
+debes escribir dentro del paréntesis. Primero, agrega un vector. El vector contiene los valores que quieres colocar en la
+matriz. Luego, agrega al menos una dimensión de matriz. Puedes elegir especificar el número de filas o columnas utilizando
+el código nrow = para las filas o ncol =. para las columnas.
+
+Por ejemplo, imagina que quieres crear una matriz de 2x3 (dos filas por tres columnas) que contenga los valores 3-8. Pri-
+mero, escribe un vector que contenga la serie de números: c(3:8). Luego, escribe una coma. Al finalizar, escribe nrow = 2
+para especificar el número de filas.
+
+    matrix(c(3:8), nrow = 2)
+
+Si ejecutas la función, R muestra una matriz con tres columnas y dos filas (a las que, en general, nos referimos como "2x3")
+que contienen los valores numéricos 3, 4, 5, 6, 7, 8. R coloca el primer valor (3) del vector en la fila superior y la
+fila de la izquierda de la matriz, y continúa la secuencia de izquierda a derecha.
+
+    ![Alt text](image-4.png)
+
+También puedes elegir especificar el número de columnas (ncol = ) en lugar del número de filas  (nrow = ).
+
+    matrix(c(3:8), ncol = 2)
+
+Cuando ejecutes la función, R intuirá automáticamente cuál es el número de filas.
+
+    ![Alt text](image-5.png)
 
 Rangos
