@@ -205,6 +205,105 @@ creas con la función list():
 
     [1] 3
 
+## Fechas y horas en R
+
+*Cargar los paquetes tidyverse y lubridate:*
+
+Antes de empezar a trabajar con fechas y horas, deberás cargar los paquetes tidyverse y lubridate. Lubridate es parte de tidyverse.
+
+Primero, abre RStudio.
+Si todavía no instalaste tidyverse, puedes utilizar la función install.packages () para ello:
+
+    install.packages("tidyverse")
+
+Luego, carga los paquetes tidyverse y lubridate utilizando la función library(). Primero, carga los componentes principales
+de tidyverse para que estén disponibles en tu sesión actual de R:
+
+    library(tidyverse)
+
+Luego, carga el paquete lubridate:
+
+    library(lubridate)
+
+Ahora estás listo para conocer las herramientas en el paquete lubridate.
+
+*Trabajar con fechas y horas:*
+
+Tipos
+
+En R, hay tres tipos de datos que hacen referencia a un instante en el tiempo:
+
+    Una fecha ("2016-08-16")
+
+    Una hora de un día (“20:11:59 UTC")
+
+    fecha-hora. Esto es una fecha más una hora ("2018-03-31 18:15:48 UTC")
+
+La hora se expresa en *UTC*, que quiere decir Hora Universal Coordinada, más comúnmente conocida como *tiempo civil*. Este
+es el estándar principal que regula los relojes y la hora mundial.
+
+Por ejemplo, para obtener la fecha actual puedes ejecutar la función *today()*. La fecha aparece como mes, año y día.
+
+    today()
+
+    [1] "2021-01-20"
+
+Para obtener la fecha-hora actual puedes ejecutar la función *now()*. Observa que la hora aparece expresada hasta con los
+segundos más cercanos.
+
+    now()
+
+    [1] "2021-01-20 16:25:05 UTC"
+
+Al trabajar con R, hay tres modos posibles de crear formatos de fecha-hora:
+
+    Desde una cadena
+
+    Desde una fecha individual
+
+    Desde un objeto de fecha/hora existente
+
+R crea fechas en el formato estándar *yyyy-mm-dd (año-mes-día)* por defecto.
+
+*Desde una cadena:*
+
+Los datos de fecha/hora a menudo se expresan como cadenas. Puedes convertir cadenas en fechas y fecha-hora utilizando las
+herramientas provistas por lubridate. Estas herramientas automáticamente trabajan sobre el formato de fecha/hora.
+
+Primero, identifica el orden en el año, el mes y el día que aparecen en tus fechas. Luego, ordena las letras y, m y d (año,
+mes y día) en el mismo orden. Eso te dará el nombre de la función lubridate que analizará tu fecha.
+
+Por ejemplo, para la fecha 2021-01-20, utilizarás el orden ymd:
+
+    ymd("2021-01-20")
+
+Cuando ejecutes la función en R, el resultado para la fecha será el formato yyyy-mm-dd.
+
+    [1] "2021-01-20"
+
+Funciona de la misma forma en cualquier orden. Por ejemplo, mes, día y año. R arroja como resultado la fecha en el formato
+yyyy-mm-dd.
+
+    mdy("January 20th, 2021")
+
+    [1] "2021-01-20"
+
+O día, mes y año. R arroja como resultado la fecha en el formato yyyy-mm-dd.
+
+    dmy("20-Jan-2021")
+
+    [1] "2021-01-20"
+
+Estas funciones también toman números que no están entre comillas y los convierte al formato yyyy-mm-yy.
+
+    ymd(20210120)
+
+    [1] "2021-01-20"
+
+*Desde una fecha individual:*
+
+*Desde un objeto de fecha/hora existente:*
+
 Marcos de datos
 
 Matrices
