@@ -117,6 +117,73 @@ Ahora bien, cuando ejecutes el código, R mostrará que el primer elemento del v
 Recuerda que un vector atómico solo puede contener elementos del mismo tipo. Si deseas almacenar elementos de diferentes
 tipos en la misma estructura de datos, puedes utilizar una lista.
 
+### listas
+
+Las listas son diferentes de los vectores atómicos porque sus elementos pueden ser de cualquier tipo, por ejemplo,
+fechas, marcos de datos, vectores, matrices y más. Las listas pueden también contener otras listas.
+
+*Crear listas:*
+
+Puedes crear una lista con la función list(). Del mismo modo que la función c(), la función *list()* es solo list seguida de
+los valores que deseas colocar en tu lista entre paréntesis: list(x, y, z, …).
+
+En este ejemplo, creamos una lista que contiene cuatro tipos de elementos diferentes: carácter ("a"), valor entero (1L),
+doble (1.5),  y lógico (TRUE).
+
+    list("a", 1L, 1.5, TRUE)
+
+Como ya mencionamos, las listas pueden contener otras listas. Si lo deseas, puedes almacenar una lista dentro de otra y
+continuar así.
+
+    list(list(list(1 , 3, 5)))
+
+*Determinar la estructura de las listas:*
+
+Si deseas saber qué tipos de elementos contiene una lista, puedes utilizar la función *str()*. Para ello, coloca el código
+para la lista dentro del paréntesis de la función. Cuando ejecutes la función, R mostrará la estructura de datos de la
+lista mediante la descripción de sus elementos y tipos.
+
+Apliquemos la función str() a nuestro primer ejemplo de una lista.
+
+    str(list("a", 1L, 1.5, TRUE))
+
+Cuando ejecutamos la función, R nos indica que la lista contiene cuatro tipos de elementos y que esos elementos son de
+cuatro tipos diferentes: carácter (chr), entero (int), número (num) y lógico  (logi).
+
+    List of 4
+
+    $ : chr "a"
+
+    $ : int 1
+
+    $ : num 1.5
+
+    $ : logi TRUE
+
+Utilicemos la función str() para descubrir la estructura de nuestro segundo ejemplo.  Primero, asignemos la lista a la
+variable z para facilitar la introducción de la función str().
+
+    z <- list(list(list(1 , 3, 5)))
+
+Vamos a ejecutar la función:
+
+    str(z)
+
+    List of 1
+
+     $ :List of 1
+
+      ..$ :List of 3
+
+      .. ..$ : num 1
+
+      .. ..$ : num 3
+
+      .. ..$ : num 5
+
+La sangría de los símbolos $ refleja la estructura anidada de esta lista. Bien, aquí hay tres niveles (de modo que hay
+una lista dentro de otra lista).
+
 Marcos de datos
 
 Matrices
