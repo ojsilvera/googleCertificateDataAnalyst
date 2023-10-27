@@ -171,28 +171,52 @@ La instrucción else se utiliza en combinación con una instrucción if. Así se
 
     Sintaxis: if (condition) { expr1 si se cumple la condicion} else { expr2 si falla o no se cumple la codicion }
 
-Por ejemplo. Primero creemos una variable x igual a 7.  
+Por ejemplo. Primero creemos una variable x igual a 7.
 
-x <- 7
+    x <- 7
 
-Ahora, establezcamos las siguientes condiciones: 
+Ahora, establezcamos las siguientes condiciones:
 
-Si x es mayor que 0, R imprimirá "x es un número positivo".
+    - Si x es mayor que 0, R imprimirá "x es un número positivo".
 
-Si x es menor que o igual a 0, R imprimirá "x es un número negativo o cero".
+    - Si x es menor que o igual a 0, R imprimirá "x es un número negativo o cero".
 
-En nuestro código, la primera condición (x > 0) será parte de la instrucción if. La segunda condición de x menor que o igual a 0 queda implícita en la instrucción else. Si x > 0, R imprimirá "x es un número positivo". De otro modo, R imprimirá "x es un número negativo o cero". 
+En nuestro código, la primera condición (x > 0) será parte de la instrucción if. La segunda condición de x menor que o
+igual a 0 queda implícita en la instrucción else. Si x > 0, R imprimirá "x es un número positivo". De otro modo, R impri-
+mirá "x es un número negativo o cero".
 
-x <- 7
+    x <- 7
 
-if (x > 0) {
+    if (x > 0) {
 
- print ("x is a positive number")
+    print ("x is a positive number")
 
-} else {
+    } else {
 
- print ("x is either a negative number or zero")
+    print ("x is either a negative number or zero")
 
-}
+    }
+
+Dado que 7 es mayor que 0, la condición de la instrucción if es verdadera. Por lo tanto, cuando ejecutas el código, R
+imprime "x es un número positivo".
+
+    [1] "x is a positive number"
+
+Pero si haces que x sea igual a -7, la condición de la instrucción if no será verdadera (-7 no es mayor que 0). Por lo
+tanto, R ejecutará el código en la instrucción else. Cuando ejecutas el código, R imprime "x es un número negativo o cero".
+
+    x <- -7
+
+    if (x > 0) {
+
+    print("x is a positive number")
+
+    } else {
+
+    print ("x is either a negative number or zero")
+
+    }
+
+    [1] "x is either a negative number or zero"
 
 ### else if()
