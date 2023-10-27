@@ -220,3 +220,67 @@ tanto, R ejecutará el código en la instrucción else. Cuando ejecutas el códi
     [1] "x is either a negative number or zero"
 
 ### else if()
+
+Permite evaluar una codicion adicional en caso de que falle el if() inicial y una nueva codicion pueda ser evaluada.
+
+Sintaxis:
+
+    if (condition1) {
+
+    expr1
+
+    } else if (condition2) {
+
+    expr2
+
+    } else {
+
+    expr3
+
+    }
+
+ejemplo:
+
+Primero creemos una variable x igual a 1 negativo ("-1").
+
+    x <- -1
+
+Ahora, quieres establecer las siguientes condiciones:
+
+    Si x es menor que 0, imprimir "x es un número negativo".
+
+    Si x es igual a 0, imprimir " x es cero".
+
+    De otro modo, imprimir "x es un número positivo".
+
+En el código, la primera condición será parte de la instrucción if, la segunda condición será parte de la instrucción else
+if y la tercera condición será parte de la instrucción else. Si x < 0, R imprimirá "x es un número negativo". Si x = 0,
+R imprimirá "x es cero". De otro modo, R imprimirá "x es un número positivo".
+
+    x <- -1
+
+    if (x < 0) {
+
+    print("x es un número negativo")
+
+    } else if (x == 0) {
+
+    print("x es cero")
+
+    } else {
+
+    print("x es un número positivo")
+
+    }
+
+Como -1 es menor que 0, la condición de la instrucción if resulta TRUE y R imprime "x es un número negativo".
+
+    [1] "x es un número negativo"
+
+Si haces que x sea igual a 0, R comprobará primero la condición if (x < 0) y determinará que es FALSE. Entonces, R eva-
+luará la condición else if. Esta condición, x==0, es TRUE. Por ello, en este caso R imprimirá "x es cero".
+
+Si haces que x sea igual a 1, ambas condiciones, if y else, arrojarán como resultado FALSE. De modo que R ejecutará la
+instrucción else e imprimirá "x es un número positivo".
+
+Tan pronto como R descubre una condición que resulta TRUE, R ejecuta el código correspondiente e ignora el resto.
