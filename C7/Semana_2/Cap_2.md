@@ -27,7 +27,7 @@ OR (algunas veces representado como | o || en R)
 
 NOT (!)
 
-*El operador AND (“&”):*
+### El operador AND (“&”)
 
 El operador AND requiere de dos valores lógicos. El resultado es  TRUE si cada uno de los valores por separado es TRUE.
 Esto significa que TRUE & TRUE dan como resultado  TRUE. Sin embargo, FALSE & TRUE, TRUE & FALSE y FALSE & FALSE arrojan
@@ -69,3 +69,62 @@ Sin embargo, si x es igual a 20, la expresión x > 3 & x < 12 arrojará un resul
 
  Aunque x > 3 es TRUE (20 > 3), x < 12 es FALSE (20 < 12). entonces, toda la expresión dará como resultado FALSE (TRUE
  & FALSE = FALSE). De modo que el resultado de R será FALSE.
+
+### Operador OR (“|”)
+
+El operador OR (|) trabaja de un modo similar el operador AND (&). La diferencia principal consiste en que, al menos,
+uno de los valores de la operación OR deber ser TRUE para que toda la operación OR dé como resultado TRUE. Sin embargo,
+TRUE | TRUE, TRUE | FALSE, y FALSE | TRUE arrojan como resultado TRUE. Cuando ambos valores dan FALSE, el resultado es FALSE.
+
+Si escribes el código, obtienes los siguientes resultados:
+
+    > TRUE | TRUE
+    [1] TRUE
+    > TRUE | FALSE
+    [1] TRUE
+    > FALSE | TRUE
+    [1] TRUE
+    > FALSE | FALSE
+    [1] FALSE
+
+Por ejemplo, supón que creaste una variable y igual a 7. Para revisar si y es menor que 8 o mayor que 16, puedes utilizar
+la siguiente expresión:
+
+    y <- 7
+    y < 8 | y > 16
+
+El resultado comparativo es TRUE (7 es menor que 8) | FALSE (7 no es mayor que 16). Ya que un solo valor de una expresión
+OR debe ser TRUE para que toda la expresión sea TRUE, R arroja como resultado TRUE.
+
+    [1] TRUE
+
+Ahora, imagina que y es 12. La expresión y < 8 | y > 16 ahora da FALSE (12 < 8) | FALSE (12 > 16). Ambas comparaciones
+dan como resultado FALSE, de modo que es resultado es  FALSE.
+
+    y <- 12
+    y < 8 | y > 16
+    [1] FALSE
+
+### El operador NOT (“!”)
+
+El operador NOT (!) simplemente niega el valor lógico al que se aplica. En otras palabras, !TRUE da FALSE y !FALSE da TRUE.
+
+Cuando ejecutas el código, obtienes lo siguiente:
+
+    > !TRUE
+    [1] FALSE
+    > !FALSE
+    [1] TRUE
+
+Igual que en el caso de los operadores OR y AND, puedes utilizar el operador NOT en combinación con los operadores lógicos.
+Cero se considera FALSE y los números que no son cero se consideran TRUE. El operador NOT da como resultado el valor lógico
+opuesto.
+
+Imagina que tienes una variable x que es igual a 2:
+
+    x <- 2
+
+El operador NOT da como resultado FALSE porque toma el valor lógico opuesto de un número que no es cero (TRUE).
+
+    > !x
+    [1] FALSE
