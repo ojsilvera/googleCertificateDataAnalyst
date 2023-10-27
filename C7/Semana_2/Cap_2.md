@@ -128,3 +128,71 @@ El operador NOT da como resultado FALSE porque toma el valor lógico opuesto de 
 
     > !x
     [1] FALSE
+
+## Instrucciones condicionales
+
+Una *instrucción condicional* es una declaración de que si una determinada condición se mantiene, entonces, debe producirse
+un determinado evento. Por ejemplo, "Si la temperatura está por encima del punto de congelamiento, entonces, saldré a
+caminar". Si la primera condición es verdadera (la temperatura está por encima del punto de congelamiento), entonces la
+segunda condición sucederá (salir a caminar). Las instrucciones condicionales en código R tienen una lógica similar.
+
+Veamos ahora cómo crear instrucciones condicionales en R utilizando tres instrucciones relacionadas:
+
+### if()
+
+La instrucción if establece una condición y si la condición arroja como resultado TRUE, el código R asociado a la ins-
+trucción if se ejecuta.
+
+    Sintaxis: if (condition) { expr si se cumple la condicion }
+
+Por ejemplo, creemos una variable x igual a 4.
+
+    x <- 4
+
+Luego, creemos una instrucción condicional: si x es mayor que 0, entonces R imprimirá la cadena "x es un número positivo".
+
+    if (x > 0) {
+
+    print("x is a positive number")
+
+    }
+
+Dado que x=4, la condición es verdadera (4 > 0). Por lo tanto, cuando ejecutas el código, R imprime la cadena "x es un
+número positivo".
+
+    [1] "x is a positive number"
+
+Pero si cambias x a un número negativo, como -4, entonces, el resultado de la condición será FALSE (-4 > 0). Si ejecutas
+el código, R no ejecutará el código impreso. En su lugar, aparecerá una línea en blanco.
+
+### else()
+
+La instrucción else se utiliza en combinación con una instrucción if. Así se estructura el código en R:
+
+    Sintaxis: if (condition) { expr1 si se cumple la condicion} else { expr2 si falla o no se cumple la codicion }
+
+Por ejemplo. Primero creemos una variable x igual a 7.  
+
+x <- 7
+
+Ahora, establezcamos las siguientes condiciones: 
+
+Si x es mayor que 0, R imprimirá "x es un número positivo".
+
+Si x es menor que o igual a 0, R imprimirá "x es un número negativo o cero".
+
+En nuestro código, la primera condición (x > 0) será parte de la instrucción if. La segunda condición de x menor que o igual a 0 queda implícita en la instrucción else. Si x > 0, R imprimirá "x es un número positivo". De otro modo, R imprimirá "x es un número negativo o cero". 
+
+x <- 7
+
+if (x > 0) {
+
+ print ("x is a positive number")
+
+} else {
+
+ print ("x is either a negative number or zero")
+
+}
+
+### else if()
