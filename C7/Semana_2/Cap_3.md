@@ -33,7 +33,27 @@ tipo de tarea que necesitas realizar y te traerá una página con paquetes relac
 ## tidyverse
 
 El nucleo de paquetes de tidyverse son los siguientes: ggplot2, tidyr, readr, dplyr, tibble, purrr, stringr y forcats.
-Pero, hay cuatro paquetes que son una parte esencial del flujo de trabajo para los analistas de datos:
+
+### tibble
+
+    Tibble trabaja con marcos de datos.
+
+### purrr
+
+    Purrr trabaja con funciones y vectores que ayudan a que tu código sea más fácil de escribir y más expresivo.
+
+### stringr
+
+    Stringr incluye funciones que hacen que sea más fácil trabajar con cadenas.
+
+### forcats
+
+    Forcats proporciona herramientas que resuelven problemas comunes con factores.
+
+*los factores almacenan datos categóricos en R donde los valores de datos están limitados y generalmente se basan en un*
+*grupo finito como país o año.*
+
+Pero, hay cuatro de estos paquetes que son una parte esencial del flujo de trabajo para los analistas de datos:
 
 ### ggplot2
 
