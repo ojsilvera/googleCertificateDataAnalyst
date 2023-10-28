@@ -32,20 +32,31 @@ tipo de tarea que necesitas realizar y te traerá una página con paquetes relac
 
 ## tidyverse
 
-El nucleo de paquetes de tidyverse son los siguientes:
+El nucleo de paquetes de tidyverse son los siguientes: ggplot2, tidyr, readr, dplyr, tibble, purrr, stringr y forcats.
+Pero, hay cuatro paquetes que son una parte esencial del flujo de trabajo para los analistas de datos:
 
 ### ggplot2
 
-### tidyr
-
-### readr
+    Ggplot2 se usa para visualización de datos, especialmente diagramas. Con ggplot2, puedes crear una variedad de vi-
+    sualización de datos al aplicar propiedades visuales diferentes a las variables de datos.
 
 ### dplyr
 
-### tibble
+    Dplyr ofrece un conjunto consistente de funciones que te ayudan a completar algunas tareas comunes de manipulación
+    de datos. Por ejemplo, la función select, escoge variables según sus nombres, y la función filter encuentra casos
+    donde determinadas condiciones son ciertas.
 
-### purrr
+### tidyr
 
-### stringr
+    Tidyr es un paquete que se usa para limpieza de datos para generar datos ordenados. Cubrimos datos ordenados o limpios
+    anteriormente, pero, a modo de recordatorio, son datos donde cada parte de la tabla de datos o marco de datos es del
+    tipo correcto en el lugar correcto. Tidyr funciona con datos en formato ancho y datos en formato largo para asegurarse
+    de que esto funciona.
 
-### forcats
+### readr
+
+    readr, que se usa para importar datos. La función más común de readr es read_csv. Esto importará un archivo CSV en R.
+    Un archivo CSV contiene datos separados por comas en un formato de tablas. Para leer correctamente un conjunto de datos
+    con readr, combinas la función con una especificación de columna. La especificación de columna describe cómo debería
+    cada columna convertirse en el tipo de datos más apropiado. Es bueno tener en cuenta que, en general, esto no es ne-
+    cesario porque readr lo averiguaría por ti automáticamente.
