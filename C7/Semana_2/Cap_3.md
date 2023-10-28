@@ -29,3 +29,23 @@ de RStudio donde encontrarás paquetes útiles con instrucciones de instalación
 
 [https://cran.r-project.org/web/views/] -> Este es un índice de los paquetes CRAN ordenados por tarea. Puedes buscar el
 tipo de tarea que necesitas realizar y te traerá una página con paquetes relacionados con la tarea para que explores.
+
+## tidyverse
+
+El nucleo de paquetes de tidyverse son los siguientes:
+
+### ggplot2
+
+### tidyr
+
+### readr
+
+### dplyr
+
+### tibble
+
+### purrr
+
+### stringr
+
+### forcats
