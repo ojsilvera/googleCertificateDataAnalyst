@@ -80,3 +80,24 @@ conjuntos de datos.
 ![Alt text](image-6.png)
 
 #### Creación de tibbles
+
+Puedes cargar el conjunto de datos con la función data() usando el siguiente código:
+
+    library(tidyverse)
+
+    data(diamonds)
+
+A continuación, vamos a agregar el marco de datos a nuestro visor de datos en RStudio con la función View().
+
+    View(diamonds)
+
+![Alt text](image-7.png)
+
+para crear un tibble a partir de datos existentes con la función as_tibble(). Indica los datos que deseas usar en el pa-
+réntesis de la función.
+
+    as_tibble(diamonds)
+
+En la salida obtendriamos solo los primeros 10 registros del data set diamonds
+
+![Salida tibble data set diamonds](image-8.png)
