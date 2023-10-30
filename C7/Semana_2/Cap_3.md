@@ -37,3 +37,21 @@ conjuntos de datos.
 ![Alt text](image-6.png)
 
 ## Trabajar con marcos de datos
+
+Para trabajo introductorio con data frames, cargamos el visualizador de datos el cual es una libraria de tidyverse, en este caso GGplot2,
+con la funcion
+
+    *library(ggplot2)*,
+
+teniendo tidyverse previamente instalado y cargado, posterior para usar el data frame, usariamos la funcion
+
+    *data(diamonds)*, notese que usamos el data frame "diamonds",
+
+posteriormente lo agregamos al visor de datos, con la funcion
+
+    *view(diamonds)*
+
+Con la funcion head() obtenemos los primeros 10 registros del data frame y asi verificamos que este en buenas ocndiciones y el data frame
+a utilizar
+
+    head(dimonds)
