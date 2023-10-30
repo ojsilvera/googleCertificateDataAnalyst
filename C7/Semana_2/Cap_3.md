@@ -159,7 +159,7 @@ Además, producen tibbles, que son fáciles de usar y leer.
 El paquete readr forma parte del núcleo de tidyverse. Así que, si ya instalaste tidyverse, tienes lo que necesitas para
 empezar a trabajar con readr. Si no lo has hecho, puedes instalar tidyverse ahora.
 
-*Funciones readr.*
+### Funciones readr
 
 El objetivo de readr es proporcionar una forma rápida y amigable de leer datos rectangulares. La función readr soporta
 varias funciones read_ . Cada función se refiere a un formato específico de archivo.
@@ -175,3 +175,63 @@ varias funciones read_ . Cada función se refiere a un formato específico de ar
     read_table(): Archivos tabulares cuyas columnas están separadas por espacios en blanco
 
     read_log(): Archivos de registro de la web
+
+*Leer un archivo csv con readr.*
+
+El paquete readr viene con algunos archivos de muestra de conjuntos de datos integrados que puedes usar para el código
+de ejemplo. Para enumerar los archivos de muestra, puedes ejecutar la función readr_example() sin argumentos.
+
+    readr_example()
+
+    [1] "challenge.csv"     "epa78.txt"         "example.log"
+
+    [4] "fwf-sample.txt"    "massey-rating.txt" "mtcars.csv"
+
+    [7] "mtcars.csv.bz2"    "mtcars.csv.zip"
+
+El archivo “mtcars.csv” hace referencia al conjunto de datos mtcars mencionado anteriormente. Usemos la función read_csv()
+para leer el archivo “mtcars.csv”  como ejemplo. En el paréntesis, debes indicar la ruta del archivo. En este caso es
+readr_example(“mtcars.csv”)
+
+    read_csv(readr_example("mtcars.csv"))
+
+Cuando ejecutas la función, R imprime una especificación de columna que da el nombre y el tipo de cada columna.
+
+![Alt text](image-11.png)
+
+R también imprime un tibble.
+
+![Alt text](image-12.png)
+
+## el paquete readxl
+
+Para importar datos de hojas de cálculo a R, puedes utilizar el paquete readxl. El paquete readxl facilita la transferen-
+cia de datos de Excel a R. Readxl admite tanto el formato de archivo .xls heredado como el moderno formato de archivo .xlsx
+basado en xml.
+
+El paquete readxl forma parte de tidyverse, pero no es un paquete núcleo de tidyverse, por lo que es necesario cargar
+readxl en R mediante el uso de la función library().
+
+    library(readxl)
+
+### Leer un archivo csv con readxl
+
+Igual que el paquete readr, el paquete readxl viene con algunos archivos de muestra de conjuntos de datos integrados que
+puedes usar para practicar. Puedes ejecutar el código readxl_example() para ver la lista.
+
+Puedes utilizar la función read_excel() para leer un archivo de hoja de cálculo al igual que usaste la función read_csv()
+para leer un archivo .csv. El código para leer el archivo de ejemplo “type-me.xlsx” incluye la ruta del archivo en el
+paréntesis de la función.
+
+    read_excel(readxl_example("type-me.xlsx"))
+
+Puedes usar la función *excel_sheets()*  para listar los nombres de las hojas individuales.
+
+    excel_sheets(readxl_example("type-me.xlsx"))
+
+    [1] "logical_coercion" "numeric_coercion" "date_coercion" "text_coercion"
+
+También puedes especificar una hoja por nombre o número.  Basta con escribi “sheet =” seguido del nombre o número de la
+hoja. Por ejemplo, puedes usar la hoja denominada “numeric_coercion” de la lista anterior.
+
+    read_excel(readxl_example("type-me.xlsx"), sheet = "numeric_coercion")
