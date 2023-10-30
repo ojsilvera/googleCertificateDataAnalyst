@@ -38,8 +38,8 @@ conjuntos de datos.
 
 ## Trabajar con marcos de datos
 
-Para trabajo introductorio con data frames, cargamos el visualizador de datos el cual es una libraria de tidyverse, en este caso GGplot2,
-con la funcion
+Para trabajo introductorio con data frames, cargamos el visualizador de datos el cual es una libraria de tidyverse, en este
+caso GGplot2, con la funcion
 
     *library(ggplot2)*,
 
@@ -51,7 +51,17 @@ posteriormente lo agregamos al visor de datos, con la funcion
 
     *view(diamonds)*
 
-Con la funcion head() obtenemos los primeros 10 registros del data frame y asi verificamos que este en buenas ocndiciones y el data frame
-a utilizar
+Con la funcion head() obtenemos los primeros 10 registros del data frame y asi verificamos que este en buenas ocndiciones
+y el data frame a utilizar
 
     head(dimonds)
+
+Con funciones como str() obtenemos informacion del data frame como nombres de las columnas, tipos de datos de cada una,
+ejemplo de los datos que almacenan, etc
+
+    head(diamonds)
+
+Con funciones como colnames() es posible obtener los nombres de las columnas del data frame, lo cual nos permite dar un vistaso
+rapido a la organiozacin del mismo
+
+    colnames(diamonds)
