@@ -35,3 +35,5 @@ extraer solo las primeras 10 filas y tantas columnas como quepan en la pantalla.
 conjuntos de datos.
 
 ![Alt text](image-6.png)
+
+## Trabajar con marcos de datos
