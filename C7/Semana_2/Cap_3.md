@@ -65,3 +65,10 @@ Con funciones como colnames() es posible obtener los nombres de las columnas del
 rapido a la organiozacin del mismo
 
     colnames(diamonds)
+
+La funcion mutate() forma parte del paquete dplyr sujeto a tidyverse, mutate requiere dos datos basicos, el nombre del
+data set a cambiar y lo que se desea cambiar, por ejemplo si agragamos una columna adicional al data set diamonds seria:
+
+    mutate(diamonds, carat_2=carat*100)
+
+las funcion anterior agrega una columna calculada con base en una columna previa.
