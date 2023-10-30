@@ -104,6 +104,8 @@ En la salida obtendriamos solo los primeros 10 registros del data set diamonds
 
 ## Conceptos básicos de la importación de datos
 
+### funcion data()
+
 Usar la función data() para cargar estos conjuntos de datos en R. Si ejecutas la función data sin un argumento, R mostrará
 una lista de los conjuntos de datos disponibles.
 
@@ -121,3 +123,55 @@ por ejemplo:
 puedes obtener una vista previa del mismo en el panel de la consola de R. Solo tienes que escribir su nombre...
 
     mtcars
+
+cuya salida mortraia algo similar a lo siguiente
+
+![Salida mtcars](image-10.png)
+
+También puedes ver el conjunto de datos haciendo clic directamente sobre el nombre del conjunto de datos en el panel
+Entorno. Así, si haces clic en mtcars en el panel Entorno, R ejecuta automáticamente la función View() y muestra el con-
+junto de datos en el visor de datos de RStudio.
+
+## El paquete readr
+
+El paquete readr en R es una excelente herramienta para leer datos rectangulares. Los datos rectangulares son datos que
+encajan perfectamente en un rectángulo de filas y columnas, en el que cada columna se refiere a una única variable y cada
+fila a una única observación.
+
+Estos son algunos ejemplos de tipos de archivos que almacenan datos rectangulares:
+
+*.csv (valores separados por comas)*: Un archivo .csv es un archivo de texto sin formato que contiene una lista de datos.
+La mayoría de las veces usan comas para separar (o delimitar) los datos, pero a veces utilizan otros caracteres, como el
+punto y coma.
+
+*.tsv (valores separados por tabulaciones):* Un archivo .tsv almacena una tabla de datos en la que las columnas de datos
+están separadas por tabulaciones. Por ejemplo, una tabla de una base de datos o datos de una hoja de cálculo.
+
+*.fwf (archivos de ancho fijo):* Un archivo .fwf tiene un formato específico que permite guardar datos textuales de forma
+organizada.
+
+*.log:* Un archivo .log es un archivo generado por computadora que registra eventos de sistemas operativos y otros pro-
+gramas de software.
+
+Base R también tiene funciones para leer archivos, pero las funciones equivalentes en readr suelen ser mucho más rápidas,
+Además, producen tibbles, que son fáciles de usar y leer.
+
+El paquete readr forma parte del núcleo de tidyverse. Así que, si ya instalaste tidyverse, tienes lo que necesitas para
+empezar a trabajar con readr. Si no lo has hecho, puedes instalar tidyverse ahora.
+
+*Funciones readr.*
+
+El objetivo de readr es proporcionar una forma rápida y amigable de leer datos rectangulares. La función readr soporta
+varias funciones read_ . Cada función se refiere a un formato específico de archivo.
+
+    read_csv(): Archivos de valores separados por comas (.csv)
+
+    read_tsv(): Archivos de valores separados por tabuladores
+
+    read_delim(): Archivos delimitados en general
+
+    read_fwf(): Archivos de ancho fijo
+
+    read_table(): Archivos tabulares cuyas columnas están separadas por espacios en blanco
+
+    read_log(): Archivos de registro de la web
