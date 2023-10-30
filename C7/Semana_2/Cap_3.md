@@ -101,3 +101,23 @@ réntesis de la función.
 En la salida obtendriamos solo los primeros 10 registros del data set diamonds
 
 ![Salida tibble data set diamonds](image-8.png)
+
+## Conceptos básicos de la importación de datos
+
+Usar la función data() para cargar estos conjuntos de datos en R. Si ejecutas la función data sin un argumento, R mostrará
+una lista de los conjuntos de datos disponibles.
+
+    data()
+
+cuya salida mortraia algo similar a lo siguiente
+
+![Salida funcion data](image-9.png)
+
+Para cargar un conjunto de datos específico, solo tienes que introducir su nombre en el paréntesis de la función data().
+por ejemplo:
+
+    data(mtcars)
+
+puedes obtener una vista previa del mismo en el panel de la consola de R. Solo tienes que escribir su nombre...
+
+    mtcars
