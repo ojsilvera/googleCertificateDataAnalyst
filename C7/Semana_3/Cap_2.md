@@ -10,30 +10,30 @@ los siguientes paquetes son los utilizados para una limpieza basica de datos:
 *El paquete Here*: Este paquete facilita la consulta de los archivos, lo instalamos y cargamos con:
 
     install.packages("Here")
-    lo cargamos con library("here")
+    lo cargamos con library(here)
 
 *El paquete Skimr:* facilita mucho el resumen de los datos y te permite hojearlos más rápido, lo instalamos y cargamos
 con:
 
     install.packages("Skimr")
-    lo cargamos con library("Skimr")
+    lo cargamos con library(Skimr)
 
 *El paquete Janitor:* tiene funciones para la limpieza de datos, lo instalamos y cargamos con:
 
     install.packages("Janitor")
-    lo cargamos con library("Janitor")
+    lo cargamos con library(Janitor)
 
 *El paquete dplyr:* cuya funcion es manipulacion de datos, lo instalamos y cargamos con:
 
     install.packages("dplyr")
-    lo cargamos con library("dplyr")
+    lo cargamos con library(dplyr)
 
 El siguiente paso es importar el data frame a utiliza o cargar si es de una libreria de R el data frame a usar, para un
 ejemplo practico cargaremos el data frame "palmerpenguins" que contiene datos sobre varias especies de pinguinos, de la
 siguiente manera:
 
     install.packages("palmerpenguins")
-    lo cargamos con library("palmerpenguins")
+    lo cargamos con library(palmerpenguins)
 
 Las siguientes es explorar de manera resumida los datos, para obtener su estructura, tipos de datos, columnas, etc, las
 siguientes son funciones que nos permiten obtener un resumen del data frame cargado:
@@ -124,9 +124,41 @@ Las convenciones de nomenclatura para los archivos. Esto ayuda a garantizar que 
 ## Organiza tus datos
 
 Para cumplir el objetivo de convertir los datos en conociemientos, el primer paso es tener datos filtrados y organizados
-aqui algunas funciones qu enos permitiran lograr esto
+aqui algunas funciones qu enos permitiran lograr esto, estas funciones son pertenecientes al nucleo del tidyverse, asi que
+es requerido tenerlo instalado y cargado de esto se realiza de la siguiente manera:
+
+    install.package("tidyverser")
+    library(tidyverser)
 
 ### funcion arrange()
+
+arrange, nos permite ordenar de acuerdo al nombre de columna que le indiquemos y actua sobre el data frame cargado, su sintaxys
+es, arrange y el nombre de la columna por la cual ordenaremos el data frame:
+
+    arrange(nobre_columna)
+
+ejemplo
+
+    library(penguins)
+    arrange(bill_lenght_mm)
+
+    o
+
+    penguis %<% arrange(bill_lenght_mm)
+
+arrange ordena de manera ascendente por defecto, para descendente seria:
+
+    library(penguins)
+    arrange(-bill_lenght_mm)
+
+    o
+
+    penguis %<% arrange(-bill_lenght_mm)
+
+*Nota* es posible almacenar la salida del arrange como un nuevo data frame asignando su salida a una nueva variable,
+por ejemplo:
+
+    penguis2 <- penguis %<% arrange(-bill_lenght_mm)
 
 ### funcion group_by()
 
