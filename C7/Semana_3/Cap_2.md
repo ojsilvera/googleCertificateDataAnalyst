@@ -120,3 +120,14 @@ Las convenciones de nomenclatura para los archivos. Esto ayuda a garantizar que 
     ejemplos: un sistema aleatorio de números o formatos de fecha, o utilizar letras primero
 
 ![Alt text](image-2.png)
+
+## Organiza tus datos
+
+Para cumplir el objetivo de convertir los datos en conociemientos, el primer paso es tener datos filtrados y organizados
+aqui algunas funciones qu enos permitiran lograr esto
+
+### funcion arrange()
+
+### funcion group_by()
+
+### funcion filter()
