@@ -16,7 +16,60 @@ ciones y una barra inclinada(/) para hacer una división.
     z <- x + y
     [1] 3
 
-## Operadores lógicos e instrucciones condicionales
+## Más información sobre los operadores de R
+
+Operadores en R, hay cuatro tipos principales de operadores:
+
+    Aritméticos
+
+    Relacionales
+
+    Lógicos
+
+    De asignación
+
+### Operadores aritméticos
+
+Los operadores aritméticos te permiten realizar operaciones matemáticas básicas como suma, resta, multiplicación y división.
+
+La siguiente tabla resume los diferentes operadores aritméticos en R. Los ejemplos usados en la tabla se basan en la
+creación de dos variables: : x es igual a 2 e y es igual a 5. Ten en cuenta que usas el operador de asignación para alma-
+cenar estos valores:
+
+    x <- 2
+
+    y <- 5
+
+![Alt text](image-6.png)
+
+### Operadores relacionales
+
+Los operadores relacionales, también conocidos como comparadores, permiten comparar valores. Los operadores relacionales
+identifican cómo se relaciona un objeto R con otro, por ejemplo, si un objeto es menor, igual o mayor que otro. El re-
+sultado de los operadores relacionales es TRUE o FALSE (que es un tipo de dato lógico o booleano).
+
+La tabla a continuación resume los seis operadores relacionales en R. Los ejemplos usados en la tabla se basan en la crea-
+ción de dos variables: : x es igual a 2 e y es igual a 5. Ten en cuenta que usas el operador de asignación para almacenar
+estos valores.
+
+    x <- 2
+
+    y <- 5
+
+Si se realizan cálculos con cada operador, se obtienen los siguientes resultados. En este caso, el archivo de salida es
+booleano: TRUE o FALSE. Ten en cuenta que el [1] que aparece antes de cada resultado se usa para representar cómo se mues-
+tra el resultado en RStudio
+
+![Alt text](image-7.png)
+
+### Operadores lógicos e instrucciones condicionales
+
+Los operadores lógicos te permiten combinar valores lógicos. Los operadores lógicos arrojan un tipo de dato lógico o
+booleano (TRUE o FALSE). Ya viste los operadores lógicos en una lectura anterior,
+
+La siguiente tabla resume los operadores lógicos en R:
+
+![Alt text](image-8.png)
 
 Los operadores lógicos arrojan un tipo de dato lógico, cuyo valor de salida es TRUE o FALSE, con los cual entendemos que
 solo tiene dos valores posibles, Existen tres tipos principales de operadores lógicos:
@@ -27,7 +80,7 @@ OR (algunas veces representado como | o || en R)
 
 NOT (!)
 
-### El operador AND (“&”)
+#### El operador AND (“&”)
 
 El operador AND requiere de dos valores lógicos. El resultado es  TRUE si cada uno de los valores por separado es TRUE.
 Esto significa que TRUE & TRUE dan como resultado  TRUE. Sin embargo, FALSE & TRUE, TRUE & FALSE y FALSE & FALSE arrojan
@@ -70,7 +123,7 @@ Sin embargo, si x es igual a 20, la expresión x > 3 & x < 12 arrojará un resul
  Aunque x > 3 es TRUE (20 > 3), x < 12 es FALSE (20 < 12). entonces, toda la expresión dará como resultado FALSE (TRUE
  & FALSE = FALSE). De modo que el resultado de R será FALSE.
 
-### Operador OR (“|”)
+#### Operador OR (“|”)
 
 El operador OR (|) trabaja de un modo similar el operador AND (&). La diferencia principal consiste en que, al menos,
 uno de los valores de la operación OR deber ser TRUE para que toda la operación OR dé como resultado TRUE. Sin embargo,
@@ -105,7 +158,7 @@ dan como resultado FALSE, de modo que es resultado es  FALSE.
     y < 8 | y > 16
     [1] FALSE
 
-### El operador NOT (“!”)
+#### El operador NOT (“!”)
 
 El operador NOT (!) simplemente niega el valor lógico al que se aplica. En otras palabras, !TRUE da FALSE y !FALSE da TRUE.
 
@@ -128,6 +181,23 @@ El operador NOT da como resultado FALSE porque toma el valor lógico opuesto de 
 
     > !x
     [1] FALSE
+
+#### Operadores de asignación
+
+Los operadores de asignación te permiten asignar valores a las variables.
+
+En muchos lenguajes de programación de secuencias de comandos se puede usar simplemente el signo igual (=) para asignar
+una variable. Para R, la mejor práctica es usar la asignación de flechas (<-). Técnicamente, la asignación de una flecha
+se puede usar en la dirección izquierda o derecha. Sin embargo, la asignación hacia la derecha no se utiliza generalmente
+en código R.
+
+También se puede usar la asignación de doble flecha, conocida como asignación de alcance. Pero la asignación de alcance
+es para usuarios avanzados de R, así que no la aprenderás en esta lectura.
+
+La tabla a continuación resume los operadores de asignación y el código de ejemplo en R. Observa que el resultado de cada
+variable es su valor asignado.
+
+![Alt text](image-9.png)
 
 ## Instrucciones condicionales
 
