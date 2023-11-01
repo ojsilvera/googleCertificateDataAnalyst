@@ -43,3 +43,18 @@ siguientes son funciones que nos permiten obtener un resumen del data frame carg
 Por ejemplo:
 
     skim_whitout_charts(penguins)
+
+El paquete skim arroja datos sobre el dataframe y su estructura.
+
+    head(penguins)
+
+El paquete head nos previsualiza las primeras 10 filas del data frame
+
+    select(species)
+
+mostrara solo las columnas que se indiquen en el comando y excluira las demas
+
+    select(-species)
+
+al anteponer el sgno "-" se mostraran todas las columnas menos la seleccionada en el comando, esto nos permite centrarnos
+en grupos de variables especificos del data frame
