@@ -48,6 +48,8 @@ El paquete skim arroja datos sobre el dataframe y su estructura.
 
     head(penguins)
 
+*filtrar columnas:*
+
 El paquete head nos previsualiza las primeras 10 filas del data frame
 
     select(species)
@@ -58,3 +60,20 @@ mostrara solo las columnas que se indiquen en el comando y excluira las demas
 
 al anteponer el sgno "-" se mostraran todas las columnas menos la seleccionada en el comando, esto nos permite centrarnos
 en grupos de variables especificos del data frame
+
+    rename(nombre_actual_columna=nuevo_nombre_columna)
+
+Permite renombrar una columna determinada
+
+    rename_with(paquete, cambio)
+
+    rename_with(penguins, toupper)
+    rename_with(penguins, tolower)
+
+permite estadarizar los nombres de las colummnas de un data frame, por ejemplo que incien en mayusculas
+
+    clean_names(data_frame)
+    
+    clean_names(penguiens)
+
+limpia los nombres del data_frame, que solo esxitan letras, numero y guiones bajos
