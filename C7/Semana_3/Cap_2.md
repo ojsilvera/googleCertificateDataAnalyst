@@ -77,3 +77,46 @@ permite estadarizar los nombres de las colummnas de un data frame, por ejemplo q
     clean_names(penguiens)
 
 limpia los nombres del data_frame, que solo esxitan letras, numero y guiones bajos
+
+## Convenciones de nomenclatura de archivos
+
+Una parte importante de la limpieza de datos es asegurarse de que todos los archivos tienen el nombre correcto. Aunque
+las preferencias individuales varían un poco, la mayoría de los analistas suelen estar de acuerdo en que los nombres de
+los archivos deben ser precisos, coherentes y fáciles de leer. Esta lectura proporciona algunas pautas generales para que
+sigas al nombrar o renombrar tus archivos de datos.
+
+Las convenciones de nomenclatura para los archivos. Esto ayuda a garantizar que cualquier persona que revise tu análisis
+-incluido tú mismo- pueda encontrar rápida y fácilmente lo que necesita. A continuación, te ofrecemos algunos consejos
+útiles que debes tener en cuenta a la hora de nombrar tus archivos.
+
+*Buenas practicas:*
+
+    Mantén los nombres de los archivos con una longitud razonable
+
+    Usa guiones bajos y guiones para facilitar la lectura
+
+    Empieza o termina el nombre del archivo con una letra o un número
+
+    Usa un formato de fecha estándar cuando corresponda; ejemplo: AAAA-MM-DD
+
+    Usa nombres de archivos relacionados que funcionen bien con la ordenación predeterminada;
+
+    por ejemplo: en orden cronológico o en orden lógico utilizando primero los números
+
+![Alt text](image-1.png)
+
+*Malas practicas:*
+
+    Uses caracteres adicionales innecesarios en los nombres de archivo
+
+    Uses espacios o caracteres "ilegales"; ejemplos: &, %, #, < o >
+
+    Empieces o termines el nombre del archivo con un símbolo
+
+    Uses formatos de fecha incompletos o incoherentes; ejemplo M-D-AA
+
+    Uses nombres de archivos relacionados que no funcionan bien con el ordenamiento predeterminado;
+    
+    ejemplos: un sistema aleatorio de números o formatos de fecha, o utilizar letras primero
+
+![Alt text](image-2.png)
