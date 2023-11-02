@@ -226,3 +226,59 @@ canselaciones para un data frame llamado bookings_of, su sintaxis es:
     varible = sum(campo)
 
     example_df_canceled <- bookings_df %>% summarize(number_canceled = sum(is_canceled))
+
+## ingresar manualmente data frames
+
+sintaxis: id <- c(1:10), nombre_vector <-(asignacion) c(1:n)(c representa que es uns variable tipo vector y entre parentesis
+las posiciones con sus valores)
+
+por ejemplo:
+
+    id <- c(1:10)
+
+    name <- c("John Mendes", "Rob Stewart", "Rachel Abrahamson", "Christy Hickman", "Johnson Harper", "Candace Miller",
+    "Carlson Landy", "Pansy Jordan", "Darius Berry", "Claudia Garcia")
+    
+    job_title <- c("Professional", "Programmer", "Management", "Clerical", "Developer", "Programmer", "Management",
+    "Clerical", "Developer", "Programmer")
+
+cargamos los vectores, que seran las columnas del data frame a continacion creamos el data frame
+sintaxys:
+
+    nombre <- data.frame(columna1, columna2, columnaN)
+
+Para el ejemplo tendriamos:
+
+    employee <- data.frame(id, name, job_title)
+
+## Transformación de datos
+
+*separate()* separa la columna qu ele indiquemos y crea n columnas a partir de estas, su sintaxis:
+
+    separate(nombre_dataFrame, nombre_columna_a_separar, into=c('nambre_columna_salida_1', 'nambre_columna_salida_2',
+        'nambre_columna_salida_N'), sep=' ')
+
+    into genera los nombres de las columnas en las que se convierte la columna que estamos dividiendo
+    sep permite ubicar la columna separada en el primer espacio en blanco que encuentre
+
+para el ejemplo tendriamos
+
+    separate(employee, name, into=c('first_name', 'last_name'), sep=' ')
+
+nuestra salida se veria asi:
+
+![Alt text](image-15.png)
+
+*unite()* une columnas que se encuentran separadas, su sintaxis seria:
+
+    unite(mobre_data_frame, 'columna_de_salida', columna_a_combinar_1, columna_a_combinar_2, columna_a_combinar_N, sep=' ')
+
+    sep permite separar los datos dentro de la nueva columna con un espacio en blanco
+
+para el ejemplo tendriamos
+
+    unite(employee, 'name', first_name, last_name, sep=' ')
+
+nuestra salida se veria asi:
+
+![Alt text](image-16.png)
