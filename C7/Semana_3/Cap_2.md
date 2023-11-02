@@ -162,4 +162,16 @@ por ejemplo:
 
 ### funcion group_by()
 
+Esta funcion nos permite agrupar datos segun la colummna en la que se encuentren, su sintaxys seria:
+
+    grupo_by(columna)
+
+cabe anotar que el data frame debe estar previamente cargado para ello
+
+la *funcion drop_NA* nos permite eliminar los datos faltantes, que llevan el NA en un data frame su sintasys
+
+    drop_NA()
+
+La sintaxys anterior sin argumentos aplicara la eliminacion en todo el data frame, actuar con precaucion.
+
 ### funcion filter()
