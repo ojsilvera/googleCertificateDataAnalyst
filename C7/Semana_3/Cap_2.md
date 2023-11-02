@@ -61,7 +61,7 @@ mostrara solo las columnas que se indiquen en el comando y excluira las demas
 al anteponer el sgno "-" se mostraran todas las columnas menos la seleccionada en el comando, esto nos permite centrarnos
 en grupos de variables especificos del data frame
 
-    rename(nombre_actual_columna=nuevo_nombre_columna)
+    rename(nuevo_nombre_columna = nombre_actual_columna)
 
 Permite renombrar una columna determinada
 
@@ -219,3 +219,10 @@ el simbolo "==" representa que el campo sera igual al texto que tiene frente.
 La salida genera un tibble similar a lo que sigue:
 
 ![Alt text](image-14.png)
+
+*funcion sum()* calcula la suma de los valores de una colummna determinada, en el siguiente ejemplo calcula el total de
+canselaciones para un data frame llamado bookings_of, su sintaxis es:
+
+    varible = sum(campo)
+
+    example_df_canceled <- bookings_df %>% summarize(number_canceled = sum(is_canceled))
