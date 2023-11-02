@@ -174,4 +174,28 @@ la *funcion drop_NA* nos permite eliminar los datos faltantes, que llevan el NA 
 
 La sintaxys anterior sin argumentos aplicara la eliminacion en todo el data frame, actuar con precaucion.
 
+la *funcion mean()* calcula la media de los datos en una colummna, asl ser utilizada con la funcion summarize entregará
+un resumen de la misma.
+
+Oomo ejemplo la siguiente instruccion, agrupa por isla, elimina los NA y realiza un resumen teniendo
+en cuenta la media de la columna bill_length_mm de la siguiente manera:
+
+    penguins %>% group_by(islands) %>% drop_na %>% summarize(mean_bill_length_mm = mean(bill_length_mm))
+
+lo anterior creara un nuevo data frame similar al siguiente:
+
+![Alt text](image-3.png)
+
+la *funcion max()* calcula el maximo de los datos en una colummna, asl ser utilizada con la funcion summarize entregará
+un resumen de la misma.
+
+Oomo ejemplo la siguiente instruccion, agrupa por isla, elimina los NA y realiza un resumen teniendo en cuenta los maximos
+de la columna bill_length_mm de la siguiente manera:
+
+    penguins %>% group_by(islands) %>% drop_na %>% summarize(mean_bill_length_mm = max(bill_length_mm))
+
+lo anterior creara un nuevo data frame similar al siguiente:
+
+![Alt text](image-4.png)
+
 ### funcion filter()
