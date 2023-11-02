@@ -198,4 +198,14 @@ lo anterior creara un nuevo data frame similar al siguiente:
 
 ![Alt text](image-4.png)
 
+Es posible utilizar las funciones agrupar y resumir en mas de una cloummna, por ejemplo.
+
+    penguins %>% gruop_by(especies, islands) %>% drop_na() %>% summarize(max_bl=max(bill_length_mm), mean(bill_length_mm))
+
+la orden anterior carga el data frame pinguins, agrupa por especies, leugo elimina los NA, realiza un resumen del data frame
+obtenido teniendo en cuenta dos campos calculados, el promedio de la lingitud de las islas y el maximo de las islas. la salida
+sera similar a lo siguiente:
+
+![Alt text](image-5.png)
+
 ### funcion filter()
