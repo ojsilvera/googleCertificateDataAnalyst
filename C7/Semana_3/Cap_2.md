@@ -209,3 +209,13 @@ sera similar a lo siguiente:
 ![Alt text](image-5.png)
 
 ### funcion filter()
+
+la funcion filter() solo muestra los registros que necistamos de un data frame, si quisieramos los pinguinos de una especie
+en particular seria algo como:
+
+    penguins %>% filter(species == "Adeleie")
+
+el simbolo "==" representa que el campo sera igual al texto que tiene frente.
+La salida genera un tibble similar a lo que sigue:
+
+![Alt text](image-14.png)
