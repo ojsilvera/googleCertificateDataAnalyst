@@ -61,11 +61,15 @@ mostrara solo las columnas que se indiquen en el comando y excluira las demas
 al anteponer el sgno "-" se mostraran todas las columnas menos la seleccionada en el comando, esto nos permite centrarnos
 en grupos de variables especificos del data frame
 
-    rename(nuevo_nombre_columna = nombre_actual_columna)
-
 Permite renombrar una columna determinada
 
-    rename_with(paquete, cambio)
+    rename(nuevo_nombre_columna = nombre_actual_columna)
+
+Modificar algo en el nombre de las columnas
+
+    rename_with(paquete, comando_cambio)
+
+Modifica que incien con mayusculas o minisculas
 
     rename_with(penguins, toupper)
     rename_with(penguins, tolower)
