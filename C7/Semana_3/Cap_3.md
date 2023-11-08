@@ -19,7 +19,7 @@ supera al resultado previsto. Está incluido en el paquete de diseño Sim.
 
 sintaxys
 
-    bias(resultado_obtenido, resultadoprevisto)
+    bias(resultado_obtenido, resultado_previsto)
 
 ejemplo
 
