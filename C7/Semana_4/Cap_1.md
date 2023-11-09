@@ -22,7 +22,11 @@ Geoms
 
 Facets
 
+![Alt text](image-4.png)
+
 Labels and annotations
+
+![Alt text](image-5.png)
 
 Los puntos muestran la relación entre dos variables cuantitativas. Las barras muestran una variable cuantitativa que varía
 entre diferentes categorías.
