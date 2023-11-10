@@ -136,3 +136,37 @@ Al agregar una nueva variables se crea un grafico de barrars apiladas, por ejemp
 la salida:
 
 ![Alt text](image-17.png)
+
+## Suavizado
+
+el suavizado puede usarse para hacer que tus visualizaciones de datos en R sean más claras y fáciles de seguir. A veces,
+puede ser difícil comprender tendencias en tus datos solo a través de diagramas de dispersión.
+
+El suavizado permite detectar una tendencia de datos aun cuando no puedes notar con facilidad una tendencia en los puntos
+de datos graficados. La funcionalidad de suavizado de ggplot2 es útil porque suma una línea de suavizado como otra capa
+en un diagrama; la línea de suavizado ayuda a que un observador casual entienda el sentido de los datos.
+
+por ejemplo:
+
+    ggplot(data, aes(x=distance,
+    y= dep_delay)) +
+        geom_point() +
+        geom_smooth()
+
+la salida:
+
+![Alt text](image-18.png)
+
+### Dos tipos de suavizado
+
+![Alt text](image-19.png)
+
+La funcionalidad de suavizado en ggplot2 ayuda a que los diagramas de datos sean más legibles, para que puedas reconocer
+mejor las tendencias de datos y sacar conclusiones clave. El primer diagrama que aparece debajo son los datos antes de
+suavizar y el segundo diagrama son los mismos datos después de suavizar.
+
+![Alt text](image-20.png)
+
+![Alt text](image-21.png)
+
+## Estetica y facetas
