@@ -93,3 +93,8 @@ por ejemplo
     error en cualquier otra posicion
 
     Los pipes (canalizacion) no funcionan como objetos de cracion de capas debe ser el signo + ("+")
+
+Para obtener ayuda sobre un afuncion escribir, basta con escribir el signo de interrogacion "?", seguido del nombre de la
+funcion que buscamos:
+
+    ?El_nombre_de_la_funcion
