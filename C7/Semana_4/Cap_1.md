@@ -16,7 +16,7 @@ Aesthetic
 
 ![Alt text](image.png)
 
-Geoms
+Geoms o formas geometricas, incluyen, puntos, barras, lineas, etc
 
 ![Alt text](image-1.png)
 
@@ -41,7 +41,9 @@ cargar el data ser + geoms a mostrar
 
 *"+" agraga capas al ggplot, para formar el grafico y sus caracteristicas.*
 
-*"geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg))" establece la forma geometrica del grafico y cuales seran,*
-                                                               *los campos que se mostraran y a que eje se le asignan.*
+*"geom_point()" establece la forma geometrica del grafico, dentro del parentecis se colocara la estetica del grafico.*
+
+*mapping=aes(x=flipper_lenght_mm, y=body_mass_gg) cuales seran, los campos que se mostraran y a que eje se le asignan,*
+                                                  *hace parte de la estetica de ggplot*
 
 ## Problemas mas comunes al visualizar en R
