@@ -89,4 +89,7 @@ por ejemplo
 
     las parablas reservadas del lenguajes deben escribirse tal cual
 
-    el signo mas debe agregarse para crear la capa de visualizacion
+    El signo mas ("+") debe agregarse para crear la capa de visualizacion y siempre al final de la lina de codigo, dispara
+    error en cualquier otra posicion
+
+    Los pipes (canalizacion) no funcionan como objetos de cracion de capas debe ser el signo + ("+")
