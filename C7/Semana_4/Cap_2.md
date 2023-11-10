@@ -59,3 +59,80 @@ Este es un ejemplo de cómo se muestran los atributos estéticos en R:
 
 Al aplicar estos atributos estéticos a tu trabajo con ggplot2, puedes crear visualizaciones de datos en R que comunican
 tendencias con claridad en tus datos.
+
+### Graficos de lineas
+
+La función geom guion bajo smooth es útil para mostrar tendencias generales en nuestros datos. La línea muestra con claridad
+la relación positiva entre masa corporal y longitud de aleta. Cuando más grande es el pingüino, más larga es la aleta.
+Hasta podemos usar dos figuras geométricas en el mismo diagrama,
+
+La sintaxys seria:
+
+    ggplot(data=penguins) + geom_smooth(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg))
+
+ la salida seria la siguiente:
+
+![Alt text](image-13.png)
+
+Es posible combinar ambos graficos, con el signo +, por ejemplo:
+
+    ggplot(data=penguins) +
+        
+        geom_smooth(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg)) +
+        
+             geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg))
+
+La salida obtenida seria esta:
+
+![Alt text](image-14.png)
+
+### graficos de dispersion
+
+la funcion geom_jitter, crea un diagrama de dispersion agregando ruido aleatorio a cada punto del diagrama, nos ayuda con
+el trazado excesivo, que sucede cuando los puntos se superponen unos ocn otros.
+
+la sintaxys:
+
+    ggplot(data=penguins) +
+        
+        geom_jitter(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg))
+
+La salida seria
+
+![Alt text](image-15.png)
+
+### El grafico de barras
+
+Trazar un diagrama de barras que muestre la variable cut o corte en el dataset de diamantes
+
+    ggplot(data=diamonds) +
+        
+        geom_bar(mapping=aes(x=cut))
+
+La salida:
+
+![Alt text](image-16.png)
+
+Con el tributo color cambiamos el contorno de las barras para diferencialos y con fill el color de relleno
+
+cambiando el contorno
+
+    ggplot(data=diamonds) +
+        
+        geom_bar(mapping=aes(x=cut, color=cut))
+
+Cambiando el relleno
+
+    ggplot(data=diamonds) +
+        
+        geom_bar(mapping=aes(x=cut, fill=cut))
+
+Al agregar una nueva variables se crea un grafico de barrars apiladas, por ejemplo:
+
+    ggplot(data=diamonds) +
+        
+        geom_bar(mapping=aes(x=cut, fill=cut, fill=clarity))
+
+la salida:
+
+![Alt text](image-17.png)
