@@ -30,3 +30,18 @@ Labels and annotations
 
 Los puntos muestran la relación entre dos variables cuantitativas. Las barras muestran una variable cuantitativa que varía
 entre diferentes categorías.
+
+## Sintaxys ggplot2 basica
+
+cargar el data ser + geoms a mostrar
+
+    ggplot(data=penguins) + geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg))
+
+*"ggplot(data=penguins)" inicia el ggplot con el set de datos seleccionado a traves de data=nombre_set.*
+
+*"+" agraga capas al ggplot, para formar el grafico y sus caracteristicas.*
+
+*"geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg))" establece la forma geometrica del grafico y cuales seran,*
+                                                               *los campos que se mostraran y a que eje se le asignan.*
+
+## Problemas mas comunes al visualizar en R
