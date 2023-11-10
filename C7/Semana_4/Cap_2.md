@@ -170,3 +170,21 @@ suavizar y el segundo diagrama son los mismos datos después de suavizar.
 ![Alt text](image-21.png)
 
 ## Estetica y facetas
+
+Las funciones de facetas te dejan mostrar grupos más pequeños, o subconjuntos, de datos. Una faceta es una cara o una
+sección de un objeto, como las caras de una piedra preciosa. Las facetas muestran diferentes caras de tus datos colocando
+cada subconjunto en su propio diagrama. El uso de facetas te ayudará a descubrir nuevos patrones en tus datos y enfocarte
+en relaciones entre diferentes variables.
+
+Ggplot2 tiene dos funciones para facetas: facet guion bajo wrap y facet guion bajo grid.
+
+facet_wrap: permite crear graficos separados, por ejemplo el siguiente codigo mostrara graficos separados para cada especie
+de pinguinos
+
+    ggplot(data=penguins) +
+        geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg)) +
+            facet_wrap(~spicies)
+
+la salida:
+
+![Alt text](image-22.png)
