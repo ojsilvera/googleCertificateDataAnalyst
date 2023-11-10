@@ -82,3 +82,11 @@ por ejemplo
     ggplot(data=<data_set>) + <geom_function>(mapping=aes(x=<axes_x>, y=<axes_y>))
 
 ## Problemas mas comunes al visualizar en R
+
+    Es case sensituve, distingue mayuculas y minusculas
+
+    Los parentecis de cierre y apertura deben coincidir
+
+    las parablas reservadas del lenguajes deben escribirse tal cual
+
+    el signo mas debe agregarse para crear la capa de visualizacion
