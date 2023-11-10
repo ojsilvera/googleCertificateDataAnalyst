@@ -176,7 +176,7 @@ sección de un objeto, como las caras de una piedra preciosa. Las facetas muestr
 cada subconjunto en su propio diagrama. El uso de facetas te ayudará a descubrir nuevos patrones en tus datos y enfocarte
 en relaciones entre diferentes variables.
 
-Ggplot2 tiene dos funciones para facetas: facet guion bajo wrap y facet guion bajo grid.
+ggplot2 tiene dos funciones para facetas: facet guion bajo wrap y facet guion bajo grid.
 
 facet_wrap: permite crear graficos separados, por ejemplo el siguiente codigo mostrara graficos separados para cada especie
 de pinguinos
@@ -188,3 +188,14 @@ de pinguinos
 la salida:
 
 ![Alt text](image-22.png)
+
+gacet_grid: permite separar el grafico enfrentando dos divisiones en si mismas, por ejemplo:
+
+    ggplot(data=penguins) +
+        geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg)) +
+            facet_grid(sex~spicies)
+
+El codigo anterior nos motrara inicialmente, aletas en el eje x, cuerpo ene l eje y, diviendolo en especies y su sexo como
+eje adicional, la salida se veria como lo siguiente
+
+![Alt text](image-23.png)
