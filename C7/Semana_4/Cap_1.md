@@ -153,6 +153,8 @@ Este es el código correcto:
 
     geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 
+### Los pipes (canalizacion) no funcionan como objetos de cracion de capas debe ser el signo + ("+")
+
 Además, puedes usar accidentalmente una canalización en vez de un signo más para agregar una nueva capa a tu diagrama, así:
 
     ggplot(data = penguins)%>%
@@ -174,9 +176,7 @@ tiempo, para que puedas mantenerte enfocado en tu análisis.
 
 ### Otras recomendaciones
 
-las palabras reservadas del lenguajes deben escribirse tal cual
-
-Los pipes (canalizacion) no funcionan como objetos de cracion de capas debe ser el signo + ("+")
+las palabras reservadas del lenguajes deben escribirse tal cual.
 
 Para obtener ayuda sobre un afuncion escribir, basta con escribir el signo de interrogacion "?", seguido del nombre de la
 funcion que buscamos:
