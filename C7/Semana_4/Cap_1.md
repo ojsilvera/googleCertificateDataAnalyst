@@ -16,6 +16,10 @@ Aesthetic
 
 ![Alt text](image.png)
 
+Mapping
+
+![Alt text](image-6.png)
+
 Geoms o formas geometricas, incluyen, puntos, barras, lineas, etc
 
 ![Alt text](image-1.png)
@@ -33,6 +37,10 @@ entre diferentes categorías.
 
 ## Sintaxys ggplot2 basica
 
+Una secuencia basica para la creacion de una visualizacion en ggplot2 seria algo como:
+
+![Alt text](image-8.png)
+
 cargar el data ser + geoms a mostrar
 
     ggplot(data=penguins) + geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg))
@@ -43,7 +51,7 @@ cargar el data ser + geoms a mostrar
 
 *"geom_point()" establece la forma geometrica del grafico, dentro del parentecis se colocara la estetica del grafico.*
 
-*mapping=aes(x=flipper_lenght_mm, y=body_mass_gg) cuales seran, los campos que se mostraran y a que eje se le asignan,*
+*"mapping=aes(x=flipper_lenght_mm, y=body_mass_gg)" cuales seran, los campos que se mostraran y a que eje se le asignan,*
                                                   *hace parte de la estetica de ggplot*
 
 ## Problemas mas comunes al visualizar en R
