@@ -83,16 +83,100 @@ por ejemplo
 
 ## Problemas mas comunes al visualizar en R
 
-    Es case sensituve, distingue mayuculas y minusculas
+### Es case sensituve, distingue mayuculas y minusculas
 
-    Los parentecis de cierre y apertura deben coincidir
+El código R distingue entre mayúsculas y minúsculas. Si utilizas accidentalmente mayúsculas en la primera letra de una
+determinada función, podría afectar tu código. Aquí hay un ejemplo:
 
-    las parablas reservadas del lenguajes deben escribirse tal cual
+    Glimpse(penguins)
 
-    El signo mas ("+") debe agregarse para crear la capa de visualizacion y siempre al final de la lina de codigo, dispara
-    error en cualquier otra posicion
+El mensaje de error te avisa que R no puede encontrar una función llamada “Glimpse”:
 
-    Los pipes (canalizacion) no funcionan como objetos de cracion de capas debe ser el signo + ("+")
+    Error in Glimpse(penguins) : could not find function "Glimpse"
+
+Pero sabes que la función glimpse (con “g” minúscula) sí existe. Observa que el mensaje de error no explica exactamente
+qué está mal, pero sí te señala en una dirección.
+
+Basado en eso, puedes descifrar que este es el código correcto:
+
+    glimpse(penguins)
+
+### Los parentecis de cierre y apertura deben coincidir
+
+Otro error común al programar en R involucra los paréntesis y las comillas. En R, debes asegurarte de que cada paréntesis
+de apertura de tu función tenga un paréntesis de cierre y de que cada comilla de apertura tenga una comilla de cierre.
+
+Por ejemplo, si ejecutas el siguiente código, no sucede nada. R no crea el diagrama. Eso se debe a que a la segunda línea
+de código le faltan dos paréntesis de cierre:
+
+    ggplot(data = penguins) +
+
+    geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g
+
+RStudio sí te alerta que existe un problema. A la izquierda de la línea de código en tu editor de código fuente de RStudio,
+quizás observes un círculo rojo con una “X” blanca en el centro. Si pasas el cursor por encima del círculo, aparece este
+mensaje:
+
+![Alt text](image-9.png)
+
+RStudio te avisa que tienes un paréntesis de apertura suelto. Entonces, para corregir el código, sabes que tienes que
+agregar un paréntesis de cierre para cada paréntesis de apertura.
+
+Este es el código correcto:
+
+    ggplot(data = penguins) +
+
+    geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+### uso del signo (+)
+
+El signo mas ("+") debe agregarse para crear la capa de visualizacion y siempre al final de la lina de codigo, dispara
+error en cualquier otra posicion.
+
+En ggplot2, necesitas agregar un signo más (“+”) a tu código cuando agregas una nueva capa a tu diagrama. Colocar el
+signo más en el lugar incorrecto es un error común. El signo más siempre debería colocarse al final de una línea de código,
+no al principio de la línea.
+
+Este es un ejemplo de código que incluye una ubicación incorrecta del signo más:
+
+    ggplot(data = penguins)
+
+    + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+En este caso, el mensaje de error de R identifica el problema y te indica que lo corrijas:
+
+    Error: Cannot use `+.gg()` with a single argument. Did you accidentally put + on a new line?
+
+Este es el código correcto:
+
+    ggplot(data = penguins) +
+
+    geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+Además, puedes usar accidentalmente una canalización en vez de un signo más para agregar una nueva capa a tu diagrama, así:
+
+    ggplot(data = penguins)%>%
+
+    geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+Luego recibes el siguiente mensaje de error:
+
+    Error: `data` must be a data frame, or other object coercible by `fortify()`, not an S3 object with class gg/ggplot
+
+Este es el código correcto:
+
+    ggplot(data = penguins) +
+
+    geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+
+Tener estos temas en cuenta y prestar atención a los detalles al escribir código te ayudará a reducir errores y ahorrar
+tiempo, para que puedas mantenerte enfocado en tu análisis.
+
+### Otras recomendaciones
+
+las palabras reservadas del lenguajes deben escribirse tal cual
+
+Los pipes (canalizacion) no funcionan como objetos de cracion de capas debe ser el signo + ("+")
 
 Para obtener ayuda sobre un afuncion escribir, basta con escribir el signo de interrogacion "?", seguido del nombre de la
 funcion que buscamos:
