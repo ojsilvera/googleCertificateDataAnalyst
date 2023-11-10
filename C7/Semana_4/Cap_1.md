@@ -54,4 +54,31 @@ cargar el data ser + geoms a mostrar
 *"mapping=aes(x=flipper_lenght_mm, y=body_mass_gg)" cuales seran, los campos que se mostraran y a que eje se le asignan,*
                                                   *hace parte de la estetica de ggplot*
 
+### plantillas para visualizacion en ggplot
+
+Para evitar la repeticion de codigo es posible reemplazr por variables ciertas porciones del codigo, apar ello utilizamos:
+
+    <Aqui_La_Variables>
+
+la sintaxys anterior le indica a R que es posible realizar el cambio de ese trozo de codigo por la variable previamente
+dedinida, por ejemplo:
+
+    ggplot(data=<data_set>) + <geom_function>(mapping=aes(x=<axes_x>, y=<axes_y>))
+
+donde
+
+    data_set = dataset_name
+    geom_function = geoms_form
+    axes_x = campo del sata set para el eje x
+    axes_y = campo del sata set para el eje y
+
+por ejemplo
+
+    data_set = penguins
+    geom_function = geom_point
+    axes_x = flipper_lenght_mm
+    axes_y = body_mass_gg
+
+    ggplot(data=<data_set>) + <geom_function>(mapping=aes(x=<axes_x>, y=<axes_y>))
+
 ## Problemas mas comunes al visualizar en R
