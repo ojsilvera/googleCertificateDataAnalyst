@@ -189,7 +189,7 @@ la salida:
 
 ![Alt text](image-22.png)
 
-gacet_grid: permite separar el grafico enfrentando dos divisiones en si mismas, por ejemplo:
+gacet_grid: permite separar el grafico enfrentando dos ejes contra una division adicionalpor ejemplo:
 
     ggplot(data=penguins) +
         geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg)) +
@@ -199,3 +199,30 @@ El codigo anterior nos motrara inicialmente, aletas en el eje x, cuerpo ene l ej
 eje adicional, la salida se veria como lo siguiente
 
 ![Alt text](image-23.png)
+
+un ejemplo solo con especies:
+
+    ggplot(data=penguins) +
+        geom_point(mapping=aes(x=flipper_lenght_mm, y=body_mass_gg)) +
+            facet_grid(~spicies)
+
+aqui la salida
+
+![Alt text](image-24.png)
+
+## Filtrado y diagramas
+
+A esta altura, probablemente descargaste al menos algunos paquetes a tu biblioteca R. Las herramientas incluidas en algunos
+de estos paquetes de hecho se pueden combinar y usar en conjunto para que sean aún más útiles. Esta lectura compartirá
+algunos recursos que te enseñarán cómo usar la función de filtrado de dplyr para hacer que los diagramas que crees con
+ggplot2 sean más fáciles de leer.
+
+*Ejemplo de filtrado de datos para el trazado.*
+
+Filtrar tus datos antes del trazado te permite enfocarte en subconjuntos específicos de tus datos y sacar conclusiones
+más dirigidas. Para hacerlo, usa la función dplyr filter() en tu sintaxis de ggplot.
+
+    data %>%
+        filter(variable1 == "DS") %>%
+        ggplot(aes(x = weight, y = variable2, colour = variable1)) +
+        geom_point(alpha = 0.3,  position = position_jitter()) + stat_smooth(method = "lm")
