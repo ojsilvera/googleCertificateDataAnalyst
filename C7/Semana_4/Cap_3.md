@@ -18,3 +18,7 @@ notece que usamos el sigono "+" para agregar una nueva capa al grafico que seria
 ya que requiere un argumento tipo texto.
 
 ![Alt text](image-25.png)
+
+la salida:
+
+![Alt text](image-26.png)
