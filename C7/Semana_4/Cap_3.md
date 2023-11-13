@@ -16,3 +16,5 @@ la siguiente manera:
 
 notece que usamos el sigono "+" para agregar una nueva capa al grafico que seria la funcion labs con su titulo entre comillas
 ya que requiere un argumento tipo texto.
+
+![Alt text](image-25.png)
