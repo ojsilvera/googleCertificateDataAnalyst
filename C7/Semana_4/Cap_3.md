@@ -28,14 +28,14 @@ objetivos de la siguiente manera:
 
     ggplot(data=data_set_name)+
         geaom_(graphic_tipe)()+
-            labs(titele="title_text", subtitle="subtitle_text")
+            labs(title="title_text", subtitle="subtitle_text")
 
 Para agregar un titulo, subtitulo y leyenda en un diagrama o grafico en r, colocamos labs() que es una fucnion creqada con
 dicho objetivos de la siguiente manera:
 
     ggplot(data=data_set_name)+
         geaom_(graphic_tipe)()+
-            labs(titele="title_text", subtitle="subtitle_text", caption="caption_text")
+            labs(title="title_text", subtitle="subtitle_text", caption="caption_text")
 
 Para agregar un anotacion en un diagrama o grafico en r, colocamos annotate() que es una fucnion creqada con
 dicho objetivos de la siguiente manera:
