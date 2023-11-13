@@ -22,3 +22,17 @@ ya que requiere un argumento tipo texto.
 la salida:
 
 ![Alt text](image-26.png)
+
+Para agregar un titulo y subtitulo en un diagrama o grafico en r, colocamos labs() que es una fucnion creqada con dicho
+objetivos de la siguiente manera:
+
+    ggplot(data=data_set_name)+
+        geaom_(graphic_tipe)()+
+            labs(titele="title_text", subtitle="subtitle_text")
+
+Para agregar un titulo, subtitulo y leyenda en un diagrama o grafico en r, colocamos labs() que es una fucnion creqada con
+dicho objetivos de la siguiente manera:
+
+    ggplot(data=data_set_name)+
+        geaom_(graphic_tipe)()+
+            labs(titele="title_text", subtitle="subtitle_text", caption="caption_text")
