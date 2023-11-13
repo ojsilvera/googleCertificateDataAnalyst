@@ -58,3 +58,5 @@ usa el tamaño del dispositivo gráfico actual.
     ggsave("file_name.extension")
 
 la extension, es un formato de imagen o pdf
+
+![Alt text](image-28.png)
