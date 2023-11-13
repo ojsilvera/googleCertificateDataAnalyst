@@ -12,7 +12,7 @@ la siguiente manera:
 
     ggplot(data=data_set_name)+
         geaom_(graphic_tipe)()+
-            labs(titele="title")
+            labs(title="title")
 
 notece que usamos el sigono "+" para agregar una nueva capa al grafico que seria la funcion labs con su titulo entre comillas
 ya que requiere un argumento tipo texto.
