@@ -20,3 +20,5 @@ sección.
 Puedes formatear el texto para incluir enlaces, listas ordenadas, ecuaciones y más.
 
 Adregamos links con "<aqui_el_link.com>"
+
+El simbolo "*" al inicio de una linea cre viñetas
