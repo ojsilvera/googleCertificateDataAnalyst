@@ -11,3 +11,13 @@ limitadores directamente en el archivo: tres comillas simples seguidas de la let
 de código y tres comillas simples para finalizarlo.
 
 ![Delimitador](image-2.png)
+
+Atajo de teclado para insertar bloque de codigo:
+
+![Alt text](image-3.png)
+
+Entre las llaves se agrega un texto descriptivo para el bloque de codigo que nos permitira tener un path en la parte inferior
+de la pantalla y con eso situarnos en el bloque de codigo que se este buscando, luego de las llaves y entre los delimitadores
+ubicamos el codigo ejecutable, tal cual lo hariamos en un script de R, como se muestra en la siguiente imagen:
+
+![Alt text](image-4.png)
