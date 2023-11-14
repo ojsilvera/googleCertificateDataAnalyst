@@ -22,3 +22,7 @@ Puedes formatear el texto para incluir enlaces, listas ordenadas, ecuaciones y m
 Adregamos links con "<aqui_el_link.com>"
 
 El simbolo "*" al inicio de una linea cre viñetas
+
+Incrustar texto con link seria: Click here "[link](aqui_el_link.com)"
+
+Incrustar una imagen: ![texto_descriptivo](url_img.com)
