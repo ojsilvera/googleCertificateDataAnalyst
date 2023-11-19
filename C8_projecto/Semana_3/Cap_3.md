@@ -6,7 +6,7 @@
 
 ![Alt text](image-2.png)
 
-Como te vendes garantiza tu inclusion en la nueva contratacion que busca la empresa.
+*Como te vendes garantiza ser la nueva contratacion que busca la empresa.*
 
 ![Alt text](image-3.png)
 
@@ -14,7 +14,7 @@ Como te vendes garantiza tu inclusion en la nueva contratacion que busca la empr
 
 ![Alt text](image-4.png)
 
-ejemplos de curriculums y formatos:
+## ejemplos de curriculums y formatos
 
     link<https://app.enhancv.com/industry-examples>
 
@@ -47,3 +47,7 @@ práctico que cubre todo el proceso del análisis computacional de datos.
 incribirse en el grupo de linkedIN para alumnos de la certificacion en analisis de datos de google:
 
     [link]<https://www.linkedin.com/groups/13962674/>
+
+## Practica de entrevista
+
+link<https://googlecerts.biginterview.com/>
