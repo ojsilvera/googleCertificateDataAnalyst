@@ -14,6 +14,10 @@ Como te vendes garantiza tu inclusion en la nueva contratacion que busca la empr
 
 ![Alt text](image-4.png)
 
+ejemplos de curriculums y formatos:
+
+    link<https://app.enhancv.com/industry-examples>
+
 ## resumen de habilidades para el curriculum u hoja de vida y resumen
 
 Habilidades:
