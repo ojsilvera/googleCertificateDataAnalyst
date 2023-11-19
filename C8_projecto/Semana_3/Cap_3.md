@@ -9,3 +9,7 @@
 Como te vendes garantiza tu inclusion en la nueva contratacion que busca la empresa.
 
 ![Alt text](image-3.png)
+
+## Sugerencias para la entrevista
+
+![Alt text](image-4.png)
