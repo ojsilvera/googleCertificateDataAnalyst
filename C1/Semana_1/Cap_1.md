@@ -2,15 +2,15 @@
 
 ## Presentación del programa y algunos conceptos
 
-    Que son los datos? Son una coleccion de hechos, los cuales pueden incluir numeros, imagenes, videos, palabras, mediciones,
-    observaciones, entre otros. Una vez reunidos los datos se parametrizan utilizando el analisis, por lo tanto el analisis de
-    datos es la recopilacion, transformacion y organizacion de los datos, con el fin de obtener conclusiones, hacer predicciones
-    y tomar decisiones fundamentadas. El analisis de datos evoluciona con el timpo, la analitica como la conocemos puede darnos
-    nueva informacion durante el ciclo vida  de los datos.
+Que son los datos? Son una coleccion de hechos, los cuales pueden incluir numeros, imagenes, videos, palabras, mediciones,
+observaciones, entre otros. Una vez reunidos los datos se parametrizan utilizando el analisis, por lo tanto el analisis de
+datos es la recopilacion, transformacion y organizacion de los datos, con el fin de obtener conclusiones, hacer predicciones
+y tomar decisiones fundamentadas. El analisis de datos evoluciona con el timpo, la analitica como la conocemos puede darnos
+nueva informacion durante el ciclo vida  de los datos.
 
-    los datos los encontramos por todas partes, las reseñas de productos que nos permiten tomar una decision de compra, monitoreo
-    de nuestra variables fisicas, pulso, temperatura, etc, lo cual nos permite saber si nos encontramos ante un posible cuadro de
-    enfermedad o no,
+los datos los encontramos por todas partes, las reseñas de productos que nos permiten tomar una decision de compra, monitoreo
+de nuestra variables fisicas, pulso, temperatura, etc, lo cual nos permite saber si nos encontramos ante un posible cuadro de
+enfermedad o no,
 
     Creamos datos aun mas rapido que los utilizamos, el uso del pc para ingresar a nuestro correo, al usar paginas bancarias por el
     registro de transacciones, el uso de reproductores en linea, al otorgarle un like a una foto o texto en una red sol, son algunos
@@ -76,8 +76,8 @@
 
 ## Presentación del curso (Video)
 
-    Los datos son una recopilación de hechos o información y mediante al análisis lo usamos para obtener conclusiones y predicciones, que aporten en la toma de decisiones
-    de acuerdo al contexto en el que nos encontremos.
+    Los datos son una recopilación de hechos o información y mediante al análisis lo usamos para obtener conclusiones y
+    predicciones, que aporten en la toma de decisiones de acuerdo al contexto en el que nos encontremos.
 
     El proceso general del análisis de datos está conformado por:
 
@@ -90,13 +90,21 @@
 
 ## Mí Presentacion en el foro
 
-    Hola buen día, mi nombre es Oscar, soy de Colombia y resido actualmente en barranquilla, de momento me encuentro desempleado, como tengo conocimientos digamos intermedios en
-    programación, bases de datos y atendiendo a la sugerencia de un amigo pues me interese por el área de los datos como potencial campo para la búsqueda de mi primer empleo en
-    el sector TI, así que participe de la beca ofrecida por Google a través de Colnodo y aquí estoy con todo el animo de completar este primer paso en mí inmersión definitiva en
-    el mundo de los datos. Mi principal objetivo con el programa es nutrirme de los proceso que llevan a cabo los analistas de datos y así entender como puedo aportar a las necesidades
-    de la organización que me brinde la oportunidad de colaborar con ellos. lo que más me entusiasma de aprender análisis de datos, es ver como la aplicación de la computación se ha
-    abierto paso hasta el punto de convertirse en una herramienta de extremada utilidad en todos los procesos tanto personales como en las diferentes industrias que componen el sistema
-    económico mundial. mis antecedente educativos: Ingeniero electrónico graduado(no ejercido), Tecnólogo en análisis y sistemas de información, autodidacta en el campo de datos hasta
-    ahora que puedo profesionalizar a través de esta oportunidad mi pasión por la programación en general. intento mantenerme en el sector TI pero desde una perspectiva no tan tradicional
-    como lo seria el desarrollo web o de aplicaciones y sí aportando valor a las organizaciones a través de sus datos. al completar el curso hay dos cosas, una seguir formándome ya que el conocimiento en este campo es muy amplio y denso como para limitarlo aun solo curso, por muy bueno que sea y dos iniciar la búsqueda de la empresa u organización que me dará la
-    oportunidad de colaborar y de cimentar mis conocimientos a través de la experiencia y el día a día.
+Hola buen día, mi nombre es Oscar, soy de Colombia y resido actualmente en barranquilla, de momento me encuentro
+desempleado, como tengo conocimientos digamos intermedios en programación, bases de datos y atendiendo a la sugerencia
+de un amigo pues me interese por el área de los datos como potencial campo para la búsqueda de mi primer empleo en
+el sector TI, así que participe de la beca ofrecida por Google a través de Colnodo y aquí estoy con todo el animo de
+completar este primer paso en mí inmersión definitiva en el mundo de los datos. Mi principal objetivo con el programa
+es nutrirme de los proceso que llevan a cabo los analistas de datos y así entender como puedo aportar a las necesidades
+de la organización que me brinde la oportunidad de colaborar con ellos. lo que más me entusiasma de aprender análisis de
+datos, es ver como la aplicación de la computación se ha abierto paso hasta el punto de convertirse en una herramienta de
+extremada utilidad en todos los procesos tanto personales como en las diferentes industrias que componen el sistema
+económico mundial.
+
+mis antecedente educativos: Ingeniero electrónico graduado(no ejercido), Tecnólogo en análisis y sistemas de información,
+autodidacta en el campo de datos hasta ahora que puedo profesionalizar a través de esta oportunidad mi pasión por la
+programación en general. intento mantenerme en el sector TI pero desde una perspectiva no tan tradicional como lo seria
+el desarrollo web o de aplicaciones y sí aportando valor a las organizaciones a través de sus datos. al completar el curso
+hay dos cosas, una seguir formándome ya que el conocimiento en este campo es muy amplio y denso como para limitarlo aun
+solo curso, por muy bueno que sea y dos iniciar la búsqueda de la empresa u organización que me dará la oportunidad de
+colaborar y de cimentar mis conocimientos a través de la experiencia y el día a día.
