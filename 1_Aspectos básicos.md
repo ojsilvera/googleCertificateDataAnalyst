@@ -174,4 +174,10 @@ Ansío presentarte algunas de las herramientas que los analista de datos usan to
 
 ## Configura tu caja de herramientas
 
-### Posibilidades profesionales infinitas
+### Dominio de los conceptos básicos de la hoja de cálculo
+
+### Lenguaje de consulta estructurado (SQL)
+
+### Visualización de datos
+
+## Posibilidades profesionales infinitas
