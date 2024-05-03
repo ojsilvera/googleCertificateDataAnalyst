@@ -118,25 +118,109 @@ es
 
 #### Emma: El recorrido hacia una carrera significativa
 
-### Cuestionario práctico: Pon a prueba tus conocimientos sobre ordenación y filtrado
+Soy Emma, analista de productos en Google Health. El producto para el que estoy ayudando a analizar los datos es una herramienta destinada a los médicos, que les permitirá encontrar los datos de salud de sus pacientes con tanta facilidad como cuando buscamos algo en Google Search. Específicamente me focalizo en la estandarización de los datos de atención médica, los analizo para detectar anomalías o problemas en la calidad de los datos, y hablo con los gerentes de producto sobre qué características deberíamos lanzar y por qué. He trabajado en temas que abarcan desde resolución de fallas en locomotoras para prevenirlas antes de que ocurran, hasta proyecciones de ventas para carteras, incluso antes de su lanzamiento al mercado, y ahora estoy trabajando con datos de atención médica para intentar que los médicos puedan tener los datos de sus pacientes al alcance de la mano. Realmente me interesaba trabajar en análisis computacional de datos, pero quería darme cuenta de con qué tipo de datos quería trabajar o en qué área del análisis computacional de datos quería concentrarme, porque es algo tan vasto. Finalmente me atrajo trabajar con datos de atención médica. Me fascinó el tema, todos los problemas que tenemos hoy en día en el área de atención médica y cómo podría mejorarse esta gran cantidad de datos disponibles en el área de salud con el fin de ayudar a los pacientes y a los médicos, para mejorar la salud de la población. Trabajar con conjuntos de datos significativos es lo que realmente me estimula a venir a trabajar cada día y me fascina resolver estos problemas. En mi profesión aprendí que seguir los conjuntos de datos que me interesan, los tipos de problemas que me interesan, siempre me dio los mejores resultados porque es lo que más me impulsa cada día a venir a trabajar y dar lo mejor de mí para resolver estas cuestiones tan atrapantes que es justo lo que yo quería. Lo sorprendente es que hay datos por todas partes, hay problemas de datos en todas las empresas, en todos los rubros, y llegas al punto de dejarte llevar por lo que te apasiona.
+
+#### Cuestionario práctico: Pon a prueba tus conocimientos sobre ordenación y filtrado
+
+![alt text](image-220.png)
 
 ### Ordenar datos usando SQL
 
 #### Ordenación de consultas en SQL
 
+¡Hola! Si deseabas aprender sobre ordenación en SQL decididamente estás en el lugar indicado. Hasta ahora hemos ordenado hojas de cálculo a través del menú y con una función escrita. Esto nos conduce a la siguiente parte de nuestro aprendizaje: más funciones de ordenación, pero esta vez en SQL. Los analistas de datos aman jugar con la forma en que se presentan los datos. La ordenación es una manera útil de reorganizar los datos porque puede ayudarte a comprender los datos que tienes, desde una perspectiva diferente. Como te habrás dado cuenta, muchas de las cosas que puedes hacer en las hojas de cálculo, también las puedes hacer en SQL. La ordenación es una de ellas. Ya hablamos sobre el uso de SQL con grandes conjuntos de datos. Cuando una hoja de cálculo tiene demasiados datos, quizás recibas mensajes de error, o puede hacer colapsar tu programa. Eso es algo que definitivamente queremos evitar. SQL reduce los procesos que de otra forma llevarían mucho más tiempo o serían imposibles de completar en una hoja de cálculo. Personalmente, uso SQL para extraer y combinar diferentes tablas de datos. Es mucho más rápido que una hoja de cálculo, y eso suele ser muy práctico. Aquí hay algo bastante útil que puedes hacer con SQL. Puedes usar la cláusula ORDER BY para ordenar los resultados que arroja una consulta. Volvamos a nuestra hoja de cálculo de películas para entender mejor cómo funciona esto. Siéntete libre de seguirlo en la herramienta SQL que prefieras, a medida que avanzamos. Para repasar rápidamente, tenemos una base de datos de películas que incluye datos como fecha de estreno, director, etc. Podemos ordenar esta tabla de muchas maneras diferentes usando la función ORDER BY. Para este ejemplo, vamos a ordenar por fecha de estreno. Primero, tenemos la función SELECT y un asterisco.
+Reproduce el video desde :1:51 y sigue la transcripción1:51
+Ten en cuenta que el asterisco significa que se seleccionan todas las columnas. Luego tenemos FROM y el nombre de la base de datos y la tabla en la que estamos justo ahora. Ahora vamos a verificar la línea siguiente. Está vacía, pero ahí es donde escribiremos nuestra función ORDER BY. El comando ORDER BY<i> </i>suele ser la última cláusula de la consulta. Volvamos a la ordenación real. Escribiremos ORDER BY<i> </i>con el espacio. Con esta cláusula, puedes ordenar los datos por campos en una columna determinada. Como queremos ordenar por fecha de estreno, escribiremos fecha_de_estreno. En forma predeterminada, la cláusula<i> </i>ORDER BY ordena los datos en forma ascendente. Si ejecutas la consulta así como está ahora, las películas se ordenarán de la fecha de estreno más antigua a la más reciente. Ejecutemos esta consulta y veamos qué sale. También puedes ordenar las fechas de estreno en sentido inverso, de la fecha más reciente a la más antigua. Para hacer esto, simplemente especifica el orden descendente en el comando ORDER BY escrito como DESC, D-E-S-C. Vamos a ejecutar esta consulta.
+Reproduce el video desde :3:6 y sigue la transcripción3:06
+Como observarás, las películas más recientes ahora aparecen en la parte superior de la base de datos. En las hojas de cálculo, puedes combinar ordenaciones y filtros para visualizar la información de manera diferente. También puedes hacer algo similar en SQL. Tal vez recuerdes que si bien la ordenación ubica los datos en un orden específico, los filtros acotan los datos, por eso solo ves los datos que se ajustan al filtro. Por ejemplo, supongamos que queremos filtrar las películas por género de manera tal que solo trabajemos con las comedias. Pero queremos seguir manteniendo las fechas de estreno ordenadas en orden descendente, de las películas más recientes a las más antiguas. Podemos hacer esto con la cláusula WHERE. Probemos eso ahora. Primero, verificaremos que la cláusula ORDER BY siempre sea la última línea. Eso nos asegura que todos los resultados de la consulta que estás ejecutando se ordenen por esa cláusula. Luego, agregaremos una nueva línea para la cláusula WHERE después de FROM y antes de ORDER BY.
+Reproduce el video desde :4:9 y sigue la transcripción4:09
+Esto es lo que tenemos hasta ahora. A partir de aquí, queremos escribir la columna que estamos filtrando. En este caso, queremos filtrar la base de datos para comedias. Después de la cláusula WHERE, escribiremos la palabra Género<i> </i>para la columna de la lista. Ahora, agregaremos un signo igual después de Género porque solo queremos incluir los géneros que coincidan con el dato que estamos filtrando. En este caso, estamos filtrando las comedias, así que escribiremos Comedia<i> </i>entre comillas. Ahora, si revisas la consulta completa, observarás que estamos seleccionando todas las columnas, y sabemos que son todas las columnas porque eso significa el asterisco. La cláusula FROM especifica el nombre de la base de datos de películas que estamos usando, y la cláusula WHERE filtra los datos para incluir las entradas cuyo género se especifica como comedia. Luego, en la última línea, tenemos la cláusula ORDER BY, que ordenará los datos que hemos elegido filtrar por fecha de estreno, en orden descendente. Esto significa que cuando ejecutemos la consulta, solo veremos la lista de las películas que son comedias desde los estrenos más recientes a los más antiguos. Ejecutémoslo y veamos si es así.
+Reproduce el video desde :5:25 y sigue la transcripción5:25
+Genial. Corroboremos todas las películas que son comedias y la forma en que se ordenaron las fechas.
+Reproduce el video desde :5:33 y sigue la transcripción5:33
+Ahora, avancemos un poco más con esta consulta. Filtraremos por dos condiciones a la vez usando el filtro AND. Sigamos trabajando en la consulta que hemos usado y agreguemos unasegunda condición en la cláusula WHERE. Mantendremos la misma ordenación. Supongamos que quieres filtrar las películas por comedias y aquellas que recaudaron más de 300 millones. En este caso, después de la función AND, agregarás la condición de la recaudación escribiendo la palabra Ingresos. A partir de ahí, especificarás que solo quieres que muestre las películas con una recaudación superior a los $300 millones. Para hacer eso, escribe el signo mayor que y luego el número completo de 300 millones, sin comas. Vamos a ejecutar la consulta.
+Reproduce el video desde :6:23 y sigue la transcripción6:23
+Aquí, los datos solo muestran las películas que son comedias con recaudación superior a los $300 millones, y se ordenan por fecha de estreno, en orden descendente. Se ve realmente muy bien. Acabas de filtrar y ordenar una base de datos como si fuera en tu trabajo. Y con práctica, un día lo lograrás. Así de fácil, has completado otro paso en tu trayectoria de analista de datos. A estas alturas, realmente has profundizado y aprendido sobre el proceso de análisis con especial énfasis en la forma en que la organización puede cambiar cómo examinas tus datos. También has aprendido sobre hojas de cálculo y SQL, y cómo ordenar y filtrar datos en estos dos tipos de programas. Para que te sientas más cómodo con el uso de las funciones de las hojas de cálculo y de SQL, recibirás algunos materiales que puedes usar como recurso. A continuación, aprenderemos cómo la mentalidad organizativa puede potenciar aún más tus destrezas analíticas. También abordaremos la conversión, el formateo y el ajuste de datos para combinar información de una manera que tenga sentido. Aprender esas destrezas precozmente puede hacer que tu trabajo como analista de datos sea mucho más eficaz y efectivo a largo plazo. Nos vemos pronto.
+
 #### Repaso opcional: Usar BigQuery
+
+<https://cloud.google.com/bigquery/docs>
+<https://www.coursera.org/learn/preparar-datos-para-la-exploracion/item/DYOQK>
+
+![alt text](image-221.png)
 
 #### Actividad práctica: Ordenación de consultas en SQL
 
+<https://cloud.google.com/bigquery/docs/sandbox>
+![alt text](image-222.png)
+
 #### Actividad práctica: Analizar datos meteorológicos en BigQuery
 
+![alt text](image-223.png)
+
 #### Pon a prueba tus conocimientos sobre ordenación en SQL
+
+![alt text](image-224.png)
 
 ### Desafío semanal 1 curso 5
 
 #### Cuestionario: Desafío semanal 1
 
+![alt text](image-225.png)
+
 ## Formatear y ajustar datos
+
+### Convertir y formatear datos
+
+#### Primeros pasos con el formateo de datos
+
+#### De un tipo a otro
+
+#### Convertir datos en hojas de cálculo
+
+#### Actividad práctica: Combinar distintos tipos de datos
+
+#### Validación de datos
+
+#### Formato condicional
+
+#### Cuadro de aviso de la discusión: Detectar casos de uso para el formato condicional
+
+#### Transformar datos en SQL
+
+#### Pon a prueba tus conocimientos sobre cómo convertir y formatear datos
+
+### Combinar distintos conjuntos de datos
+
+#### Opcional: Prepárate para usar el conjunto de datos sobre bicicletas compartidas en BigQuery
+
+#### Unión y distintas fuentes
+
+#### Cadenas de texto en hojas de cálculo
+
+#### Manipular cadenas de texto en SQL
+
+#### Registro de aprendizaje: Lista de verificación del análisis de datos
+
+#### Pon a prueba tus conocimientos sobre combinar distintos conjuntos de datos
+
+### Obtener ayuda durante el análisis
+
+#### Qué hacer cuando no puedes avanzar
+
+#### Consejos y trucos avanzados para hojas de cálculo
+
+#### Layla: Todo sobre la etapa de análisis
+
+#### ¿Te encontraste con un desafío? No te preocupes
+
+#### Cuándo usar cada herramienta
+
+#### Cuestionario práctico: Autorreflexión: Stack Overflow
+
+### Desafío semanal 2 curso 5
+
+#### Cuestionario: Desafío semanal 2
 
 ## Agregar datos para análisis
 
