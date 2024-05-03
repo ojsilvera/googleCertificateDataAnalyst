@@ -913,16 +913,34 @@ Una vez que comiences a explorar las tablas temporales por ti mismo, es probable
 
 Hola. Anteriormente, te presentamos las tablas temporales. Son un gran recurso para usar durante tu análisis porque te ayudarán a mantener tu código SQL organizado y eficiente. Aprendiste a usar una cláusula WITH para crear un tipo de tabla temporal. Ahora veremos otros modos para que puedas crear tablas temporales con los pros y contras que presentan. Esta es una de las grandes cosas acerca del análisis de datos. Casi siempre existe más de una forma de hacer tu análisis. La instrucción SELECT INTO es un buen ejemplo de cómo hacer una tabla temporal. Esta instrucción copia datos de una tabla en una tabla nueva, pero no agrega la tabla nueva a la base de datos. Es útil si quieres hacer una copia de una tabla con una condición específica, como una consulta con una cláusula WHERE. Hasta ahora, estuvimos usando BigQuery para mostrarte cómo funciona SQL. Pero BigQuery actualmente no reconoce el comando SELECT INTO. En cambio, aquí hay un ejemplo de cómo una instrucción SELECT INTO podría verse en otra RDBMS. En la instrucción, se crea una nueva tabla denominada Ventas de África usando datos de la base de datos de ventas globales sobre la región africana. Usar SELECT INTO es una buena práctica cuando quieres conservar la base de datos despejada y no necesitas que otras personas usen la tabla. Ahora bien, si muchas personas van a usar la misma tabla, entonces, la instrucción CREATE TABLE podría ser una mejor opción. Esta instrucción agrega la tabla a la base de datos. Si todo el mundo necesita acceso a la tabla de Ventas de África, tu consulta comenzará con CREATE TABLE, seguida por la misma consulta SELECT-FROM-WHERE que en la instrucción SELECT INTO. En la mayoría de las bases de datos relacionales o RDBMS, puedes agregar metadatos para describir los datos contenidos en la tabla que creaste. Esto puede ayudar a hacer la tabla más fácil de entender para cualquier usuario. La instrucción CREATE TABLE también es útil para tablas que son más complejas. Por ejemplo, si es difícil replicar el código, hacer una tabla temporal de esta manera significa que será más seguro para ti para acceder más tarde. La forma en que creas una tabla temporal usando la cláusula WITH o una instrucción SELECT INTO o CREATE TABLE suele depender de ti y de tus necesidades. Cuanto más trabajes en SQL, más puedes tener preferencias también, especialmente dado que existe más de una forma de crear tablas temporales. También puedes darte cuenta de que estás trabajando en una RDBMS que usa una sintaxis diferente. Por ejemplo, podrías necesitar usar una instrucción CREATE TEMP TABLE en lugar de CREATE TABLE. Aquí hay buenas noticias. La sintaxis que necesitas para cada RDBMS única es generalmente bastante fácil de encontrar con una búsqueda rápida en línea. Pero no importa cómo o dónde crees tablas temporales, no presentan muchos problemas. Sin embargo, es bueno destacar que a veces crear una tabla temporal puede interrumpir tu flujo de trabajo. De nuevo, eso dependerá de tus objetivos y tus preferencias. Puedes repetir tu código una y otra vez en lugar de hacer una tabla temporal pero eso generalmente deja tus consultas menos legibles y más vulnerables a los errores ortográficos. A medida que continúas explorando el mundo del análisis computacional de datos, verás que las tablas temporales son solo uno de los muchos recursos que podrás usar. Cuanto más los uses, más fácil te resultará navegar por ese mundo.
 
-#### aCómo trabajar con tablas temporales
+#### Cómo trabajar con tablas temporales
+
+![alt text](image-264.png)
+
+<https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#temporary_tables>
+<https://www.pascallandau.com/bigquery-snippets/use-temporary-tables-with-named-subquery/?utm_source=blog&utm_medium=rss&utm_campaign=development-feed>
+<https://codingsight.com/introduction-to-temporary-tables-in-sql-server/>
+<https://www.sqlservertutorial.net/sql-server-basics/sql-server-temporary-tables/>
+<https://www.red-gate.com/hub/product-learning/sql-prompt/choosing-table-variables-temporary-tables>
 
 #### Tu guía intermedia para SQL
 
+A medida que te sientas más a gusto con SQL, podrás realizar consultas incluso más avanzadas.
+
+Esta guía detallada te proporcionará una introducción más minuciosa sobre algunas de las funciones de SQL que ya aprendiste y te brindará algunas herramientas nuevas con las que puedas trabajar. Asegúrate de tener la guía a mano a medida que avanzas en el recorrido de aprendizaje de SQL.
+
 #### Pon a prueba tus conocimientos sobre el uso de SQL con tablas temporales
+
+![alt text](image-265.png)
 
 ### Desafío semanal 4
 
 #### Cuestionario: Desafío semanal 4 curso 5
 
+![alt text](image-266.png)
+
 ### Desafío del curso
 
 #### Cuestionario: Desafío del curso curso 5
+
+![alt text](image-267.png)
