@@ -735,51 +735,189 @@ googlesheet
 
 #### Actividad práctica: Explora datos de películas con las tablas dinámicas
 
+![alt text](image-254.png)
+
 #### Pon a prueba tus conocimientos sobre cómo utilizar las tablas dinámicas
+
+![alt text](image-255.png)
 
 ### Aprende más sobre los cálculos de SQL
 
 #### Consultas y cálculos
 
+Ya debes saber que hay más de una manera de hacer la tarea diaria de un analista de datos. Los cálculos no son una excepción. Como hemos visto en videos anteriores, puedes realizar los mismos cálculos de muchas formas diferentes en las hojas de cálculo. También puedes realizarlos utilizando SQL. En este video, te daremos una descripción general de cómo difieren los cálculos en SQL de los cálculos en hojas de cálculo. Echemos un vistazo a los operadores aritméticos que se utilizan tanto en las hojas de cálculo como en SQL. Un operador es un símbolo que designa el tipo de operación o cálculo a realizarse en una fórmula. Como ya aprendiste antes, los cuatro operadores aritméticos básicos en las fórmulas de las hojas de cálculo son el signo más para la suma, el menos o el guion para la resta, el asterisco para la multiplicación y la barra inclinada para la división. Estos operadores calculan los datos de la misma manera cuando escribimos consultas en SQL. Los operadores están integrados en las consultas cuando extraes datos de una base de datos. Al igual que en las fórmulas de las hojas de cálculo, hay algunas formas diferentes para realizar cálculos utilizando consultas. Echemos un vistazo a la sintaxis de una posible consulta. La sintaxis de una consulta es su estructura. Debería incluir todos los detalles específicos de los datos que quieres extraer a una nueva tabla donde esos detalles deben colocarse. Si quieres sumar valores de dos columnas de una tabla, comienzas con el comando SELECT, seguido del nombre de la primera columna y, luego, el nombre de la segunda columna. Luego agregas los nombres de ambas columnas con un signo más entre ellas. Luego, escribirás AS seguido del nombre que te gustaría darle a la columna con los totales sumados. Finalmente, realizas tu consulta escribiendo FROM y, luego, el nombre de la tabla de la que estás extrayendo los datos. Realizar esta consulta dará como resultado una tabla en la que se verán las dos columnas con sus valores sumados y, además, una nueva columna con las sumas de esos valores. El operador en esta consulta es un signo más, dado que los valores se están sumando. Si necesitaras restar, multiplicar o dividir, seguirías los mismos pasos y utilizarías los operadores correspondientes. Si necesitas utilizar más de un operador aritmético en un cálculo, usarás paréntesis para controlar el orden de los cálculos. Si incluyéramos la columna C en nuestra consulta, podríamos colocar paréntesis que encierren la columna A más la columna B. Si estamos multiplicando, agregamos un asterisco seguido de la columna C. Esta consulta dará como resultado una nueva columna con la suma de los valores de las columnas A y B, multiplicados por los valores de la columna C. Ahora bien, digamos que solo querías el resto de un cálculo de división. Necesitas un operador diferente para esto, el operador de módulo. El operador de módulo está representado por el símbolo de porcentaje. Este es un operador que da como resultado el resto cuando se divide un número por otro. En una hoja de cálculo, puedes realizar el mismo cálculo con la función MOD. Esto muestra otra similitud entre los cálculos en hojas de cálculo y en SQL. Muchas veces puedes utilizar funciones en lugar de operadores para realizar cálculos. Por ejemplo, la función SUM puede resolver problemas de suma en hojas de cálculo y en SQL. La función AVERAGE de una hoja de cálculo es igual a la función AVG en SQL. Ambas dan como resultado el valor promedio de un conjunto de números. En SQL, estas funciones son consideradas funciones de agregado porque realizan un cálculo con uno o más valores y dan como resultado un único valor. Pronto aprenderás más sobre cómo se utilizan con el comando GROUP BY en una consulta. Esos son los conceptos básicos sobre los cálculos en SQL. Saber cómo escribir una consulta para un cálculo es un buen primer paso. Sigue con nosotros y aprenderás más sobre los cálculos en SQL. Hasta pronto.
+
 #### Opcional: Cargar el conjunto de datos de aguacate en BigQuery
+
+<https://www.coursera.org/learn/preparar-datos-para-la-exploracion/supplement/DYOQK/utilizar-bigquery>
+<https://www.kaggle.com/neuromusic/avocado-prices>
+<https://www.kaggle.com/neuromusic>
+<https://opendatacommons.org/licenses/odbl/1-0/>
+
+<https://cloud.google.com/bigquery>
+<https://cloud.google.com/bigquery/docs/loading-data>
+
+![alt text](image-256.png)
 
 #### Cómo insertar cálculos simples en SQL
 
+Hola de nuevo. Anteriormente hemos visto cómo realizar cálculos en SQL. Aunque existen diferentes modos de realizarlos, uno muy útil es incluirlos en las consultas. Cuando incluyes un cálculo en una consulta con otros comandos, puedes realizar más trabajo de manera más rápida. Aquí hay una sintaxis de consulta básica de la que ya hemos hablado. Comenzamos con SELECT y los nombres de las columnas que queremos utilizar en nuestros cálculos. Luego, agregamos los detalles del cálculo, incluso un operador, como una barra inclinada para la división. A continuación, escribimos AS seguido del nombre de la nueva columna para etiquetar la columna con los valores calculados. Por último, terminamos nuestra consulta con el comando FROM y el nombre de la tabla de la que estamos extrayendo los datos. Ahora, pasemos al siguiente nivel con algunos cálculos integrados que utilizan una sintaxis como esta. O, aún mejor, haremos esto con algunos datos sobre aguacates. Lo lamento por aquellos que no aman los aguacates como yo. ¡Empecemos! Siéntete libre de seguir mirando mientras te mostramos los pasos en BigQuery. Si te estás sumando ahora, abre tu herramienta preferida para usar SQL. Asegúrate de leer las instrucciones de la lectura antes de ver el video para que te ayuden a empezar. Los datos siempre están cargados, así que podemos empezar ya mismo. Nuestro objetivo es encontrar el número total de bolsas de aguacates que se vendieron cada día en cada ubicación con estos datos. Ya hay una columna que nos muestra el total, pero queremos asegurarnos de que comprendemos cómo se calculó ese total. Queremos asegurarnos de que la columna del total es la suma de las bolsas pequeñas, grandes y extragrandes. Sumaremos los valores de esas tres columnas juntas en nuestra consulta y, luego, los compararemos con la columna de las bolsas totales del conjunto de datos. Comenzaremos con el comando SELECT, que utilizaremos para extraer ciertas columnas de la tabla. Estamos seleccionando varias columnas, así que presionaremos Enter luego de SELECT y, luego, agregaremos una coma después de cada nombre de columna. A continuación, escribiremos esos nombres de columnas: Date, Region,
+Reproduce el video desde :2:11 y sigue la transcripción2:11
+Small_bags, Large_bags, XLarge_Bags y Total_Bags. Los guiones bajos son las líneas que se usan para subrayar palabras y conectar caracteres de texto. No utilizamos espacios porque pueden ser confusos para algunos servidores y aplicaciones. En cambio, los guiones bajos ayudan a evitar posibles problemas y permiten leer correctamente los nombres. Ahora agregaremos el cálculo a la consulta con los nombres de las tres columnas con signos más entre ellas: bolsas pequeñas más bolsas grandes más bolsas extragrandes.
+Reproduce el video desde :2:57 y sigue la transcripción2:57
+Como queremos este cálculo en una nueva columna, utilizaremos el comando AS para nombrar la columna Total_Bags_Calc.
+Reproduce el video desde :3:8 y sigue la transcripción3:08
+Agregamos la palabra "Calc" para poder comparar las columnas una vez que hayamos obtenido los resultados. Ahora, terminaremos nuestra consulta con FROM y el nombre del conjunto de datos y del subconjunto del que estamos extrayendo los datos: avocado_data.avocado_prices.
+Reproduce el video desde :3:33 y sigue la transcripción3:33
+Vamos a ejecutar la consulta.
+Reproduce el video desde :3:37 y sigue la transcripción3:37
+En la columna "Total Bags Calc", los datos muestran la suma de cada fecha para el número de bolsas pequeñas, grandes y extragrandes de aguacates que se vendieron en cada ubicación. Si comparamos rápidamente las dos columnas con el número total de bolsas, veremos que los valores son los mismos.
+Reproduce el video desde :4: y sigue la transcripción4:00
+Esto nos permite saber que los datos que queremos usar son los correctos. Ahora que hemos verificado el número total de bolsas, podemos utilizar esos valores en otra consulta. Necesitamos averiguar qué porcentaje del número total de bolsas era de bolsas pequeñas. Averiguar esto podría ayudar a los interesados a tomar decisiones sobre cómo empaquetar los aguacates o en qué tamaño de bolsa organizar la venta. Nuestro trabajo es obtener esa información para los interesados. Así que configuraremos una nueva consulta. Seleccionaremos las columnas de Date, Region, Total Bags y Small Bags para esta consulta.
+Reproduce el video desde :4:49 y sigue la transcripción4:49
+A continuación, configuraremos una nueva columna para comenzar con nuestro cálculo. Para averiguar el porcentaje de bolsas pequeñas, primero necesitamos dividir el número de bolsas pequeñas por el número de bolsas totales utilizando una barra como operador. Pondremos esta parte del cálculo entre paréntesis para indicarle al servidor que este cálculo debe realizarse primero. Luego, multiplicaremos este total por 100, utilizando un asterisco como operador. Multiplicar por 100 nos da un valor que es un porcentaje en lugar de un decimal. Los porcentajes suelen facilitar y agilizar la comprensión cuando compartes los resultados con otras personas. Utilizaremos el comando AS para nombrar esta nueva columna "Small Bags Percent".
+Reproduce el video desde :5:38 y sigue la transcripción5:38
+Luego, agregaremos FROM y el nombre del conjunto del que estamos extrayendo,
+Reproduce el video desde :5:49 y sigue la transcripción5:49
+y ejecutaremos nuestra consulta.
+Reproduce el video desde :5:57 y sigue la transcripción5:57
+Obtuvimos un error en nuestros resultados. Dice que no podemos dividir por cero. Como estamos buscando porcentajes, dividir por cero no funcionará. Esto quiere decir que en algún lugar del conjunto de datos hay un total de bolsas igual a cero. Tendremos que arreglar esto en nuestra consulta. Podemos hacerlo utilizando el comando WHERE. WHERE nos permite agregar una condición a nuestro cálculo. Luego de escribir WHERE; escribiremos Total_Bags seguido por un signo menor que y, luego, un signo mayor que. Estos símbolos le indican al servidor que los valores que estamos calculando no deben ser iguales al valor que especificamos. En este caso, ese valor es cero. Así que agregaremos un cero a nuestra consulta. Ahora, cuando ejecutemos la consulta, notaremos que nuestra nueva columna muestra el porcentaje de bolsas pequeñas en el recuento de bolsas totales.
+Reproduce el video desde :6:50 y sigue la transcripción6:50
+Obtendremos el mismo resultado si usamos un signo de exclamación seguido de un signo igual en lugar de los signos menor que y mayor que.
+Reproduce el video desde :7:7 y sigue la transcripción7:07
+Esta es una manera de hacerlo. Pero hay funciones como SAFE_DIVIDE que también te permiten evitar este error. Estos son solo algunos ejemplos para que vayas comenzando. Con SQL, puedes realizar casi cualquier cálculo que quieras durante tu análisis. Incluir los cálculos en tus consultas te ayudará a mantenerte organizado mientras obtienes tus resultados. Los métodos de cálculo que te mostramos aquí son solo el comienzo. Así que hay más a continuación. Nos vemos pronto.
+
 #### Cálculos con otras instrucciones
+
+Qué bueno volver a encontrarnos. Como analista de datos, verás que tus cálculos aparecen en distintas formas y tamaños. Anteriormente te mostramos como hacer algunos de los cálculos más básicos en SQL. Aunque los cálculos básicos son fantásticos, algunas veces necesitarás agrupar los datos antes de completar los cálculos. Los comandos GROUP BY y ORDER BY te ayudarán a hacerlo. Generalmente estos comandos están combinados con funciones agregadas como SUM o COUNT. Te mostraremos cómo usar estos comandos y funciones para calcular y resumir datos de grupos de filas de una tabla. Exploremos primero el comando GROUP BY. GROUP BY es un comando que agrupa filas que tienen los mismos valores de una tabla en filas de resumen. El comando GROUP BY se usa con instrucciones SELECT. En una consulta básica SELECT FROM o SELECT-FROM-WHERE, GROUP BY aparece al final de la consulta. Muy bien, probemos usar GROUP BY. Trabajaremos con una base de datos, con datos de un sistema de bicicletas compartidas. Queremos averiguar cuántos paseos se realizaron en esas bicicletas por año.
+Reproduce el video desde :1:14 y sigue la transcripción1:14
+Estos datos contienen varias columnas, pero, para esta tarea, solo necesitamos la columna de la hora de inicio.
+Reproduce el video desde :1:20 y sigue la transcripción1:20
+Dado que estos datos no están organizados por fecha, y la columna de la hora de inicio no está organizada por año, tendremos que incluir pasos en nuestro código para organizarlo. También queremos obtener el total de paseos de cada año. De modo que tendremos que incluir un cálculo en nuestra consulta para esto. Y dependiendo de las preguntas que debemos responder, esto podría ser el primer paso de muchos otros en nuestro análisis.
+Reproduce el video desde :1:44 y sigue la transcripción1:44
+Comenzaremos nuestra consulta con el comando SELECT. Luego, agregaremos EXTRACT a nuestra consulta.
+Reproduce el video desde :1:54 y sigue la transcripción1:54
+El comando EXTRACT nos permite extraer una parte de una fecha dada para usar. Extraeremos el año de la columna de la hora de inicio. Para ello, agregaremos un paréntesis abierto, seguido por YEAR, que le permite al servidor saber qué parte de la fecha necesitamos. Luego agregaremos el comando FROM y STARTIME de modo que podemos obtener el año de todas las horas de inicio en esa columna. Cerraremos el paréntesis y, luego, usaremos AS y la palabra año para nombrar la columna que estamos creando.
+Reproduce el video desde :2:24 y sigue la transcripción2:24
+En la línea siguiente de la consulta, usaremos la función de agregado COUNT seguida por un asterisco entre paréntesis. Esto contará los paseos en bicicleta en la columna de la hora de inicio. Usar el asterisco asegura que todas las horas de inicio se cuenten en los datos. Luego, nombraremos nuestra columna número de paseos con un guion bajo entre cada palabra en lugar de espacios.
+Reproduce el video desde :2:45 y sigue la transcripción2:45
+Agregaremos FROM en la base de datos que extraemos en la línea siguiente. En este caso, es bigquery-public-data.new_york.citybike_trips.
+Reproduce el video desde :3:1 y sigue la transcripción3:01
+Y aquí está nuestro comando GROUP BY. Lo usaremos para agrupar los datos por año. De esta manera, escribiremos GROUP BY seguido del año.
+Reproduce el video desde :3:10 y sigue la transcripción3:10
+Podemos seguir organizando nuestros resultados mediante el uso del comando ORDER BY. Agregar esto después de GROUP BY ordena los resultados.
+Reproduce el video desde :3:18 y sigue la transcripción3:18
+Agregaremos el año para ordenar los datos por año. Es bueno tener en cuenta que, de manera predeterminada, ORDER BY organiza los datos en orden ascendente.
+Reproduce el video desde :3:27 y sigue la transcripción3:27
+Ahora podemos ejecutar nuestra consulta para obtener los resultados.
+Reproduce el video desde :3:31 y sigue la transcripción3:31
+Los años se ordenan con inicio en 2013 y finalización en 2016. Si deseamos cambiar a orden descendente, podemos agregar la palabra clave DESC al final de la consulta y volver a ejecutar.
+Reproduce el video desde :3:49 y sigue la transcripción3:49
+Pero independientemente del orden usado, los comandos GROUP BY y ORDER BY son fantásticos para ayudarnos a completar y organizar los cálculos para nuestro análisis. Esta es una forma de incluir cálculos cuando agregamos datos. Y es solo una de las muchas maneras en que SQL ayuda a que su análisis funcione sin problemas y siga adelante. Aún hay más por venir sobre cálculos y SQL. Próximamente, aprenderemos más sobre validación de datos. Nos vemos pronto.
 
 #### Actividad práctica: Cálculos en SQL
 
+![alt text](image-257.png)
+
 #### Cuadro de aviso de la discusión: Cálculos y consultas
 
+Aprendiste acerca del análisis de datos para responder preguntas y abordar objetivos empresariales. Como analista de datos, organizarás, darás formato, agregarás y calcularás datos a fin de buscar tendencias y patrones o responder preguntas específicas. A menudo te proporcionarán los conjuntos de datos que necesitas para el análisis.
+
+<Kaggle.com/datasets> contiene una cantidad de conjuntos de datos públicos, además de tareas para completar para muchos de ellos. Usa el enlace para practicar. Aquí presentamos algunas actividades a tener en cuenta:
+
+Observa la barra lateral Abrir tareas. Haz clic en una que te interese e intenta completar la(s) tarea(s) para el conjunto de datos. 
+
+Explora uno de los conjuntos de datos por tu cuenta. Realiza observaciones tales como motivos para una tendencia ascendente o descendente en los datos, otras tendencias que adviertas y posibles motivos y por qué ciertos valores son significativamente diferentes a otros valores en un conjunto de datos.
+
 #### Pon a prueba tus conocimientos sobre los cálculos de SQL
+
+![alt text](image-258.png)
 
 ### El proceso de validación de datos
 
 #### Vídeo: VídeoComprueba una y otra vez
 
+Hola de nuevo. Anteriormente hemos visto la validación de datos, una función de la hoja de cálculo que agrega listas desplegables a las celdas. Usar la validación de datos te permite controlar lo que se puede o no ingresar en tu hoja de cálculo. Uno de sus usos es proteger datos y fórmulas estructurados en las hojas de cálculo. Pero por más útil que sea, la función de validación de datos es solo una parte de un proceso más grande de validación de datos. Este proceso implica comprobar y volver a comprobar la calidad de tus datos para que sean completos, precisos, seguros y coherentes. Aunque el proceso de validación de datos es una forma de limpieza de datos deberías usarlo a lo largo de tu análisis. Si todo esto te resulta familiar, es bueno. Asegurarte de tener buenos datos es sumamente importante. Y, en mi opinión, es bastante divertido porque puedes combinar tu conocimiento del negocio con tus habilidades técnicas. Esto te ayudará a entender tus datos, a verificar que estén limpios y a asegurarte de que los estás alineando con tus objetivos comerciales. En otras palabras, es lo que haces para asegurarte de que tus datos tengan sentido.
+Reproduce el video desde :1:6 y sigue la transcripción1:06
+Ten en cuenta que construirás tu conocimiento sobre tu negocio con tiempo y experiencia. Aquí tienes un consejo profesional. Hacer tantas preguntas como sea posible siempre que lo necesites hará que esto sea mucho más fácil. Muy bien, digamos que estamos analizando datos para un minorista de muebles. Queremos verificar que los valores en la columna de precio de compra sean siempre iguales al número de artículos vendidos por el precio del producto. De modo que agregaremos una fórmula en una columna nueva para recalcular los precios de compra mediante el uso de una fórmula de multiplicación.
+Reproduce el video desde :1:46 y sigue la transcripción1:46
+Ahora, al comparar los totales, hay al menos un valor que no coincide con el valor de la columna de precio de compra. Tenemos que encontrar una respuesta para ayudarnos a continuar con nuestro análisis.
+Reproduce el video desde :1:58 y sigue la transcripción1:58
+Investigando un poco y haciendo preguntas, descubrimos que hay un descuento del 30% cuando los clientes compran cinco o más artículos determinados.
+Reproduce el video desde :2:6 y sigue la transcripción2:06
+Si no hubiésemos hecho esta comprobación, podríamos haberlo pasado por alto completamente.
+Reproduce el video desde :2:11 y sigue la transcripción2:11
+Como analista, has aprendido que los cálculos son una gran parte de tu trabajo. De modo que es importante que siempre que hagas cálculos, compruebes que los has hecho de la forma correcta. Algunas veces se realizan comprobaciones de validación de datos que son comprobaciones de sentido común. Por ejemplo, digamos que estás trabajando en un análisis para averiguar la eficacia de las promociones en las tiendas para un negocio que está abierto únicamente los días de semana.
+Reproduce el video desde :2:36 y sigue la transcripción2:36
+Compruebas para asegurarte de que no hay datos de ventas para el sábado y el domingo. Si tus datos muestran ventas durante el fin de semana, podría no ser un problema con los datos en sí. Podría ni siquiera ser un problema. Tiene que haber una buena razón. Tal vez la empresa organice eventos especiales los sábados y domingos. Entonces, tendrías ventas en esos fines de semana. Aun así, es posible que quieras dejar de lado las ventas del fin de semana en tu análisis si tu objetivo es únicamente ver los días de semana. Pero hacer esta validación de datos podría salvarte de los errores de cálculo y de otros errores en tu análisis. Siempre debes hacer una validación de los datos independientemente de la herramienta de análisis que utilices. En un video anterior, usamos SQL para analizar algunos datos sobre aguacates. Una de las consultas era una comprobación para asegurar que los datos que mostraban la cantidad total de bolsas correspondía a la suma de las bolsas pequeñas, grandes y extragrandes. Al ejecutar esa consulta, pudimos determinar que la columna de la cantidad total era exacta. Comparamos nuestras dos columnas brevemente en ese video. Pero para estar absolutamente seguros de que no hay problemas con los valores de los datos en esas columnas, también podríamos haber ejecutado otra consulta. En esta consulta, seleccionaríamos todo mediante el uso del asterisco, y FROM el conjunto de datos de los precios del aguacate.
+Reproduce el video desde :3:58 y sigue la transcripción3:58
+En nuestra cláusula WHERE, escribiríamos dónde nuestro total calculado no es igual a la columna de total de bolsas. Si no se devuelve ningún valor, podemos estar seguros de que los valores en la columna del total de bolsas son precisos. Y eso nos lleva a continuar con nuestro análisis.
+Reproduce el video desde :4:48 y sigue la transcripción4:48
+Pero cuando intentamos averiguar qué porcentaje del número total de bolsas era pequeño, nos encontramos con un pequeño problema. Recibimos un mensaje de error sobre la división por cero. Corregimos ese error al ajustar nuestra consulta. Si hubiéramos vinculado esa consulta a la presentación que enviamos a nuestros interesados, nos mostraría el error de dividir por cero en lugar de las cifras que queríamos. Al incorporar este tipo de comprobaciones como parte de tu proceso de validación de datos, puedes evitar errores en tus análisis y completar tus objetivos empresariales para dejar a todos felices. Y créeme. Se siente muy bien cuando lo haces. Y otra gran sensación es saber que completaste otro video y aprendiste algo nuevo. Y tenemos más material de donde vino eso para mostrarte pronto. Nos vemos.
+
 #### Lectura: LecturaTipos de validación de datos
+
+![alt text](image-259.png)
 
 #### Cuestionario práctico: Actividad práctica: De las hojas de cálculo a BigQuery
 
-#### Complemento no calificado: Validar los datos
+![alt text](image-260.png)
 
 #### Lectura: LecturaRegistro de aprendizaje: Completa la lista de verificación del análisis de datos
 
+![alt text](image-261.png)
+
 #### Cuestionario práctico: Pon a prueba tus conocimientos sobre la validación de datos
+
+![alt text](image-262.png)
 
 ### Cómo utilizar SQL con tablas temporales
 
 #### Vídeo: VídeoTablas temporales
 
+Hola de nuevo. Ahora, si eres como yo, siempre tienes notas adhesivas cerca para escribir un recordatorio o resolver un problema matemático rápido. Las notas adhesivas son útiles e importantes, pero también son desechables ya que generalmente solo se necesitan por un corto período antes de reciclarlas. Los analistas de datos tienen su propia versión de las notas adhesivas cuando trabajan en SQL. Se llaman tablas temporales y estamos aquí para averiguar qué son. Una tabla temporal es una tabla de una base de datos que se crea y existe de manera temporal en el servidor de la base de datos. Las tablas temporales, como las llamamos, almacenan subconjuntos de datos de tablas de datos estándar durante un período determinado. Luego, se eliminan automáticamente cuando finalizas la sesión de la base de datos en SQL. Dado que las tablas temporales no están almacenadas de manera permanente, son útiles solo cuando necesitas una tabla por poco tiempo para completar tareas de análisis, como los cálculos. Por ejemplo, puedes tener muchas tablas sobre las cuales estás haciendo cálculos al mismo tiempo. Si tienes una consulta que necesita unir siete u ocho tablas, podrías unir las dos o tres tablas que contengan la menor cantidad de filas y almacenar su resultado en una tabla temporal. Luego, podrías unir esta tabla temporal con una de las tablas más grandes. Otro ejemplo es cuando tienes muchas bases de datos diferentes en las cuales estás ejecutando consultas. Puedes ejecutar esas consultas iniciales en cada base de datos por separado y, luego, usar una tabla temporal para recopilar los resultados de todas esas consultas. La consulta del informe final se ejecutaría en la tabla temporal. Es posible que no puedas hacer uso de esta estructura de información sin las tablas temporales. También son útiles si tienes una gran cantidad de registros en una tabla y necesitas trabajar con un pequeño subconjunto de esos registros repetidamente para completar algunos cálculos u otros análisis. De modo que, en lugar de filtrar los datos una y otra vez para devolver el subconjunto, puedes filtrar los datos una vez y almacenarlos en una tabla temporal. Luego, puedes ejecutar tus consultas por medio del uso de la tabla temporal que creaste. Imagina que te pidieron que analices datos sobre el sistema de bicicletas compartidas que vimos anteriormente. Solo debes analizar los datos para paseos en bicicleta que tuvieron una duración de 60 minutos o más, pero tienes varias preguntas por responder sobre los datos específicos.
+Reproduce el video desde :2:11 y sigue la transcripción2:11
+Usar una tabla temporal te permitirá ejecutar varias consultas sobre estos datos sin tener que seguir filtrándolos. Hay distintas formas de crear tablas temporales en SQL, lo que dependerá de la base de datos relacional que estés utilizando. Pronto veremos más de estas opciones. Para este caso, usaremos BigQuery. Aplicaremos una cláusula WITH a nuestra consulta. La cláusula WITH es un tipo de cláusula temporal que puedes consultar varias veces. La cláusula WITH se aproxima a una tabla temporal. Básicamente, significa que crea algo que hace lo mismo que una tabla temporal. Incluso si no agrega una tabla a la base de datos en la cual estás trabajando para que otros la vean, aún puedes ver los resultados y cualquiera que necesite revisar tu trabajo puede ver el código que lleva a tus resultados.
+Reproduce el video desde :2:59 y sigue la transcripción2:59
+Empecemos con la consulta. Comenzaremos esta consulta con el comando WITH.
+Reproduce el video desde :3:5 y sigue la transcripción3:05
+Entonces nombraremos nuestra tabla temporal trips, guion bajo, over, guion bajo, 1, guion bajo, hr. Luego, escribiremos el comando AS y un paréntesis abierto. En una nueva línea, utilizaremos la estructura SELECT-FROM-WHERE para nuestra subconsulta. Escribiremos SELECT seguido por un asterisco. Quizá recuerdes que el asterisco significa que estás seleccionando todas las columnas de la tabla.
+Reproduce el video desde :3:33 y sigue la transcripción3:33
+Ahora escribiremos el comando FROM y nombraremos la base de datos que estamos extrayendo de bigquery, guion, public, guion, data, punto, new, guion bajo, york, punto, citibike, guion bajo, trips.
+Reproduce el video desde :3:55 y sigue la transcripción3:55
+A continuación, agregaremos una cláusula WHERE con la condición de que la longitud de los paseos en bicicleta que necesitamos en nuestra tabla temporal sean mayores o iguales a 60 minutos. En la consulta queda así: trip duration, espacio, signo mayor que, signo igual, espacio, 60. Por último, agregaremos un paréntesis de cierre en una nueva línea para terminar nuestra subconsulta. Y eso configura nuestra tabla temporal. Ahora podemos ejecutar consultas que devolverán solo resultados para paseos que duraron 60 minutos o más. Probemos una más. Dado que estamos trabajando en nuestra versión de una tabla temporal, no necesitamos abrir una consulta nueva. En cambio, etiquetaremos nuestras consultas antes de agregar nuestro código para describir lo que estamos haciendo. Para esta consulta, escribiremos dos hashtags.
+Reproduce el video desde :4:42 y sigue la transcripción4:42
+Eso le indica al servidor que esta es una descripción y no parte del código. Luego, agregaremos la descripción de la consulta.
+Reproduce el video desde :4:49 y sigue la transcripción4:49
+Cuenta cuántos paseos exceden los 60 minutos.
+Reproduce el video desde :4:59 y sigue la transcripción4:59
+Luego, agregaremos nuestra consulta. SELECT, luego en una línea nueva COUNT con un asterisco entre paréntesis. As seguido de cnt para nombrar la columna con nuestro COUNT.
+Reproduce el video desde :5:12 y sigue la transcripción5:12
+Luego, agregaremos FROM y el nombre que estamos usando para nuestra versión de una tabla temporal: paseos de más de una hora.
+Reproduce el video desde :5:21 y sigue la transcripción5:21
+Cuando ejecutamos nuestra consulta, los resultados muestran el número total de paseos en bicicleta del conjunto de datos que duraron 60 minutos o más,
+Reproduce el video desde :5:35 y sigue la transcripción5:35
+Podemos continuar ejecutando consultas en esta tabla temporal una y otra vez siempre que busquemos analizar los paseos en bicicleta de 60 minutos o más. Y si necesitas terminar tu sesión e iniciar un nuevo tiempo de ejecución más tarde, la mayoría de los servidores almacenan el código usado en tablas temporales. Solo necesitas volver a crear la tabla ejecutando el código.
+Reproduce el video desde :5:55 y sigue la transcripción5:55
+Cuando usas tablas temporales, haces que tu trabajo sea más eficiente. Asignar nombres y usar tablas temporales puede ayudarte a manejar muchos datos de forma más ágil para que no te pierdas repitiendo consulta tras consulta con el mismo código que podrías incluir en una tabla temporal. Y aquí hay otra ventaja de usar tablas temporales: pueden ayudar también a los miembros de tu equipo. Con las tablas temporales tu código suele ser menos complicado y más fácil de leer y entender, ¡lo que tu equipo apreciará!
+Reproduce el video desde :6:24 y sigue la transcripción6:24
+Una vez que comiences a explorar las tablas temporales por ti mismo, es probable que no puedas parar. No digas que no te lo advertí. A continuación, exploraremos aún más cosas que puedes hacer con las tablas temporales. Nos vemos pronto.
+
 #### Cuestionario práctico: Actividad práctica: Crear tablas temporales
 
-#### Vídeo: VídeoVariaciones de varias tablas
+<https://console.cloud.google.com/bigquery>
 
-#### Lectura: LecturaCómo trabajar con tablas temporales
+![alt text](image-263.png)
 
-#### Lectura: LecturaTu guía intermedia para SQL
+#### Variaciones de varias tablas
 
-#### Cuestionario práctico: Pon a prueba tus conocimientos sobre el uso de SQL con tablas temporales
+Hola. Anteriormente, te presentamos las tablas temporales. Son un gran recurso para usar durante tu análisis porque te ayudarán a mantener tu código SQL organizado y eficiente. Aprendiste a usar una cláusula WITH para crear un tipo de tabla temporal. Ahora veremos otros modos para que puedas crear tablas temporales con los pros y contras que presentan. Esta es una de las grandes cosas acerca del análisis de datos. Casi siempre existe más de una forma de hacer tu análisis. La instrucción SELECT INTO es un buen ejemplo de cómo hacer una tabla temporal. Esta instrucción copia datos de una tabla en una tabla nueva, pero no agrega la tabla nueva a la base de datos. Es útil si quieres hacer una copia de una tabla con una condición específica, como una consulta con una cláusula WHERE. Hasta ahora, estuvimos usando BigQuery para mostrarte cómo funciona SQL. Pero BigQuery actualmente no reconoce el comando SELECT INTO. En cambio, aquí hay un ejemplo de cómo una instrucción SELECT INTO podría verse en otra RDBMS. En la instrucción, se crea una nueva tabla denominada Ventas de África usando datos de la base de datos de ventas globales sobre la región africana. Usar SELECT INTO es una buena práctica cuando quieres conservar la base de datos despejada y no necesitas que otras personas usen la tabla. Ahora bien, si muchas personas van a usar la misma tabla, entonces, la instrucción CREATE TABLE podría ser una mejor opción. Esta instrucción agrega la tabla a la base de datos. Si todo el mundo necesita acceso a la tabla de Ventas de África, tu consulta comenzará con CREATE TABLE, seguida por la misma consulta SELECT-FROM-WHERE que en la instrucción SELECT INTO. En la mayoría de las bases de datos relacionales o RDBMS, puedes agregar metadatos para describir los datos contenidos en la tabla que creaste. Esto puede ayudar a hacer la tabla más fácil de entender para cualquier usuario. La instrucción CREATE TABLE también es útil para tablas que son más complejas. Por ejemplo, si es difícil replicar el código, hacer una tabla temporal de esta manera significa que será más seguro para ti para acceder más tarde. La forma en que creas una tabla temporal usando la cláusula WITH o una instrucción SELECT INTO o CREATE TABLE suele depender de ti y de tus necesidades. Cuanto más trabajes en SQL, más puedes tener preferencias también, especialmente dado que existe más de una forma de crear tablas temporales. También puedes darte cuenta de que estás trabajando en una RDBMS que usa una sintaxis diferente. Por ejemplo, podrías necesitar usar una instrucción CREATE TEMP TABLE en lugar de CREATE TABLE. Aquí hay buenas noticias. La sintaxis que necesitas para cada RDBMS única es generalmente bastante fácil de encontrar con una búsqueda rápida en línea. Pero no importa cómo o dónde crees tablas temporales, no presentan muchos problemas. Sin embargo, es bueno destacar que a veces crear una tabla temporal puede interrumpir tu flujo de trabajo. De nuevo, eso dependerá de tus objetivos y tus preferencias. Puedes repetir tu código una y otra vez en lugar de hacer una tabla temporal pero eso generalmente deja tus consultas menos legibles y más vulnerables a los errores ortográficos. A medida que continúas explorando el mundo del análisis computacional de datos, verás que las tablas temporales son solo uno de los muchos recursos que podrás usar. Cuanto más los uses, más fácil te resultará navegar por ese mundo.
+
+#### aCómo trabajar con tablas temporales
+
+#### Tu guía intermedia para SQL
+
+#### Pon a prueba tus conocimientos sobre el uso de SQL con tablas temporales
 
 ### Desafío semanal 4
 
