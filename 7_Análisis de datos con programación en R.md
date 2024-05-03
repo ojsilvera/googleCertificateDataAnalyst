@@ -48,7 +48,7 @@
 
 #### Cuándo usar RStudio
 
-#### Cuadro de aviso de la discusión: ¡R&R...Studio!
+#### Cuadro de aviso de la discusión: R&R...Studio
 
 #### Conectarte con otros analistas de datos en la comunidad R
 
