@@ -190,19 +190,51 @@ https://rstudio.com/products/rstudio/download/#download
 https://rdrr.io/r/base/library.html
 https://lubridate.tidyverse.org/
 
+![alt text](image-277.png)
+
 #### Cuándo usar RStudio
+
+https://learner.coursera.help/hc/es
+https://www.theanalysisfactor.com/the-advantages-of-rstudio/
+https://lgatto.github.io/2017_11_09_Rcourse_Jena/before-we-start.html
+
+![alt text](image-278.png)
 
 #### Cuadro de aviso de la discusión: R&R...Studio
 
+RStudio es un entorno de desarrollo integrado (IDE) específicamente diseñado para usar con el lenguaje de programación R. RStudio te ofrece un espacio de trabajo individual para usar R en todas las etapas del proceso de análisis de datos. En este curso, aprenderás más sobre RStudio y lo que puede hacer. 
+
+Por ahora, envía una respuesta escrita de dos o más párrafos (entre 150 y 200 palabras) que describan tus primeras impresiones sobre RStudio. Responde las preguntas siguientes:
+
+¿Cómo crees que RStudio puede ayudarte a futuro en tu rol como analista de datos?
+
+¿Cuáles son tus funciones favoritas de RStudio?
+
+Si estás dando tus primeros pasos con R y RStudio, ¿qué funciones crees que serán las más útiles para ti como principiante? 
+
 #### Conectarte con otros analistas de datos en la comunidad R
+
+https://learner.coursera.help/hc/es
+https://community.rstudio.com/
+https://www.reddit.com/r/Rlanguage/
+https://discuss.ropensci.org/
+https://www.rfordatasci.com/
+https://twitter.com/hashtag/rstats?lang=en
+https://www.meetup.com/topics/data-analytics/
+https://jumpingrivers.github.io/meetingsR/r-user-groups.html
+https://www.meetup.com/pro/rladies
+
+![alt text](image-279.png)
 
 #### Pon a prueba tu conocimiento sobre programación con RStudio
 
+![alt text](image-280.png)
+
 ### Desafío semanal 1
 
-#### Glosario: Términos y definiciones
-
 #### Cuestionario: Desafío semanal 1 curso 7
+
+![alt text](image-281.png)
 
 ## Programar con RStudio
 
