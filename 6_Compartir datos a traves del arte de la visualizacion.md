@@ -1,4 +1,4 @@
-# Analizar datos para responder preguntas
+# Compartir datos a traves del arte de la visualizacion
 
 ## Visualización de datos
 
