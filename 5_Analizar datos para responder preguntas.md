@@ -202,27 +202,256 @@ Hola, me alegra verte de nuevo. Arranquemos. Más de mil millones de personas en
 
 #### Visualizaciones de datos con Tableau
 
+Hola de nuevo. Ya hemos debatido la utilidad de las visualizaciones de datos cuando queremos ubicar muchos conceptos en un espacio pequeño. Ahora es momento de explorar una herramienta muy potente que te puede ayudar a crear esas visualizaciones y darles vida a tus datos. Se llama Tableau, una plataforma de análisis visual de datos que simplifica mucho la exploración y el manejo de datos. Quizá recuerdes haber escuchado algo acerca de Tableau en algunos de nuestros debates previos, pero estás a punto de descubrir mucho más. Además, cuando te familiarices con Tableau, encontrarás todavía más fácil utilizar herramientas similares, lo que te proporcionará otras destrezas que te ayudarán a destacarte en tu búsqueda de empleo. A continuación, hablaremos de algunas características que hacen de Tableau una herramienta efectiva para visualizaciones y porqué se utiliza en todas las industrias. Luego, comenzará la verdadera diversión. Nos internaremos y exploraremos la interfaz de Tableau, para identificar y aplicar las diferentes herramientas que ofrece. Aquí, te mostraré cómo agregar fuentes de datos, elementos visuales de control y cómo trabajar con una variedad de características que harán que tu visualización sea realmente potente. Como toda plataforma de software, hay algunas buenas prácticas para tener en cuenta. Así que te mostraré algunos ejemplos de lo bueno y lo malo cuando de visualizaciones se trata. También nos pondremos creativos al utilizar paletas para deficiencia de visión del color, a fin de que nuestras visualizaciones sean más accesibles, y te mostraremos cómo fuentes de datos múltiples pueden combinarse para brindar una historia más abarcadora. Para el momento del cierre serás capaz de publicar tus propias visualizaciones en Tableau. Estoy muy contento de acompañarte en este paseo por Tableau. Es otra herramienta útil a la que podrás recurrir como futuro analista de datos a fin de visualizar y publicar datos que te interesan. Después de todo, los datos tienen una historia y esta es nuestra oportunidad de compartirla con otros. Entonces bien, vayamos a descubrir de qué se trata.
+
 #### Tableau Public otras herramientas en línea
+
+Es bueno verte de nuevo. Un buen manejo de herramientas en línea como Tableau hará más sencillo para tu público entender conceptos difíciles o identificar nuevos patrones en tus datos. ¿Necesitas ayudar en una presentación de medios de comunicación a cambiar los precios de las propiedades en mercados regionales? Sí. ¿Quieres ayudar a una organización sin fines de lucro a utilizar sus datos para mejorar la agilidad de sus operaciones? Sí.
+Reproduce el video desde ::23 y sigue la transcripción0:23
+¿Necesitas explorar cómo fueron las ventas de videojuegos durante las últimas décadas? Sí, por partida doble. Muchas diferentes clases de empresas están utilizando Tableau en este momento para realizar todo esto y más. Esto significa que existen buenas posibilidades de que termines utilizándolo en alguna ocasión. Tu carrera. Pero me estoy adelantando un poco. Hablemos de qué es en realidad Tableau. Quizá recuerdes haber aprendido que Tableau es una plataforma de inteligencia comercial y de análisis de datos que se puede utilizar en línea para ayudar a otras personas a ver y comprender los datos, y a tomar decisiones con ellos. Pero no todo son negocios todo el tiempo. Tomemos esta visualización de datos, por ejemplo, creada por un usuario frecuente de Tableau, Steve Thomas, para registrar avistamientos de Pie Grande en los Estados Unidos. Está disponible en Tableau Public, y lo estaremos utilizando juntos en nuestras actividades para este curso. Tableau te puede ayudar a crear y compartir de forma sencilla paneles, mapas y gráficos interactivos con tus datos. Sin ninguna codificación, puedes conectarte a datos y a muchos formatos como Excel, CSV y Google Sheets. Puede también que estés trabajando con una empresa que utiliza otra opción, como Looker o Google Data Studio, por ejemplo, igual que Tableau, Looker y Google Data Studio ayudan a procesar los datos crudos y transformarlos en imágenes. Pero cada uno lo hace de manera diferente. Por ejemplo, mientras Tableau te ofrece una variedad de formatos, como navegador y versión de escritorio, Looker y Google Data Studio se basan totalmente en navegadores. Pero hay buenas noticias. Una vez que aprendas los fundamentos de Tableau, verás que es muy fácil transferirlos a otras herramientas de visualización. Si estás listo para comenzar a utilizarlo, entonces, sin más preámbulos, te presento a Tableau.
 
 #### Iniciar sesión en Tableau Public
 
+<https://public.tableau.com/en-us/s/>
+
+<https://public.tableau.com/en-us/s/viz-gallery>
+<https://public.tableau.com/en-us/gallery/?tab=featured&type=featured>
+<https://public.tableau.com/en-us/gallery/?tab=viz-of-the-day&type=viz-of-the-day>
+<https://public.tableau.com/profile/grow.with.google#!/>
+<https://public.tableau.com/en-us/s/resources>
+<https://community.tableau.com/s/>
+
+![alt text](image-180.png)
+
 #### Conoce a Tableau
+
+Hola y bienvenido a la intersección entre el análisis de datos y el arte. El lugar donde los analistas de datos, como yo, damos rienda suelta al potencial de los datos con imágenes significativas y el lugar al que los analistas de datos futuros, como tú, también pueden recurrir para aprender cómo hacerlo.
+Reproduce el video desde ::17 y sigue la transcripción0:17
+Bienvenido a Tableau, una de las plataformas de visualización que te ayudará a sacar más provecho de tus datos.
+Reproduce el video desde ::25 y sigue la transcripción0:25
+Cuando conviertes datos en una visualización, podrás ver cómo se transforman delante de tus ojos en una historia significativa con la que la gente pueda conectarse e interesarse. Las visualizaciones en Tableau son dinámicas, no estáticas. Como un recordatorio rápido, las visualizaciones dinámicas son interactivas o cambian con el tiempo. La naturaleza interactiva de esos gráficos significa que tu público tiene algo de control sobre lo que ve y tú tienes una flexibilidad increíble al momento de crearlos. De modo que, creemos nuestra propia visualización utilizando una tabla precargada en Tableau Public.
+Reproduce el video desde :1:2 y sigue la transcripción1:02
+Es importante destacar que hay diferentes maneras de crear visualizaciones en Tableau.
+Reproduce el video desde :1:8 y sigue la transcripción1:08
+Tableau tiene algunas opciones diferentes, pero para este curso, utilizaremos Tableau Public en el navegador, que es gratuito.
+Reproduce el video desde :1:17 y sigue la transcripción1:17
+Un detalle destacable acerca de Tableau Public es la galería pública de ejemplos de visualizaciones de datos de toda la web.
+Reproduce el video desde :1:24 y sigue la transcripción1:24
+Por ahora, estarás trabajando con uno de estos ejemplos de la galería. Copiarás de libros de datos a tu propio perfil para comenzar a crear y publicar visualizaciones. Para empezar, inicia sesión en tu cuenta de Tableau Public, puedes consultar una lectura previa para obtener más detalles. Luego, para acceder al libro, abre la página de certificados de Google Career en Tableau Public, haciendo clic en el enlace que se incluye en este vídeo y en la lectura anterior. Esto abrirá una nueva pestaña que está todavía enlazada con tu cuenta.
+Reproduce el video desde :2: y sigue la transcripción2:00
+Así es como se debería ver la página.
+Reproduce el video desde :2:4 y sigue la transcripción2:04
+Hay varios libros cargados con diferentes conjuntos de datos que puedes guardar en tu propio perfil.
+Reproduce el video desde :2:10 y sigue la transcripción2:10
+He aquí un buen punto de partida para crear tus propias visualizaciones.
+Reproduce el video desde :2:15 y sigue la transcripción2:15
+También verás otros recursos a continuación de este vídeo que abarcan cómo descargar Tableau y cargar tus propios datos. Pero por ahora utilizaremos esta galería para comenzar. Ahora haz clic para ver el libro titulado Solo los datos sobre felicidad mundial.
+Reproduce el video desde :2:33 y sigue la transcripción2:33
+Esto traerá una tabla de datos que usaremos para crear la visualización de datos sobre Felicidad mundial que está en la galería.
+Reproduce el video desde :2:40 y sigue la transcripción2:40
+Luego, ve al menú en la esquina superior derecha y haz clic en hacer una copia. En este punto, Tableau guardará una copia en de este libro en tu propio perfil para que puedas crear tus propias visualizaciones. Ahora que ya estás trabajando en tu propia copia, crea una nueva hoja de cálculo de modo que puedas crear una visualización de datos desde cero. Harás clic en Hoja de cálculo en el menú superior y luego en Nueva hoja de cálculo. Para comenzar a crear tu visualización de datos, añadir País como detalle en el estante de marcas. Puedes hacerlo arrastrando la tabla País hacia el ícono de detalle.
+Reproduce el video desde :3:19 y sigue la transcripción3:19
+Esto configura tu visualización como un mapa mundial para representar los datos en la tabla.
+Reproduce el video desde :3:25 y sigue la transcripción3:25
+A continuación, añade el puntaje de felicidad al color en el estante de marca. Esto aplica un esquema de color a la visualización; en este caso serán tonos de azul.
+Reproduce el video desde :3:35 y sigue la transcripción3:35
+Este rango de colores no ofrece grandes contrastes, especialmente para personas con dificultades en la percepción del color. De modo que, para ajustar los colores, harás clic en el menú Color y luego en Editar colores. Cambiarás el esquema de colores a verde, azul, divergente y pondrás una tilde en la caja de colores escalonados, que muestra una clara diferencia entre los puntajes de felicidad más altos y los más bajos. Un azul más oscuro significa un puntaje de felicidad más alto, mientras que el verde más oscuro implica un puntaje de felicidad menor. Puedes verlo desglosado en la escala en la esquina superior derecha. Así que, con solo un par de pasos creamos una visualización interesante que muestra los datos de felicidad en un modo sencillo de procesar. Los países y colores en el mapa son legibles y ofrecen algunas informaciones interesantes. Bien, sigamos adelante. Podemos explorar más de las características de Tableau para refinar tu visualización de datos. Debido a que hay tres años de datos en la tabla que estamos utilizando, puedes filtrar los datos para que solo incluyan el 2016.
+Reproduce el video desde :4:37 y sigue la transcripción4:37
+Puede ser útil utilizar múltiples años dependiendo de tu objetivo. Independientemente de ello, tienes muchas opciones para filtrar.
+Reproduce el video desde :4:45 y sigue la transcripción4:45
+De modo que añadiremos Año al estante de filtros.
+Reproduce el video desde :4:49 y sigue la transcripción4:49
+Luego elegiremos Filtrar por año y seleccionaremos el año 2016.
+Reproduce el video desde :4:56 y sigue la transcripción4:56
+Enfoquémonos ahora en la visualización de una región, la región europea.
+Reproduce el video desde :5:2 y sigue la transcripción5:02
+Para ello, mueve tu cursor a la parte izquierda del mapa para hallar la barra de herramientas de vista.
+Reproduce el video desde :5:8 y sigue la transcripción5:08
+Utiliza las herramientas en esta barra para desplazarte hacia la región europea y realizar un acercamiento.
+Reproduce el video desde :5:15 y sigue la transcripción5:15
+Esto requiere tiempo y práctica. Una vez que obtengas una buena vista de Europa y sus zonas aledañas, utiliza las herramientas de forma en la misma barra de herramientas para seleccionar todo lo que puedas de Europa. Como estamos practicando, haz tu mejor selección si no estás seguro de qué países quieres incluir. Si estuvieras trabajando en una visualización para compartir con otras personas, querrías realizar un doble control para asegurarte de la precisión.
+Reproduce el video desde :5:40 y sigue la transcripción5:40
+Lleva el cursor sobre uno de los países y te mostrará los datos acerca de ese país específico así como de todos los países de la región que has seleccionado.
+Reproduce el video desde :5:50 y sigue la transcripción5:50
+Luego, utiliza la herramienta de selección Lasso para seleccionar solo algunos países como este. Conservar solo, esto aplica otro filtro, esta vez al país que estás incluyendo en tu visualización. Notarás que el esquema de color de estos países se encuentra actualizado. Esto refleja que el rango de colores no solo ya se está aplicando a esos países.
+Reproduce el video desde :6:15 y sigue la transcripción6:15
+Los países en esta región pueden haber estado en la misma parte del rango cuando se los comparó con el resto del mundo, pero ahora están en partes diferentes porque los datos que se miden son específicos a esta región.
+Reproduce el video desde :6:27 y sigue la transcripción6:27
+Para mejorar aún más tu visualización, añade el puntaje de felicidad como etiqueta en el mapa. Ahora puedes ver el puntaje de felicidad para cada país en el mapa.
+Reproduce el video desde :6:37 y sigue la transcripción6:37
+Esto agrega otra capa de detalle a la visualización que ayuda a realizar una conexión con los datos reales.
+Reproduce el video desde :6:44 y sigue la transcripción6:44
+Existe una opción para cambiar el tipo de datos del puntaje de felicidad de números decimales a números enteros. Pero cuando hagas esto perderás el contraste entre los valores que brindan los decimales. De modo que volverás atrás para mostrar el puntaje de felicidad como número decimal.
+Reproduce el video desde :7: y sigue la transcripción7:00
+Ahora, para hacer tu visualización más interactiva aún, agreguemos un filtro con un regulador. Esto le permitirá al público filtrar por puntaje de felicidad y así podrán concentrarse en menos países. Pero primero, veamos más del mapa con el que comenzamos. Para ello, desplázate sobre el mapa y selecciona el ícono de inicio de zoom en la barra de herramientas para revelar más países en el mapa. A continuación, agregaremos el puntaje de felicidad al estante de filtros. Seleccionaremos todos los valores y haremos clic en Siguiente. Luego, para el rango de valores, haremos clic en OK para aceptar los valores predeterminados. En el estante de filtros, haz clic sobre desplegar para abrir el menú para puntaje de felicidad y selecciona Mostrar filtro.
+Reproduce el video desde :7:46 y sigue la transcripción7:46
+Si seleccionamos nuevamente el desplegable para el menú, podremos confirmar que Mostrar filtro muestra que ha sido seleccionado.
+Reproduce el video desde :7:53 y sigue la transcripción7:53
+Puedes alternar la marca de selección para mostrar o no mostrar el filtro.
+Reproduce el video desde :7:59 y sigue la transcripción7:59
+Cuando marcas Mostrar filtro, aparece un regulador en el lado derecho del mapa. Ahora, intentemos filtrando para mostrar un puntaje de felicidad de 6.0 o inferior.
+Reproduce el video desde :8:9 y sigue la transcripción8:09
+Puedes ver cómo el filtro cambia qué países están ahora destacados en tu visualización. Ahí lo tienes, nuestra primera visualización basada en datos que importamos de una fuente externa. Esto es bastante poderoso, ¿verdad?
+Reproduce el video desde :8:22 y sigue la transcripción8:22
+Guardaremos nuestra visualización para que podamos admirarla cada vez que queramos y hasta para practicar con nuevas herramientas de Tableau. Siempre es importante guardar tu trabajo, pero asegúrate de no incluir información personal en el nombre de tu archivo. Todas las visualizaciones de datos creadas en Tableau Public son visibles, precisamente, para el público.
+Reproduce el video desde :8:42 y sigue la transcripción8:42
+Puedes mantener tus visualizaciones ocultas si en la página de tu perfil eliges el ícono del ojo en la esquina superior derecha de la visualización. Si seleccionas el ícono, verás el ojo atravesado por una barra inclinada en tu visualización. Eso indica que tu visualización permanece oculta. Queda a tu criterio, pero muchas visualizaciones de datos creadas por usuarios como tú son visibles. En realidad, puedes consultarlas buscando en Tableau Public.
+Reproduce el video desde :9:8 y sigue la transcripción9:08
+Luego puedes buscar por cualquier tipo de visualización de datos, incluyendo las visualizaciones de la felicidad mundial.
+Reproduce el video desde :9:14 y sigue la transcripción9:14
+Te encontrarás con todo tipo de visualizaciones de datos, muchas que utilizan configuraciones avanzadas. Algunos de los ejemplos que encontrarás en la galería son más potentes que otros. Más tarde, hablaremos acerca de visualizaciones efectivas de datos y algunos modos en que puedes mejorar la potencia de tus visualizaciones de datos. Nos vemos pronto.
 
 #### Visualizaciones en hojas de cálculo y Tableau
 
+<https://support.google.com/docs/answer/190718?hl=en>
+<https://www.tutorialspoint.com/excel_charts/excel_charts_types.htm>
+<http://www.tableau.com/sites/default/files/media/which_chart_v6_final_0.pdf>
+<https://towardsdatascience.com/the-ultimate-cheat-sheet-on-tableau-charts-642bca94dde5>
+<https://help.tableau.com/current/pro/desktop/en-us/buildexamples_highlight.htm>
+<https://help.tableau.com/current/pro/desktop/en-us/buildexamples_highlight.htm>
+<https://help.tableau.com/current/pro/desktop/en-us/maps_howto_heatmap.htm>
+<https://help.tableau.com/current/pro/desktop/en-us/buildexamples_gantt.htm>
+<https://interworks.com/blog/ccapitula/2014/08/18/tableau-essentials-chart-types-symbol-map/>
+<https://interworks.com/blog/ccapitula/2014/09/23/tableau-essentials-chart-types-filled-map/>
+<https://interworks.com/blog/ccapitula/2014/10/17/tableau-essentials-chart-types-circle-view/>
+<https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm>
+<https://help.tableau.com/current/pro/desktop/en-us/qs_bullet_graphs.htm>
+<https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bubbles.htm>
+![alt text](image-181.png)
+
 #### Crear una visualización de datos en Tableau
+
+¡Hola y bienvenido nuevamente! En este vídeo, vamos a utilizar Tableau para crear una visualización de datos, una gran manera de compartir información con otras personas. Para comenzar, necesitas descargar el conjunto de datos que utilizaremos para esta actividad. Haz clic en el enlace para crear una copia del conjunto de datos y descargarlo. Si no tienes una cuenta de Google, descarga el conjunto de datos directamente desde el adjunto. A medida que avanzamos, puedes colocar el vídeo en un lado de la pantalla y seguirlo desde otra ventana. Es posible que notes que tu pantalla se ve levemente diferente de lo que ves aquí, Tableau puede haber actualizado la interfaz, pero los pasos deberían ser casi los mismos. Primero, inicia sesión en Tableau Public. Si no has creado una cuenta, consulta lo leído anteriormente acerca de cómo ingresar en Tableau Public.
+Reproduce el video desde ::47 y sigue la transcripción0:47
+Bien, ahora ve al círculo en la esquina superior derecha de la ventana y selecciona mi perfil. Desde aquí, selecciona Crear una visualización. Esto abrirá la interfaz de Tableau Public. Desde la ventana conectar con datos ve a la pestaña de archivos y carga el conjunto de datos de CO2 que descargamos antes.
+Reproduce el video desde :1:10 y sigue la transcripción1:10
+También puedes ir a la pestaña de datos en la parte superior de la interfaz de Tableau Public. Desde el menú desplegable, haz clic en nueva fuente de datos. Luego abre el conjunto de datos CO2.
+Reproduce el video desde :1:24 y sigue la transcripción1:24
+Luego de que se carguen los datos, la pantalla mostrará la interfaz de la fuente de datos. Debajo de conexiones, haz doble clic sobre los datos limpios de CO2 de la hoja para cargar los datos en la parte principal de la pantalla. También puedes arrastrar y soltar la hoja en el área donde dice arrastrar tablas aquí. Haz clic en actualizar ahora y podrás hacer una vista previa de los datos abiertos en la parte inferior de de la pantalla. Por defecto, Tableau solo mostrará las primeras 1000 filas en la tabla, pero puedes incrementar el número de filas en la configuración que se encuentra sobre la vista de los datos. Cada fila corresponde a un solo punto de datos y cada columna representa una característica diferente. Tableau interpreta el tipo de datos en cada columna. Cada ícono representa un tipo diferente de datos. Por ejemplo: un signo de número representa datos numéricos, mientras que un ícono abc representa datos en cadena. Un globo terráqueo representa datos geográficos y así. Tableau interpreta las primeras dos columnas como datos geográficos. La tercera columna es una cadena de datos y las tres últimas columnas son datos numéricos. Bien, creemos una base de datos que demuestre la cantidad de emisiones de CO2 provenientes de cada país.
+Reproduce el video desde :2:37 y sigue la transcripción2:37
+Para ello, haz clic en la pestaña hoja 1 en la parte inferior izquierda de la pantalla.
+Reproduce el video desde :2:43 y sigue la transcripción2:43
+En el extremo izquierdo de la pantalla hay un banner con los nombres de las columnas sobre una línea gris. En Tableau, estas se llaman las dimensiones de los datos.
+Reproduce el video desde :2:53 y sigue la transcripción2:53
+Debajo de esta línea están las diferentes medidas que puedes seguir para estas dimensiones. Ahora, crea un gráfico que muestre las emisiones de CO2 por país, vamos a comenzar haciendo doble clic sobre la dimensión del nombre del país.
+Reproduce el video desde :3:8 y sigue la transcripción3:08
+La pantalla principal presentará un mapa de los países del planeta con puntos que indican qué países están representados en los datos.
+Reproduce el video desde :3:16 y sigue la transcripción3:16
+Los puntos son del mismo tamaño porque no se han seleccionado medidas. Tableau por defecto pone a todos en escala con la misma medida.
+Reproduce el video desde :3:25 y sigue la transcripción3:25
+Si quieres dimensionar las emisiones de CO2 necesitarás incluir una medida específica. Haz doble clic, o arrastra y suelta en la hoja las medidas de kilo toneladas de CO2. Esto cambiará el tamaño de los puntos para que sean proporcionales a la cantidad de CO2 emitido.
+Reproduce el video desde :3:44 y sigue la transcripción3:44
+Tableau tiene una amplia selección de opciones para representar las medidas de una dimensión determinada. La mayoría de estas opciones están contenidas en la columna central entre la pantalla principal y las columnas con las dimensiones y medidas. Ahora, personalicemos el aspecto de nuestro gráfico para comunicar mejor las tendencias en los datos. Si arrastramos y soltamos una medida sobre una de las marcas, como ser el color, tamaño y etiqueta, podremos cambiar el aspecto de la visualización de las medidas en el gráfico. Por ejemplo, digamos que queremos cambiar el color de la medida de CO2. Arrastraríamos la medida de kilo toneladas de CO2 a la caja con la etiqueta de color. Luego podremos seleccionar esta caja para obtener una lista de opciones de colores. No te inhibas de pausar este vídeo y experimentar con las diferentes opciones. Sé creativo. Si alguna vez deseas revertir un cambio que hayas hecho a la hoja de Tableau, solo utiliza la flecha de retroceso. Listo. Acabas de crear tu primer gráfico con Tableau. ¿Pero qué pasaría si quisiéramos cambiar las dimensiones o medidas? En lugar de visualizar el CO2 por país, puede que queramos hacer un gráfico sobre el CO2 per cápita en la región. Para ello, podríamos hacer doble clic sobre la región de la dimensión y luego hacer lo mismo para la medida de CO2 per cápita. Esto creará un nuevo gráfico.
+Reproduce el video desde :5:2 y sigue la transcripción5:02
+Podemos editar el título colocando el cursor sobre la pequeña caja del título y haciendo clic sobre la flecha para desplegar el menú. Luego, elegiremos editar el título.
+Reproduce el video desde :5:13 y sigue la transcripción5:13
+Le daremos el nombre de Emisiones globales de CO2. O si queremos borrar un gráfico, seleccionaremos el botón de borrar hoja en la barra de herramientas. Esto borrará completamente el gráfico y te regresará a una hoja vacía. No te preocupes si lo haces por accidente o cambias de opinión. El botón reversa que mencionamos antes te llevará de vuelta al gráfico. Para borrar una hoja completamente, haz clic derecho en la pestaña de las hojas al final de la pantalla y selecciona borrar. No podremos borrar una hoja si es la única hoja en el archivo, pero ten cuidado. A diferencia de borrar una hoja, eliminar una hoja en forma definitiva no se puede deshacer.
+Reproduce el video desde :5:52 y sigue la transcripción5:52
+Asegúrate de guardar tu progreso haciendo clic en el ícono de guardado o pasando sobre la pestaña de archivo y eligiendo guardar.
+Reproduce el video desde :6: y sigue la transcripción6:00
+Si te piden crear un extracto, regresa a la pestaña de fuente de datos y haz clic sobre crear extracto, luego nuevamente clic en guardar. ¡Felicidades! Estás listo ya para comenzar a visualizar tus datos. Sin embargo, todavía estás lejos del final de la historia. Pronto exploraremos herramientas más avanzadas en Tableau.
 
 #### Cuestionario práctico: Actividad práctica: Cómo trabajar con Tableau
 
+<https://www.coursera.org/learn/visualize-data/supplement/HyqLQ/logging-into-tableau-public>
+![alt text](image-182.png)
+Data from <http://data.worldbank.org/indicator/EN.ATM.CO2E.PC> and <http://data.worldbank.org/indicator/EN.ATM.CO2E.KT> both last updated 02/05/2016
+
 #### Opcional: Cómo usar Tableau Desktop
+
+<https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-connect.htm>
+![alt text](image-183.png)
+<https://www.tableau.com/products/trial>
 
 #### Cuestionario práctico: Pon a prueba tus conocimientos sobre los primeros pasos en Tableau
 
+![alt text](image-184.png)
+
 ### Crear visualizaciones en Tableau
+
+#### Lo bueno, lo malo y lo feo
+
+Hola. En este vídeo profundizaremos sobre las visualizaciones de datos efectivas e inefectivas utilizando Tableau. Así es. Aunque esta plataforma puede ayudarte a crear algunas imágenes realmente bellas, todas esas características y funciones pueden derivar en algo que no es justamente demasiado útil. Quizá recuerdes la regla de los cinco segundos de la que hablamos anteriormente. Una señal de buena visualización de datos es que una vez que los muestras al público se debería entender lo que estás tratando de explicar en cinco segundos. Esto significa que está claro, es efectivo y, lo que es más importante, es convincente. Si recuerdas esta regla simple antes de comenzar con una visualización de Tableau, estarás en la senda correcta para crear buenas imágenes. Veamos este ejemplo de buen uso de una paleta de color divergente. Una paleta de color divergente muestra dos rangos de valores utilizando la intensidad del color para mostrar la magnitud del número y el color real para mostrar de qué rango provienen los números. Es una buena manera de mostrar la diferencia entre los números. Aquí el verde se relaciona con los números más altos y el rojo con los números más bajos. Puedes encontrar tablas como esta, ya que se relacionan con las métricas comerciales y los indicadores claves de rendimiento (KPI). Los colores que elijas deben encajar dentro del espectro de las expectativas del público. Si bien puede no ser siempre aplicable globalmente, muchas personas asocian el verde con algo positivo y el rojo con algo negativo. Esto hace que todo esté más claro y bonito. Aquí hay un ejemplo de visualización inefectiva de datos. Hay muchos elementos de esta visualización que no funcionan bien y los colores son difíciles de leer. Este gráfico utiliza verde y naranja y los puntos de datos están realmente muy juntos. Estos colores no muestran claramente la diferencia entre puntos de datos bajos y altos. La visualización de datos nos permite compartir historias significativas acerca de los datos, pero no podemos hacerlo si el público tiene dificultades para entender las visualizaciones de datos que estamos compartiendo. Utilizar pares de colores que no encajan con las expectativas del público puede agregar otra capa de complejidad innecesaria. Prepárate porque hay otra manera de empeorar una visualización de datos ya de por sí inefectiva. Si agregas muchas etiquetas, terminarás con una visualización de datos realmente difícil de procesar. Esto lleva a una visualización demasiado abarrotada. Consume mucho espacio y evita que las etiquetas se muestren claramente. Y todo esto es aún peor cuando se usan tipos de letras diferentes en las etiquetas. Aquí tenemos buenos datos que se arruinaron debido a las imágenes. Una visualización interactiva puede ser útil tanto para el público como para ti como analista. Pero como sucede comúnmente, cuanto mayor sea tu poder, mayor será tu responsabilidad. Perder de vista las cualidades de una buena visualización puede derivar en una pérdida de control sobre la historia que quieres contar con tus datos. Ahora, aprendiste a usar las mejores imágenes para tu provecho. Luego, veremos los modos en que puedes ser más creativo con ellas. Mantente atento.
+
+#### Cuadro de aviso de la discusión: Visualizaciones engañosas
+
+![alt text](image-186.png)
+
+#### Guía complementaria: Conclusiones adicionales sobre la selección de la visualización de datos correcta
+
+#### Cuestionario práctico: Autorreflexión: Selección de visualizaciones y gráficos
+
+![alt text](image-187.png)
+
+#### Ser creativo
+
+Qué bueno volver a encontrarnos. Uno de mis aspectos preferidos de la visualización de datos es que permite ser muy creativo. Seguro recuerdas que anteriormente dije que la visualización de datos es la intersección entre el arte y el análisis computacional de datos, y realmente lo es. Estoy aquí para ayudarte a encontrar tu niño interior, crayón en mano, para convertir gráficos poco claros en gráficos efectivos para que tus imágenes sean más accesibles a las personas que tienen deficiencias en la percepción del color. Es momento de explorar cómo la creatividad te puede ayudar a sacar el mayor provecho de tus datos. Sumérgete ya ingresando en tu cuenta de Tableau y volveremos a nuestros Datos sobre felicidad mundial en la página de certificados de Google Career. Haz clic en el vínculo incluido en este vídeo para abrir la galería, ahora haz clic para ver el libro titulado: Solo los datos: Felicidad mundial. Utilizamos el mismo libro en el vídeo anterior acerca de cómo comenzar a utilizar Tableau. Haremos clic aquí para comenzar. Digamos que queremos utilizar estos datos en esta tabla para descubrir cuáles son los factores principales que determinan el puntaje de la felicidad de un país. Comenzaremos indagando en la relación entre los puntajes de felicidad y las otras medidas del país para ver qué podemos encontrar. Para comenzar, crea una nueva planilla de cálculo para formar tu propia base de datos desde cero y luego haz clic en hoja de cálculo y luego en nueva hoja de cálculo. Ya que los datos contienen valores de tres años, filtraremos los de 2016.
+Reproduce el video desde :1:26 y sigue la transcripción1:26
+Para ello, hay que añadir Año al estante Filtro y elegir 2016.
+Reproduce el video desde :1:35 y sigue la transcripción1:35
+Añade Puntuación de felicidad al estante Líneas.
+Reproduce el video desde :1:45 y sigue la transcripción1:45
+Luego, añade PBI de la economía per cápita al estante Columna.
+Reproduce el video desde :1:54 y sigue la transcripción1:54
+A continuación, arrastra y suelta País en la sección Detalles, esto crea un círculo o punto de datos separado para cada país.
+Reproduce el video desde :2:5 y sigue la transcripción2:05
+Seguramente notarás que donde el puntaje de la economía es mayor, el puntaje de la felicidad también lo es.
+Reproduce el video desde :2:14 y sigue la transcripción2:14
+Para que sea más sencillo ver esta tendencia, agregaremos una línea de tendencia.
+Reproduce el video desde :2:21 y sigue la transcripción2:21
+Ahora duplica esta hoja de modo que todo tu formato permanezca igual. En la hoja duplicada reemplaza PBI de la economía per cápita con otra medida, como puede ser Familia. Arrastra la tabla Familia al estante Columna para reemplazar Economía.
+Reproduce el video desde :2:41 y sigue la transcripción2:41
+Renombraremos a nuestra pestaña original Economía.
+Reproduce el video desde :2:48 y sigue la transcripción2:48
+Y a esta nueva pestaña Familia, de modo que podamos reconocer fácilmente qué muestran y encontrar lo que necesitamos. Trata de hacer esto con otras de las medidas. Ahora veremos qué aspecto tienen las visualizaciones múltiples en un solo panel, de modo que puedas ver más fácilmente la relación entre ellas. Arrastra tus visualizaciones, que ahora están en una lista en la columna de tablas de la izquierda de a una por vez para completar el panel. Pueden estar organizadas de diferentes modos, toma nota de cuáles son las líneas de tendencia con la inclinación más empinada. Son aquellas cuya relación es más fuerte: el puntaje de felicidad. Cada gráfico debería contar con un propósito sencillo de entender que rápidamente quede claro para tu público y eso es justamente lo que sucede. También puedes agregar una tabla auxiliar que muestre los mismos datos de una manera diferente en caso de que los miembros del público prefieran tablas. En mi experiencia, algunos interesados prefieren ver sus datos en hojas de cálculo. Hemos pasado mucho tiempo utilizando una fuente de datos, pero como analista seguramente deberás manejar más de un conjunto de datos a la vez.
+Reproduce el video desde :3:52 y sigue la transcripción3:52
+A continuación, tendrás la opción de aprender más acerca de la combinación de fuentes múltiples de datos en Tableau. Por ahora, esto es todo.
+
+#### Pon a prueba tus conocimientos sobre creación de visualizaciones en Tableau
+
+![alt text](image-188.png)
 
 ### Opcional: Trabajar con múltiples fuentes de datos
 
+#### Vincular datos en Tableau
+
+¡Hola y bienvenido nuevamente! En este vídeo, vamos a utilizar Tableau para unir múltiples conjuntos de datos. Esto permite que los analistas comparen todos los conjuntos de datos en la misma visualización, visualicen comparaciones y combinaciones de datos y compartan proyectos más complejos. Puedes colocar el vídeo en un lado de la pantalla y seguirlo desde otra ventana. Es posible que notes que tu pantalla se ve levemente diferente al vídeo. Está bien. Tableau actualiza su interfaz cada tanto, pero los pasos generales permanecerán intactos. No te inhibas de pausar este vídeo mientras trabajas en tu propio espacio de trabajo Tableau antes de continuar al próximo paso. Para comenzar, vamos a necesitar que descargues los cuatro conjuntos de datos que usaremos para esta actividad, que hagas clic en el enlace para crear una copia de los conjuntos de datos y descargarlos. Si no tienes una cuenta de Google, descarga los conjuntos de datos directamente desde los adjuntos. Ahora, imagina este escenario: estás trabajando como analista de datos para un instituto de investigación política para tu proyecto en curso. Necesitas crear una visualización que muestre las emisiones de CO2 per cápita para cada país de 2000 a 2011. También brindarás información acerca del PBI de la población de cada país y el uso de la energía. Bien, entonces, empecemos. Primero ingresa a Tableau Public. Si no has creado una cuenta, consulta lo leído anteriormente acerca de cómo ingresar en Tableau Public. Ve al círculo en la esquina superior de la ventana, luego selecciona Mi perfil. Desde aquí, selecciona Crear una visualización. Esto abrirá la interfaz de Tableau Public.
+Reproduce el video desde :1:44 y sigue la transcripción1:44
+Aparecerá la ventana Conectar con los datos. Desde aquí, puedes ir a las pestañas de los archivos y cargar el conjunto de datos de CO2. Ahora ve a la pestaña de Fuente de datos, luego a la columna Conexiones. Desde aquí, elige el símbolo del signo más para añadir otro conjunto de datos.
+Reproduce el video desde :2:5 y sigue la transcripción2:05
+Primero, añade energía, luego el total del PBI y población total. Ahora, deberías tener los cuatro conjuntos de datos cargados en Tableau. Puedes proceder a enlazarlos con cláusulas Join. Tableau ya añadió energía al área de conexiones múltiples. Lo podemos quitar arrastrándolo nuevamente hacia la columna Conexiones.
+Reproduce el video desde :2:31 y sigue la transcripción2:31
+Ahora podemos crear cláusulas Join. Como recordatorio: las cláusulas Inner y Outer Join son tipos de relaciones que se pueden utilizar para combinar datos basados en columnas comunes de información.
+Reproduce el video desde :2:43 y sigue la transcripción2:43
+Para establecer nuestra primera cláusula Join, seleccionaremos CO2 debajo de Conexiones. Más abajo, en la sección Hojas, haz clic y arrastra Datos limpios de CO2 a la sección Conexiones múltiples. Luego, haz clic en la caja creada por el conjunto de datos. Esto abrirá una tabla física y nos permitirá crear cláusulas Join. Para establecer la primera cláusula Join, elige el conjunto de datos Energía debajo de bajo Conexiones y arrastra la hoja Energía debajo de él hacia el lado derecho de la caja Datos limpios de CO2. Emergerá una ventana para realizar la instrucción Join. Automáticamente, se completará con Año desde Datos limpios de CO2 y con Año uno desde Energía. De lo contrario, deberás colocar Año en el lado izquierdo del gráfico y Año uno en la parte derecha.
+Reproduce el video desde :3:33 y sigue la transcripción3:33
+Luego, elegirás Añadir desde la cláusula Join debajo de bajo Año. Selecciona Nombre del país desde el menú desplegable sobre el lado izquierdo y País sobre el lado derecho. Después, utiliza la X para cerrar el menú desplegable. Debemos solucionar algo en nuestro conjunto de datos. Año y Año uno tienen un signo de número sobre ellos. Podemos hacer clic sobre los signos de esos números y seleccionar Fecha para cambiar el tipo de dato para cada columna.
+Reproduce el video desde :4:3 y sigue la transcripción4:03
+Ahora para utilizar la cláusula Join con otros conjuntos de datos, elige PBI total debajo de Conexiones. Luego, debajo de Hojas, arrastra la hoja de PBI total hacia el espacio en blanco debajo de la caja Energía.
+Reproduce el video desde :4:18 y sigue la transcripción4:18
+La ventana emergente debería estar ya completa con Año uno. Bajo Fuente de datos y Año, el PBI total; debajo de PBI total, antes de añadir una cláusula Join adicional, se deberá cambiar el tipo de dato para Año PBI total. Esto hará con el tipo de dato Fecha lo que hicimos con las otras columnas de Año.
+Reproduce el video desde :4:41 y sigue la transcripción4:41
+Ahora continúa estableciendo la cláusula Join. Elige el diagrama de Venn entre Energía y PBI total. Luego, añade la cláusula Join debajo de Año uno.
+Reproduce el video desde :4:53 y sigue la transcripción4:53
+Aparecerá un menú desplegable. Debajo de CO2 hasta Datos limpios, selecciona Nombre del país. Luego el campo vacío bajo PBI total a lo largo desde Nombre de país. Configura el lado derecho de la cláusula Join hasta País uno. Luego, cierra la ventana emergente de la cláusula Join.
+Reproduce el video desde :5:11 y sigue la transcripción5:11
+Repetiremos este proceso para la población total. El último conjunto de datos que descargamos. Cuando arrastramos la hoja para crear la cláusula Join, la ventana debería estar ya completa con Año debajo de Fuente de datos. Y Año Población total, debajo de Población total cambia Año Población total al tipo de dato Fecha para que coincida con las otras columnas Año. Luego selecciona el diagrama de Venn para editar la cláusula Join y haz clic en Añadir nueva cláusula Join debajo de Año. Debajo de Datos limpios de CO2, elige Nombre del país y luego, sobre el lado derecho de la fila, Población total del país. Cierra la ventana emergente.
+Reproduce el video desde :5:52 y sigue la transcripción5:52
+Si no lo has hecho aún, asegúrate de actualizar tus datos haciendo clic en el botón Actualizar ahora. Muy bien. Has combinado cuatro diferentes fuentes de datos. Revisa tu nuevo conjunto de datos. Mientras tu conjunto de datos de CO2 va de 1960 a 2011, tus otros conjuntos de datos van de 2000 a 2015. La intersección de años que tienen en común incluye solo de 2000 a 2011. Este período de tiempo es el que necesitamos. Sin embargo, todavía debemos realizar algunos cambios. Algunos tipos de datos deben ser convertidos. Es similar a cambiar las columnas Año y convertirlas en datos tipo Fecha. Necesitarás cambiar las columnas Uso de energía y PBI actuales. Sobre la columna Uso de energía hay un ícono que dice ABC. Esto significa que es un tipo de cadena. Selecciónalo para abrir un menú desplegable y cambiarlo a números decimales. El PBI actual también es de tipo cadena, pero precisa ser un número entero. Elige el ícono ABC para convertirlo en un número entero. Perfecto. Ahora podemos hacer nuestra visualización. Para comenzar, elige la pestaña Hoja uno. Notarás una columna sobre el lado izquierdo de la pantalla. Debajo de Datos limpios de CO2, arrastra Nombre del país al cuadrado Detalles, arrastra el CO2 per cápita al cuadrado Color, luego elige el cuadrado y edita los colores. Selecciona la paleta desplegable y cambia de automático a rojo, y verde divergente y selecciona las cajas de color escalonado. Y vuelves atrás porque el verde es generalmente visto como algo bueno cuando se trata de emisiones de CO2. Tú quieres que los colores se muevan hacia el rojo a medida que empeoran las emisiones, entonces haz clic en la opción avanzada del menú desplegable y luego en las cajas Inicio y Final. Coloca cero en la columna Inicio y 62 en la columna Final, luego cierra la ventana. Arrastra Año desde debajo de Datos limpios de CO2 al área de filtros. Elige Años, Siguiente, Todo y luego OK. En la caja de filtros, haz clic derecho sobre Año Año. Selecciona mostrar filtro. El filtro aparecerá en el lado derecho de la pantalla. Del extremo derecho de la pantalla, elige la flecha a la derecha de Año y elige un solo valor. Ahora las áreas se colorearán solo para los valores de cada año. Selecciona cualquier año entre el 2000 y el 2011 para ver las emisiones CO2 del año.
+Reproduce el video desde :8:40 y sigue la transcripción8:40
+Asegúrate de guardar tu progreso haciendo clic en el ícono de guardado o pasando sobre la pestaña Archivo y eligiendo Guardar. Si te piden crear un extracto, regresa a la pestaña Fuente de datos y haz clic sobre Crear extracto, luego nuevamente clic en Guardar.
+Reproduce el video desde :8:58 y sigue la transcripción8:58
+Felicidades, ya has enlazado tus datos y realizado una visualización integral de datos en Tableau. Cuántas más visualizaciones hagas, mayor será la posibilidad de compartir análisis e informaciones complejas.
+
+#### Actividad práctica: Practica vincular datos en Tableau
+
+![alt text](image-189.png)
+
+#### Recursos de Tableau para combinar múltiples fuentes de datos
+
 ### Desafío semanal 2
+
+![alt text](image-185.png)
 
 ## Cómo crear historias de datos
 
