@@ -997,6 +997,16 @@ Excelente, volviste. Cuando tomas una fotografía, generalmente intentas captura
 
 ### Comprender los elementos del currículum de un analista de datos
 
+#### Comprender los elementos del currículum de un analista de datos Jr
+
+#### Hacer que tu currículum sea único
+
+#### Joseph: Inclusión de personas de raza negra y afroamericanos en la industria de los datos
+
+#### Recursos de CareerCon en YouTube
+
+#### Cuestionario práctico: Actividades prácticas: Agregar destrezas a un currículum
+
 ### Cómo destacar experiencias en los currículums
 
 ### Explorar las áreas de interés
