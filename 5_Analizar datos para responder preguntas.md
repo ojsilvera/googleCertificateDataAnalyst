@@ -145,15 +145,84 @@ Podrías probar tus visualizaciones mostrándoselas a miembros del equipo antes 
 
 #### La metodología Design Thinking para la mejora de la visualización
 
+<https://dataconomy.com/2019/05/three-critical-aspects-of-design-thinking-for-big-data-solutions/>
+<https://www.enginess.io/insights/data-and-design-thinking>
+![alt text](image-173.png)
+
 #### Cuadro de aviso de la discusión: Identificar visualizaciones de datos en tu vida
+
+Las visualizaciones de datos son una herramienta potente para los analistas de datos, ya que comunican mediante datos. Hasta el momento, has aprendido cuán importante puede ser la visualización de datos al narrar historias con datos o tomar decisiones basadas en datos. Con base en lo aprendido, ¿hay áreas en tu vida en la que la visualización de datos te haya ayudado a contar una historia o tomar una decisión? Esto podría incluir usar estadísticas de equipos deportivos, gráficos de tendencias del mercado bursátil o anuncios que usaban visualización de datos para ayudarte a tomar una decisión.
 
 #### Cuestionario práctico: Pon a prueba tus conocimientos sobre cómo diseñar las visualizaciones de datos
 
+![alt text](image-174.png)
+
 ### Explora consideraciones de visualización
+
+#### Títulos, subtítulos y etiquetas
+
+Hola de nuevo. Hemos aprendido que las visualizaciones de datos están diseñadas para ayudar al público a procesar información de manera fácil y memorable. Quizás recuerdes la regla de los 5 segundos que comentamos anteriormente. Dentro de los primeros cinco segundos de ver una visualización de datos tu público debería comprender exactamente qué estás intentando transmitir. Cinco segundos puede parecer un relámpago, pero agregar palabras descriptivas realmente puede ayudar a que tu público interprete y comprenda los datos correctamente. Es menos probable que tu público tenga preguntas sobre lo que estás compartiendo si agregas títulos, subtítulos y etiquetas. Una de las maneras más fáciles de resaltar datos clave en tu visualización de datos es mediante títulos. Un título es una línea de palabras impresas en letras grandes en la parte superior de una visualización para comunicar qué datos se están presentando. Es lo que capta la atención y hace que tu público quiera leer más. Tomemos el ejemplo de los gráficos. Un gráfico sin título es como un informe sin título. El objetivo es hacer que sea fácil comprender de qué se trata tu gráfico. Asegúrate de usar frases claras y concisas que expliquen toda la información con la mayor sencillez. Intenta evitar el uso de abreviaturas o siglas, aun si crees que todos las conocen. La tipografía y ubicación del título también es importante. Lo mejor es mantener la sencillez. Ponle negrita o hazle unos puntos más grande que el resto del texto y ubícalo directamente por encima del gráfico, alineado a la izquierda. Luego, explica aún más tu visualización de datos con un subtítulo. Un subtítulo refuerza el título al agregar más contexto y descripciones. Usa un estilo de fuente que combine con el resto de los elementos del gráfico y ubica el subtítulo justo debajo del título. Ahora, hablemos de las etiquetas. Anteriormente, mencionamos a Dona Wong, una periodista visual que es conocida por compartir pautas para hacer que las visualizaciones de datos sean más eficaces. Ella hace mucho hincapié en el uso de etiquetas directamente sobre los datos en vez de depender de las leyendas. Esto se debe a que los gráficos usan diferentes propiedades visuales como colores o formas para representar diferentes valores de datos. Una leyenda o llave identifica el significado de diversos elementos en una visualización de datos y puede usarse como alternativa a etiquetar los datos directamente. El etiquetado directo mantiene la atención de tu público fija en tu gráfico y le ayuda a identificar datos on rapidez, mientras que las leyendas fuerzan al público a trabajar más, porque las leyendas están colocadas fuera de los datos del gráfico. Lo cierto es que cuanto más apoyo brindemos a nuestro público, menos trabajo tiene que hacer para intentar comprender qué intentan decir los datos y más rápido tendrá impacto nuestra historia. Ahora que hemos hablado de cómo hacer que una visualización de datos sea lo más eficaz posible, a continuación, averiguaremos cómo hacer que sea accesible para todos. Te veo en un rato.
+
+#### Consejos profesionales para destacar información clave
+
+<https://i.redd.it/rw0vrjakuoc61.png>
+<https://www.reddit.com/r/dataisbeautiful/comments/l1yly6/oc_which_generation_controls_the_senate/>
+<https://ichef.bbci.co.uk/news/976/cpsprodpb/65D8/production/_100827062_chart-globalcoffeeproduction-iskhe-nc.png>
+<https://www.bbc.com/news/business-43742686>
+
+![alt text](image-175.png)
+
+#### Visualizaciones accesibles
+
+Hola, me alegra verte de nuevo. Arranquemos. Más de mil millones de personas en el mundo tienen una discapacidad. Eso es más que la población combinada de Estados Unidos, Canadá, Francia, Italia, Japón, México y Brasil. Antes de diseñar una visualización de datos, es importante que tengas ese hecho en mente. No todos tienen las mismas capacidades y las personas absorben información de diversas maneras. Quizás tengas un espectador que es sordo o tiene problemas de audición y depende de los subtítulos, o alguien daltónico podría buscar más descripciones en un etiquetado específico. Hemos hablado de muchas maneras de hacer que una visualización de datos sea bella e informativa. Y ahora es momento de tomar esos conocimientos y hacer que sean accesibles a todos, incluyendo a personas con discapacidades. La accesibilidad puede definirse de diversas maneras. Desde el comienzo, existen algunas maneras de incorporar accesibilidad en tu visualización de datos. Simplemente tendrás que pensar de manera un poco diferente. Ayuda etiquetar los datos directamente en vez de depender exclusivamente de leyendas, que requieren la interpretación de colores y más esfuerzo por parte del espectador para comprender. Esto también puede hacerla más rápida de leer para las personas con o sin discapacidades. Observa esta visualización de datos: los colores hacen que sea difícil de leer y la leyenda es confusa. Ahora, si simplemente eliminamos la leyenda y agregamos etiquetas de datos, listo, la presentación es más clara. Otra manera de hacer que tus visualizaciones sean más accesibles es ofrecer alternativas de texto, para que pueda modificarse en otros formatos que las personas necesiten, como letra grande, braille o texto a voz. El texto alternativo ofrece una alternativa de texto a contenido sin texto. Permite que el contenido y la función de la imagen sean accesibles para quienes tienen discapacidades visuales o determinadas discapacidades cognitivas. Este es un ejemplo que muestra texto adicional para describir el gráfico. Y, hablando de texto, puedes hacer que los datos de los gráficos y diagramas estén disponibles en un formato de texto a través de una exportación a Sheets o Excel. Además, puedes hacer que sea más fácil para las personas ver y escuchar contenido separando el primer plano y el fondo. El uso de colores brillantes que contrasten contra el fondo puede ayudar a quienes tienen mala visibilidad, ya sea de manera permanente o temporal, a ver con claridad la información transmitida. Otra opción es evitar confiar solamente en el color para transmitir información y marcar distinciones con diferentes texturas y formas. Otra regla general es evitar complicar en exceso las visualizaciones de datos. Las visualizaciones de datos demasiado complicadas hacen que la mayoría de los públicos pierdan interés porque no pueden descifrar en dónde y en qué enfocarse. Es por eso que desglosar datos en visualizaciones sencillas es clave. Un error común es incluir demasiada información en una sola visualización o incluir largos fragmentos de texto o un exceso de información, gráficos y cuadros. Esto niega el propósito de tu visualización, haciendo que sea imposible de comprender a primera vista. En última instancia, diseñar con una perspectiva de accesibilidad significa pensar en tu público anticipadamente. Enfocarse en elementos visuales simples y fáciles de entender, y lo que es aún más importante, crear maneras alternativas de que tu público acceda a tus datos e interactúe con ellos. Y, cuando prestas atención a estos detalles, podemos encontrar soluciones para hacer que las visualizaciones de datos sean más eficaces para todos. Entonces ahora completaste tu primer curso de exploración de las visualizaciones de datos. Descubriste la importancia de crear visualizaciones de datos que satisfagan a tu público y de mantener al mismo tiempo el enfoque en el objetivo. Aprendiste diferentes maneras de hacer lluvias de ideas y planificar tus visualizaciones y cómo elegir los mejores gráficos para cumplir con ese objetivo. Y también aprendiste cómo incorporar elementos de la ciencia e incluso de la filosofía a tus visualizaciones. A continuación, veremos cómo tomar todos esos aprendizajes y aplicarlos en Tableau. Verás cómo esta herramienta de visualización de datos hace que tus visualizaciones de datos funcionen de manera más eficaz y efectiva. Nos vemos pronto.
+
+#### Andrew: Hacer que los datos sean accesibles
+
+[MÚSICA] Me llamo Andrew y soy gerente de datos y perspectiva del equipo de perspectiva de investigación de anuncios. ¿Qué significa eso realmente? Ayudo a mi empresa, Google, a tomar mejores decisiones a través de los datos y también trabajo con nuestros datos para contar historias para los comercializadores. Básicamente narración de datos a escala. La accesibilidad debería estar integrada en todo lo que hacemos. La accesibilidad en realidad se trata de asegurarse de crear visualizaciones de datos, gráficos, cuadros, tablas con los que cualquier persona pueda interactuar, tengan o no una discapacidad a largo plazo o incluso una discapacidad temporal. Podría ser auditiva, podría ser visual, podría ser sensorial de cualquier modo. Típicamente, las que comentamos en la visualización de datos tienen que ver con el color y el contraste. O quizás no pueden ver. Entonces existen diversas cosas que se pueden hacer a cualquier visualización mientras la estás preparando para mostrársela a personas y presentarla al mundo. Para que sea más fácil para ellas comprender tu gráfico y entender los puntos que intentas marcar, y simplemente para ser más inclusivo, vas a crearla y ya no vas a ser el encargado de presentarla. Va a aparecer en un lugar donde no podrás ser el que explora los datos para otros ni los enmarca para los demás. Y eso está bien. Pero a medida que se aleja más de ti tampoco podrás estar allí para explicársela a las personas y decir algo como, bueno, este es el punto, o como quizás no puedes leerla o verla o quizás estos colores son confusos, déjame asegurarme de que hayas entendido claramente. Solo es una manera de garantizar que todos en la sala puedan experimentar eso en lo que trabajaste tanto y puedan extraer el sentido de una manera clara, para que ellos también puedan aprovechar los datos que pasaste tanto tiempo trabajando y haciendo presentables para los demás. Entonces todas estas cosas son geniales para la accesibilidad y son más inclusivas, pero también te hacen mejor analista de datos y mejor narrador de historias, porque te fuerzan a ser más empático con tu público y con quien recibe tus datos. Lo estás haciendo para conmover y hacer pensar a otras personas, para convencer a alguien de que estos datos son significativos para él y de que debe aprovecharlos. O debe conocerlos y debe usarlos para la empresa o para su vida o para lo que sea. Entonces, enfocándote en la accesibilidad, enfocándote en el público, haciéndolo más inclusivo, estás haciendo que tus datos sean más claros y tengan más impacto para todos.
+
+#### Diseñar un gráfico en 60 minutos
+
+![alt text](image-176.png)
+
+#### Actividad práctica: Armar tu propia visualización
+
+![alt text](image-177.png)
+
+#### Pon a prueba tus conocimientos sobre exploración de visualización de datos
+
+![alt text](image-178.png)
 
 ### Desafío semanal 1
 
+![alt text](image-179.png)
+
 ## Crear visualizaciones de datos con Tableau
+
+### Empezar a usar Tableau
+
+#### Visualizaciones de datos con Tableau
+
+#### Tableau Public otras herramientas en línea
+
+#### Iniciar sesión en Tableau Public
+
+#### Conoce a Tableau
+
+#### Visualizaciones en hojas de cálculo y Tableau
+
+#### Crear una visualización de datos en Tableau
+
+#### Cuestionario práctico: Actividad práctica: Cómo trabajar con Tableau
+
+#### Opcional: Cómo usar Tableau Desktop
+
+#### Cuestionario práctico: Pon a prueba tus conocimientos sobre los primeros pasos en Tableau
+
+### Crear visualizaciones en Tableau
+
+### Opcional: Trabajar con múltiples fuentes de datos
+
+### Desafío semanal 2
 
 ## Cómo crear historias de datos
 
