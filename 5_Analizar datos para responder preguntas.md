@@ -449,10 +449,89 @@ Felicidades, ya has enlazado tus datos y realizado una visualización integral d
 
 #### Recursos de Tableau para combinar múltiples fuentes de datos
 
+Recursos de Tableau para combinar múltiples fuentes de datos
+Ahora que ya tienes algo de experiencia con datos en Tableau, estás preparado para empezar a hacer algo más, incluso combinar múltiples fuentes de datos. Esta lectura te proporcionará ciertas guías explicativas para hacer eso, y otros recursos útiles que puedes usar para practicar usando Tableau por tu cuenta.
+
+<https://help.tableau.com/current/pro/desktop/en-us/datasource_prepare.htm>
+
+Esta página se vincula a otros recursos que explican cómo configurar tus fuentes de datos y prepararlas para el análisis una vez que las has conectado a tu cuenta Tableau. Incluye específicamente artículos que explican cómo unir o combinar datos y qué es una unión y cómo funciona. Es un buen punto de partida para empezar a utilizar y combinar fuentes de datos.
+
+<https://help.tableau.com/current/pro/desktop/en-us/joining_tables.htm>
+
+Unir se refiere al proceso de combinar fuentes de datos según campos en común. Este artículo brinda una explicación más detallada de las diferentes uniones, cómo usarlas en Tableau, y un ejemplo de unión con una guía paso a paso.
+
+<https://help.tableau.com/v2020.2/pro/desktop/en-us/datasource_dont_be_scared.htm>
+
+Las relaciones te permiten combinar múltiples fuentes de datos en Tableau. Esta es una alternativa más flexible que las instrucciones Join, y no te obliga a crear una tabla única con tus múltiples fuentes de datos. Este artículo te permitirá conocer mejor cómo funcionan las relaciones.
+
+<https://help.tableau.com/current/online/en-us/datasource_relationships_learnmorepage.htm>
+
+Este artículo profundiza en las diferencias entre el uso de las relaciones y las instrucciones Join, y te guía a través del proceso de uso de las relaciones para combinar datos.
+
+<https://help.tableau.com/current/pro/desktop/en-us/multiple_connections.htm>
+
+La combinación de datos es otro método que puedes usar para combinar múltiples fuentes de datos. En lugar de combinar realmente los datos, las combinaciones permiten consultar y agregar datos de múltiples fuentes. Este recurso profundiza en la combinación e incluye un tutorial.
+
+<https://kb.tableau.com/articles/howto/combining-start-and-end-dates-into-a-single-axis>
+
+Este recurso te proporciona ejemplos que explican cómo combinar campos de fechas cuando se usan diferentes métodos de combinación de datos en Tableau.
+
+<https://community.tableau.com/s/>
+
 ### Desafío semanal 2
 
 ![alt text](image-185.png)
 
 ## Cómo crear historias de datos
+
+### Utilizar los datos para desarrollar historias
+
+#### Contar historias con datos
+
+#### Dar vida a las ideas
+
+#### Historias de datos eficaces
+
+#### Hablarle a tu público
+
+#### Carolyn: Periodismo de datos
+
+#### Registro de aprendizaje: Contar una historia con datos
+
+### Cuestionario práctico: Pon a prueba tus conocimientos sobre historias basadas en datos
+
+### Uso de los paneles de Tableau
+
+#### Fundamentos de los paneles de Tableau
+
+#### Paneles e información estática
+
+#### De los filtros a los gráficos
+
+#### Cuestionario práctico: Actividad práctica: Crear, filtrar y personalizar gráficos
+
+#### Cuadro de aviso de la discusión: Identificar cuándo se debe configurar un panel
+
+#### Crea tu primer panel en Tableau
+
+#### Cuestionario práctico: Actividad práctica: Construir un panel en Tableau
+
+#### Cuestionario práctico: Pon a prueba tus conocimientos sobre cómo utilizar los paneles
+
+### Compartir historias de datos
+
+#### Consejos para una presentación convincente
+
+#### Compartir una narrativa
+
+#### Cuestionario práctico: Actividad práctica: Practicar la presentación
+
+#### Sundas: Cómo gestionar el síndrome del impostor
+
+#### Cuestionario práctico: Pon a prueba tus conocimientos sobre la comunicación de historias de datos
+
+### Desafío semanal 3
+
+#### Cuestionario: Desafío semanal 3
 
 ## Crear presentaciones y diapositivas
