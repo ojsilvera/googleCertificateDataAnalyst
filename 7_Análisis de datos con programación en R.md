@@ -238,6 +238,64 @@ https://www.meetup.com/pro/rladies
 
 ## Programar con RStudio
 
+### Comprender los conceptos básicos de programación
+
+#### Programar con R-Studio
+
+#### Conceptos fundamentales de programación
+
+#### Vectores y listas en R
+
+#### Fechas y horas en R
+
+#### Otras estructuras comunes de datos
+
+#### Pon a prueba tu conocimiento sobre los conceptos de programación
+
+### Explora la codificación en R
+
+#### Operaciones y cálculos
+
+#### Operadores lógicos e instrucciones condicionales
+
+#### Guía: Mantén tu código legible
+
+#### Actividad práctica: Espacio aislado en R
+
+#### Cuadro de aviso de la discusión: Consultas y programación
+
+#### Complemento no calificado: Conceptos básicos de R
+
+#### Pon a prueba tu conocimiento sobre codificación en R
+
+### Aprende acerca de los paquetes R
+
+#### El regalo que no acaba
+
+#### Paquetes R disponibles
+
+#### Bienvenido a tidyverse
+
+#### Actividad práctica: Instalar y cargar el paquete tidyverse
+
+#### Pon a prueba tu conocimiento sobre paquetes de R
+
+### Explora tidyverse
+
+#### Más sobre tidyverse
+
+#### Trabajo con canalizaciones
+
+#### Recursos R con más ayuda
+
+#### Connor: Consejos para codificar
+
+#### Pon a prueba tus conocimientos sobre tidyverse
+
+### Desafío semanal 2 curso 7
+
+#### Cuestionario: Desafío semanal 2 curso 7
+
 ## Trabajar con bases de datos en R
 
 ## Más información sobre visualizaciones, estética y anotaciones
