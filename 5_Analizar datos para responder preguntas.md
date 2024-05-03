@@ -541,3 +541,85 @@ Hola, soy Justin. Trabajo aquí en Google en el espacio de Google Cloud. Lidero 
 ![alt text](image-248.png)
 
 ## Realizar cálculos de datos
+
+### Empecemos con los cálculos de datos
+
+#### Cálculos de datos
+
+#### Fórmulas de cálculos comunes
+
+#### Funciones y condiciones
+
+#### Funciones con varias condiciones
+
+#### Actividad práctica: Cómo trabajar con condiciones
+
+#### Funciones compuestas
+
+#### Pon a prueba tus conocimientos sobre los cálculos de datos
+
+### Tabla dinámica
+
+#### Comienza a trabajar con tablas dinámicas
+
+#### Tablas dinámicas (continuación)
+
+#### Elementos de una tabla dinámica
+
+#### Cómo utilizar las tablas dinámicas para el análisis
+
+#### Actividad práctica: Explora datos de películas con las tablas dinámicas
+
+#### Pon a prueba tus conocimientos sobre cómo utilizar las tablas dinámicas
+
+### Aprende más sobre los cálculos de SQL
+
+#### Consultas y cálculos
+
+#### Opcional: Cargar el conjunto de datos de aguacate en BigQuery
+
+#### Cómo insertar cálculos simples en SQL
+
+#### Cálculos con otras instrucciones
+
+#### Actividad práctica: Cálculos en SQL
+
+#### Cuadro de aviso de la discusión: Cálculos y consultas
+
+#### Pon a prueba tus conocimientos sobre los cálculos de SQL
+
+### El proceso de validación de datos
+
+#### Vídeo: VídeoComprueba una y otra vez
+
+#### Lectura: LecturaTipos de validación de datos
+
+#### Cuestionario práctico: Actividad práctica: De las hojas de cálculo a BigQuery
+
+#### Complemento no calificado: Validar los datos
+
+#### Lectura: LecturaRegistro de aprendizaje: Completa la lista de verificación del análisis de datos
+
+#### Cuestionario práctico: Pon a prueba tus conocimientos sobre la validación de datos
+
+### Cómo utilizar SQL con tablas temporales
+
+#### Vídeo: VídeoTablas temporales
+
+#### Cuestionario práctico: Actividad práctica: Crear tablas temporales
+
+#### Vídeo: VídeoVariaciones de varias tablas
+
+#### Lectura: LecturaCómo trabajar con tablas temporales
+
+#### Lectura: LecturaTu guía intermedia para SQL
+
+#### Cuestionario práctico: Pon a prueba tus conocimientos sobre el uso de SQL con tablas temporales
+
+### Desafío semanal 4
+
+#### Cuestionario: Desafío semanal 4 curso 5
+
+### Desafío del curso
+
+#### Cuestionario: Desafío del curso curso 5
