@@ -134,7 +134,7 @@ https://docs.microsoft.com/en-us/samples/browse/?languages=cpp&terms=gaming
 
 Hola de nuevo. Ahora que ya hemos hablado sobre lenguajes de programación en general, vamos a conocer R. ¿Qué es R? R es un lenguaje de programación que se usa con frecuencia para análisis estadísticos, visualización y análisis de datos. Más adelante, realizarás un recorrido por RStudio, que es un entorno de software popular para el lenguaje R. En este vídeo, analizaremos las características y las funciones principales de R, y sus ventajas para el análisis de datos. R es genial. Me alegra que vayas a conocerlo. R está basado en otro lenguaje de programación denominado S. En la década de 1970, John Chambers creó S para uso interno en Bell Labs, una famosa planta de investigación científica. En la década de 1990, Ross Oaxaca y Robert Gentleman desarrollaron R en la Universidad de Auckland, Nueva Zelanda. Lo llamaron R porque con esa letra empiezan los nombres de sus dos autores y para jugar con el nombre de una sola letra, como el de su predecesor, S. A partir de entonces, R se ha convertido en el lenguaje de programación preferido de los científicos, los estadísticos y los analistas de datos en todo el mundo. Hay muchas razones por las que las personas que trabajan con datos aman R. Quiero compartir cuatro de ellas contigo. R es accesible, está centrado en los datos, es de código abierto y tiene una comunidad activa de usuarios. En primer lugar, R es un lenguaje accesible para principiantes. Muchas personas que no tienen un lenguaje de programación específico aprenden R. Yo debería saberlo. Soy una de ellas. R realmente atrae a cualquiera que quiera resolver problemas relacionados con los datos. Y ese es uno de los aspectos tan geniales sobre R. Todo se relaciona con los datos. R es lo que se conoce como un lenguaje de programación centrado en los datos. Se diseñó específicamente para facilitar el análisis de datos, y hacerlo más eficiente y más poderoso. Otro aspecto increíble de R es que es de código abierto. Eso significa que el código está libremente disponible y puede ser modificado y compartido por las personas que lo usan. Hagamos una pausa y veamos lo increíble que es esto. En primer lugar, cualquiera puede usar R gratis. En segundo lugar, cualquiera puede modificar el código, arreglar errores y mejorarlo. De hecho, con el correr de los años, muchos programadores excelentes hicieron mejoras y arreglos al código de R. Por ejemplo, cualquiera que conozca el lenguaje R puede crear lo que se conoce como paquete complementario. Más adelante, profundizaremos en los paquetes de R. Por ahora, solo debes saber que literalmente existen cientos de paquetes de R, y todos fueron creados por personas que querían resolver problemas específicos. Muchos de esos paquetes son muy útiles para los analistas de datos. Como usuario de R, ahora disfrutas el beneficio del conocimiento compartido. Y déjame agregar que la comunidad de R es la mejor. Esa comunidad dinámica, diversa y accesible es muy solidaria con los nuevos estudiantes. Puedes conectarte en cualquier momento para buscar respuestas a todas tus preguntas relacionadas con R. Visita sitios web como R for Data Science Online Learning Community y RStudio Community. Además de eso, los usuarios de R están en Twitter y en otras redes sociales. Descubrirás muchos recursos para hacer contactos profesionales, asesorar y aprender. Ahora que sabemos más sobre los beneficios generales de R, hablemos de algunas situaciones específicas en las que podrías utilizarlo para el análisis de datos. Aquí tenemos tres escenarios: reproducir tu análisis, procesar muchos datos y crear visualizaciones de datos. En primer lugar, R puede guardar y reproducir cada paso de tu análisis. Antes vimos que el análisis de datos es más útil cuando puedes reproducir tu trabajo con facilidad y compartirlo con otros. En R, reproducir tu análisis es tan fácil como presionar un botón en tu teclado. Tu código lo guarda para siempre. Y puedes compartirlo con cualquiera en cualquier momento. Procesar muchos datos también es algo que R hace muy bien, al igual que SQL. Como ya aprendiste antes, las hojas de cálculo organizan proyectos en hojas o pestañas. Si alguna vez tuviste que lidiar con archivos en hojas de cálculo que tienen muchas hojas o muchos datos en cada hoja, sabes que las cosas pueden comenzar a funcionar muy lentamente. Trabajar con muchos datos en una hoja de cálculo incluso puede causar colapsos. R puede manejar muchas cantidades de datos de manera más rápida y eficiente. Por último, R puede crear elementos visuales poderosos y tiene capacidades gráficas de última generación. Como has visto en este programa, las herramientas como las hojas de cálculo y Tableau ofrecen muchas opciones para visualizar tus datos. R está a otro nivel. Con solo un código breve puedes crear histogramas, diagramas de dispersión, diagramas de línea y mucho más. Y ese es solo el comienzo. Si trabajas con paquetes más avanzados, puedes realizar visualizaciones de datos realmente impresionantes. Aprender R es un gran beneficio para cualquiera que esté interesado en convertirse en analista de datos. Como mencioné anteriormente, saber R te ayudará a resaltar como candidato para un trabajo. A medida que sigas avanzando, R te ayudará a encontrar soluciones para problemas más complejos relacionados con datos. Puedes seguir aprendiendo sobre R a lo largo de tu carrera profesional como analista de datos. No hay límites cuando se trata de desarrollar tus habilidades de análisis de datos. Eso es todo por ahora. A continuación, veremos el entorno de RStudio juntos. Antes de utilizar RStudio, tienes que descargar e instalar la interfaz básica de R. Aprenderás cómo hacerlo en una próxima lectura. La mayoría de los analistas que trabajan con lenguaje R utilizan el entorno RStudio para interactuar con R, y no la interfaz básica. Por eso, nos estamos enfocando en RStudio en este programa. A continuación de este vídeo, encontrarás los recursos para descargar R y RStudio en caso de que estés interesado en aprender más. Hasta pronto.
 
-#### Actividad práctica opcional: Descargar e instalar R
+#### Actividad práctica Descargar e instalar R
 
 https://learner.coursera.help/hc/es
 https://blog.sellorm.com/2018/12/20/installing-r-and-rstudio-on-a-chromebook/
@@ -142,7 +142,7 @@ https://cran.r-project.org/mirrors.html
 
 ![alt text](image-273.png)
 
-#### Actividad práctica opcional: La consola de R
+#### Actividad práctica La consola de R
 
 ![alt text](image-274.png)
 
@@ -182,7 +182,7 @@ Más adelante aprenderás más sobre cómo crear diagramas en RStudio. Anteriorm
 
 ![alt text](image-276.png)
 
-#### Actividad práctica opcional: Primeros pasos en RStudio Desktop
+#### Actividad práctica Primeros pasos en RStudio Desktop
 
 https://rstudio.com/
 https://cran.rstudio.com/
@@ -439,6 +439,310 @@ https://www.r-bloggers.com/2015/12/how-to-learn-r-2/#h.y5b98o9o2h1r
 
 ## Trabajar con bases de datos en R
 
+### Explorar datos y R
+
+#### Datos en R
+
+Hola, es genial tenerte de vuelta. Ahora que ya conoces R y has programado con este lenguaje, conozcamos otras formas de usar R durante nuestro proceso de análisis. Comenzaremos por aprender más sobre los marcos de datos y cómo usarlos, y, luego, exploraremos cómo trabajar con nuestros datos de diferentes maneras usando paquetes de tidyverse. Después, veremos cómo comprobar el sesgo en R. La comunidad de R me ha ayudado mucho a crecer como analista de datos, especialmente en materia de procesos, como la limpieza de datos. R ayuda a limpiar de manera más eficiente y puedo recurrir a una comunidad de usuarios para aprender cómo limpiaron datos similares. Poder compartir conocimientos de R y revisar códigos mejoró muchísimo mi trabajo. Me encanta poder mostrarte nuevas formas de trabajar con R y aprovechar más tus datos. Anteriormente, mencioné que aprender R iba a ser divertido. Llegó el momento de aprovechar todo lo que aprendimos hasta ahora y ponerlo en práctica. Cuando estés listo, puedes avanzar con el siguiente video. Nos vemos pronto
+
+#### Marcos de datos de R
+
+Hola, bienvenido nuevamente. Antes de que podamos empezar a limpiar y organizar nuestros datos o incluso comprobar el sesgo, necesitamos transformar nuestros datos en un formato utilizable. Aquí es donde aparecen los marcos de datos. Quizás recuerdes que ya hablamos un poco sobre los marcos de datos. En este video, aprenderemos más sobre qué son los marcos de datos y cómo puedes usarlos. ¡Empecemos! Pero, primero, hablemos de qué es un marco de datos. Un marco de datos es un conjunto de columnas. Se parece mucho a una hoja de cálculo o una tabla de SQL. Aquí hay un ejemplo de un marco de datos en R. Se parece mucho a otras tablas con las que hemos trabajado a lo largo de este programa. Hay nombres de columnas y filas y celdas con datos. Las columnas contienen una variable, y las filas tienen un conjunto de valores que coinciden con cada columna. Usamos los marcos de datos para muchas de las mismas razones por las que usamos las tablas. Ayudan a resumir los datos y ponerlos en un formato que sea fácil de leer y usar. Hay que conocer algunas cosas sobre los marcos de datos antes de trabajar con ello. Aprenderemos más acerca de los marcos de datos a lo largo de este programa, pero este es un excelente punto de partida. Primero, se debe asignar un nombre a las columnas. Usar columnas sin nombre puede ocasionar problemas con los resultados más adelante.
+Reproduce el video desde :1:30 y sigue la transcripción1:30
+Piensa en nuestro ejemplo anterior. A cada una de las columnas se les asigna un nombre según la variable que representan. Tenemos quilate, corte, color, claridad, profundidad. Todas estas columnas representan datos sobre los diamantes. Después, es importante saber que los datos almacenados en tu marco de datos pueden ser de diferentes tipos, por ejemplo, números, factores o caracteres. Los marcos de datos suelen contener fechas, marcas de tiempo y vectores lógicos. Por último, cada columna debe contener el mismo número de elementos de datos, aún si faltan algunos de esos elementos de datos. Los marcos de datos son fundamentales.
+Reproduce el video desde :2:15 y sigue la transcripción2:15
+Ahora, hablemos de los tibbles. En tidyverse, los tibbles son como marcos de datos optimizados. Facilitan el manejo con los datos, pero difieren un poco de los marcos de datos estándar. Primero, los tibbles nunca cambian los tipos de datos de las entradas. No cambiarán tus cadenas a factores ni a ninguna otra cosa. Puedes hacer más cambios en los marcos de datos básicos, pero los tibbles son más fáciles de usar. Esto ahorra tiempo porque ya no tendrás que hacer tanta limpieza o cambiar los tipos de datos en tibbles. Además, los tibbles nunca cambian los nombres de tus variables, y nunca crean nombres de filas.
+Reproduce el video desde :2:55 y sigue la transcripción2:55
+Por último, los tibbles facilitan la impresión en R. No sobrecargarán accidentalmente tu consola porque están configurados en forma automática para extraer solo las primeras 10 filas y tantas columnas como quepan en la pantalla. Son muy útiles cuando estás trabajando con grandes conjuntos de datos. Los marcos de datos y los tibbles son los componentes esenciales para el análisis en R, por eso es muy importante establecer estándares para la forma de crearlos y manejarlos. Si todos tenemos la misma comprensión sobre qué es un marco de datos, podemos comunicarnos más eficazmente. Es como si todos habláramos el mismo idioma. También es mucho más práctico. Necesitamos aprender a hacer cosas como definir columnas y revisar códigos fácilmente en R. Estas características facilitan el uso compartido de tus datos y la reproducción de tus análisis.
+Reproduce el video desde :3:49 y sigue la transcripción3:49
+Las estructuras de datos coherentes, como los marcos de datos, optimizan el manejo de todo un conjunto de datos. Los datos ordenados se refieren a los principios que hacen que las estructuras de datos tengan sentido y sean fáciles de entender. Es una forma de estandarizar la organización de los datos en R. Estos estándares son bastante directos. Las variables se organizan en columnas. Las observaciones se organizan en filas y cada valor debe tener su propia celda. Ahora que conoces un poco más acerca de los marcos de datos, empecemos a usarlos. Próximamente, te enseñaré cómo crear marcos de datos, agregarles datos y ampliarlos. Hasta pronto.
+
+#### Trabajar con marcos de datos
+
+¡Hola! Anteriormente, aprendimos sobre los marcos de datos y sus características principales. Ahora vamos a empezar a trabajar con ellos. Como analista de datos, gran parte de tu trabajo dependerá de los marcos de datos. Si no creas un marco de datos, tu capacidad de trabajar con datos será limitada. Piensa en las hojas de cálculo. Esa estructura básica de columnas y filas se traslada a R. Los marcos de datos son básicamente la forma predeterminada que usa el analista de datos para interactuar con los datos. Por eso es tan importante saber cómo crear y trabajar con marcos de datos. Veamos un ejemplo. Aquí usaremos los marcos de datos integrados de R. Una de las grandes ventajas de R y de los paquetes en R es que hay un montón de conjuntos de datos interesantes y de fácil acceso ya incorporados. Son los conjuntos de datos con los que practicas algunas de las herramientas que hemos estado aprendiendo.
+Reproduce el video desde ::56 y sigue la transcripción0:56
+Abramos RStudio y empecemos.
+Reproduce el video desde :1: y sigue la transcripción1:00
+Usaremos un conjunto de datos precargado con información sobre diamantes. Este conjunto de datos forma parte del paquete ggplot2 en tidyverse. Así que asegúrate de cargar primero ggplot2. Más adelante también aprenderemos cómo cargar nuestros conjuntos de datos. Pero los diamantes es un buen conjunto de datos para practicar.
+Reproduce el video desde :1:36 y sigue la transcripción1:36
+Podemos cargar estos datos ahora usando el paréntesis de apertura y de cierre. Quizás notes que cuando empiezas a escribir “<i>diamonds</i>”, RStudio te ofrece la opción de seleccionar desde un menú desplegable. Eso se debe a que este conjunto de datos ya existe en nuestra biblioteca. Bien, ahora agreguemos este marco de datos a nuestro visor de datos.
+Reproduce el video desde :2:2 y sigue la transcripción2:02
+Hay 10 columnas y 100 filas en este marco de datos, pero tal vez no queramos verlos todos. Podemos usar la función <i>head</i> para que nos muestre solo las primeras seis filas. Esta es una buena vista previa de todo el conjunto de datos. Imprimir accidentalmente todo el marco de datos a la consola puede ser molesto y llevar mucho tiempo para completar la operación. Puedes evitar imprimir el marco de datos completo usando funciones como <i>head</i> para obtener una vista previa rápida. También podemos obtener la estructura del marco de datos con funciones como <i>str()</i> y <i>colnames()</i>. Estas son solo dos funciones que puedes usar para corroborar tus datos. Más adelante exploraremos otras funciones, como <i>glimpse</i>. Por ejemplo, podríamos usar la función <i>structure </i>para resaltar la estructura de este marco de datos. Esto nos aporta información de alto nivel como los nombres de las columnas y el tipo de datos dentro de esas columnas. Pero si solo queremos saber los nombres de las columnas, podemos usar <i>colnames</i>, en su lugar.
+Reproduce el video desde :3:11 y sigue la transcripción3:11
+Aquí tenemos quilate, corte, color, claridad, profundidad: todas las columnas incluidas en este conjunto de datos. También podemos usar la función <i>mutate </i>para hacer cambios en nuestro marco de datos. La función <i>mutate</i> forma parte del paquete dplyr que está en tidyverse. Entonces, tendrás que cargar la biblioteca tidyverse antes de probar la función <i>mutate</i>. Primero agreguemos una nueva columna. Todo lo que tenemos que hacer es ingresar <i>mutate</i> y luego indicarle a R que queremos agregar una nueva columna al marco de datos de diamantes. Primero escribiremos <i>mutate </i>seguido por el nombre del marco de datos que queremos cambiar. Luego agregaremos una columna y el nombre de la nueva columna que queremos crear.
+Reproduce el video desde :3:59 y sigue la transcripción3:59
+Después queremos calcular esta nueva columna. En este caso, para facilitar la lectura de la columna <i>quilate</i>, lo multiplicaremos por 100 para crear una nueva columna <i>carat_2</i>. Y, luego, cuando ejecutemos esto, inmediatamente nuestro marco de datos tendrá una nueva columna. No perderás ninguna columna cuando crees la nueva. El resto del marco de datos seguirá igual. Los marcos de datos suelen ser el punto de partida para analizar datos en R. Por eso, es importante comprender las características de los marcos de datos y cómo crearlos. ¡Excelente trabajo y nos vemos pronto!
+
+#### Actividad práctica: Crea tu propio marco de datos
+
+https://learner.coursera.help/hc/es
+https://posit.cloud/content/6128450
+https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JGhlL8PLSxuqtK2KRWZkJw
+
+![alt text](image-295.png)
+
+#### Más sobre los tibbles
+
+https://learner.coursera.help/hc/es
+https://tibble.tidyverse.org/
+https://rstudio-education.github.io/tidyverse-cookbook/tidy.html
+
+![alt text](image-296.png)
+
+#### Conceptos básicos de la importación de datos
+
+https://learner.coursera.help/hc/es
+https://readxl.tidyverse.org/reference/excel_sheets.html
+https://r4ds.had.co.nz/data-import.html
+https://readxl.tidyverse.org/
+https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html
+
+![alt text](image-297.png)
+
+#### Actividad práctica: Importar y trabajar con datos
+
+https://learner.coursera.help/hc/es
+https://posit.cloud/content/6128450
+https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JGhlL8PLSxuqtK2KRWZkJw
+
+![alt text](image-298.png)
+
+#### Cuadro de aviso de la discusión: Datos en R frente a SQL
+
+Según lo que aprendiste hasta ahora, R es un lenguaje de programación que suele usarse para análisis estadísticos, visualización y demás análisis de datos. R es un poco diferente de las otras herramientas de análisis computacional de datos que descubriste hasta ahora. 
+
+¿Qué opinas de la forma en que R gestiona los conjuntos de datos en comparación con SQL o las hojas de cálculo? ¿Cuáles son las ventajas y desventajas de cada una de estas herramientas?
+
+#### Pon a prueba tu conocimiento sobre marcos de datos en R
+
+![alt text](image-299.png)
+
+### Limpiar datos
+
+#### Limpieza con lo básico
+
+Hola de nuevo. Ahora que ya tenemos un poco más de experiencia con los marcos de datos, podemos empezar a hacer algunas cosas interesantes como limpiar, estandarizar, manipular y visualizar datos. Repasaremos algunas tareas comunes que realizarás como analista de datos. Pero esto es solo el comienzo de todo lo que quizás quieras hacer en R. Empezaremos por los conceptos básicos y aprenderemos cómo limpiar nuestras columnas. Habrá una lectura con una lista práctica que puedes consultar después. Ahora instalemos los paquetes Here, Skimr y Janitor. Avancemos y abramos nuestra consola. Primero, añadiremos el paquete Here. Este paquete facilita la consulta de los archivos. Para instalarlo, simplemente escribiremos install.packages. Luego entre paréntesis, pondremos Here y RStudio lo instalará. Después de instalarlo, también tendremos que cargarlo usando la biblioteca. Después, instalaremos Skimr y Janitor. A modo de recordatorio, estos paquetes simplifican las tareas de limpieza de datos. Ambos son muy útiles y hacen cosas ligeramente diferentes. El paquete Skimr facilita mucho el resumen de los datos y te permite hojearlos más rápido. Lo instalaremos ahora.
+Reproduce el video desde :1:32 y sigue la transcripción1:32
+El paquete Janitor tiene funciones para la limpieza de datos.
+Reproduce el video desde :1:39 y sigue la transcripción1:39
+Después de terminar con la instalación, necesitaremos cargarlo. Por último, queremos asegurarnos de que el paquete dplyr esté cargado ya que vamos a usar algunas de sus funciones.
+Reproduce el video desde :1:55 y sigue la transcripción1:55
+Ya está, ahora tenemos todos los paquetes que necesitamos para la limpieza de datos básica. Ahora, carguemos algunos datos. Después, cuando practiques con tus propios datos, puedes usar <i>read</i> para tomar un archivo. Por ejemplo, si quisieras cargar un CSV podrías escribir, <i>read_CSV</i>, e ingresar el nombre del archivo entre paréntesis. Aquí es donde el paquete Here resulta útil. Asegúrate de instalar y cargar el paquete Here antes de intentar guardar archivos CSV. Por ahora, para practicar, cargaremos un paquete realmente divertido, el paquete de pingüinos de Palmer. Este es un conjunto de datos que ya usamos antes, pero a modo de recordatorio, los datos de los pingüinos de Palmer contienen mucha información alrededor de tres especies de pingüinos del Archipiélago de Palmer, que incluye mediciones de los tamaños, dimensiones de los nidos y las proporciones isotópicas de la sangre. ¿A quién no le encantan los pingüinos? Primero, instalaremos el paquete. Escribiremos <i>install.packages</i> e ingresaremos la palabra <i>palmerpenguins</i>.
+Reproduce el video desde :3:9 y sigue la transcripción3:09
+Después, recuerda cargarlo usando la función <i>library</i>. Ahora que ya tenemos estos datos cargados en nuestra biblioteca, podemos probar algunas funciones de limpieza en nuestras columnas. Hay unas cuantas funciones diferentes que podemos usar para obtener resúmenes de nuestro marco de datos. <i>Skim without charts</i>, <i>glimpse</i>, <i>head</i> y <i>select</i>. La función <i>skim without charts</i> nos ofrece un buen resumen completo de un conjunto de datos. Vamos a probarlo. Cuando ejecutamos esto, recibimos mucha información. Primero, nos da un resumen con el nombre del conjunto de datos y el número de filas y columnas. También nos proporciona los tipos de columnas y un resumen de los diferentes tipos de datos contenidos en el marco de datos. O podemos usar <i>Glimpse</i> para tener una idea muy rápida del contenido de ese conjunto de datos. Cuando ejecutamos este comando, nos muestra un resumen de los datos. Hay 344 filas y 8 columnas. Tenemos especies, isla, mediciones de las mandíbulas, que son básicamente los picos y las alas, la masa corporal de los pingüinos en gramos el sexo, y por último, el año en que se registraron los datos. También podemos usar la función <i>Head</i> para obtener una vista previa de los nombres de las columnas y las primeras filas de este conjunto de datos. Tener los nombres de las columnas resumidos así facilitará la limpieza de los datos. Podemos usar <i>select</i> para especificar ciertas columnas o para excluir columnas que no necesitemos justo ahora. Digamos que solo necesitamos comprobar la columna de especies. Podemos ingresar la palabra <i>penguins</i>, luego una canalización para indicar que añadiremos otro comando, y nuestra selección. Retomemos el tema de la cadena en R porque será más fácil para verlo.
+Reproduce el video desde :5:3 y sigue la transcripción5:03
+Ya tenemos la columna de especies, o quizás queramos todo excepto la columna de especies. Pondremos <i>minus species</i> en lugar de <i>species</i>, y ahora tenemos todas las columnas pero sin especies. La instrucción <i>select</i> es útil para obtener solo un subconjunto de variables de un conjunto de datos grande. Esto te permite concentrarte en grupos específicos de variables. Hay muchas otras funciones de selección que se basan en esto a las que nos abocaremos más adelante. Ahora que ya sabemos nuestros nombres de columnas, tenemos una mejor idea de lo que podríamos querer cambiar. La función <i>rename</i> facilita el cambio de los nombres de las columnas. Empecemos con los datos de los pingüinos, escribiremos <i>rename</i> y cambiará el nombre de nuestra columna <i>isla</i> a<i> island_new</i>.
+Reproduce el video desde :5:57 y sigue la transcripción5:57
+Si miramos ahora los nombres de las columnas, veremos que cambió el nombre de la columna. O supongamos que queremos cambiar nuestras columnas para que se escriban y formateen correctamente. En los programas de hojas de cálculo, siempre y cuando nuestros nombres de columnas sean significativos, está bien. Pero como tenemos que escribir los nombres de las columnas una y otra vez en R, necesitamos que sean coherentes. Lo mismo con la función <i>rename</i>, la función <i>rename_with()</i> puede cambiar los nombres de las columnas para que sean más coherentes. Por ejemplo, tal vez queramos que todos los nombres de nuestras columnas estén en mayúscula. Podemos usar la función <i>rename_with()</i> para hacer eso. Esto pasará automáticamente los nombres de nuestras columnas a letra mayúscula. Pero como los nombres de las variables suelen estar en minúscula, usaremos la opción <i>"Tolower"</i> para volver a cambiarlo.
+Reproduce el video desde :6:54 y sigue la transcripción6:54
+La función <i>clean names</i> en el paquete Janitor verificará automáticamente que los nombres de las columnas sean exclusivos y coherentes. Probemos la función <i>clean names</i> en nuestros datos de pingüinos.
+Reproduce el video desde :7:15 y sigue la transcripción7:15
+Esto garantiza que solo haya caracteres, números y guiones bajos en los nombres. Ahora conoces algunas funciones para limpiar columnas en tus conjuntos de datos. Intenta practicarlas por tu cuenta con los datos de los pingüinos de Palmer. Una vez que te familiarices con estas funciones aprenderemos incluso más sobre limpieza de datos en R. Nos vemos pronto.
+Hola de nuevo. Ahora que ya tenemos un poco más de experiencia con los marcos de datos, podemos empezar a hacer algunas cosas interesantes como limpiar, estandarizar, manipular y visualizar datos. Repasaremos algunas tareas comunes que realizarás como analista de datos. Pero esto es solo el comienzo de todo lo que quizás quieras hacer en R. Empezaremos por los : agregado a la selección Presiona [CTRL + S] para guardar como nota.
+
+#### Convenciones de nomenclatura de archivos
+
+https://learner.coursera.help/hc/es
+https://speakerdeck.com/jennybc/how-to-name-files
+https://libguides.princeton.edu/c.php?g=102546&p=930626#:~:text=File%20naming%20best%20practices%3A&text=File%20names%20should%20be%20short,date%20format%20ISO%208601%3A%20YYYYMMDD
+
+![alt text](image-300.png)
+
+#### Más información sobre los operadores de R
+
+https://learner.coursera.help/hc/es
+https://r-coder.com/operators-r/#Assignment_operators_in_R
+
+![alt text](image-301.png)
+
+#### Organiza tus datos
+
+Hola, es genial tenerte de vuelta. Ya aprendimos cómo crear marcos de datos y realizar algunas funciones de limpieza básicas. Ahora es el momento de empezar a organizarse en R. Próximamente te enseñaré algunas funciones que te ayudarán a organizar y filtrar tus datos. Estas funciones se ven algo diferentes en R que en otras herramientas que hemos usado hasta ahora. Pero el motivo para usarlas sigue siendo el mismo. Si no organizamos nuestros datos, no podemos transformar la información en conocimiento. Organizar nuestros datos y comparar diferentes métricas en esos datos nos ayuda a obtener nuevas conclusiones. En otras palabras, hace que nuestros datos sean útiles. Para lograr esto, usaremos las funciones <i>arrange</i>, <i>group by</i> y <i>filter</i>. Empecemos por ordenar nuestros datos. Seguiremos trabajando con los datos de los pingüinos de Palmer que ya hemos usado. En caso de que no lo recuerdes, consulta el siguiente enlace. También tendremos que cargar los paquetes correctos. Todos los paquetes que necesitaremos forman parte del núcleo de tidyverse. Así que carguemos ahora el núcleo de tidyverse.
+Reproduce el video desde :1:11 y sigue la transcripción1:11
+Podemos usar la función <i>arrange</i> para elegir mediante qué variable queremos ordenar, por ejemplo, digamos que quieres ordenar los datos de los pingüinos por longitud del pico. Escribiremos un rango y el nombre de la columna. Y cuando ejecutemos este comando arrojará un tibble con datos ordenados por longitudes de picos. Actualmente, está en orden ascendente. Si quieres ordenarlo en orden descendente solo agrega un signo menos antes del nombre de la columna.
+Reproduce el video desde :1:48 y sigue la transcripción1:48
+Ahora, el pico de pingüino más largo aparece primero. Es importante recordar que estos datos están solo en nuestra consola. Para guardarlos como marco de datos, empezaremos por nombrarlos. Luego, ingresaremos la función que usamos para ordenar la versión anterior de los datos de los pingüinos.
+Reproduce el video desde :2:11 y sigue la transcripción2:11
+Cuando ejecutemos esto, se guardará un nuevo marco de datos y podemos usar <i>view penguins2 </i>para agregarlo a nuestros datos. Esto te permite guardar datos limpios sin perder información del conjunto de datos original. También puedes ordenar por datos mediante la función <i>group by</i>. La función<i> </i><i>group by </i>suele combinarse con otras funciones. Por ejemplo, podríamos querer agrupar mediante una columna en particular y luego realizar una operación en esos grupos. Con nuestros datos de pingüinos, podemos agrupar por isla y luego usar la función <i>summarize</i> para obtener la longitud de pico promedio. Ya vimos la función <i>summarize</i> cuando presentamos la canalización. Básicamente, la función <i>summarize</i> nos permite obtener información de alto nivel sobre nuestros datos de pingüinos. Así que primero vamos a crear nuestro grupo mediante una instrucción.
+Reproduce el video desde :3:8 y sigue la transcripción3:08
+No nos interesan los valores NA, así que podemos excluirlos mediante el argumento <i>drop_NA</i>. Esto se aplica a cualquier valor faltante en nuestro conjunto de datos. Es importante tener cuidado cuando usamos <i>drop_na</i>. Es útil hacer una estadística de resumen a nivel grupal como esta, pero eliminará filas de los datos. Ahora usemos <i>summarize</i>. Nombraremos la columna de resumen como longitud media del pico en milímetros. Y, luego, crearemos la instrucción de valor medio.
+Reproduce el video desde :3:49 y sigue la transcripción3:49
+Y cuando ejecutamos esto, obtenemos un marco de datos con tres islas y la longitud media del pico de los pingüinos que viven allí. También podemos obtener otros resúmenes, por ejemplo, si queremos conocer la longitud máxima del pico, podemos escribir una función similar y reemplazar <i>mean </i>por <i>max</i>.
+Reproduce el video desde :4:24 y sigue la transcripción4:24
+Entonces, ahora sabemos que el pingüino con el pico más largo vivía en la isla Vesco. Tanto <i>group by</i>, como <i>summarize</i>, pueden realizar múltiples tareas. Por ejemplo, podríamos agrupar por isla y por especies y luego resumir para calcular el valor medio y el máximo. Para hacer eso, podemos escribir un comando similar. Pondremos especie e isla en nuestra función <i>group by</i> y anularemos los valores que faltan.
+Reproduce el video desde :5:2 y sigue la transcripción5:02
+Y luego podemos agregar una instrucción <i>summarize</i> con un cálculo de valor máximo y medio.
+Reproduce el video desde :5:24 y sigue la transcripción5:24
+Y cuando ejecutamos esto, tenemos ambas agrupaciones y
+Reproduce el video desde :5:28 y sigue la transcripción5:28
+el valor máximo y medio. Gracias a la canalización podemos combinar todas estas tareas de limpieza y transformación de datos en un bloque de código. Por último, podemos filtrar los resultados con la función <i>filter</i>. Supongamos que solo queremos datos sobre los pingüinos Adelia. Empezaremos con el conjunto de datos que estamos usando y, luego, agregaremos el filtro.
+Reproduce el video desde :5:56 y sigue la transcripción5:56
+Como habrás notado, estamos usando dos signos igual aquí; eso es adrede. El signo igual significa exactamente igual a en R. Y ahora tenemos un marco de datos que solo contiene datos sobre pingüinos Adelia. Esto nos permite acotar nuestro análisis si lo necesitamos. Poder limpiar y organizar los datos es un paso fundamental en el proceso de análisis de datos y conocer la herramienta correcta para hacerlo es una habilidad importante del analista de datos. R facilita el manejo de los datos y te ofrece muchas funcionalidades en las diferentes etapas del proceso de análisis de datos. Ahora que ya limpiamos nuestros datos, podemos prepararnos para transformarlos. A continuación, aprenderemos cómo usar las funciones <i>separate</i>, <i>unite</i> y <i>mutate</i> y cómo usarlas para transformar nuestros datos en R. Hasta la próxima.
+
+#### Actividad práctica: Limpiar datos en R
+
+https://learner.coursera.help/hc/es
+https://posit.cloud/content/6128450
+https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JGhlL8PLSxuqtK2KRWZkJw
+
+![alt text](image-302.png)
+
+#### Crea manualmente un marco de datos
+
+![alt text](image-303.png)
+
+#### Transformación de datos
+
+
+Bienvenido de nuevo. Hasta aquí, hemos empezado a limpiar y a trabajar con los datos en R. Ahora, vamos a hablar sobre cómo transformar los datos. A veces, necesitas fragmentar una variable entre múltiples columnas o combinar las columnas actuales, o incluso agregar nuevos valores a tu marco de datos. Próximamente, usaremos las funciones <i>separate</i>, <i>unite</i> y <i>mutate</i> para transformar nuestros datos en R. Por suerte, los paquetes ya descargados en nuestra biblioteca tienen algunas herramientas que podemos usar para hacer justo eso. Abramos RStudio Cloud y verifiquemos esto.
+Reproduce el video desde ::43 y sigue la transcripción0:43
+Para empezar, crearemos un marco de datos desde cero. Para este ejemplo, crearemos un marco de datos estándar, para que podamos probar otras funciones. Pero también puedes hacer un tribble aquí, ya que estamos ingresando los datos en forma manual. Aprenderás más sobre tribbles en una lectura. Para nuestro conjunto de datos, vamos a copiar y pegar algunos datos para crear nuestro propio marco de datos. Si quieres usar los mismos datos para continuar, consulta la lectura anterior. Nuestros datos contienen información de los empleados, incluso nombres y título del puesto. Puedes copiarlos.
+Reproduce el video desde :1:25 y sigue la transcripción1:25
+Luego, podemos asignar un nombre al empleado dentro del marco de datos, indicar los nombres de las columnas como ID, nombre y título del puesto e imprimir todo el marco de datos.
+Reproduce el video desde :1:44 y sigue la transcripción1:44
+Ahora mismo, el nombre y el apellido se combinan en una columna. Podemos usar la función <i>separate </i>para dividir esos datos en columnas separadas. Empezaremos con estos datos separados, y luego con el marco de datos que queremos trabajar y la columna que nos gustaría separar. Después agregaremos lo que nos gustaría separar en la columna de nombre.
+Reproduce el video desde :2:7 y sigue la transcripción2:07
+Simplemente nombraremos estas nuevas columnas <i>nombre</i> y <i>apellido</i>.
+Reproduce el video desde :2:13 y sigue la transcripción2:13
+Y, por último, le diremos a R que separe la columna de nombre en el primer espacio en blanco. Cuando ejecutemos esto, se crearán nuevas columnas para el nombre y el apellido.
+Reproduce el video desde :2:27 y sigue la transcripción2:27
+La función <i>separate</i> tiene un aliado, la función <i>unite</i>. La función <i>unite</i> nos permite fusionar columnas entre sí. Básicamente, hace lo opuesto a la función <i>separate</i>. Supongamos que estamos trabajando con la versión de este marco de datos con dos columnas de nombre, y queremos combinarlos. Copiaremos también estos datos.
+Reproduce el video desde :2:53 y sigue la transcripción2:53
+Nuestra instrucción <i>unite </i>es muy parecida a la instrucción <i>separate</i>. Empezaremos con <i>unite </i>e indicaremos el marco de datos al que nos estamos refiriendo. Luego, le pondremos nombre a la columna en la cual estamos combinando <i>nombre</i> y <i>apellido</i>. Y después indicaremos qué columnas estamos combinando. No se necesitan comillas aquí. Y, por último, podemos incluir un espacio que las separe. Y cuando ejecutamos eso, esas dos columnas se combinan.
+Reproduce el video desde :3:22 y sigue la transcripción3:22
+Además de separar y fusionar columnas, también podemos crear nuevas variables en nuestro marco de datos mediante la función <i>mutate</i>. Ya trabajamos un poco con la función<i> mutate</i> antes para limpiar y organizar nuestros datos. Pero <i>mutate</i> también se puede usar para añadir columnas con cálculos.
+Reproduce el video desde :3:41 y sigue la transcripción3:41
+Volvamos a nuestro conjunto de datos sobre los pingüinos.
+Reproduce el video desde :3:47 y sigue la transcripción3:47
+En este momento, la columna de masa corporal se mide en gramos. Quizás queramos añadir una columna con kilogramos. Para hacer eso, usaremos la función<i> mutate</i> para realizar la conversión y añadir una nueva columna.
+Reproduce el video desde :4:14 y sigue la transcripción4:14
+Y mostrará un tibble con nuestra nueva columna.
+Reproduce el video desde :4:19 y sigue la transcripción4:19
+Puedes hacer cálculos en múltiples variables nuevas agregando una coma. Agreguemos una columna que convierta también la longitud del ala. Ya hemos aprendido cómo transformar los datos existentes en nuestras tablas y cómo crear nuevas variables. <i>Separate</i>, <i>unite</i> y <i>mutate</i> son algunas funciones básicas que seguiremos desarrollando, y, tal vez, descubras nuevas formas de usarlas a medida que practiques. Próximamente, hablaremos más sobre cómo resumir marcos de datos y cómo abordar el sesgo. Nos vemos pronto.
+Bienvenido de nuevo. Hasta aquí, hemos empezado a limpiar y a trabajar con los datos en R. Ahora, vamos a hablar sobre cómo transformar los datos. A veces, necesitas fragmentar una variable entre múltiples columnas o combinar las columnas actuales, o incluso agregar nuevos valores a tu marco de datos. Próximamente, usaremos las funciones <i>separate</i>, <i>unite</i> y <i>mutate</i> para transformar nuestros datos en R. Por suerte, los paquetes ya descargados en nuestra biblioteca tienen algunas herramientas que podemos usar para hacer ju: agregado a la selección Presiona [CTRL + S] para guardar como nota.
+
+#### De formato ancho a formato largo con tidyr
+
+https://learner.coursera.help/hc/es
+https://tidyr.tidyverse.org/articles/pivot.html
+https://www.tidyverse.org/
+https://rladiessydney.org/courses/ryouwithme/02-cleanitup-5/
+https://scc.ms.unimelb.edu.au/resources-list/simple-r-scripts-for-analysis/r-scripts
+https://www.datamentor.io/r-programming/saving-plot/
+
+![alt text](image-304.png)
+
+#### Pon a prueba tus conocimientos sobre la limpieza de datos
+
+![alt text](image-305.png)
+
+### Observa los datos con más detalle
+
+#### Mismos datos, diferente resultado
+
+Hola, es genial tenerte de vuelta. Ya hablamos sobre cómo resumir los datos en R. Incluso usamos la función <i>summarize</i> para calcular la media para una de nuestras variables de datos de los pingüinos. Ahora trabajaremos con un ejemplo de datos muy famoso: El cuarteto de Anscombe. El cuarteto de Anscombe tiene cuatro conjuntos de datos con estadísticas de resumen casi idénticas. Pero esas estadísticas de resumen podrían ser engañosas. Las visualizaciones de datos, especialmente para conjuntos de datos como estos, son muy importantes. Ayudan a descubrir detalles en nuestros datos que de otra forma permanecerían ocultos. Además, descubrirás algunas de las formas en que R puede crear visualizaciones maravillosas. Instalemos los paquetes. Esto puede tardar unos pocos minutos en cargarse.
+Reproduce el video desde ::56 y sigue la transcripción0:56
+Ahora carguemos los datos del cuarteto de Anscombe.
+Reproduce el video desde :1:13 y sigue la transcripción1:13
+Cuando vemos estos datos, percibimos que hay cuatro conjuntos de ejes x e y en el marco de datos. Eso es el cuarteto. Los datos se pueden resumir a través de diferentes mediciones estadísticas. Obtendremos un resumen de cada conjunto de datos con la media, el desvío estándar y la correlación para cada uno de estos conjuntos de datos. Empezaremos por indicar que queremos agrupar nuestros datos por conjunto.
+Reproduce el video desde :1:43 y sigue la transcripción1:43
+Luego, escribiremos nuestra función <i>summarize</i>.
+Reproduce el video desde :1:51 y sigue la transcripción1:51
+Cuando ejecutamos esto, obtendremos un resumen de esas mediciones estadísticas. En nuestra tabla de resumen, podemos verificar la media. La media para x en cada conjunto de datos es nueve, y la media para y es 7.5. El desvío estándar nos puede ayudar a comprender el margen de los valores en un conjunto de datos y mostrarnos qué tan lejos está cada valor con respecto a la media. El desvío estándar para x e y en cada conjunto de datos en el cuarteto es el mismo, 3.32 y 2.03. Por último, tenemos nuestra correlación, que nos muestra qué tan sólida es la relación entre dos variables. Aquí, parece que la correlación entre x e y en todos los conjuntos de datos es alrededor de 0.816. En función de los resúmenes, que creamos con nuestras mediciones estadísticas, estos conjuntos de datos son idénticos, pero a veces mirar solamente los datos resumidos puede ser engañoso. Vamos a armar algunos gráficos simples que nos ayuden a visualizar estos datos y corroborar si los conjuntos de datos son realmente idénticos. Posteriormente aprenderás más acerca del trazado de datos en R. Por el momento, nos haremos una idea rápida de cómo aparecen estos datos.
+Reproduce el video desde :3:20 y sigue la transcripción3:20
+Vamos a analizarlo. Estos cuatro conjuntos de datos aparentan ser bastante diferentes cuando los visualizamos. Si no hubiéramos realizado resúmenes estadísticos, nunca hubiéramos sabido que estos datos son realmente muy diferentes. Quiero mostrarte algo realmente genial. El paquete datasauRus. DatasauRus crea diagramas con los datos Anscombe en diferentes formas. Pero vamos a ejecutarlo para comprobarlo nosotros mismos. Primero, empezarás por instalar y cargar el paquete.
+Reproduce el video desde :4:9 y sigue la transcripción4:09
+Luego, crearemos un gráfico nuevo.
+Reproduce el video desde :4:21 y sigue la transcripción4:21
+Es normal que estos comandos parezcan complicados. Pronto podrás crear tu propio diagrama Esto es solo un adelanto de cómo puede ayudarte R a crear visualizaciones de datos. Cuando ejecutamos esto, nos muestra diferentes tipos de diagramas. Está el famoso dinosaurio, un ojo de buey, una estrella. R es una herramienta de visualización muy poderosa. Podrías usar las relaciones entre puntos de datos para crear muchas otras formas. Como ves, puedes hacer un montón de cosas con R. Las visualizaciones de datos como las que acabamos de explorar ayudan a descubrir mucho más sobre los datos con los que estás trabajando. Es importante explorar tus datos de diferentes maneras para aprender un poco más sobre este tema. A continuación, aprenderemos a usar las funciones en R para corroborar el sesgo.
+
+#### Función de sesgo
+
+Hola, bienvenido nuevamente. Por ahora, ya aprendiste la importancia de los datos justos no sesgados en el análisis de datos. En R, en realidad podemos cuantificar el sesgo comparando el resultado real de nuestros datos con el resultado previsto. Hay una explicación estadística bastante compleja detrás de esto. Sin embargo, con la función <i>bias </i>en R, no tienes que hacer este cálculo en forma manual. Básicamente, la función <i>bias</i> calcula el monto promedio en que el resultado real supera al resultado previsto. Está incluido en el paquete de diseño Sim. Así que es útil instalarlo y practicar por tu cuenta. Si el modelo no tiene sesgo, el resultado debería ser bastante cercano a cero. Un resultado alto significa que tus datos podrían estar sesgados. Algo que es bueno saber antes de analizarlos. Supongamos que estás trabajando con un canal meteorológico local para determinar si las predicciones climáticas están sesgadas. Primero, necesitamos instalar y cargar un paquete llamado diseño Sim.
+Reproduce el video desde :1:13 y sigue la transcripción1:13
+Usaremos la función <i>bias</i> para comparar las temperaturas pronosticadas con las temperaturas reales. Para este ejemplo, solo tomaremos una pequeña muestra de nuestros datos meteorológicos y los cargaremos aquí. Etiquetaremos esto como la temperatura real.
+Reproduce el video desde :1:39 y sigue la transcripción1:39
+Luego, pondremos las predicciones.
+Reproduce el video desde :1:54 y sigue la transcripción1:54
+Y, luego, aplicaremos la función <i>bias</i>.
+Reproduce el video desde :2:4 y sigue la transcripción2:04
+Cuando ejecutamos esto, descubrimos que el resultado es 0.71. Una cifra muy cercana a cero, pero la predicción parecía sesgada hacia temperaturas más bajas, es decir, no son tan exactas como podrían ser. Y ahora que el canal meteorológico local sabe esto, pueden encontrar cuál es el problema que está causando las predicciones sesgadas en su sistema. Esto no significa que sus predicciones serán perfectas todo el tiempo, pero serán más exactas en general.
+Reproduce el video desde :2:34 y sigue la transcripción2:34
+Probemos con otro ejemplo, en este escenario trabajaremos para una tienda de juegos. La tienda viene llevando un registro de cuántas copias de juegos nuevos venden en la fecha de lanzamiento. Quieren comparar estas cifras con sus ventas reales para saber si los pedidos de stock coinciden con sus necesidades reales. Como con el ejemplo anterior, empezaremos por cargar nuestros datos de ventas, con la etiqueta <i>ventas_reales</i> y agregaremos los puntos de datos.
+Reproduce el video desde :3:14 y sigue la transcripción3:14
+A continuación, ingresaremos el monto de stock que se pidió como <i>ventas</i><i>_previstas</i> y luego ingresaremos esos puntos de datos.
+Reproduce el video desde :3:29 y sigue la transcripción3:29
+Y ya tenemos nuestros datos listos para avanzar. Como aprendimos con el primer ejemplo, la función <i>bias</i> compara el resultado real y el resultado previsto de los datos para determinar la cifra promedio en la cual el resultado real supera al resultado previsto. Un modelo sin sesgo debería ser cercano a cero. Ahora ejecutemos la función <i>bias</i> en nuestros datos de ventas, como antes, solo escribiremos <i>bias</i> para iniciar la función y luego <i>ventas_reales </i>y <i>ventas_previstas</i> entre paréntesis. Cuando presionamos Enter... ¡Guau!, el resultado es -35. Eso está muy lejos de cero. El resultado previsto es mayor que el resultado real, lo cual significa que la tienda tal vez esté pidiendo demasiado stock para las fechas de lanzamiento. Como ya han usado la función <i>bias</i> para comparar estos puntos de datos, pueden reevaluar sus prácticas de aprovisionamiento de stock para evitar comprar más stock que el que necesitan de una vez.
+Reproduce el video desde :4:31 y sigue la transcripción4:31
+Muy bien, eso es todo por ahora. Abarcamos mucho material juntos. Aprendimos cómo crear marcos de datos. Probamos algunas funciones básicas de limpieza de datos. Ya tenemos una pequeña noción sobre cómo la visualización de datos en R nos puede ayudar a comprender mejor nuestros datos. Y, por último, aprendimos cómo usar la función <i>bias</i>. Todavía me quedan muchas cosas que quiero contarte sobre R, y si las visualizaciones de datos que creamos en este módulo nos entusiasman, tengo excelentes noticias. A continuación, aprenderemos todo sobre visualización de datos en R, pero primero tienes que superar un desafío semanal. Sé que lo harás fantástico. Y si quieres repasar el material que hemos tratado en estos videos, siéntete libre de hacerlo. Quizás esta sea la primera vez que te encuentras con R, así que es una gran oportunidad para practicar algo nuevo. Al principio tu código podría arrojar algunos errores. Eso forma parte de la escritura de código. Aprender de nuestros errores nos permite crecer. Te veo más adelante para nuestra próxima aventura en R.
+
+#### Trabajar con datos sesgados
+
+https://learner.coursera.help/hc/es
+https://www.rdocumentation.org/packages/SimDesign/versions/2.2/topics/bias
+https://datasciencebox.org/ethics.html
+
+![alt text](image-306.png)
+
+#### Actividad práctica: Cambia tus datos
+
+https://learner.coursera.help/hc/es
+https://posit.cloud/content/6128450
+https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JGhlL8PLSxuqtK2KRWZkJw
+
+![alt text](image-307.png)
+
+#### Cuadro de aviso de la discusión: Compara la limpieza de datos en diferentes plataformas
+
+En los últimos temas de debate, comparaste R con otras herramientas de análisis de datos. Ahora, es el momento de considerar las similitudes y diferencias de R y las hojas de cálculo para los procesos de limpieza de datos.
+
+#### Pon a prueba tu conocimiento sobre funciones en R
+
+![alt text](image-308.png)
+
+### Desafío semanal 3
+
+#### Cuestionario: Desafío semanal 3
+
+![alt text](image-309.png)
+
 ## Más información sobre visualizaciones, estética y anotaciones
+
+### Crear visualizaciones de datos en R
+
+Visualizaciones en R
+Elementos básicos de visualización en R y tidyverse
+Actividad práctica: Visualización de datos con ggplot2
+Introducción a ggplot()
+Problemas comunes al visualizar en R
+Actividad práctica: Uso de ggplot
+Cuadro de aviso de la discusión: Visualizaciones en Tableau versus R
+Joseph: Trayectoria profesional hacia el análisis de personas
+Pon a prueba tus conocimientos sobre la visualización de datos en R
+
+### Explora la estética en el análisis
+
+Mejoras a visualizaciones en R
+Atributos estéticos
+Hacer más cosas con ggplot
+Suavizado
+Estética y facetas
+Actividad práctica: Estética y visualizaciones
+Filtrado y diagramas
+Actividad práctica: Filtros y diagramas
+Pon a prueba tus conocimientos sobre estética en el análisis
+
+### Anota y guarda visualizaciones
+
+Capa de anotaciones
+Dibujar flechas y formas en R
+Guardar tus visualizaciones
+Guardado de imágenes sin ggsave()
+Actividad práctica: Anotar y guardar visualizaciones
+Pon a prueba tu conocimiento sobre cómo anotar y guardar visualizaciones
+
+### Desafío semanal 4 curso 7
+
+#### Cuestionario: Desafío semanal 4 curso 7
 
 ## Documentos e informes
