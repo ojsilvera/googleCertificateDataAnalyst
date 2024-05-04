@@ -773,46 +773,208 @@ https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JG
 
 #### Cuadro de aviso de la discusión: Visualizaciones en Tableau versus R
 
+Si realizaste el curso anterior sobre compartir datos a través de la narración, seguramente sepas cómo usar Tableau para crear visualizaciones de datos eficaces. En este curso, descubrirás cómo usar código R en ggplot2 para crear diversos diagramas para visualizar tus datos. 
+
+Escribe de uno a dos párrafos (150-200 palabras en total) describiendo tus ideas iniciales sobre la diferencia entre Tableau y ggplot2 en cuanto a la visualización de datos. Analiza las siguientes preguntas
+
+¿Cuáles son las fortalezas y limitaciones de Tableau en relación con la visualización de datos? ¿Cuáles son tus funciones favoritas de Tableau?
+
+Si eres nuevo con ggplot2, ¿qué funciones crees que serán las más útiles para visualizar datos?
+
+¿En qué se diferencian las herramientas de visualización de Tableau de las herramientas de ggplot2?
+
 #### Joseph: Trayectoria profesional hacia el análisis de personas
 
+Hola, me llamo Joseph. Soy analista de personal en Google. Como analista de personal, mi trabajo consiste en trabajar con ejecutivos y socios de negocios de RR.HH. para usar datos para tomar decisiones informadas sobre el personal. Mi trayectoria hasta llegar a ser analista de personal es bastante singular. Viniendo de una escuela pública de NYC en Nueva York y yendo a una escuela privada en Siracusa, la tradición era muy diferente en cuanto al rigor académico y también en cuanto al nivel social con el que competía. Y siendo totalmente honesto, sentía que no pertenecía allí. Sentía el síndrome del impostor absolutamente todos los días. Y en mi primer semestre, luchaba a nivel académico porque me faltaba una base sólida. Cada vez que terminaba mis clases, buscaba oportunidades de tutoría. Entonces trabajaba el triple o el cuádruple que mis pares. Pero a la larga, de hecho llegó un momento en que me iba mucho mejor que a mis pares. Y era yo quien de hecho les enseñaba y también les ofrecía tutorías para sus tareas. Cuando entré a la universidad, en mi primer año tenía ganas de elegir ingeniería informática como especialidad. Pero lamentablemente, como venía de una familia de inmigrantes que no sabía qué era la ingeniería informática, ni había visto a alguien de nuestra comunidad que realmente hubiera tenido éxito en ese campo, ellos realmente me desalentaron de seguir este camino, nuevamente porque no querían arriesgarse. Lamentablemente, cambié mi especialización de ingeniería a “indeciso”. Por fortuna para mí, dos años después, encontré a otro amigo negro mío que también era un inmigrante africano que se estaba especializando en tecnología de la información. Y solo por aprender de su experiencia y de las clases que estaba tomando, realmente me empecé a interesar mucho en el campo. Tomé una de las clases introductorias y verdaderamente me fue bien. Antes de Google, trabajaba en una empresa llamada Accenture, donde me desempeñaba como asesor haciendo analítica de clientes. Y hacia el final de mi segundo año en la empresa, fui a una feria de trabajo en la que Google estaba reclutando. Entonces hablé con la reclutadora y ella me comentó de una nueva práctica llamada analítica de personal, que es algo muy parecido a lo que yo estaba haciendo en Accenture. Simplemente volví a casa, investigué, y me interesó mucho este espacio en el que quería desarrollar plenamente mi carrera. Entonces desde que comencé en Google, y también diré honestamente que fue muy desafiante para mí en cuanto al rigor y la dificultad del trabajo que hacemos... entonces lo primero que hice fue buscar mentores. Sabía que me interesaba mi desarrollo profesional y también en abogar por mí mismo. Así que hablando con ellos y simplemente aprendiendo algunas lecciones de ellos, como la manera de manejarse mejor en este espacio, primero adquirí mucho coraje y también obtuve la motivación para incluso aprender más allá del entorno laboral. Lo segundo que hice fue asegurarme de estar aprendiendo constantemente y también aprovechar a mis pares como recurso. Entonces siempre que hago un análisis en el que necesito una segunda opinión, recurro a mis compañeros de equipo y me aseguro de que me den el aliento que necesito o una segunda opinión para mejorar aún más mi análisis. Y creo que lo tercero que siempre hago es buscar oportunidades de desarrollo, ¿no? Entonces, por ejemplo, si sé que hay un espacio en el que me falta y que necesito desarrollar, me aseguro de preguntarle a mi gerente: "Sé que este espacio me cuesta. ¿No te parece que podría desarrollar concretamente esta área si me dieras más trabajo que me permitiera desarrollar ese conjunto de destrezas?". Entonces diría que es una mezcla de reconocer que notas una brecha en tu desarrollo personal y también trabajar para mejorar eso aprovechando los recursos que te rodean. Y simplemente trabajar en pos de ese objetivo para lograr mejorar todos y cada uno de los días y también año a año.
+
 #### Pon a prueba tus conocimientos sobre la visualización de datos en R
+
+![alt text](image-313.png)
 
 ### Explora la estética en el análisis
 
 #### Mejoras a visualizaciones en R
 
+Hola de nuevo. En este vídeo, aprenderás cómo modificar la estética de tus representaciones visuales, que puede ayudarte a presentar tus datos de una manera más atractiva. Con la estética, puedes destacar puntos claves de tus datos y comunicarte con mayor claridad y efectividad con tus interesados. Anteriormente, aprendimos que una estética es una propiedad visual de un objeto en tu diagrama. Por ejemplo, en un diagrama de dispersión la estética incluye el tamaño, la forma y el color de tus puntos de datos. Puedes mostrar un punto de diferentes maneras modificando su estética o su apariencia.
+Reproduce el video desde ::40 y sigue la transcripción0:40
+Puedes hacer que un punto sea pequeño, triangular o azul o una combinación de estas opciones. Volvamos al conjunto de datos de pingüinos y revisemos el código de nuestro diagrama que muestra la relación entre masa corporal y longitud de aleta. Para repasar rápidamente, la parte del código que dice mapping igual a aes le indica a R qué estética usar para el diagrama. Se usa la función aes para definir el mapeo entre tus datos y tu diagrama. Mapeo significa emparejar una variable específica en tu conjunto de datos con una estética específica.
+Reproduce el video desde :1:20 y sigue la transcripción1:20
+Por ejemplo, puedes aplicar una variable al eje X de tu diagrama o puedes aplicar una variable al eje Y de tu diagrama. Para mapear o aplicar una estética a una variable, coloca el nombre de la estética que equivale al nombre de la variable dentro de los paréntesis de la función aes. Nuestro código le indica a R que aplique la longitud de aleta al eje X y masa corporal al eje Y. Iniciemos sesión en RStudio Cloud y ejecutemos el código. A modo de recordatorio rápido, comencemos cargando el paquete de ggplot2 y el conjunto de datos de pingüinos.
+Reproduce el video desde :2:1 y sigue la transcripción2:01
+R colocará automáticamente la etiqueta correspondiente en cada eje de nuestro diagrama de dispersión.
+Reproduce el video desde :2:17 y sigue la transcripción2:17
+Después de que apliques una variable a una estética, R se encarga del resto.
+Reproduce el video desde :2:23 y sigue la transcripción2:23
+También puedes aplicar datos a otras estéticas, como color, tamaño y forma. En este momento, nuestro diagrama está en blanco y negro. Claramente muestra la relación positiva entre las dos variables. A medida que los valores en el eje X suben, los valores en el eje Y suben. Pero también tiene algunas limitaciones. Por ejemplo, no podemos saber qué puntos de datos se refieren a cada una de las tres especies de pingüinos. Para resolver este problema, podemos aplicar una nueva variable a una nueva estética. Agreguemos una tercera variable a nuestro diagrama de dispersión aplicándola a nueva estética. Aplicaremos la variable species a la estética color agregando código dentro de los paréntesis de la función aes. Agregaremos una coma después de la variable masa corporal y escribiremos color signo igual species. Nuestro código le indica a R que asigne un color diferente a cada especie de pingüino. Vamos a revisarlo.
+Reproduce el video desde :3:29 y sigue la transcripción3:29
+La especie Papúa (Gentoo) es la más grande de las tres especies de pingüino. La leyenda apenas a la derecha del diagrama nos muestra que los puntos azules se refieren a los pingüinos Papúa. R no solo aplica automáticamente diferentes colores a cada punto de datos, sino que también crea una leyenda para mostrarnos los códigos de color. Eso es lo que me encanta de R. Con solo darle un poco de código, hace el máximo esfuerzo para ayudarte. También podemos usar la forma para resaltar las diferentes especies de pingüinos. Apliquemos la variable species a la estética shape. Para hacerlo, podemos modificar el código de color signo igual species a shape signo igual species. En vez de puntos de color, R asigna diferentes formas a cada especie. Ahora la leyenda nos muestra un círculo para la especie Adelia (Adelie), un triángulo para los Barbijo (Chinstraps) y un cuadrado para los Papúa. Quizás notes que nuestro diagrama está en blanco y negro nuevamente porque eliminamos el código para color. Volvamos a darle color a nuestro diagrama. Si queremos, podemos aplicar más de una estética a la misma variable. Apliquemos tanto color como forma a las especies. Agregaremos el código color signo igual species mientras mantenemos el código shape signo igual species.
+Reproduce el video desde :4:56 y sigue la transcripción4:56
+Ahora nuestro diagrama muestra un color diferente y una forma diferente para cada especie. Podemos seguir avanzando. Agreguemos tamaño también y apliquemos tres estéticas a las especies. Si agregamos size signo igual species, cada forma coloreada también tendrá un tamaño diferente.
+Reproduce el video desde :5:17 y sigue la transcripción5:17
+Usar más de una estética también puede ser una manera de hacer que tus elementos visuales sean más accesibles porque le da a tu público más de una manera de entender tus datos. También podemos mapear especies a la estética alfa, que controla la transparencia de los puntos. Nuestro primer diagrama mostró la relación entre masa corporal y longitud de aleta en blanco y negro. Luego aplicamos la variable species a la estética color para mostrar la diferencia entre cada una de estas especies de pingüino. Si queremos dejar nuestro gráfico en blanco y negro, podemos aplicar la estética alfa a especies. Esto hará que algunos puntos sean más transparentes, o traslúcidos, que otros. Esto nos da otra manera de representar cada especie de pingüino. Probemos. Alfa es una buena opción cuando tienes un diagrama denso con muchos puntos de datos.
+Reproduce el video desde :6:18 y sigue la transcripción6:18
+También puedes fijar la estética por separado de una variable específica. Digamos que queremos cambiar el color de todos los puntos a violeta. Aquí no queremos aplicar color a una variable específica como especie. Solo queremos que cada punto en nuestro diagrama de dispersión sea violeta. Entonces necesitamos colocar nuestro nuevo trozo de código fuera de la función aes y usar comillas para nuestro valor de color. Esto se debe a que todo el código dentro de la función aes le indica a R cómo aplicar estética a variables. Por ejemplo, aplicar la estética color a la variable species.
+Reproduce el video desde :7:1 y sigue la transcripción7:01
+Si queremos modificar la apariencia de nuestro diagrama general sin tener en cuenta las variables específicas, escribimos código fuera de la función aes. Escribamos el código y ejecutémoslo.
+Reproduce el video desde :7:23 y sigue la transcripción7:23
+Eso es todo por ahora. Acabamos de aprender acerca de las estéticas más comunes para puntos: x, y, color, forma, tamaño y alfa. También descubrimos cómo las estéticas pueden modificar la apariencia de nuestro diagrama y destacar datos importantes. Ya hemos abarcado mucho material y aprendido muchísimos conceptos nuevos. Lleva tiempo procesar nueva información y aprender nuevas destrezas, así que siéntete libre de volver a mirar cualquiera de estos vídeos si necesitas hacer un repaso o si quieres practicar en RStudio. A continuación, aprenderemos más sobre figuras geométricas. Nos vemos pronto.
+
 #### Atributos estéticos
+
+https://learner.coursera.help/hc/es
+https://ggplot2.tidyverse.org/
+http://statseducation.com/Introduction-to-R/modules/graphics/aesthetics/
+https://www.rdocumentation.org/packages/ggplot2/versions/3.3.3/topics/aes
+
+![alt text](image-314.png)
 
 #### Hacer más cosas con ggplot
 
+
+¡Qué bueno volver a verte! En este vídeo, aprenderemos cómo usar diferentes funciones geométricas para crear diferentes tipos de diagramas, como diagramas de dispersión y gráficos de barras. Hay muchas figuras geométricas disponibles. Puedes elegir una figura geométrica específica según cómo quieras representar tus datos y tus objetivos para comunicarlos. Esto te permite contar la historia de tus datos de diferentes maneras y comunicarte de manera eficaz con diferentes públicos. Comencemos con dos visualizaciones. Ambas representaciones visuales contienen la misma variable X y la misma variable Y. Ambas usan los mismos datos, pero cada diagrama utiliza un objeto visual diferente para representar los datos. Uno usa puntos. El otro usa una línea suave. En otras palabras, usan diferentes figuras geométricas. En ggplot2, una figura geométrica es un objeto geométrico usado para representar tus datos. Las figuras geométricas incluyen puntos, barras, líneas, etc. La función geom guion bajo point usa puntos para crear diagramas de dispersión. La función geom guion bajo bar usa barras para crear gráficos de barras, y así sucesivamente. Para modificar la figura geométrica en nuestro diagrama, necesitamos modificar la función geom en nuestro código. Por ejemplo, tomemos el diagrama que muestra la relación entre masa corporal y longitud de aleta. El código usa geom guion bajo point para crear un diagrama de dispersión. Iniciemos sesión en RStudio Cloud y veamos qué pasa cuando cambiamos figuras geométricas. Primero, carguemos el paquete ggplot2 y el conjunto de datos de pingüinos. Ahora podemos colocar geom guion bajo smooth en vez de geom guion bajo point.
+Reproduce el video desde :2:1 y sigue la transcripción2:01
+Seguimos teniendo los mismos datos, pero ahora los datos tienen una apariencia visual diferente. En vez de puntos, hay una línea suave que representa los datos. La función geom guion bajo smooth es útil para mostrar tendencias generales en nuestros datos. La línea muestra con claridad la relación positiva entre masa corporal y longitud de aleta. Cuando más grande es el pingüino, más larga es la aleta. Hasta podemos usar dos figuras geométricas en el mismo diagrama. Digamos que queremos mostrar la relación entre la línea de tendencia y los puntos de datos con mayor claridad. Podemos combinar el código para geom guion bajo point y el código para geom guion bajo smooth agregando un símbolo más después de geom guion bajo smooth. Escribamos el código y ejecutémoslo.
+Reproduce el video desde :2:58 y sigue la transcripción2:58
+Digamos que queremos modelar una línea separada para cada especie de pingüino. Podemos agregar la estética de tipo de línea a nuestro código y aplicarla a la variable species. Geom guion bajo smooth dibujará una línea diferente con un tipo de línea diferente para cada especie de pingüino. La leyenda muestra cómo cada tipo de línea coincide con cada especie. El diagrama muestra claramente la tendencia para cada especie. Por último, echemos un vistazo a la función geom guion bajo jitter. La función geom guion bajo jitter crea un diagrama de dispersión y luego agrega una pequeña cantidad de ruido aleatorio a cada punto del diagrama. Jitter nos ayuda a lidiar con el trazado excesivo, que sucede cuando los puntos de datos en un diagrama se superponen unos con otros. El uso de jitter hace que los puntos sean más fáciles de encontrar. Te mostraré a qué me refiero. Reemplacemos geom guion bajo point con geom guion bajo jitter.
+Reproduce el video desde :4:9 y sigue la transcripción4:09
+Ahora que ya vimos qué puede hacer ggplot2 con los diagramas de dispersión, exploremos los gráficos de barras. Usaremos el conjunto de datos de diamantes que ya conoces. Esto incluye datos como la calidad, la claridad y el corte de más de 50,000 diamantes. Este conjunto de datos viene con el paquete ggplot2, entonces ya está cargado. Para hacer un gráfico de barras, usamos la función geom guion bajo bar. Escribamos un código que trace un gráfico de barras de la variable cut en el conjunto de datos de diamantes. Cut se refiere a las proporciones, la simetría y el pulido del diamante. Observa que no indicamos una variable para el eje Y. Cuando usas geom guion bajo bar, R cuenta automáticamente cuántas veces aparece cada valor X en los datos y luego muestra los recuentos en el eje Y. La opción predeterminada para geom guion bajo bar es contar filas. Pero esa es solo una de las diversas aplicaciones para gráficos de barras. Por ejemplo, el eje X de nuestro diagrama muestra cinco categorías de calidad de corte: regular, buena, muy buena, <i>premium</i> e ideal. El eje Y muestra el número de diamantes en cada categoría. Más de 20,000 diamantes tienen un valor de ideal, que es el tipo de corte más común. Geom guion bajo bar utiliza diversas estéticas que ya conoces, como color, tamaño y alfa. Agreguemos la estética color a nuestro diagrama y apliquémosla a la variable cut. Escribimos el código de la misma manera que lo hicimos con los diagramas de dispersión y agreguemos color signo igual cut después de x signo igual cut. No te olvides de colocar una coma después de x signo igual cut para agregar una nueva estética.
+Reproduce el video desde :6:15 y sigue la transcripción6:15
+La estética color agrega color al contorno de cada barra. R también produce una leyenda para mostrarnos los códigos de color. Digamos que queremos destacar la diferencia entre cortes con aun mayor claridad para que nuestro diagrama sea más fácil de entender. Podemos usar la estética fill para agregar color al interior de cada barra. En nuestro código, colocamos fill signo igual cut en vez de color signo igual cut.
+Reproduce el video desde :6:48 y sigue la transcripción6:48
+R elige automáticamente los colores y produce una leyenda. Se ve genial. Realmente me encanta usar la estética fill. Si aplicamos fill a una nueva variable, geom guion bajo bar mostrará lo que se llama un gráfico de barras apiladas. Apliquemos fill a clarity en vez de cut.
+Reproduce el video desde :7:14 y sigue la transcripción7:14
+Nuestro diagrama ahora muestra 40 combinaciones diferentes de corte y claridad. Cada combinación tiene su propio rectángulo coloreado. Los rectángulos que tienen el mismo valor de corte están apilados uno encima del otro en cada barra. El diagrama organiza los datos complejos. Ahora sabemos la diferencia en volumen entre cortes y podemos averiguar la diferencia en claridad dentro de cada corte. Este es solo el inicio de lo que puedes hacer con figuras geométricas. Ggplot2 tiene más de 30 funciones de figuras geométricas que puedes usar para hacer diagramas, y los paquetes de extensión te ofrecen aún más opciones. La hoja de referencia de ggplot2 es un gran recurso para aprender más acerca de figuras geométricas. A medida que sigas avanzando y realices análisis de datos más avanzado, encontrarás muchas nuevas figuras geométricas con las que trabajar. Hasta ese momento, las figuras geométricas que acabamos de ver te mantendrán ocupado y te dejarán hacer muchas cosas con tus datos. A continuación, aprenderemos a usar las funciones facet para mostrar nuestros datos de diferentes maneras. Hasta pronto.
+
 #### Suavizado
+
+https://learner.coursera.help/hc/es
+http://statseducation.com/Introduction-to-R/modules/graphics/smoothing/
+
+![alt text](image-315.png)
 
 #### Estética y facetas
 
+¡Hola de nuevo! En este vídeo, aprenderemos a usar las funciones de facetas de ggplot2 para mostrar nuestros datos de nuevas maneras. Las funciones de facetas te dejan mostrar grupos más pequeños, o subconjuntos, de datos. Una faceta es una cara o una sección de un objeto, como las caras de una piedra preciosa. Las facetas muestran diferentes caras de tus datos colocando cada subconjunto en su propio diagrama. El uso de facetas te ayudará a descubrir nuevos patrones en tus datos y enfocarte en relaciones entre diferentes variables. Por ejemplo, digamos que estás observando datos de ventas de una empresa de indumentaria. Quizás quieras separar tus datos por categoría para mostrar tendencias específicas: ropa infantil versus ropa de adulto, o moda de primavera versus moda de otoño. O si estás realizando una encuesta de participación de empleados, quizás quieras separar tus datos por antigüedad y comparar empleados antiguos con empleados nuevos. Ggplot2 tiene dos funciones para facetas: facet guion bajo wrap y facet guion bajo grid. Exploremos ambas. Comenzaremos con facet guion bajo wrap. Para facetar tu diagrama según una sola variable, usa facet guion bajo wrap. Digamos que queremos enfocarnos en los datos para cada especie de pingüino. Tomemos nuestro diagrama que muestra la relación entre masa corporal y longitud de aleta en cada especie de pingüino. La función facet guion bajo wrap nos deja crear un diagrama separado para cada especie. Para agregar una nueva capa a nuestro diagrama, agregaremos un símbolo más a nuestro código. Luego dentro de los paréntesis de la función facet guion bajo wrap escribe un símbolo de virgulilla, seguido del nombre de la variable. Iniciemos sesión en RStudio Cloud y echémosle un vistazo. Como recordatorio, comenzaremos cargando el paquete de ggplot2 y el conjunto de datos de pingüinos. Puedes encontrar el símbolo de virgulilla en la esquina superior izquierda de tu teclado, justo debajo de la tecla escape.
+Reproduce el video desde :2:28 y sigue la transcripción2:28
+Ahí está. Los diagramas separados muestran la relación entre masa corporal y longitud de aleta dentro de cada especie de pingüino. Genial, ¿verdad? Las facetas nos ayudan a enfocarnos en partes importantes de nuestros datos que quizás no notemos en un solo diagrama. Si tu visualización es muy cargada, por ejemplo, si tiene demasiadas variables o niveles dentro de las variables, el uso de facetas puede ser una buena opción. Intentemos facetar el conjunto de datos de diamantes. Anteriormente, hicimos un gráfico de barras que mostraba el número de diamantes para cada categoría de corte. Regular, buena, muy buena, <i>premium</i> e ideal. Podemos usar facet guion bajo wrap en la variable cut para crear un diagrama separado para cada categoría de corte. Vamos a revisarlo.
+Reproduce el video desde :3:22 y sigue la transcripción3:22
+Para facetar tu diagrama con dos variables, usa la función facet guion bajo grid. Facet guion bajo grid separará el diagrama en facetas verticalmente según los valores de la primera variable y horizontalmente según los valores de la segunda variable. Por ejemplo, podemos tomar nuestro diagrama de pingüinos y usar facet guion bajo grid con las dos variables, sex y species. En el paréntesis después de la función facet guion bajo grid, escribimos sex, después el símbolo de virgulilla, después species. Vamos a ejecutar el código.
+Reproduce el video desde :4:4 y sigue la transcripción4:04
+Hay nueve diagramas separados, cada uno basado en una combinación de las tres especies de pingüino y tres categorías de sexo. Facet guion bajo grid te permite reorganizar y mostrar con rapidez datos complejos y hace que sea más fácil ver relaciones entre diferentes grupos. Si queremos, podemos enfocar nuestro diagrama en solo una de las dos variables. Por ejemplo, podemos indicarle a R que elimine sexo de la dimensión vertical del diagrama y solo muestre las especies. Vamos a revisarlo. Puedes ver fácilmente diferencias en la relación entre longitud de aleta y masa corporal entre las tres especies. De la misma manera, podemos enfocar nuestro diagrama en el sexo en lugar de las especies.
+Reproduce el video desde :4:55 y sigue la transcripción4:55
+Las facetas te permiten reorganizar tus datos para mostrar relaciones específicas entre variables y revelar patrones y tendencias importantes en subconjuntos de tus datos. Eso es todo por ahora. A continuación, aprenderemos cómo personalizar nuestros diagramas usando etiquetas y anotaciones. Hasta la próxima.
+
 #### Actividad práctica: Estética y visualizaciones
+
+https://learner.coursera.help/hc/es
+https://posit.cloud/content/6128450
+https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JGhlL8PLSxuqtK2KRWZkJw
+
+![alt text](image-316.png)
 
 #### Filtrado y diagramas
 
+https://learner.coursera.help/hc/es
+https://rladiessydney.org/courses/ryouwithme/03-vizwhiz-1/#1-4-putting-it-all-together-dplyr-ggplot
+https://r4ds.had.co.nz/transform.html
+https://datacarpentry.org/dc_zurich/R-ecology/05-visualisation-ggplot2.html
+
+![alt text](image-317.png)
+
 #### Actividad práctica: Filtros y diagramas
 
+https://learner.coursera.help/hc/es
+https://posit.cloud/content/6128450
+https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JGhlL8PLSxuqtK2KRWZkJw
+
+![alt text](image-318.png)
+
 #### Pon a prueba tus conocimientos sobre estética en el análisis
+
+![alt text](image-319.png)
 
 ### Anota y guarda visualizaciones
 
 #### Capa de anotaciones
 
+Hola. Es genial tenerte de vuelta. A continuación, aprenderemos a personalizar la apariencia de nuestros diagramas usando las funciones label y annotate. En el lenguaje cotidiano, anotar significa agregar notas a un documento o diagrama para explicarlo o comentarlo. En ggplot2, agregar anotaciones a un diagrama puede ayudar a explicar el propósito del diagrama o a destacar datos importantes. Cuando presentas tus visualizaciones de datos a interesados, quizás no tengas mucho tiempo para reunirte con ellos. Las etiquetas y anotaciones dirigirán su atención a elementos clave y los ayudarán a comprender tu diagrama con rapidez. Comencemos con la función label. Es muy útil para agregar etiquetas informativas a un diagrama, como títulos, subtítulos y leyendas. Por ejemplo, podemos agregar un título a nuestro diagrama que muestra la relación entre masa corporal y longitud de aleta en las tres especies de pingüino. Un título indicará con claridad el propósito del diagrama. Repasemos el código. Primero, agregamos un signo más para agregar una nueva capa a nuestro diagrama. Luego en los paréntesis, después de la función label, escribimos la palabra title, después un signo igual con el texto específico que queremos en nuestro título. Iniciemos sesión en RStudio Cloud y echémosle un vistazo. Primero, carguemos el paquete de ggplot2 y el conjunto de datos de pingüinos.
+Reproduce el video desde :1:35 y sigue la transcripción1:35
+Recuerda que debes colocar el signo más al final de una línea de código. Es fácil olvidarse.
+Reproduce el video desde :2:1 y sigue la transcripción2:01
+R muestra automáticamente el título en la parte superior del diagrama.
+Reproduce el video desde :2:6 y sigue la transcripción2:06
+Además, podemos agregar un subtítulo a nuestro diagrama para destacar información importante sobre nuestros datos. Para hacerlo, ingresamos el código para el subtítulo del mismo modo que lo hicimos para el título. Recuerda agregar una coma después del argumento title antes de agregar tu subtítulo.
+Reproduce el video desde :2:27 y sigue la transcripción2:27
+R muestra automáticamente el subtítulo justo debajo del título. Podemos agregar una leyenda a nuestro diagrama de la misma manera. Las leyendas nos permiten mostrar la fuente de nuestros datos. Los datos sobre pingüinos de Palmer fueron recolectados de 2007 a 2009 por la Dra. Kristen Gorman, miembro del programa de Investigación Ecológica a Largo Plazo de la Estación Palmer. Citemos a la Dra. Gorman en nuestra leyenda.
+Reproduce el video desde :3:1 y sigue la transcripción3:01
+R muestra la leyenda automáticamente en la esquina inferior derecha de nuestro diagrama.
+Reproduce el video desde :3:8 y sigue la transcripción3:08
+Los títulos, los subtítulos y las leyendas son etiquetas que colocamos fuera de la cuadrícula de nuestro diagrama para indicar información importante. Si queremos colocar texto dentro de la cuadrícula para destacar puntos de datos específicos, podemos usar la función annotate. Por ejemplo, digamos que queremos destacar los datos sobre los pingüinos Papúa (Gentoo). Podemos usar la función annotate para agregar texto al lado de los puntos de datos que se refieren a los pingüinos Papúa. Este texto comunicará con claridad lo que muestra el diagrama y reforzará una parte importante de nuestros datos.
+Reproduce el video desde :3:46 y sigue la transcripción3:46
+Perfecto, ahora miremos el código. Dentro de los paréntesis de la función annotate, tenemos información sobre el tipo de etiqueta, la ubicación específica de la etiqueta y el contexto de la etiqueta. En este caso, queremos escribir una etiqueta de texto. También queremos colocarla cerca de los puntos de datos sobre pingüinos Papúa. Coloquémosla en las siguientes coordenadas: eje X equivale a 220 milímetros y eje Y equivale a 3,500 gramos. Por último, escribamos nuestro texto. Los Papúa son los más grandes.
+Reproduce el video desde :4:26 y sigue la transcripción4:26
+Ejecutemos eso.
+Reproduce el video desde :4:30 y sigue la transcripción4:30
+Vamos a analizarlo. R coloca automáticamente la etiqueta de texto en las coordenadas correctas en tu diagrama. Podemos personalizar nuestra anotación aún más. Digamos que queremos cambiar el color de nuestro texto. Bueno, podemos agregar color signo igual seguido del nombre del color. Probemos con purple. También podemos modificar el estilo de fuente y el tamaño de nuestro texto. Usa font face y size para escribir el código. Coloquemos nuestro texto en negrita y hagámoslo un poco más grande.
+Reproduce el video desde :5:9 y sigue la transcripción5:09
+Hasta podemos modificar el ángulo de nuestro texto. Por ejemplo, podemos inclinar nuestro texto en un ángulo de 25 grados para que se alinee con nuestros puntos de datos. Probemos.
+Reproduce el video desde :5:22 y sigue la transcripción5:22
+Se ve genial. A esta altura, nuestro código se está alargando bastante. Si quieres usar menos código, puedes guardar tu diagrama como una variable en R. Como recordatorio rápido, para crear una variable en R, escribes el nombre de la variable, después un signo menor que, seguido de un guion. Probémoslo con el nombre de variable p.
+Reproduce el video desde :5:51 y sigue la transcripción5:51
+Ahora, en vez de volver a escribir todo el código, simplemente podemos decir p y agregarle una anotación como esta.
+Reproduce el video desde :6:5 y sigue la transcripción6:05
+Obtienes el mismo resultado. A algunas personas les gusta ver cada paso de su código indicado frente a sus ojos. Existen ventajas de hacerlo del modo más largo. Realmente queda a tu criterio. Solo quiero que sepas que tienes opciones. Espero que esto te de una idea de algunas de las maneras en que puedes personalizar tus diagramas. Las etiquetas y anotaciones pueden ser muy útiles a la hora de destacar partes importantes de tus datos y transmitir puntos clave. Eso es todo por ahora. A continuación, aprenderás algunas maneras útiles de guardar tus diagramas en ggplot2. Hasta la próxima.
+
 #### Dibujar flechas y formas en R
+
+https://learner.coursera.help/hc/es
+https://ggplot2.tidyverse.org/reference/annotate.html
+https://www.r-graph-gallery.com/233-add-annotations-on-ggplot2-chart.html
+https://ggplot2-book.org/annotations.html
+https://www.r-bloggers.com/2017/02/how-to-annotate-a-plot-in-ggplot2/
+https://viz-ggplot2.rsquaredacademy.com/textann.html
+
+![alt text](image-320.png)
 
 #### Guardar tus visualizaciones
 
+
+Hola y bienvenido nuevamente. En este vídeo, aprenderemos cómo guardar nuestros diagramas. Guardar tu trabajo para que puedas acceder a él es importantísimo. Y te permite seguir trabajando o compartir tu trabajo con otros. Poder reproducir y compartir tu trabajo es una parte clave de tu futuro rol de analista porque te permite colaborar con compañeros de equipo. Ellos pueden volver a revisar tu trabajo y darte su opinión para ayudarte a mejorarlo. Entonces guardemos nuestros diagramas. Para hacerlo, usarás la opción Exportar en la pestaña de diagramas de RStudio o la función ggsave que ofrece el paquete ggplot2. Primero, guardaremos nuestros diagramas usando la opción Exportar. Luego usaremos la función ggsave. Iniciemos sesión en RStudio Cloud. Cargaremos el paquete de ggplot2 y el conjunto de datos de pingüinos. Para empezar, escribamos un código y creemos el diagrama que muestra la relación entre masa corporal y longitud de aleta en tres especies de pingüino.
+Reproduce el video desde :1:17 y sigue la transcripción1:17
+Usemos la opción Exportar en la pestaña diagramas para guardar nuestro diagrama.
+Reproduce el video desde :1:24 y sigue la transcripción1:24
+Podemos guardarlo como un archivo de imagen o un archivo PDF. Probemos guardarlo como imagen. Existen seis opciones diferentes para formato de imagen, entre ellas PNG y JPEG. Probemos PNG. Luego, nombramos nuestro archivo y hacemos clic en Guardar.
+Reproduce el video desde :1:52 y sigue la transcripción1:52
+Ahora, si hacemos clic en la pestaña archivos, encontraremos nuestro archivo en la lista. Abrámoslo. ¡Se ve genial! Eso abarca la opción exportar para guardar un diagrama. Ahora, echemos un vistazo a la función ggsave. Ggsave es una función útil para guardar un diagrama. De manera predeterminada, guarda el último diagrama que mostraste y usa el tamaño del dispositivo gráfico actual. Intentemos guardar nuestro diagrama como archivo PNG usando ggsave. Ggsave guardará automáticamente el diagrama que muestra la relación entre masa corporal y longitud de aleta porque este es el último diagrama que mostramos. Queremos darle un nombre al archivo e indicar como qué tipo de archivo queremos guardarlo. Escribamos el código. Dentro de los paréntesis de la función, comenzamos con comillas, seguidas del nombre del archivo. Pongámosle de nombre Three Penguin Species. Colocamos un punto después del nombre del archivo, luego el tipo de archivo que queremos, después comillas de cierre. Ejecutemos eso.
+Reproduce el video desde :3:12 y sigue la transcripción3:12
+Ahora, si hacemos clic en la pestaña archivos, encontraremos nuestro nuevo archivo en la lista. Abrámoslo. Nuevamente, se ve genial. Eso abarca los puntos básicos de guardar diagramas. Después de todo tu arduo trabajo creando diagramas en ggplot2, sin dudas deberías recordar guardarlos para que puedas acceder a ellos y compartirlos más adelante. Aquí termina nuestro trabajo sobre visualización de datos. Has tenido un gran inicio en la visualización de datos con ggplot2. Además, los conceptos que abarcamos son una gran base para aprender aun más sobre visualización de datos en R a medida que avances. Comenzamos aprendiendo los pasos básicos para crear diagramas en ggplot2. A partir de allí, aprendimos cómo las estéticas pueden modificar la apariencia de nuestros diagramas y destacar partes importantes de nuestros datos. Usamos diferentes figuras geométricas para crear diferentes tipos de diagramas, como diagramas de dispersión y gráficos de barras, y usamos funciones de facetas para guardar subconjuntos de datos. Después personalizamos nuestros diagramas con etiquetas y anotaciones. Por último, aprendimos a guardar todo nuestro arduo trabajo para poder acceder a él y compartirlo más adelante. Es mucho lo que hemos abarcado. Como siempre, eres libre de volver a ver los vídeos cada vez que quieras y de avanzar a tu propio ritmo. Lleva mucho tiempo y práctica familiarizarse con nuevos conceptos y desarrollar nuevas destrezas. Nadie acierta en todo la primera vez. Pero cuanto más practiques, más a gusto te empezarás a sentir en ggplot2. Si esto no siempre se siente fácil, está bien. Solo significa que tu mente se está expandiendo y que tu conjunto de destrezas está creciendo. Confía en mí, vale la pena. Aprender ggplot2 es un antes y un después para cualquier persona interesada en visualizar datos. Espero que lo hayas disfrutado tanto como yo. Me encanta crear visualizaciones en ggplot2. A continuación, aprenderás a documentar e informar tus datos usando R. Hasta la próxima.
+
 #### Guardado de imágenes sin ggsave()
+
+https://learner.coursera.help/hc/es
+https://ggplot2.tidyverse.org/reference/ggsave.html#saving-images-without-ggsave-
+https://www.tidyverse.org/
+https://www.datanovia.com/en/blog/how-to-save-a-ggplot/
+https://www.datamentor.io/r-programming/saving-plot/
+
+![alt text](image-321.png)
 
 #### Actividad práctica: Anotar y guardar visualizaciones
 
+https://learner.coursera.help/hc/es
+https://posit.cloud/content/6128450
+https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JGhlL8PLSxuqtK2KRWZkJw
+
+![alt text](image-322.png)
+
 #### Pon a prueba tu conocimiento sobre cómo anotar y guardar visualizaciones
+
+![alt text](image-323.png)
 
 ### Desafío semanal 4 curso 7
 
 #### Cuestionario: Desafío semanal 4 curso 7
+
+![alt text](image-324.png)
 
 ## Documentos e informes
