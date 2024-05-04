@@ -710,36 +710,57 @@ En los últimos temas de debate, comparaste R con otras herramientas de análisi
 
 ### Crear visualizaciones de datos en R
 
-Visualizaciones en R
-Elementos básicos de visualización en R y tidyverse
-Actividad práctica: Visualización de datos con ggplot2
-Introducción a ggplot()
-Problemas comunes al visualizar en R
-Actividad práctica: Uso de ggplot
-Cuadro de aviso de la discusión: Visualizaciones en Tableau versus R
-Joseph: Trayectoria profesional hacia el análisis de personas
-Pon a prueba tus conocimientos sobre la visualización de datos en R
+#### Visualizaciones en R
+
+#### Elementos básicos de visualización en R y tidyverse
+
+#### Actividad práctica: Visualización de datos con ggplot2
+
+#### Introducción a ggplot()
+
+#### Problemas comunes al visualizar en R
+
+#### Actividad práctica: Uso de ggplot
+
+#### Cuadro de aviso de la discusión: Visualizaciones en Tableau versus R
+
+#### Joseph: Trayectoria profesional hacia el análisis de personas
+
+#### Pon a prueba tus conocimientos sobre la visualización de datos en R
 
 ### Explora la estética en el análisis
 
-Mejoras a visualizaciones en R
-Atributos estéticos
-Hacer más cosas con ggplot
-Suavizado
-Estética y facetas
-Actividad práctica: Estética y visualizaciones
-Filtrado y diagramas
-Actividad práctica: Filtros y diagramas
-Pon a prueba tus conocimientos sobre estética en el análisis
+#### Mejoras a visualizaciones en R
+
+#### Atributos estéticos
+
+#### Hacer más cosas con ggplot
+
+#### Suavizado
+
+#### Estética y facetas
+
+#### Actividad práctica: Estética y visualizaciones
+
+#### Filtrado y diagramas
+
+#### Actividad práctica: Filtros y diagramas
+
+#### Pon a prueba tus conocimientos sobre estética en el análisis
 
 ### Anota y guarda visualizaciones
 
-Capa de anotaciones
-Dibujar flechas y formas en R
-Guardar tus visualizaciones
-Guardado de imágenes sin ggsave()
-Actividad práctica: Anotar y guardar visualizaciones
-Pon a prueba tu conocimiento sobre cómo anotar y guardar visualizaciones
+#### Capa de anotaciones
+
+#### Dibujar flechas y formas en R
+
+#### Guardar tus visualizaciones
+
+#### Guardado de imágenes sin ggsave()
+
+#### Actividad práctica: Anotar y guardar visualizaciones
+
+#### Pon a prueba tu conocimiento sobre cómo anotar y guardar visualizaciones
 
 ### Desafío semanal 4 curso 7
 
