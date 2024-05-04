@@ -978,3 +978,187 @@ https://scribehow.com/shared/Access_and_Install_Course_Material_for_Lesson_3__JG
 ![alt text](image-324.png)
 
 ## Documentos e informes
+
+### Crear documentos e informes en RStudio
+
+#### Documentos e informes curso 7
+
+Hola y bienvenido nuevamente. Vimos muchos temas durante el tiempo que trabajamos con R. Aprendimos los pormenores de R y RStudio, incluso cómo analizar y visualizar tus datos. Ahora, aprenderás a documentar e informar tu trabajo utilizando R Markdown. R Markdown es un formato de archivo para hacer documentos dinámicos con R. Puedes utilizar un archivo R Markdown como un <i>notebook</i> de código para guardar, organizar y documentar tu análisis utilizando bloques de códigos, comentarios y otras funciones. Cuando terminas la limpieza y la exploración de datos, puedes crear un informe en R Markdown para resumir los resultados para los interesados. El trabajo principal que hacemos en mi departamento incluye un análisis. Cuando mi equipo comenzó a crecer, notamos que no teníamos un lenguaje en común para el análisis de datos. Así que todos hicimos el esfuerzo de aprender R para poder colaborar con más facilidad. Ahora todos hablamos el mismo lenguaje de programación. Podemos revisar los códigos de otros, lo que nos lleva a tener más coherencia, a ser más colaborativos y a realizar un mejor análisis. Los informes de R Markdown son geniales para compartir conocimientos. Esos informes le permiten compartir y reproducir el análisis a cualquier persona, ya sea parte de un grupo pequeño de usuarios en línea o de una gran empresa. En este curso, empezaremos con una descripción general de R Markdown y luego aprenderemos a instalar R Markdown en RStudio. A continuación, aprenderemos cómo crear un documento de R Markdown. También analizaremos la estructura y los componentes del documento para que tengas una idea de cómo utilizarlos para registrar e informar tu análisis. Luego te mostraremos cómo insertar y editar piezas de un código, llamadas bloques, en tu documento. Por último, aprenderemos el proceso de exportar la documentación. Siempre es bueno tener un informe del análisis que hiciste, tanto para ti mismo como para los interesados. Después, daremos por finalizado nuestro trabajo con R. Por supuesto, tú puedes seguir adelante y practicar un poco más. También, espero que puedas darle un buen uso a R en tu futuro trabajo como analista de datos. Es una gran ventaja en tu carrera. Hablando de tu carrera, cuando hayas terminado todo lo propuesto en el programa, podrás agregarlo a tu portfolio o comenzar a crear uno si finalizas un caso práctico. Esa es una excelente manera de exhibir todas las destrezas que adquiriste hasta ahora y de destacarte frente a futuros empleadores. Más adelante hablaremos sobre ese proyecto. Mientras tanto, retomemos el ritmo de R. Nos vemos pronto.
+
+#### Descripción general de R Markdown
+
+
+Hola de nuevo. Como analista de datos, necesitarás consultar tu análisis en cualquier momento. Es posible que necesites compartirlo con los otros integrantes del equipo o que un interesado te consulte sobre alguna de tus conclusiones. Si documentas tu trabajo, será más fácil compartir tu análisis rápidamente con cualquiera, y allí es donde entra en juego R Markdown. Anteriormente, hemos visto que R Markdown es un formato de archivo para crear documentos dinámicos con R. R Markdown te permite crear un informe de tu análisis y de tus conclusiones en un documento. Une tu código y tu informe para que puedas compartir cada paso de tu análisis. La mejor parte es que no tienes que salir de RStudio para hacer eso. Ese documento ayudará a los interesados y a los integrantes del equipo a comprender lo que hiciste en tu análisis para llegar a tus conclusiones. Sus comentarios también te ayudarán a mejorar tu análisis. Los documentos de R Markdown están escritos en Markdown. Markdown es un tipo de sintaxis para formatear archivos de texto sin formato. Si utilizas Markdown, te será más fácil escribir y formatear texto en tu documento. Markdown también es fácil de leer y de aprender. Por ejemplo, si quieres escribir una palabra o una frase en cursiva en Markdown, solo tienes que agregar un guion bajo o un asterisco al principio y al final de la palabra o la frase. Cuando haces un informe del documento, el formateo de Markdown ya no es visible; solo se ve la palabra o la frase en cursiva. Pronto te mostraremos más opciones de formateo, pero todas son muy similares al ejemplo que dimos. Básicamente, son tan simples que te permiten enfocarte en las descripciones y en las explicaciones de tu análisis sin que tengas que pensar demasiado en cómo formatearlas. Además de texto, R Markdown también incluye una opción interactiva llamada <i>Notebook</i> de R, que permite a los usuarios ejecutar su código y mostrar los gráficos y las tablas que visualizan el código. Cualquier documento de R Markdown puede utilizarse como un <i>notebook</i>. Eso da lugar a un panorama general más claro de tu análisis y de tus conclusiones. R Markdown también te permite convertir tus archivos en muchos formatos diferentes. Puedes crear documentos HTML, PDF y de Word, o puedes convertirlos en una presentación de diapositivas o en un panel. Esas opciones hacen que sea más fácil compartir el mismo análisis de muchas formas diferentes, según tu público. El lenguaje Markdown fue diseñado originalmente para un archivo de salida HTML. HTML es un conjunto de símbolos y códigos de marcado que se utiliza para crear una página web. R Markdown cuenta con funciones que son más accesibles para ese formato, pero puedes obtener buenos resultados con cualquiera de los formatos. Si bien R Markdown es una excelente manera de registrar y compartir tu análisis, también hay otras opciones. <i>Notebooks</i> como Jupyter, Kaggle y Google Colab hacen cosas muy parecidas a las que hace el <i>notebook</i> de R Markdown, e incluyen los elementos interactivos. Muy pronto leerás más sobre esas opciones. A continuación, crearemos un documento de R Markdown. Podrás ver esta efectiva herramienta de análisis en acción. Nos vemos pronto.
+
+#### Recursos de R Markdown
+
+https://learner.coursera.help/hc/es
+https://rmarkdown.rstudio.com/lesson-1.html
+https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.49295910.1034302809.1602760608-739985330.1601281773
+https://rmarkdown.rstudio.com/lesson-15.html
+https://r4ds.had.co.nz/communicate-intro.html
+https://bookdown.org/yihui/rmarkdown/
+https://bookdown.org/yihui/rmarkdown/installation.html
+https://bookdown.org/yihui/rmarkdown/documents.html
+https://bookdown.org/yihui/rmarkdown/dashboards.html
+https://bookdown.org/yihui/rmarkdown/parameterized-reports.html
+
+![alt text](image-325.png)
+
+#### Opcional: Notebooks de Jupyter
+
+https://learner.coursera.help/hc/es
+https://www.kaggle.com/docs/notebooks
+https://colab.research.google.com/notebooks/intro.ipynb
+https://jupyter.org/
+https://realpython.com/jupyter-notebook-introduction/
+https://jupyter-notebook.readthedocs.io/en/stable/notebook.html
+https://gtribello.github.io/mathNET/assets/notebook-writing.html
+https://medium.com/analytics-vidhya/the-jupyter-notebook-formatting-guide-873ab39f765e
+
+![alt text](image-326.png)
+
+#### Usar R Markdown en RStudio
+
+Bienvenido de nuevo. Explorar las diferentes herramientas disponibles para el análisis es una de las cosas más divertidas de ser analista de datos. Hasta ahora, tuviste la oportunidad de probar herramientas como hojas de cálculo, BigQuery, otras herramientas de SQL y Tableau. Ahora echaremos un vistazo a una herramienta que puedes utilizar en RStudio: R Markdown. A modo de recordatorio, R Markdown es una gran herramienta para documentar tu análisis en cualquier etapa. Pero especialmente cuando completaste un proyecto. Abramos RStudio y comencemos a usar R Markdown. Puedes seguir viendo este vídeo e intentarlo por tu cuenta más adelante. O acompañarnos y seguir los pasos en tu propia cuenta de RStudio. Primero instalaremos el paquete R Markdown con la función para instalar paquetes y R Markdown entre paréntesis. Recuerda que instalar paquetes puede tomar un poco de tiempo. Es posible que aparezca un texto rojo y brillante en tu consola mientras se está instalando el paquete. Esto es normal. Bueno, abramos un archivo nuevo de R Markdown o RMD desde el menú Archivo. Si estás siguiendo nuestros pasos y se te pide que instales paquetes que necesitarás para abrir el archivo, haz clic en Sí. De inmediato, podrás ver algunos de los archivos de salida disponibles en R Markdown. Por ahora, utilizaremos las opciones de HTML y documento por defecto. Las otras opciones de archivos de salida también estarán disponibles más adelante. Agregaremos un nombre de archivo y un autor, y luego abriremos nuestro archivo. Luego lo guardaremos para poder utilizarlo más adelante.
+Reproduce el video desde :2:1 y sigue la transcripción2:01
+Ahora tenemos un archivo RMD lleno de metadatos en la parte superior y bloques de códigos en las secciones grises. Hay texto en el medio para explicar el código y agregar comentarios a tu análisis y a tus conclusiones. Este documento de R Markdown está en su formato original. Es muy útil, y puedes editarlo y agregar información, pero si queremos hacer un informe que contenga el texto, el código y los resultados, tendremos que hacer clic en el botón Convertir. Ahora tenemos el informe. Es un archivo HTML que puedes compartir con otros. Comparemos el archivo original .rmd con el informe de HTML. Como ves, el texto ahora tiene un formato más amigable visualmente. También se ejecutaron todos los bloques del código. Y ahora tenemos el archivo de salida: las columnas de datos y la trama de un análisis sobre un conjunto de datos acerca de autos.
+Reproduce el video desde :3:22 y sigue la transcripción3:22
+El informe es claro y está formateado de una manera que facilita el seguimiento y la comprensión. Podemos compartirlo con los interesados aunque no tengan experiencia en R. Definitivamente, los archivos de R Markdown son una forma efectiva de completar el proceso de análisis de datos. Puedes comenzar tu análisis en R y hacer un informe, y agregar un código y visualizaciones, todo en el mismo espacio de trabajo. A continuación, te mostraremos más ejemplos sobre cómo usar R Markdown para que tu documentación sea aún más efectiva. Hasta pronto.
+
+#### Actividad práctica: Tu notebook de R Markdown
+
+https://learner.coursera.help/hc/es
+https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+
+![alt text](image-327.png)
+
+#### Pon a prueba tu conocimiento sobre documentos e informes
+
+![alt text](image-328.png)
+
+### Crear documentos de R Markdown
+
+#### Estructura de los documentos de R Markdown
+
+Hola. Anteriormente, te mostramos cómo comenzar a utilizar R Markdown. Creamos un documento de Markdown denominado archivo RMD, que es muy útil para realizar y guardar un informe final que resuma tu exploración de datos y los resultados de tu análisis. En este vídeo, veremos la estructura del texto en un archivo RMD y cómo podrías formatearla para organizar y enfatizar tus resultados de mejor manera. Vayamos a RStudio y abramos el archivo que guardamos previamente, denominado R Markdown Intro. Si estás siguiendo nuestros pasos y no tienes un archivo guardado, puedes abrir un archivo nuevo de R Markdown o RMD desde el menú Archivo. Si se te solicita que instales paquetes, haz clic en Sí. Haz clic en Aceptar para abrirlo con las opciones predeterminadas y luego guarda tu archivo. Ahora, analicemos este archivo en profundidad. Comenzaremos por la parte superior. Esta es la sección del encabezado YAML. YAML es un lenguaje para datos que los traduce para que sean legibles. Dato curioso: Originalmente, YAML representaba otro lenguaje de marcado (<i>yet another markup language</i>). Para el nombre de esta sección se utilizan tres guiones en la primera y en la última línea. Esa sintaxis crea automáticamente la sección del encabezado YAML cuando se la utiliza en un archivo RMD. En un archivo RMD, esa sección es básicamente para los metadatos o para los datos sobre los datos en el resto del archivo. El título, el autor, la fecha y el tipo de archivo de un archivo de salida se incluyen automáticamente cuando creas un nuevo archivo. Hay muchas funciones y opciones de formateo diferentes en esta sección. Por ahora, solo asegúrate de comprender al menos los cuatro detalles que tenemos en nuestro archivo actual. Puedes utilizar la plantilla que aparece cuando abres el archivo y editarla. O puedes comenzar de cero y utilizar los tres guiones para crear la sección YAML y el resto de los contenidos del archivo. Analizaremos esos pasos en los siguientes vídeos y en los otros recursos del programa. A continuación, echemos un vistazo al texto de las áreas en blanco de nuestro archivo. Piensa que el texto es una forma de comentar y explicar tu código, tu análisis y cualquier visualización que incluyas. Puedes formatear el texto para incluir enlaces, listas ordenadas, ecuaciones y más. El texto se formatea con Markdown, la sintaxis que ya presentamos. Incluimos una lectura que te muestra todas las maneras de formatear texto, así como muchos otros consejos y trucos geniales de Markdown. También verás otros ejemplos de formateo en el próximo vídeo. Por ahora, probemos algunos ejemplos que están en este archivo. En la línea 12 hay dos numerales y un espacio antes de las palabras R Markdown. Los numerales se utilizan para los encabezados. Cuantos más hashtags haya, más pequeño será el encabezado. El espacio también es importante. De lo contrario, RStudio no reconocerá que es un encabezado. Vamos a convertir el archivo de nuevo.
+Reproduce el video desde :3:39 y sigue la transcripción3:39
+Allí está el encabezado de R Markdown en el archivo HTML.
+Reproduce el video desde :3:46 y sigue la transcripción3:46
+Si agregamos dos numerales más en el archivo punto RMD y hacemos clic en Convertir otra vez, el archivo de salida cambiará.
+Reproduce el video desde :4:2 y sigue la transcripción4:02
+Ahora el encabezado es más pequeño. Lo volveremos a cambiar porque el formato original estaba bien.
+Reproduce el video desde :4:17 y sigue la transcripción4:17
+Como este encabezado presenta información sobre R Markdown que aparece en los dos párrafos siguientes, queremos enfatizarla. En el primer párrafo de esta sección hay un breve resumen de Markdown. Hay un enlace en el texto y está formateado con comillas angulares. Si utilizas esos corchetes, tendrás un enlace en el que podrás hacer clic en el archivo de salida. Esa es una función interesante si quieres hacer referencia a cualquier enlace útil o si quieres incluir enlaces como fuentes de tu análisis. En el párrafo siguiente, Convertir aparece con dos asteriscos a los lados de la palabra. Eso hace que la palabra se vea en negrita. Si colocas un asterisco a un lado de la palabra, se verá en cursiva. Desplacémonos hacia abajo, hasta el último párrafo. Aquí tenemos un código insertado, que se puede insertar directamente en el texto de un archivo punto RMD. El código aparece en un cuadro gris, como los bloques de códigos sobre los que hablaremos pronto. Utilizar un código insertado como este te permite hacer referencia al código directamente, mientras lo explicas. Vamos a convertir el archivo una vez más. Todo el formateo funciona en conjunto para dar como resultado un archivo bien diseñado y legible, que se puede compartir fácilmente con los interesados y con los integrantes del equipo. Muy bien, eso es todo por ahora. Pero hay mucho más para aprender sobre cómo crear tus propios informes. Mantente atento.
+
+#### Cuadro de aviso de la discusión: Usar tus notebooks de R Markdown
+
+Con los notebooks de R Markdown, puedes crear un documento interactivo para que otros usuarios ejecuten tu código y obtengan gráficos y tablas para visualizarlo. Ahora que conoces un poco más acerca de R Markdown, reflexiona acerca de cómo podrías usarlo durante tu propio análisis. 
+
+¿Cuáles son algunas de las ventajas de usar los notebooks de R Markdown? ¿Podrías haber usado los notebooks de R Markdown para dejar asentado alguno de los proyectos que ya completaste?
+
+#### Meg: Programar empodera
+
+Mi nombre es Meg y soy directora del producto en Google. Como directora del producto, trabajo con diseñadores y desarrolladores web para crear funciones que nuestros usuarios amarán. Específicamente, trabajo para Kaggle, que es una comunidad en línea de ciencia de datos para personas que están aprendiendo ciencia de datos y aprendizaje automático. Creamos funciones interesantes que ayudan a las personas a aprender de los datos y a avanzar en sus carreras. Trabajo con diseñadores e investigadores para realizar estudios y descubrir qué quieren nuestros usuarios y qué necesitan del producto, y trabajo con ingenieros para descubrir exactamente cómo escribir esos requisitos para las funciones que decidimos crear. Aprender cualquier lenguaje de programación es realmente inspirador porque los únicos límites son tu creatividad y tu curiosidad. Justamente, la curiosidad que me genera el mundo es la que me llevó a la investigación y al análisis de datos, en especial con R. Sentí que era realmente liberador poder hacer una pregunta sobre el mundo y saber cómo trabajar con datos para obtener la respuesta. La segunda cosa que creo que es realmente interesante y estimulante sobre saber un lenguaje de programación son las destrezas transferibles que te brinda. La última cosa que creo que es realmente interesante es la comunidad y el ecosistema que viene con eso. R no es una excepción cuando se trata de eso. De hecho, creo que la comunidad de R es realmente sobresaliente. Contar con la comunidad y con el ecosistema público de recursos al alcance de tus dedos realmente cambiará por completo lo que puedes hacer con los datos como analista de datos, y creo que eso es muy emocionante. Es muy normal sentirse intimidado, confundido o atascado si estás comenzando a aprender R. Hay cosas que son peculiares sobre el lenguaje, y no es tu culpa. Solo tienes que superar esas dificultades y te prometo que las cosas tendrán mucho más sentido, en especial una vez que puedas comenzar a utilizar tidyverse. Yo te diría que sigas para adelante. Otro consejo que puedo darte es que trates de ponerte en contacto con la comunidad R lo antes posible en tu proceso de aprendizaje de R. Lo que es fantástico sobre R es el hecho de que su comunidad es realmente vibrante y muy acogedora, y descubrirás cosas al igual que aquellas personas que son expertas en R y que comparten sus errores y también quieren compartir su proceso de aprendizaje. Creo que eso te ayudará a no sentirte tan solo. Yo tuve momentos en los que me sentía frustrada cuando recién comenzaba a aprender R. En realidad lo entendí cuando tuve la oportunidad de utilizar R para responder mis propias preguntas de investigación. Ese es el momento en que sientes que tienes un interés personal en el resultado de tu análisis. El sentimiento de recompensa y satisfacción cuando alcanzas el éxito es algo que puede ayudar realmente a generar ese impulso para seguir aprendiendo.
+
+#### Algunos elementos más para tus documentos
+
+¡Qué bueno volver a verte! Ya hemos abordado R Markdown y hemos aprendido cómo funcionan los elementos interactivos. Cuando realizas un cambio en tu archivo RMD, RStudio lo aplica automáticamente a tu informe. En este vídeo, te mostraremos algunas opciones más de formateo para que tu informe sea más completo y dinámico. Regresemos una vez más a nuestro archivo punto RMD denominado R Markdown Intro. Lo editaremos, agregaremos algunos elementos y lo convertiremos en un documento HTML. Comenzaremos por agregar viñetas. Al igual que en un documento estándar, las viñetas te pueden servir para organizar tu contenido. En nuestro archivo, convertiremos la lista de documentos que R Markdown puede crear en viñetas. Utilizamos asteriscos en el archivo punto RMD para crear las viñetas en el documento de salida. Revisaremos esta sección para que las viñetas estén configuradas de manera correcta. Ahora, echemos un vistazo a una manera diferente de incluir un enlace en el archivo. Cuando estás escribiendo un informe, es posible que quieras agregar un enlace para ir al sitio web de la empresa o a alguna página que hayas utilizado para la investigación. En este momento, en el primer párrafo, tenemos la URL del sitio web dentro de comillas angulares. Pero si queremos incrustar el enlace en el texto debemos cambiar el formato. Comenzaremos por cambiar el texto para que se ajuste mejor al enlace incrustado. Luego agregaremos corchetes y la palabra en la que queremos incrustar el enlace, y cambiaremos las comillas angulares que encierran la URL por paréntesis. Los dos tipos de enlace funcionan correctamente, pero algunas URL son largas y podrían desordenar tu informe. En esos casos, incorporar los enlaces ahorra espacio y hace que se vea más prolijo. Supongamos que también quieres incrustar una imagen. Las imágenes son buenas para presentar tu flujo de trabajo o para mostrar las visualizaciones a las que quieres hacer referencia en tu informe. O quizás solo quieres agregar un GIF o alguna otra imagen divertida. Eso está perfecto. Solo asegúrate de que los interesados puedan apreciarla. Continuemos y divirtámonos un poco con este ejemplo. Incrustaremos una imagen con el ejemplo de la trama. Luego agregaremos un signo de exclamación y una leyenda para la imagen entre corchetes. Luego, copiaremos la URL para nuestra imagen y la pegaremos dentro de los paréntesis.
+Reproduce el video desde :2:47 y sigue la transcripción2:47
+Ahora, echemos un vistazo a nuestro producto terminado.
+Reproduce el video desde :2:53 y sigue la transcripción2:53
+Lo veremos en nuestro navegador. Así, cuando hagamos clic en el enlace incrustado, se abrirá en una pestaña nueva en el mismo navegador.
+Reproduce el video desde :3:6 y sigue la transcripción3:06
+Aquí están nuestras viñetas, nuestra imagen y nuestra leyenda.
+Reproduce el video desde :3:20 y sigue la transcripción3:20
+Y aquí está nuestro enlace incrustado, sobre el que podemos hacer clic para abrir el sitio web; y hay muchas formas más de formatear un archivo RMD para que esté listo para convertirse en un informe completo, organizado y efectivo. Si bien los informes son una parte fundamental de la presentación de tu análisis a los interesados, también pueden ser importantes para tu propio aprendizaje; puedes utilizar documentos punto RMD para hacer un seguimiento de tu aprendizaje si incluyes notas y enlaces a recursos en línea. También puedes incorporar imágenes útiles y agregar viñetas. Hablando de aprender, descubramos más sobre los bloques de códigos y sobre archivos RMD en el próximo vídeo. Nos vemos.
+
+#### Pon a prueba tus conocimientos sobre cómo crear documentos de R Markdown
+
+![alt text](image-329.png)
+
+### Comprender bloques de códigos y exportaciones
+
+#### Bloques de códigos
+
+Hola de nuevo. Hemos aprendido mucho sobre R Markdown o archivos RMD y acerca de cómo se pueden formatear y convertir en informes para los interesados. También exploramos el encabezado YAML y los comentarios, las descripciones y las explicaciones para el análisis que se muestra en el informe. Ahora viene el núcleo del archivo RMD: el código. El código que se agrega a un archivo RMD suele denominarse bloque de código. Te hemos mostrado esos bloques de códigos en algunas de las sesiones de RStudio que estuvimos realizando. Quizás hayas notado los bloques de códigos si estuviste practicando junto con nosotros. Ahora te contaremos de qué se tratan. Anteriormente, trabajamos con el conjunto de datos Palmer penguins. Ejecutamos un código para analizar los datos y crear visualizaciones. Luego de ese paso es posible que queramos configurar un informe de práctica con notas sobre nuestro análisis. Haremos eso ahora e incorporaremos algún código y elementos visuales. Comencemos por abrir RStudio y luego el <i>script</i> con nuestra programación: el archivo ggplot_hook. Siéntete libre de seguir los pasos. Puedes utilizar este enlace para acceder al archivo. Podemos compartir este archivo directamente con otros, pero no es muy efectivo. Es difícil de leer y no siempre incluye conclusiones. En lugar de eso, crearemos un nuevo archivo .RMD. Le agregaremos el título y el autor.
+Reproduce el video desde :1:42 y sigue la transcripción1:42
+Ahora tenemos dos pestañas en nuestro panel de <i>scripts</i>. Puedes pasar de una a otra, como si fueran las pestañas del explorador. Guardaremos nuestro archivo .RMD nuevo.
+Reproduce el video desde :2: y sigue la transcripción2:00
+Este archivo tiene el formato de la plantilla, así que borraremos todo excepto la sección del encabezado y comenzaremos uno propio. Ya configuramos la sección del encabezado así que no necesitamos hacer ningún cambio allí. En lugar de borrar, podríamos editar sección por sección, y agregar nuestro comentario y nuestro código a medida que avanzamos. Pero borrar los contenidos del archivo nos deja un espacio en blanco para trabajar y nos ayuda a evitar posibles errores que pueden surgir si mezclamos nuestro comentario y nuestro código con los que estaban en la plantilla. Antes de agregar cualquier código, queremos describir su propósito. El primer bloque de código, configuraremos el entorno de R, cargando nuestros paquetes con la función <i>library</i>. En una línea nueva, escribiremos dos numerales para formatear un encabezado para esta sección, seguidos del texto del encabezado: "Configurar mi entorno". Luego agregaremos una nota sobre el código.
+Reproduce el video desde :3:2 y sigue la transcripción3:02
+Ya agregamos apóstrofos antes y después de tidy verse y Palmer penguins porque son los nombres de los paquetes que los hacen parte del código real. Ahora agregaremos nuestro código. RStudio tiene un menú código a mano que podemos utilizar para insertar un bloque de código. También hay un botón en nuestro panel de <i>scripts</i> que nos permite agregar bloques de códigos. Esto crea una sección gris en nuestro archivo y en los delimitadores de bloque. Un delimitador es un carácter que indica el principio o el fin de un elemento de datos. También puedes escribir los delimitadores directamente en el archivo: tres comillas simples seguidas de la letra r entre llaves para comenzar el bloque de código y tres comillas simples para finalizarlo. O puedes usar los atajos del teclado: Control más Alt más l en una PC o Chromebook y Command más Option más l en una Mac. Como estamos en RStudio, el menú Código funciona bien. Dentro de la primera llave etiquetaremos nuestro bloque de código. Luego de la letra r agregaremos un espacio y luego escribiremos loading packages. Eso agrega otra capa a nuestra organización. Ahora podemos encontrar el bloque de código y su etiqueta con facilidad si utilizamos el menú Contenidos que está en la parte inferior del panel de <i>scripts</i>.
+Reproduce el video desde :4:37 y sigue la transcripción4:37
+Luego, entre los delimitadores, agregaremos nuestro primer bloque de código, que usaremos para cargar los dos paquetes. Incluso si ya están cargados, cargarlos nuevamente te asegurará que los paquetes están actualizados a su última versión. Podemos comenzar a escribir en la línea que sigue al primer delimitador. Pero dado que también tenemos nuestro archivo de programación disponible, copiaremos y pegaremos desde allí.
+Reproduce el video desde :5:10 y sigue la transcripción5:10
+Ahora podemos ejecutar nuestro código en el archivo para evaluar si hay errores y allí está el resultado del código. También podemos cambiar las opciones de nuestro bloque de código. Hay opciones para cambiar el archivo de salida, y para desactivar advertencias y mensajes. Eso resulta útil cuando estás listo para hacer un informe final para los interesados. Podrás controlar lo que quieres mostrarles en el informe. Por ejemplo, si hay advertencias con respecto a tu archivo de salida que no impactan en tus resultados, puedes desactivarlas para los interesados. Ahora echemos un vistazo a este informe en su forma completa. Tiene nuestras notas y nuestros comentarios, que serán de ayuda mientras seguimos aprendiendo. También tiene los bloques de códigos de nuestro análisis anterior y los archivos de salida como elementos visuales. Haremos clic en el botón "Convertir" para convertir nuestro informe en un documento HTML.
+Reproduce el video desde :6:10 y sigue la transcripción6:10
+Los bloques de código son lo principal a la hora de hacer del informe una buena herramienta de aprendizaje y, finalmente, un documento que valga la pena presentar a los interesados. Cuando tienes un código incrustado en un archivo y puede mostrar su archivo de salida, puedes proporcionar evidencia para tus resultados y compartir tus fuentes. Si necesitas más evidencia sobre cómo R Markdown te puede ayudar a documentar tu análisis, la encontrarás a continuación. Nos vemos pronto.
+
+#### Actividad práctica: Agregar bloques de códigos a tus notebooks de R Markdown
+
+![alt text](image-330.png)
+
+#### Exportar documentos
+
+Hola de nuevo. Una de las cosas más eficaces sobre un archivo de R Markdown es que puedes convertirlo a diferentes tipos de archivos de salida para crear informes que se puedan compartir. Nos hemos centrado en documentos HTML, pero hay otras opciones que podemos explorar. Comencemos por abrir nuestro informe anterior.
+Reproduce el video desde ::24 y sigue la transcripción0:24
+Hicimos ese informe para que tuvieras un documento de aprendizaje que te ayudara a analizar tu código y tu análisis. Para este vídeo, imagínate que es un informe que tienes que compartir con los interesados. El archivo está en formato punto RMD, pero como vimos, podemos convertirlo con el botón Convertir. El menú desplegable Convertir tiene tres opciones principales: HTML, PDF y documento de Word. Puedes utilizar Convertir para convertir tu archivo en cualquiera de esas opciones cuando lo desees, pero es mejor esperar para convertirlo a PDF o a un documento de Word. En lugar de convertirlo, quédate en la opción HTML mientras estés trabajando. HTML no tiene saltos de página, así que puedes enfocarte en generar contenido para tu informe y no en su aspecto. El botón Convertir no es la única opción para convertir tu archivo. Puedes editar el YAML para cambiar tus metadatos o incorporar más detalles. Por ejemplo, cambiaremos nuestro archivo de salida en este archivo a PDF. Cuando hacemos clic en el botón Convertir para abrir el archivo y ejecutar el código, el archivo de salida está en formato PDF. Sabes que cambiar los metadatos puede tener un efecto en todo el informe.
+Reproduce el video desde :1:55 y sigue la transcripción1:55
+Si necesitas crear cierto tipo de documento una y otra vez o si quieres personalizar el aspecto de tu informe final, puedes crear una plantilla. Si es un informe mensual o anual que estás haciendo para los interesados, simplemente puedes ejecutar una línea de código para actualizar tus datos, y tu informe estará listo. Aquí no hablaremos sobre cómo crear una plantilla, pero quizás sea algo de lo que quieras obtener más información por tu cuenta a medida que tengas más experiencia en R.
+Reproduce el video desde :2:29 y sigue la transcripción2:29
+Ya cubrimos gran parte de R Markdown y de la documentación en R. Explicamos qué es R Markdown y cómo utilizarlo en RStudio para crear archivos punto RMD. Echamos un vistazo a la estructura de esos archivos y vimos cómo puedes formatearlos para hacer informes. Te mostramos qué son los bloques de códigos y cómo incluirlos en tu documentación. Te enseñamos cómo tomar todo de ese análisis, además de tu explicación sobre él, y pasarlo de un archivo punto RMD a un informe que puedas usar como un documento de aprendizaje o que puedas compartir con los interesados. Esta es una excelente manera de dar un cierre a tu proceso de análisis computacional de datos en R y RStudio. Ya casi es momento de terminar las cosas en este programa, pero si quieres repasar algún concepto o practicar un poco más en RStudio, puedes volver a mirar los vídeos en cualquier momento para obtener ayuda adicional. Nos vemos pronto.
+
+#### Formatos de archivos de salida en R Markdown
+
+https://learner.coursera.help/hc/es
+https://bookdown.org/yihui/rmarkdown/documents.html
+https://rmarkdown.rstudio.com/lesson-10.html
+https://rmarkdown.rstudio.com/lesson-11.html
+https://github.com/rstudio/flexdashboard
+https://rmarkdown.rstudio.com/flexdashboard/
+https://rmarkdown.rstudio.com/lesson-12.html
+https://shiny.rstudio.com/tutorial/
+https://github.com/rstudio/bookdown
+https://github.com/yixuan/prettydoc/
+https://github.com/rstudio/rticles
+https://rmarkdown.rstudio.com/formats.html
+https://rmarkdown.rstudio.com/gallery.html
+https://r4ds.had.co.nz/r-markdown-formats.html
+
+![alt text](image-331.png)
+
+#### Actividad práctica: Exportar tu notebook de R Markdown
+
+https://learner.coursera.help/hc/es
+https://rstudio.cloud/
+
+![alt text](image-332.png)
+
+#### Actividad práctica: Usar plantillas de R Markdown
+
+https://learner.coursera.help/hc/es
+https://github.com/mitchelloharawild/vitae
+https://github.com/rstudio/rticles
+https://github.com/rstudio/learnr
+https://github.com/rstudio/bookdown
+https://github.com/rstudio/flexdashboard
+http://rstudio.cloud/
+
+![alt text](image-333.png)
+
+#### Poner a prueba tu conocimiento sobre bloques de códigos
+
+![alt text](image-334.png)
+
+### Desafío semanal 5
+
+#### Cuestionario: Desafío semanal 5
+
+![alt text](image-335.png)
+
+### Cierre
+
+#### Cuestionario: Desafío del curso
+
+![alt text](image-336.png)
